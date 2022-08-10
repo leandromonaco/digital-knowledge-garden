@@ -1,0 +1,51 @@
+site_name: Knowledge Base
+site_url: https://leandromonaco.github.io/Documentation/
+site_description: This is a site where I document my learning journey.
+site_author: Leandro Monaco
+
+nav:
+    - Home: index.md
+    - Technology:
+        - 'Development Machine Setup': 'technology/DevelopmentMachineSetup.md'
+        - 'Angular': 'technology/Angular.md'
+        - 'AWS': 'technology/AWS.md'
+        - 'SQL Server': 'technology/SqlServer.md'
+    - Management:
+        - '1:1 Guidelines': 'management/1-on-1-guidelines.md'
+        - 'OKRs': 'management/OKRs.md'
+        - 'Ways of Working': 'management/ways-of-working.md'
+        - 'Development Guidelines': 'management/development-guidelines.md'
+        
+repo_url: https://github.com/leandromonaco/Documentation
+edit_uri: ""
+
+theme:
+  name: material
+  custom_dir: mkdocs-overrides
+  #font:
+    #text: Roboto
+  #palette:
+    #primary: black
+  #logo: resources/someicon.png
+  #favicon: resources/someicon.png
+  features:
+    - navigation.instant
+    - navigation.indexes
+
+plugins:
+  - search
+  - git-revision-date-localized
+
+markdown_extensions:
+    - meta
+    - admonition
+    - pymdownx.highlight
+    - pymdownx.superfences
+    - pymdownx.pathconverter
+    - pymdownx.tabbed
+    - mdx_truly_sane_lists
+    - pymdownx.tasklist
+    - toc:
+        permalink: "#"
+        baselevel: 3
+        separator: "_"

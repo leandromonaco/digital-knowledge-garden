@@ -1,0 +1,12 @@
+{
+  "applications": [
+    {
+      "Id": "csproj.project.name1",
+      "DeploymentProjectName": "Octopus Deployment Project Name 1"
+    },
+    {
+      "Id": "csproj.project.name2",
+      "DeploymentProjectName": "Octopus Deployment Project Name 2"
+    }
+  ]
+}
