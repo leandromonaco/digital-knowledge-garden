@@ -1,5 +1,5 @@
 site_name: Knowledge Base
-site_url: https://leandromonaco.github.io/Documentation/
+site_url: https://leandromonaco.github.io
 site_description: This is a site where I document my learning journey.
 site_author: Leandro Monaco
 
@@ -17,7 +17,7 @@ nav:
         - 'Ways of Working': 'management/ways-of-working.md'
         - 'Development Guidelines': 'management/development-guidelines.md'
         
-repo_url: https://github.com/leandromonaco/Documentation
+repo_url: https://github.com/leandromonaco.github.io
 edit_uri: ""
 
 theme:
