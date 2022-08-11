@@ -37,9 +37,10 @@ plugins:
   - search
   - git-revision-date-localized
 
- # Default values, taken from mkdocs_theme.yml
-  language: en
-  features:
+# Default values, taken from mkdocs_theme.yml
+language: en
+
+features:
     - content.code.annotate
     # - content.tabs.link
     - content.tooltips
@@ -58,7 +59,9 @@ plugins:
     - search.suggest
     - toc.follow
     # - toc.integrate
-  palette:
+
+
+palette:
     - scheme: default
       primary: indigo
       accent: indigo
@@ -71,7 +74,8 @@ plugins:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  font:
+
+font:
     text: Roboto
     code: Roboto Mono
     
