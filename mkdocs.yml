@@ -16,14 +16,13 @@ nav:
         - 'OKRs': 'management/OKRs.md'
         - 'Ways of Working': 'management/ways-of-working.md'
         - 'Development Guidelines': 'management/development-guidelines.md'
-        
+
+repo_name: leandromonaco.github.io
 repo_url: https://github.com/leandromonaco.github.io
 edit_uri: ""
 
-# Configuration
 theme:
   name: null
-  custom_dir: !ENV [THEME_DIR, "material"]
 
   # Static files
   static_templates:
