@@ -23,7 +23,6 @@ edit_uri: ""
 
 theme:
   name: material
-  custom_dir: mkdocs-overrides
 
   # Static files
   static_templates:
