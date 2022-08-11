@@ -18,8 +18,8 @@ nav:
         - 'Development Guidelines': 'management/development-guidelines.md'
 
 repo_name: leandromonaco.github.io
-repo_url: https://github.com/leandromonaco.github.io
-edit_uri: ""
+repo_url: https://github.com/leandromonaco/leandromonaco.github.io
+#edit_uri: ""
 
 theme:
   name: material
