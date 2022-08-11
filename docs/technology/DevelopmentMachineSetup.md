@@ -415,6 +415,7 @@ winget install -e --id Grammarly.ForWindows
 winget install -e --id OBSProject.OBSStudio
 winget install -e --id JGraph.Draw
 winget install -e --id GIMP.GIMP
+winget install -e --id JAMSoftware.TreeSize.Free
 ```
 
 # AWS
