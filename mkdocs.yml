@@ -10,6 +10,7 @@ nav:
         - 'Angular': 'technology/Angular.md'
         - 'AWS': 'technology/AWS.md'
         - 'SQL Server': 'technology/SqlServer.md'
+        - 'Playwright':'technology/Playwright.md'
     - Management:
         - '1:1 Guidelines': 'management/1-on-1-guidelines.md'
         - 'OKRs': 'management/OKRs.md'
