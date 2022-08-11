@@ -22,6 +22,7 @@ repo_url: https://github.com/leandromonaco.github.io
 edit_uri: ""
 
 theme:
+  name: null
 
   # Static files
   static_templates:
