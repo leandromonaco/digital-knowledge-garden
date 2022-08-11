@@ -15,6 +15,26 @@
 - [Brent Ozar](https://www.brentozar.com/)
 - [SQL Kit](https://sqlserver-kit.org/en)
 
+# Useful Queries
+
+## Get all linked tables by FK
+```sql
+SELECT
+  OBJECT_NAME(fkeys.constraint_object_id) foreign_key_name,
+  OBJECT_NAME(fkeys.parent_object_id) referencing_table_name,
+  COL_NAME(fkeys.parent_object_id, fkeys.parent_column_id) referencing_column_name,
+  OBJECT_SCHEMA_NAME(fkeys.parent_object_id) referencing_schema_name,
+  OBJECT_NAME (fkeys.referenced_object_id) referenced_table_name,
+  COL_NAME(
+    fkeys.referenced_object_id,
+    fkeys.referenced_column_id
+  ) referenced_column_name,
+  OBJECT_SCHEMA_NAME(fkeys.referenced_object_id) referenced_schema_name
+FROM
+  sys.foreign_key_columns AS fkeys
+ORDER BY referenced_table_name
+```
+
 # Troubleshooting
 
 - **Error:** 'Agent XPs' component is turned off as part of the security configuration for this server. A system administrator can enable the use of 'Agent XPs' by using sp_configure. For more information about enabling 'Agent XPs', see "Surface Area Configuration" in SQL Server Books Online. (Microsoft.SqlServer.Management.MaintenancePlanWizard)
