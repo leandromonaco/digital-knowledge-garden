@@ -23,6 +23,7 @@ repo_url: https://github.com/leandromonaco/leandromonaco.github.io
 
 theme:
   name: material
+  custom_dir: mkdocs-overrides
 
   # Static files
   static_templates:
