@@ -35,6 +35,15 @@ FROM
 ORDER BY referenced_table_name
 ```
 
+## View the compatibility level of a database
+```sql
+USE AdventureWorks2019;  
+GO  
+SELECT compatibility_level  
+FROM sys.databases WHERE name = 'AdventureWorks2019';  
+GO
+```
+
 # Troubleshooting
 
 - **Error:** 'Agent XPs' component is turned off as part of the security configuration for this server. A system administrator can enable the use of 'Agent XPs' by using sp_configure. For more information about enabling 'Agent XPs', see "Surface Area Configuration" in SQL Server Books Online. (Microsoft.SqlServer.Management.MaintenancePlanWizard)
