@@ -49,6 +49,9 @@ GO
 SELECT
   schema_name(tab.schema_id) + '.' + tab.name AS [Table],
   col.name AS 'Column Name',
+  t.name AS 'Data Type',
+  col.max_length AS 'Max Length',
+  col.precision AS 'Precision',
   schema_name(pk_tab.schema_id) + '.' + pk_tab.name AS 'Primary Table',
   pk_col.name AS 'PK Column Name',
   fk.name AS 'FK Constraint Name'
@@ -57,6 +60,7 @@ FROM
   INNER JOIN sys.columns col ON col.object_id = tab.object_id
   LEFT OUTER JOIN sys.foreign_key_columns fk_cols ON fk_cols.parent_object_id = tab.object_id
   AND fk_cols.parent_column_id = col.column_id
+  LEFT OUTER JOIN sys.types AS t ON col.user_type_id = t.user_type_id
   LEFT OUTER JOIN sys.foreign_keys fk ON fk.object_id = fk_cols.constraint_object_id
   LEFT OUTER JOIN sys.tables pk_tab ON pk_tab.object_id = fk_cols.referenced_object_id
   LEFT OUTER JOIN sys.columns pk_col ON pk_col.column_id = fk_cols.referenced_column_id
