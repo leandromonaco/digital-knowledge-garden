@@ -32,3 +32,12 @@ GO
 
 - **Error:** SQLServerAgent is not currently running so it cannot be notified of this action. (Microsoft SQL Server, Error: 22022)
 - **Solution:** Open SQL Server Configuration Manager and enable SQL Server Agent Service
+
+- **Error:** Cannot execute as the database principal because the principal ‘dbo’ does not exist, this type of principal cannot be impersonated, or you do not have permission. (Microsoft SQL Server, Error: 15517)
+- **Solution:**
+```sql
+USE [AdventureWorks]
+GO
+ALTER AUTHORIZATION ON DATABASE::[AdventureWorks] TO [sa]
+GO
+```
