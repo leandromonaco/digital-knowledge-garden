@@ -44,6 +44,28 @@ FROM sys.databases WHERE name = 'AdventureWorks2019';
 GO
 ```
 
+## List table and columns with their foreign keys 
+```sql
+SELECT
+  schema_name(tab.schema_id) + '.' + tab.name AS [Table],
+  col.name AS 'Column Name',
+  schema_name(pk_tab.schema_id) + '.' + pk_tab.name AS 'Primary Table',
+  pk_col.name AS 'PK Column Name',
+  fk.name AS 'FK Constraint Name'
+FROM
+  sys.tables tab
+  INNER JOIN sys.columns col ON col.object_id = tab.object_id
+  LEFT OUTER JOIN sys.foreign_key_columns fk_cols ON fk_cols.parent_object_id = tab.object_id
+  AND fk_cols.parent_column_id = col.column_id
+  LEFT OUTER JOIN sys.foreign_keys fk ON fk.object_id = fk_cols.constraint_object_id
+  LEFT OUTER JOIN sys.tables pk_tab ON pk_tab.object_id = fk_cols.referenced_object_id
+  LEFT OUTER JOIN sys.columns pk_col ON pk_col.column_id = fk_cols.referenced_column_id
+  AND pk_col.object_id = fk_cols.referenced_object_id
+ORDER BY
+  schema_name(tab.schema_id) + '.' + tab.name,
+  col.column_id
+```
+
 # Troubleshooting
 
 - **Error:** 'Agent XPs' component is turned off as part of the security configuration for this server. A system administrator can enable the use of 'Agent XPs' by using sp_configure. For more information about enabling 'Agent XPs', see "Surface Area Configuration" in SQL Server Books Online. (Microsoft.SqlServer.Management.MaintenancePlanWizard)
