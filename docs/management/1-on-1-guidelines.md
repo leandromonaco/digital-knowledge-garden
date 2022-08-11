@@ -21,21 +21,26 @@
 
 ### Happiness
 
-In the paper "𝘖𝘯 𝘵𝘩𝘦 𝘜𝘯𝘩𝘢𝘱𝘱𝘪𝘯𝘦𝘴𝘴 𝘰𝘧 𝘚𝘰𝘧𝘵𝘸𝘢𝘳𝘦 𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳𝘴" more than 2000 developers were asked to say what makes them unhappy. 
+In the paper [On the Unhappiness of Software Developers](https://arxiv.org/pdf/1703.04993.pdf) more than 2000 developers were asked to say what makes them unhappy. 
 
 These are the most common causes:
 
-1. 𝗕𝗲𝗶𝗻𝗴 𝘀𝘁𝘂𝗰𝗸 𝗶𝗻 𝗽𝗿𝗼𝗯𝗹𝗲𝗺-𝘀𝗼𝗹𝘃𝗶𝗻𝗴 - 𝟭𝟴𝟲
-2. 𝗧𝗶𝗺𝗲 𝗽𝗿𝗲𝘀𝘀𝘂𝗿𝗲 - 𝟭𝟱𝟮
-3. 𝗕𝗮𝗱 𝗰𝗼𝗱𝗲 𝗾𝘂𝗮𝗹𝗶𝘁𝘆 𝗮𝗻𝗱 𝗰𝗼𝗱𝗲 𝗽𝗿𝗮𝗰𝘁𝗶𝗰𝗲 - 𝟭𝟬𝟳
-4. 𝗨𝗻𝗱𝗲𝗿-𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗶𝗻𝗴 𝗰𝗼𝗹𝗹𝗲𝗮𝗴𝘂𝗲 - 𝟳𝟭
-5. 𝗙𝗲𝗲𝗹 𝗶𝗻𝗮𝗱𝗲𝗾𝘂𝗮𝘁𝗲 𝘄𝗶𝘁𝗵 𝘄𝗼𝗿𝗸 - 𝟲𝟯
-6. 𝗠𝘂𝗻𝗱𝗮𝗻𝗲 𝗼𝗿 𝗿𝗲𝗽𝗲𝘁𝗶𝘁𝗶𝘃𝗲 𝘁𝗮𝘀𝗸𝘀 - 𝟲𝟬
-7. 𝗨𝗻𝗲𝘅𝗽𝗹𝗮𝗶𝗻𝗲𝗱 𝗯𝗿𝗼𝗸𝗲𝗻 𝗰𝗼𝗱𝗲 - 𝟱𝟳
-8. 𝗕𝗮𝗱 𝗱𝗲𝗰𝗶𝘀𝗶𝗼𝗻-𝗺𝗮𝗸𝗶𝗻𝗴 - 𝟰𝟮
-9. 𝗜𝗺𝗽𝗼𝘀𝗲𝗱 𝗹𝗶𝗺𝗶𝘁𝗮𝘁𝗶𝗼𝗻 𝗼𝗻 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 - 𝟰𝟬
-10. 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹 𝗶𝘀𝘀𝘂𝗲𝘀 - 𝗻𝗼𝘁 𝘄𝗼𝗿𝗸-𝗿𝗲𝗹𝗮𝘁𝗲𝗱 - 𝟯𝟵
+1. Being stuck in problem-solving - 186
+2. Time pressure - 152
+3. Bad code quality and code practice - 107
+4. Under-performing colleague - 71
+5. Feel inadequate with work - 63
+6. Mundane or repetitive tasks - 60
+7. Unexplained broken code - 57
+8. Bad decision-making - 42
+9. Imposed limitation on development - 40
+10. Personal issues - not work-related - 39
 
+In the study [The Great Attrition is making hiring harder. Are you searching the right talent pools?](https://www.mckinsey.com/business-functions/people-and-organizational-performance/our-insights/the-great-attrition-is-making-hiring-harder-are-you-searching-the-right-talent-pools)
+
+These were the results:
+
+![image](https://user-images.githubusercontent.com/5598150/184071044-4ecea3d9-935e-4455-b8a8-71e298f30214.png)
 
 
 
