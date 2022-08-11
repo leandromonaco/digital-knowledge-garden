@@ -1,5 +1,5 @@
 site_name: Knowledge Base
-site_url: https://leandromonaco.github.io/Documentation/
+site_url: https://leandromonaco.github.io
 site_description: This is a site where I document my learning journey.
 site_author: Leandro Monaco
 
@@ -10,42 +10,112 @@ nav:
         - 'Angular': 'technology/Angular.md'
         - 'AWS': 'technology/AWS.md'
         - 'SQL Server': 'technology/SqlServer.md'
+        - 'Playwright': 'technology/Playwright.md'
     - Management:
         - '1:1 Guidelines': 'management/1-on-1-guidelines.md'
         - 'OKRs': 'management/OKRs.md'
         - 'Ways of Working': 'management/ways-of-working.md'
         - 'Development Guidelines': 'management/development-guidelines.md'
         
-repo_url: https://github.com/leandromonaco/Documentation
+repo_url: https://github.com/leandromonaco.github.io
 edit_uri: ""
 
+# Configuration
 theme:
-  name: material
-  custom_dir: mkdocs-overrides
-  #font:
-    #text: Roboto
-  #palette:
-    #primary: black
-  #logo: resources/someicon.png
-  #favicon: resources/someicon.png
-  features:
-    - navigation.instant
-    - navigation.indexes
+  name: null
+  custom_dir: !ENV [THEME_DIR, "material"]
+
+  # Static files
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
 
 plugins:
   - search
   - git-revision-date-localized
 
+# Default values, taken from mkdocs_theme.yml
+language: en
+
+features:
+    - content.code.annotate
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+
+
+palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+font:
+    text: Roboto
+    code: Roboto Mono
+    
+# Extensions
 markdown_extensions:
-    - meta
-    - admonition
-    - pymdownx.highlight
-    - pymdownx.superfences
-    - pymdownx.pathconverter
-    - pymdownx.tabbed
-    - mdx_truly_sane_lists
-    - pymdownx.tasklist
-    - toc:
-        permalink: "#"
-        baselevel: 3
-        separator: "_"
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
