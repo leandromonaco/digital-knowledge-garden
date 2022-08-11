@@ -3,11 +3,11 @@
 -#}
 {% extends "base.html" %}
 {% block extrahead %}
-  <link rel="stylesheet" href="{{ 'overrides/assets/stylesheets/main.82a244a8.min.css' | url }}">
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/main.82a244a8.min.css' | url }}">
 {% endblock %}
 {% block announce %}
-  <a href="https://twitter.com/squidfunk">
-    For updates follow <strong>@squidfunk</strong> on
+  <a href="https://twitter.com/leandromonaco">
+    For updates follow <strong>@leandromonaco</strong> on
     <span class="twemoji twitter">
       {% include ".icons/fontawesome/brands/twitter.svg" %}
     </span>
@@ -15,9 +15,9 @@
   </a>
 {% endblock %}
 {% block content %}
-  {% include "overrides/partials/content.html" %}
+  {% include "partials/content.html" %}
 {% endblock %}
 {% block scripts %}
   {{ super() }}
-  <script src="{{ 'overrides/assets/javascripts/bundle.39654835.min.js' | url }}"></script>
+  <script src="{{ 'assets/javascripts/bundle.39654835.min.js' | url }}"></script>
 {% endblock %}
