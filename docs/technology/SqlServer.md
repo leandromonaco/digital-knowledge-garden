@@ -17,6 +17,22 @@
 
 # Useful Queries
 
+## Backup
+```sql
+BACKUP DATABASE [DbName] TO
+DISK = N'C:\Dev\Database\DbName.bak'
+WITH COMPRESSION, STATS = 10
+GO
+```
+
+## Restore
+```sql
+RESTORE DATABASE [DbName]
+FROM DISK = N'C:\Dev\Database\DbName.bak'
+WITH RECOVERY
+GO
+```
+
 ## Get all linked tables by FK
 ```sql
 SELECT
