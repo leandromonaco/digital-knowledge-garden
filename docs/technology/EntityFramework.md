@@ -9,3 +9,6 @@
 2. Navigate to the folder where you want to store the model
 3. Update EF Model Classes ```dotnet ef dbcontext scaffold "Server=localhost;Database=DbName;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Database -f```
     
+## Configure Connection String
+
+Modify ```OnConfiguring``` method located in ```[your-db-name-goes-here]Context```
