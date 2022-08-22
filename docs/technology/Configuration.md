@@ -18,6 +18,15 @@ private static ConfigurationManager GetConfiguration(ConfigurationManager config
 }
 ```
 
+# Add Configuration File to csproj
+```xml
+<ItemGroup>
+    <None Update="appsettings.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+</ItemGroup>
+```
+
 # Cross-Platform Support
 
 The : separator doesn't work with environment variable [hierarchical keys](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-6.0#non-prefixed-environment-variables) on all platforms. __, the double underscore, is supported by all platforms. 
