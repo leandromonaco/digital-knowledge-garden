@@ -16,13 +16,13 @@ var rootCommand = new RootCommand();
 rootCommand.Add(userIdArgument);
 rootCommand.Add(passwordArgument);
 
-rootCommand.SetHandler((userIdValue, passwordValue) =>
-                                                            {
-                                                                Console.WriteLine($"userId = {userIdValue}");
-                                                                Console.WriteLine($"password = {passwordValue}");
-                                                            },
-                                                            userIdArgument, passwordArgument
-                      );
+Action<Guid, string> ConsoleAppRunner = (userIdValue, passwordValue) =>
+{
+    ConsoleAppHelper.ResetPassword(userIdValue, passwordValue);
+    Console.ReadLine();
+};
+
+rootCommand.SetHandler(ConsoleAppRunner, userIdArgument, passwordArgument);
 
 await rootCommand.InvokeAsync(args);
 ```
