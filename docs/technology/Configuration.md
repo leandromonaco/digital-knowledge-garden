@@ -1,3 +1,8 @@
+# Packages
+
+- [Microsoft.Extensions.Configuration](https://www.nuget.org/packages/Microsoft.Extensions.Configuration/)
+- [Microsoft.Extensions.Configuration.Json](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Json/)
+
 # Code
 ```csharp
 private static ConfigurationManager GetConfiguration(ConfigurationManager configurationManager)
