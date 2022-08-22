@@ -1,3 +1,5 @@
+
+
 # Packages
 
 - [Microsoft.Extensions.Configuration](https://www.nuget.org/packages/Microsoft.Extensions.Configuration/)
@@ -43,8 +45,15 @@ The : separator doesn't work with environment variable [hierarchical keys](https
 - ```setx Lambda__ModuleConfiguration__Infrastructure__Cognito__ClientId  "SOME VALUE" /M```
 - ```setx ASPNETCORE_ENVIRONMENT "Development" /M``` or ```setx ASPNETCORE_ENVIRONMENT "Staging" /M``` or ```setx ASPNETCORE_ENVIRONMENT "Production" /M```
 
-# References
+# Documentation
 
-- https://docs.microsoft.com/en-us/aspnet/core/fundamentals/environments
-- https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/setx
-- https://stackoverflow.com/questions/53870781/asp-net-core-addenvironmentvariables-doesnt-load-variables
+- [Configuration in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/configuration)
+- [Safe storage of app secrets in development in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets)
+- [Use multiple environments in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/environments)
+- [setx](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/setx)
+
+# Troubleshooting
+
+- **Issue:** ASP.NET Core: AddEnvironmentVariables doesn't load variables
+- **Cause:** You probably just declared your Environment Variables hence Visual Studio does not see them.
+- **Resolution:** Restart your Visual Studio.
