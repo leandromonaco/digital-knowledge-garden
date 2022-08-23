@@ -87,10 +87,10 @@ ORDER BY
 ```
 # Encryption by Certificate
 
-https://docs.microsoft.com/en-us/sql/t-sql/functions/encryptbycert-transact-sql
-https://docs.microsoft.com/en-us/sql/t-sql/functions/decryptbycert-transact-sql
-https://docs.microsoft.com/en-us/sql/t-sql/statements/create-certificate-transact-sql
-https://docs.microsoft.com/en-us/sql/t-sql/statements/alter-certificate-transact-sql
+- https://docs.microsoft.com/en-us/sql/t-sql/functions/encryptbycert-transact-sql
+- https://docs.microsoft.com/en-us/sql/t-sql/functions/decryptbycert-transact-sql
+- https://docs.microsoft.com/en-us/sql/t-sql/statements/create-certificate-transact-sql
+- https://docs.microsoft.com/en-us/sql/t-sql/statements/alter-certificate-transact-sql
 
 # Encryption by Password
 
