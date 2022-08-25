@@ -19,6 +19,17 @@ the latest NodeJS LTS is required
 4. Navigate to the NewApp.UI folder
 5. Run ```ng serve``` (Angular Development Server)
 
+# Build.bat File Example
+```bat
+cd C:\Dev\AngularApp1
+call npm ci
+call ng build
+
+cd C:\Dev\AngularApp2
+call npm ci
+call ng build
+```
+
 # Running locally
 
 ## Development server
