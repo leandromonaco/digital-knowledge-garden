@@ -33,13 +33,15 @@ private static ConfigurationManager GetConfiguration(ConfigurationManager config
 
 The : separator doesn't work with environment variable [hierarchical keys](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-6.0#non-prefixed-environment-variables) on all platforms. __, the double underscore, is supported by all platforms. 
 
-> **Note**
-> ```AppPrefix:ModuleConfiguration:Infrastructure:Redis:Port``` would need to be translated to ```AppPrefix__ModuleConfiguration__Infrastructure__Redis__Port```
+!!! warning
+
+    ```AppPrefix:ModuleConfiguration:Infrastructure:Redis:Port``` would need to be translated to ```AppPrefix__ModuleConfiguration__Infrastructure__Redis__Port```
 
 # Set Environment Variable
 
-> **Warning**
-> When creating/removing Environment Variables, Visual Studio MUST be restarted to pick up the changes.
+!!! warning
+
+    When creating/removing Environment Variables, Visual Studio MUST be restarted to pick up the changes.
 
 - ```setx Lambda__ModuleConfiguration__Infrastructure__Cognito__ValidIssuer   "SOME VALUE" /M```
 - ```setx Lambda__ModuleConfiguration__Infrastructure__Cognito__ClientId  "SOME VALUE" /M```
