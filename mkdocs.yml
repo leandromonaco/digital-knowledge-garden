@@ -26,6 +26,8 @@ repo_url: https://github.com/leandromonaco/leandromonaco.github.io
 #edit_uri: ""
 
 theme:
+  name: material
+  custom_dir: mkdocs-overrides
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
