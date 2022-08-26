@@ -48,13 +48,15 @@ The : separator doesn't work with environment variable [hierarchical keys](https
 # Safe storage of app secrets in development
 
 1. Navigate to your .NET Core Project folder
-2. Run ```dotnet user-secrets init```
+2. Run ```dotnet user-secrets init``` (one-off per project)
 3. Run ```dotnet user-secrets set "Segment:WriteKey" "some-write-key"```
 4. Read the value in your application
 ```csharp
 var builder = WebApplication.CreateBuilder(args);
 var segmentWriteKey = builder.Configuration["Segment:WriteKey"];
 ```
+
+Values are stored on ```C:\Users\<username>\AppData\Roaming\Microsoft\UserSecrets```
 
 Read more on [ASP.NET Core Official Documentation](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets)
 
