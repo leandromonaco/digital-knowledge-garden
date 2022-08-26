@@ -45,10 +45,22 @@ The : separator doesn't work with environment variable [hierarchical keys](https
 - ```setx Lambda__ModuleConfiguration__Infrastructure__Cognito__ClientId  "SOME VALUE" /M```
 - ```setx ASPNETCORE_ENVIRONMENT "Development" /M``` or ```setx ASPNETCORE_ENVIRONMENT "Staging" /M``` or ```setx ASPNETCORE_ENVIRONMENT "Production" /M```
 
+# Safe storage of app secrets in development
+
+1. Navigate to your .NET Core Project folder
+2. Run ```dotnet user-secrets init```
+3. Run ```dotnet user-secrets set "Segment:WriteKey" "some-write-key"```
+4. Read the value in your application
+```csharp
+var builder = WebApplication.CreateBuilder(args);
+var segmentWriteKey = builder.Configuration["Segment:WriteKey"];
+```
+
+Read more on [ASP.NET Core Official Documentation](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets)
+
 # Documentation
 
 - [Configuration in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/configuration)
-- [Safe storage of app secrets in development in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets)
 - [Use multiple environments in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/environments)
 - [setx](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/setx)
 
