@@ -9,9 +9,10 @@ nav:
         - 'Development Machine Setup': 'technology/DevelopmentMachineSetup.md'
     - Development:
         - 'Angular': 'technology/Angular.md'
-        - 'AWS': 'technology/AWS.md'
         - 'Playwright': 'technology/Playwright.md'
         - 'Configuration': 'technology/Configuration.md'
+        - 'AWS': 'technology/AWS.md'
+        - 'Docker': 'technology/Docker.md'
     - Database:
         - 'SQL Server': 'technology/SqlServer.md'
         - 'Entity Framework': 'technology/EntityFramework.md'
