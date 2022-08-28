@@ -5,6 +5,7 @@ site_author: Leandro Monaco
 
 nav:
     - Home: index.md
+    - Library: library.md
     - Getting Started:
         - 'Development Machine Setup': 'technology/DevelopmentMachineSetup.md'
     - Development:
