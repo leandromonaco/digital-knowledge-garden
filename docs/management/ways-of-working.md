@@ -7,6 +7,8 @@
 
 # Capacity Planning
 
+- [Holidays API](https://www.abstractapi.com/api/holidays-api)
+
 # Definition of Ready (DOR)
 
 * Independent (of all others).
