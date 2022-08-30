@@ -136,6 +136,7 @@ This is a curated list of resources for professional development
 - [Optimize local dev environments for better onboarding](https://github.com/readme/guides/developer-onboarding)
 - [Setting guidelines for repository contributors](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors)
 - [Grafana's Onboarding Plan](https://docs.google.com/document/d/1XdKA6kwi-nfag5EXxkR6Pq5Pn4XYXp-Xd7hhL8R2YnY/mobilebasic)
+- [The 30 minute rule](https://daniel.feldroy.com/posts/thirty-minute-rule)
 
 ## One on One Meetings
 - [The Quantified Value Of 1:1 Meetings And How To Make The Most Of Them](https://getlighthouse.com/blog/11-meetings-value-make-most)
