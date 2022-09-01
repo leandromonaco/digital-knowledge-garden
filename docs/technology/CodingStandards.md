@@ -1,7 +1,7 @@
 
 # Coding Standards
 
-Coding standards are collections of coding rules, guidelines, and best practices that will help you write cleaner code.
+Coding standards are collections of coding rules, guidelines, and best practices that will help you write better code.
 
 # Secure Coding
 
