@@ -3,6 +3,10 @@
 
 Coding standards are collections of coding rules, guidelines, and best practices that will help you write cleaner code.
 
+# Secure Coding
+
+- See [Guidelines](https://learn.securecodewarrior.com/guidelines)
+
 # Linting
 
 Linting is essentially a form of static code analysis. It analyzes the code you wrote against some rules for stylistic or programmatic errors. Think of it as a tool that flags suspicious usage in software.
