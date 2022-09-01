@@ -4,9 +4,8 @@
 - [Introduction](#introduction)
 - [General](#general)
 - [Guidelines](#guidelines)
-- [Conventions](#conventions)
-- [Best Practices](#best-practices)
 - [Tools and Frameworks](#tools-and-frameworks)
+- [Coding Standards](#coding-standards)
 
 ## Introduction
 
@@ -29,20 +28,6 @@ Architecture | - [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012
 Process | - [Scrum Guide](https://scrumguides.org/scrum-guide.html) <br> - [Kanban Guide for Scrum Teams](https://www.scrum.org/resources/kanban-guide-scrum-teams)
 Documentation | - [Technical Writing Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome/)
 
-## Conventions
-- [C# Coding Conventions](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
-- [Azure Resources Naming Conventions](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)
-
-## Best Practices
-
-- [Asynchronous Programming](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md)
-- [ASP.NET Core](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AspNetCoreGuidance.md)
-- [Unit testing best practices](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices) 
-- Clean Architecture / SOLID / KISS / YAGNI / DRY 
-- [C# static code analysis](https://rules.sonarsource.com/csharp)
-- [TypeScript TypeScript static code analysis](https://rules.sonarsource.com/typescript)
-- [T-SQL static code analysis](https://rules.sonarsource.com/tsql)
-
 ## Tools and Frameworks
 
 Area | Packages
@@ -54,22 +39,12 @@ Worker Service  | - [Quartz.NET](https://www.quartz-scheduler.net/) <br> - [Hang
 API | - [Fluent API](https://github.com/mariotoffia/FluentDocker) <br> - [Asp.Versioning.Http](https://www.nuget.org/packages/Asp.Versioning.Http) <br> - [Microsoft.Extensions.Diagnostics.HealthChecks](https://www.nuget.org/packages/Microsoft.Extensions.Diagnostics.HealthChecks/) <br> - [Guard Clauses](https://github.com/ardalis/GuardClauses)
 Build | - [Nuke](https://nuke.build/) <br> - [Nerdbank.GitVersioning](https://github.com/dotnet/Nerdbank.GitVersioning) <br> 
 SMTP Testing | - [Papercut](https://github.com/ChangemakerStudios/Papercut-SMTP)
-Tools | - [CommandLineParser](https://www.nuget.org/packages/CommandLineParser/)
+Tools | - [System.CommandLine](https://docs.microsoft.com/en-us/dotnet/standard/commandline/)
 
-## Code Quality
+## Coding Standards
 
-- https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/
-- https://rules.sonarsource.com/csharp (https://www.nuget.org/packages/SonarAnalyzer.CSharp/)
-- https://docs.devexpress.com/CodeRushForRoslyn/116021/static-code-analysis/analyzers-library
+- See [Coding Standards](https://github.com/leandromonaco/leandromonaco.github.io/blob/main/docs/technology/CodingStandards.md)
 
-```xml
-  <PropertyGroup>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
-  </PropertyGroup>
-```
-
-
-# Reference Material
+## Reference Material
 - https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-6.0
 - https://docs.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/monitor-app-health
