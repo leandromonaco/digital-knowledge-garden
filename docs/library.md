@@ -8,3 +8,4 @@
 - [The Lean Startup](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898)
 - [Measure What Matters](https://www.amazon.com/Measure-What-Matters-audiobook/dp/B07BMJ4L1S/)
 - [.NET Architecture Guides](https://dotnet.microsoft.com/en-us/learn/dotnet/architecture-guides)
+- [LINQ explained with sketches](https://steven-giesel.com/blogPost/8d12d9ef-c4e6-439c-9f88-46825cf35576)
