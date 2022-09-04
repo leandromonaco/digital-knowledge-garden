@@ -1,5 +1,7 @@
 # 📚 The Library
 
+## Books
+
 - [The Effective Engineer](https://www.amazon.com/Effective-Engineer-Engineering-Disproportionate-Meaningful/dp/0996128107)
 - [The Clean Coder](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/B08X7MNTCX/)
 - [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052)
@@ -8,4 +10,15 @@
 - [The Lean Startup](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898)
 - [Measure What Matters](https://www.amazon.com/Measure-What-Matters-audiobook/dp/B07BMJ4L1S/)
 - [.NET Architecture Guides](https://dotnet.microsoft.com/en-us/learn/dotnet/architecture-guides)
-- [LINQ explained with sketches](https://steven-giesel.com/blogPost/8d12d9ef-c4e6-439c-9f88-46825cf35576)
+- [LINQ Explained with Sketches](https://github.com/leandromonaco/leandromonaco.github.io/blob/main/docs/books/LINQ%20Explained%20with%20Sketches.pdf)
+- [Rethinking Productivity in Software Engineering](https://github.com/leandromonaco/leandromonaco.github.io/blob/main/docs/books/Rethinking%20Productivity%20in%20Software%20Engineering.pdf)
+- [Site Reliability Engineering](https://sre.google/sre-book/table-of-contents/) (Google)
+- [Kubernetes Comic](https://cloud.google.com/kubernetes-engine/kubernetes-comic)
+
+## Blog Posts
+
+- [Kubernetes 101: Pods, Nodes, Containers, and Clusters](https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16)
+
+## Videos
+
+TBA
