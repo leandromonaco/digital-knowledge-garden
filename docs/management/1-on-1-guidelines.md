@@ -22,9 +22,10 @@
 
 ## Happiness
 
-In the paper [On the Unhappiness of Software Developers](https://arxiv.org/pdf/1703.04993.pdf) more than 2000 developers were asked to say what makes them unhappy. 
+- [The Deloitte Global 2022 Gen Z and Millennial Survey](https://www2.deloitte.com/global/en/pages/about-deloitte/articles/genzmillennialsurvey.html)
+- [On the Unhappiness of Software Developers](https://arxiv.org/pdf/1703.04993.pdf)
 
-These are the most common causes:
+These are the most common causes of Developer's unhappiness:
 
 1. Being stuck in problem-solving - 186
 2. Time pressure - 152
