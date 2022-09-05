@@ -1,25 +1,26 @@
 # 1:1 Guidelines
 
-## Resources
-
-- [OKRs and CFRs: How do they work together?](https://www.whatmatters.com/resources/difference-between-okr-cfr/)
+## Coaching
 - [GROW Model](https://en.wikipedia.org/wiki/GROW_model)
 - [Guide: Coach managers to coach](https://rework.withgoogle.com/guides/managers-coach-managers-to-coach/steps/introduction)
 
-## Topics
-
-### Career
+## Career
 
 - [Staff Software Engineer Responsibilities](https://davidxiang.com/2021/01/19/staff-software-engineer-responsibilities)
 - [Staff Software Engineer Responsibilities – Align With Authority](https://davidxiang.com/2021/10/10/staff-software-engineer)
 - [Staff Engineer: Leadership beyond the management track](https://staffeng.com/)
 - [Engineering Ladders](http://www.engineeringladders.com/)
 
-### Goals
+## Goals
 
 - [Objectives](software-development-objectives.md)
+- [OKRs and CFRs: How do they work together?](https://www.whatmatters.com/resources/difference-between-okr-cfr/)
 
-### Happiness
+## Mental Health
+
+- [How to ask R U OK?](https://www.ruok.org.au/how-to-ask)
+
+## Happiness
 
 In the paper [On the Unhappiness of Software Developers](https://arxiv.org/pdf/1703.04993.pdf) more than 2000 developers were asked to say what makes them unhappy. 
 
