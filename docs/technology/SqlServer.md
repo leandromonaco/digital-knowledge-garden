@@ -27,6 +27,14 @@ GO
 
 ## Restore
 ```sql
+USE master;
+GO
+
+ALTER DATABASE [DbName]
+SET SINGLE_USER
+WITH ROLLBACK IMMEDIATE;
+GO
+
 RESTORE DATABASE [DbName]
 FROM DISK = N'C:\Dev\Database\DbName.bak'
 WITH RECOVERY
