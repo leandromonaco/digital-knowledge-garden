@@ -25,5 +25,7 @@ TBA
 
 ## Training
 
+- https://aws.amazon.com/training/badges
 - https://aws.amazon.com/training/digital
-- https://docs.microsoft.com/en-us/learn/
+- https://docs.microsoft.com/en-us/learn
+
