@@ -80,5 +80,6 @@ https://github.com/leandromonaco/Workbench/commit/b50ce6b655b6f1747ee6d313955eef
 
 # Documentation
 
-[npm CLI Commands](https://docs.npmjs.com/cli/v8/commands)
+- [NPM CLI Commands](https://docs.npmjs.com/cli/v8/commands)
+- [Angular CLI Commands](https://angular.io/cli/)
 
