@@ -5,7 +5,16 @@
 - [Microsoft.Extensions.Configuration](https://www.nuget.org/packages/Microsoft.Extensions.Configuration/)
 - [Microsoft.Extensions.Configuration.Json](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Json/)
 
-# Code
+# Code Sample
+## .NET Console App
+```csharp
+ var configuration = new ConfigurationBuilder()
+         .SetBasePath(Path.GetDirectoryName(Assembly.GetEntryAssembly().Location))     
+         .AddJsonFile("appsettings.json")
+         .Build();   
+```
+
+## ASP.NET
 ```csharp
 private static ConfigurationManager GetConfiguration(ConfigurationManager configurationManager)
 {
@@ -65,6 +74,7 @@ Read more on [ASP.NET Core Official Documentation](https://docs.microsoft.com/en
 # Documentation
 
 - [Configuration in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/configuration)
+- [Configuration in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/)
 - [Use multiple environments in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/environments)
 - [setx](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/setx)
 
