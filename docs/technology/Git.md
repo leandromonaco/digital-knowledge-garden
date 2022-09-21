@@ -4,11 +4,31 @@ git filter-branch -f --env-filter "GIT_AUTHOR_NAME='Newname'; GIT_AUTHOR_EMAIL='
 git push --force --tags origin 'refs/heads/main'
 ```
 
-## Read Git Configuration
+## Git Configuration
+### Read All Configuration
 ```
 git config --local -l
 git config --global -l
 ```
+
+### Read specific values
+```
+git config --global user.name
+git config --global user.email
+```
+
+Make sure that local git config does not override the global configuration
+```
+git config --local user.name
+git config --local user.email
+```
+
+### Change values
+```
+git config --global user.name [username]
+git config --global user.email [email address]
+```
+
 
 ## Removing sensitive data from a repository
 - https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
