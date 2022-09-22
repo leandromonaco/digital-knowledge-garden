@@ -139,6 +139,7 @@ Focus on readability, performance, maintainability, reliability/resiliency, and 
 * [Is High Quality Software Worth the Cost?](https://martinfowler.com/articles/is-quality-worth-cost.html)
 * [The 12-Factor App](https://12factor.net/)
 * [Why SOLID principles are still the foundation for modern software architecture](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
+* [Code Review Developer Guide](https://google.github.io/eng-practices/review)
 
 ### Knowledge
 Share and document the knowledge
@@ -151,7 +152,7 @@ Create documentation to reduce interruptions and increase [developer flow state]
 - Set guidelines for [repository contributors](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) and [pull request reviews](https://google.github.io/eng-practices/review)
 - Improve your [technical writing](https://developers.google.com/tech-writing) skills and leverage on [writing](https://stackoverflow.blog/2021/08/09/how-writing-can-advance-your-career-as-a-developer/) to advance your career
 - [Document](https://github.com/readme/guides/code-as-documentation) to save time and share context
-- Follow the [style guide](https://google.github.io/eng-practices/review)
+- Follow the [Google](https://developers.google.com/style/) / [Microsoft](https://learn.microsoft.com/en-us/style-guide/welcome/) Style Guides
 - Adopt [Documentation as Code](https://www.docslikecode.com/) by creating [Markdown](https://guides.github.com/features/mastering-markdown) files and generating [a branded static site](https://squidfunk.github.io/mkdocs-material) hosted on [GitHub Pages](https://pages.github.com/)
 - Document [infrastructure, architecture](https://www.archimatetool.com/), and [Technical Analysis and Design](https://plantuml.com/)
 - Write guides, tutorials, runbooks, and [anything](https://about.gitlab.com/company/culture/all-remote/handbook-first-documentation) that will make the team successful
