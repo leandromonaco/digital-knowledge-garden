@@ -140,6 +140,7 @@ Focus on readability, performance, maintainability, reliability/resiliency, and 
 * [The 12-Factor App](https://12factor.net/)
 * [Why SOLID principles are still the foundation for modern software architecture](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
 * [Code Review Developer Guide](https://google.github.io/eng-practices/review)
+* [The Ultimate Code Review Blog Post Series](https://www.michaelagreiler.com/code-review-blog-post-series/)
 
 ### Knowledge
 Share and document the knowledge
