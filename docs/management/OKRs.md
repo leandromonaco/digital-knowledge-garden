@@ -65,6 +65,7 @@ Cultivate a culture that fosters psychological safety
 - [Remote culture](https://about.gitlab.com/company/culture/all-remote/)
 - [Understanding team effectiveness](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/)
 - [DevOps cultural capabilities](https://cloud.google.com/architecture/devops/capabilities#cultural-capabilities)
+- [An introduction to innersource](https://resources.github.com/innersource/fundamentals/)
 
 ### Tools and Processes
 
