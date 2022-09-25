@@ -45,6 +45,11 @@ Tools | - [System.CommandLine](https://docs.microsoft.com/en-us/dotnet/standard/
 
 - See [Coding Standards](https://github.com/leandromonaco/leandromonaco.github.io/blob/main/docs/technology/CodingStandards.md)
 
+## Code Reviews
+
+- https://github.com/mgreiler/code-review-checklist
+- https://github.com/joho/awesome-code-review
+
 ## Reference Material
 - https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-6.0
 - https://docs.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/monitor-app-health
