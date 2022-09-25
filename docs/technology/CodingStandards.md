@@ -14,6 +14,14 @@ Coding standards are collections of coding rules, guidelines, and best practices
 - https://github.com/mgechev/angular-performance-checklist
 - https://github.com/labs42io/clean-code-typescript
 
+# Style Guides
+
+- [C#](https://google.github.io/styleguide/csharp-style.html)
+- [TypeScript](https://google.github.io/styleguide/tsguide.html)
+- [Angular](https://angular.io/guide/styleguide#angular-coding-style-guide)
+- [C# Coding Conventions](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
+- [Azure Resources Naming Conventions](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)
+
 # Linting
 
 Linting is essentially a form of static code analysis. It analyzes the code you wrote against some rules for stylistic or programmatic errors. Think of it as a tool that flags suspicious usage in software.
@@ -70,10 +78,6 @@ See [.NET Documentation](https://docs.microsoft.com/en-us/dotnet/fundamentals/co
 </PropertyGroup>
 ```
 
-# Conventions
-
-- [C# Coding Conventions](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
-- [Azure Resources Naming Conventions](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)
 
 # Best Practices
 
