@@ -6,13 +6,12 @@ Coding standards are collections of coding rules, guidelines, and best practices
 # Guidelines
 
 - [Secure Coding Guidelines](https://learn.securecodewarrior.com/guidelines)
+- https://github.com/webpro/programming-principles
 - https://github.com/thangchung/clean-code-dotnet
-- https://github.com/labs42io/clean-code-typescript
+- https://github.com/davidfowl/AspNetCoreDiagnosticScenarios
 - https://github.com/davidfowl/DotNetCodingPatterns
 - https://github.com/mgechev/angular-performance-checklist
-- https://github.com/webpro/programming-principles
-- https://github.com/RomuloOliveira/commit-messages-guide/blob/master/README.md
-- https://github.com/davidfowl/AspNetCoreDiagnosticScenarios
+- https://github.com/labs42io/clean-code-typescript
 
 # Linting
 
