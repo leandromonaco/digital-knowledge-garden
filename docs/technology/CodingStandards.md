@@ -7,6 +7,7 @@ Coding standards are collections of coding rules, guidelines, and best practices
 
 - [Secure Coding Guidelines](https://learn.securecodewarrior.com/guidelines)
 - https://cheatsheetseries.owasp.org/cheatsheets/DotNet_Security_Cheat_Sheet.html
+- https://github.com/treffynnon/sqlstyle.guide
 - https://github.com/webpro/programming-principles
 - https://github.com/thangchung/clean-code-dotnet
 - https://github.com/davidfowl/AspNetCoreDiagnosticScenarios
