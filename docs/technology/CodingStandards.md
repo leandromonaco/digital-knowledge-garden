@@ -1,5 +1,5 @@
-[Benefits of Coding Standards](https://www.youtube.com/watch?v=ndDcJt6XAaU)
-https://awesome-guidelines.com/
+- [Benefits of Coding Standards](https://www.youtube.com/watch?v=ndDcJt6XAaU)
+- https://awesome-guidelines.com/
 
 # Coding Standards
 
