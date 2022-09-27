@@ -212,7 +212,8 @@ code --install-extension ms-dotnettools.dotnet-interactive-vscode
 #$PackageName = "ironcev.sharpen"
 #$PackageName = "SonarSource.SonarLintforVisualStudio2022"
 #$PackageName = "DevExpress.CodeRushforVS2022"
-$PackageName = "MLNET.notebook"
+#$PackageName = "MLNET.notebook"
+$PackageName = "snyk-security.snyk-vulnerability-scanner-vs-2022"
 
 $ErrorActionPreference = "Stop"
  
