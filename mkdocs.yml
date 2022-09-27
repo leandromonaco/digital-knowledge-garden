@@ -21,6 +21,7 @@ nav:
         - 'OKRs': 'management/OKRs.md'
         - 'Ways of Working': 'management/ways-of-working.md'
         - 'Development Guidelines': 'management/development-guidelines.md'
+        - 'Coding Standards': 'technology/CodingStandards.md'
 
 repo_name: leandromonaco.github.io
 repo_url: https://github.com/leandromonaco/leandromonaco.github.io
