@@ -3,7 +3,34 @@
 
 # Coding Standards
 
-Coding standards are collections of coding rules, guidelines, and best practices that will help you write better code.
+## Clean Code
+
+✅ Detect and address Code Smells with [Sonarlint](https://www.sonarlint.org/visualstudio/ "https://www.sonarlint.org/visualstudio/")
+
+✅ Follow Clean Code [Programming Principles](https://github.com/webpro/programming-principles "https://github.com/webpro/programming-principles")
+
+✅ Follow Clean Code Best Practices: [.NET](https://github.com/thangchung/clean-code-dotnet "https://github.com/thangchung/clean-code-dotnet") | [Typescrypt](https://github.com/labs42io/clean-code-typescript "https://github.com/labs42io/clean-code-typescript")
+
+✅ Follow Unit Testing Best Practices: [.NET](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices "https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices")
+
+✅ Follow Coding Style Guidelines: [C#](https://google.github.io/styleguide/csharp-style.html "https://google.github.io/styleguide/csharp-style.html") | [TypeScript](https://google.github.io/styleguide/tsguide.html "https://google.github.io/styleguide/tsguide.html") | [Angular](https://angular.io/guide/styleguide#angular-coding-style-guide "https://angular.io/guide/styleguide#angular-coding-style-guide") | [SQL](https://www.sqlstyle.guide/ "https://www.sqlstyle.guide/")
+
+## APIs
+
+✅ Follow [Microsoft REST API Guidelines](https://github.com/Microsoft/api-guidelines "https://github.com/Microsoft/api-guidelines")
+
+## Security
+
+✅ Follow Security Guidelines:
+
+- Detect and address Security issues with [Snyk Code](https://marketplace.visualstudio.com/items?itemName=snyk-security.snyk-vulnerability-scanner-vs-2022)
+-   [OWASP for .NET](https://cheatsheetseries.owasp.org/cheatsheets/DotNet_Security_Cheat_Sheet.html "https://cheatsheetseries.owasp.org/cheatsheets/DotNet_Security_Cheat_Sheet.html")
+     
+-   [OWASP TOP 10](https://learn.securecodewarrior.com/guidelines "https://learn.securecodewarrior.com/guidelines")
+    
+-   [CWE TOP 25](https://cwe.mitre.org/top25/archive/2022/2022_cwe_top25.html "https://cwe.mitre.org/top25/archive/2022/2022_cwe_top25.html")
+    
+-   [APIs](https://github.com/shieldfy/API-Security-Checklist "https://github.com/shieldfy/API-Security-Checklist")
 
 # Guidelines
 
