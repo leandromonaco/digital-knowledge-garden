@@ -63,6 +63,8 @@ the latest NodeJS LTS is required
 
 Search .NET Versions ```winget search --id Microsoft.dotnet```
 
+https://devblogs.microsoft.com/dotnet/dotnet-now-on-windows-package-manager/
+
 ```
 winget install -e --id Microsoft.dotnet -v 6.1.21.52711
 winget install -e --id Microsoft.dotnet
