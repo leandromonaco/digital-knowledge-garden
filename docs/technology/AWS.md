@@ -11,6 +11,10 @@
 
 - C:\Users\{USER}\.aws\credentials
 
+
+
+
+
 # Certification
 
 - [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) | [Training](https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials) & [Ramp-Up Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Cloud_Foundations.pdf)
@@ -40,7 +44,9 @@
 - [AWS Serverless Application Model](https://aws.amazon.com/serverless/sam/)
 - ```winget install -e --id Amazon.SAM-CLI``` or ```winget upgrade -e --id Amazon.SAM-CLI```
 - ```sam --version```
-- Templates: Run ```sam init```
+- SAM Templates: Run ```sam init```
+![image](https://user-images.githubusercontent.com/5598150/194959241-e345d6ee-dcd1-4e2d-b94d-0b22d8a27051.png)
+
 
 ```New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" -Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force```
 
@@ -55,8 +61,13 @@
 - ```aws --endpoint-url=http://localhost:4566 kms --region ap-southeast-2 create-key --tags TagKey=Purpose,TagValue=Test --description "Development test key"```
 - ```aws --endpoint-url=http://localhost:4566 kms encrypt --region ap-southeast-2 --key-id 1cc95196-acb1-4279-9063-a3daa3d9a20d --plaintext fileb://C:\TEMP\connectionstring.txt```
 
-# LocalStack 
-## Installation
+# Mocks
+## Moto
+
+http://docs.getmoto.org/en/latest/index.html
+
+## LocalStack 
+### Installation
 
 1. Run ```winget install -e --id Python.Python.3``` 
 2. Install pip  ```py -m ensurepip --upgrade```
@@ -64,28 +75,32 @@
 4. Go to -> "start" and type "Manage App Execution Aliases". Go to it and turn off "Python"
 5. Install [LocalStack Cockpit](https://docs.localstack.cloud/get-started/cockpit/)
 6. Install localstack-cli ```pip install localstack``` and check version ```localstack --version``
-9. Install awslocal ```pip install awscli-local``` and check version ```awslocal --version```
-10. Install cdklocal ```npm install -g aws-cdk-local aws-cdk``` and check version ```cdklocal --version```
-11. Browse ```http://localhost:4566/``` and ```http://localhost:4566/health``` to test the setup
+7. Browse ```http://localhost:4566/``` and ```http://localhost:4566/health``` to test the setup
 
-## Reference
+Usage:
+```
+aws --endpoint-url=http://localhost:4566 sqs create-queue --queue-name myQueue
+```
+
+### Reference
 - [AWS Service Feature Coverage](https://docs.localstack.cloud/aws/feature-coverage/)
 - [Configuration](https://docs.localstack.cloud/localstack/configuration/)
 
-## Environment Variables
-
-- AWS_DEFAULT_REGION=ap-southeast-2
-- SERVICES=s3,sns,kms,sqs,lambda,dynamodb,iam,serverless,ecr,sts,ssm
-- DYNAMODB_SHARE_DB=1
-- PERSIST_ALL=1
-- USE_SINGLE_REGION=true
-- LAMBDA_EXECUTOR=docker
-- LAMBDA_REMOTE_DOCKER=true
-- LAMBDA_REMOVE_CONTAINERS=true
-- DEBUG=1
-- DATA_DIR=/tmp/localstack/data
-- LOCALSTACK_HOSTNAME=localhost
-- LOCALSTACK_API_KEY=[INSERT PRO KEY]
+### Environment Variables
+```
+AWS_DEFAULT_REGION=ap-southeast-2
+SERVICES=s3,sns,kms,sqs,lambda,dynamodb,iam,serverless,ecr,sts,ssm,logs
+DYNAMODB_SHARE_DB=1
+PERSIST_ALL=1
+USE_SINGLE_REGION=true
+LAMBDA_EXECUTOR=docker
+LAMBDA_REMOTE_DOCKER=true
+LAMBDA_REMOVE_CONTAINERS=true
+DEBUG=1
+DATA_DIR=/tmp/localstack/data
+LOCALSTACK_HOSTNAME=localhost
+LOCALSTACK_API_KEY=[Insert PRO Version Key]
+```
 
 # AWS Client
 
