@@ -65,6 +65,7 @@
 ## Moto
 
 http://docs.getmoto.org/en/latest/index.html
+https://hub.docker.com/r/motoserver/moto/tags
 
 ## LocalStack 
 ### Installation
