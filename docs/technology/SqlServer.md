@@ -25,6 +25,16 @@ WITH COMPRESSION, STATS = 10
 GO
 ```
 
+## Paging
+```sql
+--https://learn.microsoft.com/en-us/sql/t-sql/queries/select-order-by-clause-transact-sql
+SELECT *
+FROM Employee
+ORDER BY EmployeeId
+OFFSET 20 ROWS
+FETCH NEXT 5 ROWS ONLY 
+```
+
 ## Restore
 ```sql
 USE master;
