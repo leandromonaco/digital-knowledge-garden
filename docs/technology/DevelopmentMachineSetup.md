@@ -387,8 +387,8 @@ Set-PSReadLineOption -EditMode Windows
 4. Restart command prompt window
 
 ## References
-- [Adding Predictive IntelliSense to my Windows Terminal PowerShell Prompt with PSReadline - Scott Hanselman's Blog](https://www.hanselman.com/blog/adding-predictive-intellisense-to-my-windows-terminal-powershell-prompt-with-psreadline)
-- [Set up a custom prompt for PowerShell or WSL with Oh My Posh](https://docs.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup)
+- [Tutorial: Set up a custom prompt for PowerShell or WSL with Oh My Posh](https://docs.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup)
+- [How to enable TAB completion for the .NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/enable-tab-autocomplete)
 
 # Development Utilities
 ```
@@ -432,6 +432,3 @@ winget install -e --id Amazon.SAM-CLI
 winget install -e --id Microsoft.AzureCLI
 ```
 
-# Others
-
-[Custom Prompt Setup](https://docs.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup)
