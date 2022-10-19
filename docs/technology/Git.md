@@ -31,8 +31,13 @@ git config --global user.email [email address]
 
 
 ## Removing sensitive data from a repository
-- https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
-- https://rtyley.github.io/bfg-repo-cleaner/
+- [Removing sensitive data from a repository](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)
+- [Bfg Repo Cleaner](https://github.com/rtyley/bfg-repo-cleaner)
+
+### Example
+- ```winget install -e --id Oracle.JavaRuntimeEnvironment```
+- ```java -jar bfg.jar --delete-folders ReleasePlanning```
+
 
 ## Troubleshoot git issues
 
