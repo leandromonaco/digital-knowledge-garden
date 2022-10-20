@@ -36,10 +36,12 @@ git config --global user.email [email address]
 - [BFG GitHub Repo](https://github.com/rtyley/bfg-repo-cleaner)
 
 ### Example
-- ```winget install -e --id Oracle.JavaRuntimeEnvironment```
-- ```java -jar bfg.jar --delete-folders ReleasePlanning```
+1. ```winget install -e --id Oracle.JavaRuntimeEnvironment```
+2. ```java -jar bfg.jar --delete-folders ReleasePlanning```
+3. ```git push --force```
 
-- if dealing with protected commits add ```--no-blob-protection```
+
+- if dealing with protected commits add ```--no-blob-protection``` parameter
 
 ## Troubleshoot git issues
 
