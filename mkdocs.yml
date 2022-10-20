@@ -13,6 +13,7 @@ nav:
         - 'Configuration': 'technology/Configuration.md'
         - 'AWS': 'technology/AWS.md'
         - 'Docker': 'technology/Docker.md'
+        - 'Git': 'technology/Git.md'
     - Database:
         - 'SQL Server': 'technology/SqlServer.md'
         - 'Entity Framework': 'technology/EntityFramework.md'
