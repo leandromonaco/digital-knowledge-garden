@@ -58,10 +58,11 @@ The : separator doesn't work with environment variable [hierarchical keys](https
 
 # Safe storage of app secrets in development
 
-1. Navigate to your .NET Core Project folder
-2. Run ```dotnet user-secrets init``` (one-off per project)
-3. Run ```dotnet user-secrets set "Segment:WriteKey" "some-write-key"```
-4. Read the value in your application
+1. Add a reference to the ```Microsoft.Extensions.Configuration.UserSecrets``` package
+2. Navigate to your .NET project folder
+3. Run ```dotnet user-secrets init``` (one-off per project)
+4. Run ```dotnet user-secrets set "Segment:WriteKey" "some-write-key"```
+5. Read the value in your application
 ```csharp
 var builder = WebApplication.CreateBuilder(args);
 var segmentWriteKey = builder.Configuration["Segment:WriteKey"];
