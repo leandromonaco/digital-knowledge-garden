@@ -64,8 +64,8 @@ The : separator doesn't work with environment variable [hierarchical keys](https
 4. Run ```dotnet user-secrets set "Segment:WriteKey" "some-write-key"```
 5. Read the value in your application
 ```csharp
-var builder = WebApplication.CreateBuilder(args);
-var segmentWriteKey = builder.Configuration["Segment:WriteKey"];
+var configuration = new ConfigurationBuilder().AddUserSecrets("[ID obtained from step 3]").Build();
+var value = configuration["Segment:SomeConfig"];
 ```
 
 Values are stored on ```C:\Users\<username>\AppData\Roaming\Microsoft\UserSecrets```
