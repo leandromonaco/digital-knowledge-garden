@@ -1,12 +1,12 @@
-site_name:  Personal Knowledge Management
+site_name: Knowledge Base
 site_url: https://leandromonaco.github.io
-site_description: My Second Brain
+site_description: This is a site where I document my learning journey.
 site_author: Leandro Monaco
 
 nav:
-    - Home: 'docs/pages/index.md'
-    - Library: 'docs/pages/library.md'
-    - 'Development Machine Setup': 'docs/pages/DevelopmentMachineSetup.md'
+    - Home: index.md
+    - Library: library.md
+    - 'Development Machine Setup': 'technology/DevelopmentMachineSetup.md'
     - Development:
         - 'Angular': 'docs/pages/Angular.md'
         - 'Playwright': 'docs/pages/Playwright.md'

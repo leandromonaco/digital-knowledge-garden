@@ -1,0 +1,9 @@
+- [The outcomes of code review, and how to improve the process](https://www.pluralsight.com/blog/tutorials/code-review)
+- [Code Review Best Practices](https://appunite.com/blog/code-review-best-practices)
+- [Coordinating Pull Requests](https://octoverse.github.com/writing-code-faster/#coordinating-pull-requests)
+- [Plan-Do-Check-Act](https://whatis.techtarget.com/definition/PDCA-plan-do-check-act)
+- [Value Stream Mapping](https://www.atlassian.com/continuous-delivery/principles/value-stream-mapping)
+- [Why SOLID principles are still the foundation for modern software architecture](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
+- [The twelve-factor app](https://12factor.net/)
+- [Automate the boring parts of your job](https://stackoverflow.blog/2022/07/25/automate-the-boring-parts-of-your-job)
+-
