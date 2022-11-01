@@ -170,6 +170,8 @@ Optional
 
 # 10 - Install VSCode Extensions
 ```
+
+code --install-extension ms-vscode-remote.remote-containers
 code --install-extension amazonwebservices.aws-toolkit-vscode
 code --install-extension angular.ng-template
 code --install-extension johnpapa.angular-essentials
