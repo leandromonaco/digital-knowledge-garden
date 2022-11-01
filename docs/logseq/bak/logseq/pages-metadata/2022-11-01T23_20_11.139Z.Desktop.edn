@@ -47,8 +47,8 @@
   :block/created-at 1667263555583,
   :block/updated-at 1667263555583}
  {:block/name "coaching",
-  :block/created-at 1667344233378,
-  :block/updated-at 1667344233378}
+  :block/created-at 1667263512540,
+  :block/updated-at 1667263512540}
  {:block/name "coding-exercise",
   :block/created-at 1667263491319,
   :block/updated-at 1667263491319}
@@ -71,21 +71,21 @@
   :block/created-at 1667263555574,
   :block/updated-at 1667263555574}
  {:block/name "culture",
-  :block/created-at 1667344233487,
-  :block/updated-at 1667344233487}
+  :block/created-at 1667342617877,
+  :block/updated-at 1667343581229}
  {:block/name
   "data:image/png;base64,ivborw0kggoaaaansuheugaaacaaaaaxcaiaaadlz9q2aaaaaxnsr0iars4c6qaaaarnqu1baacxjwv8yquaaaajcehzcwaadsmaaa7dacdvqgqaaactsurbvehl5zxbdyawcewtq+ggnucxabzoju7tqzyi/hhigi+ashrwnedyh9bdq4yx8ysuuqh0ikqchnwi7muozyegp86nfwpwxkoeqavih7ezgge6gtydmil6gi/sqethxsj3enuth9/a6bcdyoiqczcixgoub1ucemejxqsjmkyd0yksmalj+kd1bnbcbc6ffsonhhg3lgq20vaaaaaasuvork5cyii=",
   :block/created-at 1667341146275,
   :block/updated-at 1667341146275}
  {:block/name "delivery",
-  :block/created-at 1667344233833,
-  :block/updated-at 1667344233833}
+  :block/created-at 1667342826882,
+  :block/updated-at 1667342826882}
  {:block/name "devcontainers",
-  :block/created-at 1667344233886,
-  :block/updated-at 1667344233886}
+  :block/created-at 1667274634715,
+  :block/updated-at 1667341795066}
  {:block/name "development environment setup",
-  :block/created-at 1667344233755,
-  :block/updated-at 1667344233755}
+  :block/created-at 1667263555557,
+  :block/updated-at 1667343470846}
  {:block/name "development-guidelines",
   :block/created-at 1667263512465,
   :block/updated-at 1667263512465}
@@ -125,9 +125,12 @@
  {:block/name "in-progress",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
- {:block/name "knowledge sharing",
-  :block/created-at 1667344233654,
-  :block/updated-at 1667344233654}
+ {:block/name "index",
+  :block/created-at 1667264508057,
+  :block/updated-at 1667264508057}
+ {:block/name "knowledge",
+  :block/created-at 1667342980137,
+  :block/updated-at 1667343053184}
  {:block/name "later",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
@@ -141,8 +144,8 @@
   :block/created-at 1667263434121,
   :block/updated-at 1667263434121}
  {:block/name "nov 2nd, 2022",
-  :block/created-at 1667344137096,
-  :block/updated-at 1667344137096}
+  :block/created-at 1667340185398,
+  :block/updated-at 1667341887319}
  {:block/name "now",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
@@ -165,8 +168,8 @@
   :block/created-at 1667263555933,
   :block/updated-at 1667263555933}
  {:block/name "quality",
-  :block/created-at 1667344233834,
-  :block/updated-at 1667344233834}
+  :block/created-at 1667342899679,
+  :block/updated-at 1667342916826}
  {:block/name "redis",
   :block/created-at 1667263555943,
   :block/updated-at 1667263555943}
@@ -192,8 +195,8 @@
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
  {:block/name "tools and processes",
-  :block/created-at 1667344233832,
-  :block/updated-at 1667344233832}
+  :block/created-at 1667342728237,
+  :block/updated-at 1667342728237}
  {:block/name "training",
   :block/created-at 1667264508033,
   :block/updated-at 1667264508033}
