@@ -23,8 +23,8 @@
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
  {:block/name "bookmarks",
-  :block/created-at 1667263434330,
-  :block/updated-at 1667263434330}
+  :block/created-at 1667264507934,
+  :block/updated-at 1667264507934}
  {:block/name "c",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
@@ -71,8 +71,8 @@
   :block/created-at 1667263555557,
   :block/updated-at 1667263555557}
  {:block/name "diagramsascode",
-  :block/created-at 1667263434195,
-  :block/updated-at 1667263434195}
+  :block/created-at 1667264507824,
+  :block/updated-at 1667264507824}
  {:block/name "docker",
   :block/created-at 1667263555734,
   :block/updated-at 1667263555734}
@@ -104,8 +104,8 @@
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
  {:block/name "index",
-  :block/created-at 1667263434351,
-  :block/updated-at 1667263434351}
+  :block/created-at 1667264508057,
+  :block/updated-at 1667264508057}
  {:block/name "later",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
@@ -164,8 +164,8 @@
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
  {:block/name "training",
-  :block/created-at 1667263435220,
-  :block/updated-at 1667263435220}
+  :block/created-at 1667264508033,
+  :block/updated-at 1667264508033}
  {:block/name "troubleshooting",
   :block/created-at 1667263435057,
   :block/updated-at 1667263435057}
@@ -186,4 +186,4 @@
   :block/updated-at 1667263512499}
  {:block/name "wsl",
   :block/created-at 1667263555952, 
-  :block/updated-at 1667263903169}]
+  :block/updated-at 1667263999031}]
