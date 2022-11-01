@@ -4,25 +4,25 @@ site_description: This is a site where I document my learning journey.
 site_author: Leandro Monaco
 
 nav:
-    - Home: index.md
-    - Library: library.md
-    - 'Development Machine Setup': 'technology/DevelopmentMachineSetup.md'
+    - Home: 'docs/pages/index.md'
+    - Library: 'docs/pages/library.md'
+    - 'Development Machine Setup': 'docs/pages/DevelopmentMachineSetup.md'
     - Development:
-        - 'Angular': 'technology/Angular.md'
-        - 'Playwright': 'technology/Playwright.md'
-        - 'Configuration': 'technology/Configuration.md'
-        - 'AWS': 'technology/AWS.md'
-        - 'Docker': 'technology/Docker.md'
-        - 'Git': 'technology/Git.md'
+        - 'Angular': 'docs/pages/Angular.md'
+        - 'Playwright': 'docs/pages/Playwright.md'
+        - 'Configuration': 'docs/pages/Configuration.md'
+        - 'AWS': 'docs/pages/AWS.md'
+        - 'Docker': 'docs/pages/Docker.md'
+        - 'Git': 'docs/pages/Git.md'
     - Database:
-        - 'SQL Server': 'technology/SqlServer.md'
-        - 'Entity Framework': 'technology/EntityFramework.md'
+        - 'SQL Server': 'docs/pages/SqlServer.md'
+        - 'Entity Framework': 'docs/pages/EntityFramework.md'
     - Management:
-        - '1:1 Guidelines': 'management/1-on-1-guidelines.md'
-        - 'OKRs': 'management/OKRs.md'
-        - 'Ways of Working': 'management/ways-of-working.md'
-        - 'Development Guidelines': 'management/development-guidelines.md'
-        - 'Coding Standards': 'technology/CodingStandards.md'
+        - '1:1 Guidelines': 'docs/pages/1-on-1-guidelines.md'
+        - 'OKRs': 'docs/pages/OKRs.md'
+        - 'Ways of Working': 'docs/pages/ways-of-working.md'
+        - 'Development Guidelines': 'docs/pages/development-guidelines.md'
+        - 'Coding Standards': 'docs/pages/CodingStandards.md'
 
 repo_name: leandromonaco.github.io
 repo_url: https://github.com/leandromonaco/leandromonaco.github.io
