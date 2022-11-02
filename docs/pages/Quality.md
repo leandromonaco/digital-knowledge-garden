@@ -1,7 +1,7 @@
 - Improve code quality to reduce technical debt
   
   Write quality code that does what it’s intended to do, follows a consistent style, is easy to understand, is well documented, and can be tested. 
-  Focus on readability, performance, maintainability, reliability/resiliency, and [[Security]] .
+  Focus on readability, [[Performance]] , maintainability, reliability/resiliency, and [[Security]] .
 -
 -
 #### Goal-Oriented Ideas

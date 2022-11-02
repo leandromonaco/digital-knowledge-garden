@@ -1,6 +1,6 @@
 [{:block/name ".net",
   :block/created-at 1667275230271,
-  :block/updated-at 1667369520543}
+  :block/updated-at 1667428250216}
  {:block/name ".net logging",
   :block/created-at 1667369520542,
   :block/updated-at 1667369614791}
@@ -103,6 +103,9 @@
  {:block/name "culture",
   :block/created-at 1667344233487,
   :block/updated-at 1667344233487}
+ {:block/name "cve",
+  :block/created-at 1667428362174,
+  :block/updated-at 1667428595562}
  {:block/name
   "data:image/png;base64,ivborw0kggoaaaansuheugaaacaaaaaxcaiaaadlz9q2aaaaaxnsr0iars4c6qaaaarnqu1baacxjwv8yquaaaajcehzcwaadsmaaa7dacdvqgqaaactsurbvehl5zxbdyawcewtq+ggnucxabzoju7tqzyi/hhigi+ashrwnedyh9bdq4yx8ysuuqh0ikqchnwi7muozyegp86nfwpwxkoeqavih7ezgge6gtydmil6gi/sqethxsj3enuth9/a6bcdyoiqczcixgoub1ucemejxqsjmkyd0yksmalj+kd1bnbcbc6ffsonhhg3lgq20vaaaaaasuvork5cyii=",
   :block/created-at 1667341146275,
@@ -152,7 +155,7 @@
  {:block/name "featureflags",
   :block/created-at 1667263555716,
   :block/updated-at 1667263555716}
- {:block/name "frontend development",
+ {:block/name "frontend",
   :block/created-at 1667367031305,
   :block/updated-at 1667367065616}
  {:block/name "git",
@@ -160,7 +163,10 @@
   :block/updated-at 1667263555759}
  {:block/name "goals",
   :block/created-at 1667263512359,
-  :block/updated-at 1667368895316}
+  :block/updated-at 1667370666044}
+ {:block/name "hackerone",
+  :block/created-at 1667427732186,
+  :block/updated-at 1667428048767}
  {:block/name "health-monitor",
   :block/created-at 1667263575969,
   :block/updated-at 1667263575969}
@@ -184,7 +190,7 @@
   :block/updated-at 1667346741980}
  {:block/name "interview",
   :block/created-at 1667369799862,
-  :block/updated-at 1667369877444}
+  :block/updated-at 1667370742716}
  {:block/name "javascript",
   :block/created-at 1667367065615,
   :block/updated-at 1667367065615}
@@ -215,6 +221,9 @@
  {:block/name "nov 2nd, 2022",
   :block/created-at 1667344137096,
   :block/updated-at 1667367345678}
+ {:block/name "nov 3rd, 2022",
+  :block/created-at 1667397609647,
+  :block/updated-at 1667397609647}
  {:block/name "now",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
@@ -227,15 +236,18 @@
  {:block/name "onboarding",
   :block/created-at 1667369805787,
   :block/updated-at 1667369894755}
+ {:block/name "owasp top 10",
+  :block/created-at 1667427269196,
+  :block/updated-at 1667428181432}
  {:block/name "performance",
   :block/created-at 1667263555960,
-  :block/updated-at 1667263555960}
+  :block/updated-at 1667428547371}
  {:block/name "playwright",
   :block/created-at 1667263555933,
   :block/updated-at 1667263555933}
  {:block/name "quality",
   :block/created-at 1667344233834,
-  :block/updated-at 1667370397472}
+  :block/updated-at 1667428637334}
  {:block/name "redis",
   :block/created-at 1667263555943,
   :block/updated-at 1667263555943}
@@ -248,15 +260,18 @@
  {:block/name "reports",
   :block/created-at 1667263512417,
   :block/updated-at 1667263512417}
+ {:block/name "secure code warriors",
+  :block/created-at 1667428175896,
+  :block/updated-at 1667428175896}
  {:block/name "security",
   :block/created-at 1667366427043,
-  :block/updated-at 1667368364085}
+  :block/updated-at 1667428362174}
  {:block/name "shareknowledgecampaign",
   :block/created-at 1667263575892,
   :block/updated-at 1667263575892}
  {:block/name "sqlserver",
   :block/created-at 1667263555904,
-  :block/updated-at 1667263555904}
+  :block/updated-at 1667428509927}
  {:block/name "support",
   :block/created-at 1667263527590,
   :block/updated-at 1667263527590}
