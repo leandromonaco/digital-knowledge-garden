@@ -1,4 +1,5 @@
 # OKRs
+title:: Goals
 - ## Definition
   OKR stands for [[Objectives]] and Key Results. OKRs help break up big, audacious missions into actionable goals and milestones.
   * **Objectives (The “What”):** An objective is what you want to do. It describes our mission-supporting goal.
@@ -8,4 +9,11 @@
 - [Get Started With OKRs](https://www.whatmatters.com/get-started/)
 - [Set goals with OKRs](https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/)
 - [How to write SMART goals](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals)
+- [OKRs and CFRs: How do they work together?](https://www.whatmatters.com/resources/difference-between-okr-cfr/)
 -
+- # Objectives
+- [[Culture]]
+- [[Tools and Processes]]
+- [[Delivery]]
+- [[Quality]]
+- [[Knowledge Sharing]]

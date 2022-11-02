@@ -1,7 +1,0 @@
-- Areas
-- [[Culture]]
-- [[Tools and Processes]]
-- [[Delivery]]
-- [[Quality]]
-- [[Knowledge Sharing]]
--

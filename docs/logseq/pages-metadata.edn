@@ -1,18 +1,30 @@
 [{:block/name ".net",
   :block/created-at 1667275230271,
-  :block/updated-at 1667275230271}
+  :block/updated-at 1667368235314}
+ {:block/name ".net upgrade",
+  :block/created-at 1667368235313,
+  :block/updated-at 1667368241611}
+ {:block/name "1:1s",
+  :block/created-at 1667369091446,
+  :block/updated-at 1667369091446}
  {:block/name "a",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
  {:block/name "angular",
   :block/created-at 1667263555414,
   :block/updated-at 1667263555414}
+ {:block/name "app secrets",
+  :block/created-at 1667367764649,
+  :block/updated-at 1667367764649}
  {:block/name "architecture",
   :block/created-at 1667263555291,
   :block/updated-at 1667263555291}
  {:block/name "args",
   :block/created-at 1667263435100,
   :block/updated-at 1667263435100}
+ {:block/name "asp.net core security",
+  :block/created-at 1667368364084,
+  :block/updated-at 1667368433095}
  {:block/name "authentication",
   :block/created-at 1667263555440,
   :block/updated-at 1667263555440}
@@ -28,6 +40,9 @@
  {:block/name "bookmarks",
   :block/created-at 1667264507934,
   :block/updated-at 1667264507934}
+ {:block/name "browser compatibility",
+  :block/created-at 1667366795950,
+  :block/updated-at 1667366795950}
  {:block/name "c",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
@@ -40,6 +55,9 @@
  {:block/name "card",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
+ {:block/name "career",
+  :block/created-at 1667368933507,
+  :block/updated-at 1667368933507}
  {:block/name "certificates",
   :block/created-at 1667263555472,
   :block/updated-at 1667263555472}
@@ -48,7 +66,7 @@
   :block/updated-at 1667263555583}
  {:block/name "coaching",
   :block/created-at 1667344233378,
-  :block/updated-at 1667344233378}
+  :block/updated-at 1667369076579}
  {:block/name "coding-exercise",
   :block/created-at 1667263491319,
   :block/updated-at 1667263491319}
@@ -67,6 +85,9 @@
  {:block/name "continous learning",
   :block/created-at 1667263434511,
   :block/updated-at 1667342248663}
+ {:block/name "cross-site request forgery",
+  :block/created-at 1667367582572,
+  :block/updated-at 1667367582572}
  {:block/name "css",
   :block/created-at 1667263555574,
   :block/updated-at 1667263555574}
@@ -104,6 +125,15 @@
  {:block/name "done",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
+ {:block/name "dynamodb",
+  :block/created-at 1667357465999,
+  :block/updated-at 1667357465999}
+ {:block/name "effective meetings",
+  :block/created-at 1667368041715,
+  :block/updated-at 1667368540315}
+ {:block/name "engineering practices",
+  :block/created-at 1667366541064,
+  :block/updated-at 1667366541064}
  {:block/name "entityframework",
   :block/created-at 1667263555858,
   :block/updated-at 1667263555858}
@@ -113,27 +143,51 @@
  {:block/name "featureflags",
   :block/created-at 1667263555716,
   :block/updated-at 1667263555716}
+ {:block/name "frontend development",
+  :block/created-at 1667367031305,
+  :block/updated-at 1667367065616}
  {:block/name "git",
   :block/created-at 1667263555759,
   :block/updated-at 1667263555759}
+ {:block/name "goals",
+  :block/created-at 1667263512359,
+  :block/updated-at 1667368895316}
  {:block/name "health-monitor",
   :block/created-at 1667263575969,
   :block/updated-at 1667263575969}
+ {:block/name "html",
+  :block/created-at 1667367043744,
+  :block/updated-at 1667367043744}
  {:block/name "identityserver",
   :block/created-at 1667263555683,
   :block/updated-at 1667263555683}
  {:block/name "in-progress",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
+ {:block/name "incident management",
+  :block/created-at 1667367263811,
+  :block/updated-at 1667367263811}
  {:block/name "index",
   :block/created-at 1667346741980,
   :block/updated-at 1667346741980}
+ {:block/name "javascript",
+  :block/created-at 1667367065615,
+  :block/updated-at 1667367065615}
+ {:block/name "kata",
+  :block/created-at 1667367344331,
+  :block/updated-at 1667367344331}
  {:block/name "knowledge sharing",
   :block/created-at 1667344233654,
   :block/updated-at 1667344233654}
  {:block/name "later",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
+ {:block/name "management",
+  :block/created-at 1667368002991,
+  :block/updated-at 1667369320876}
+ {:block/name "metrics",
+  :block/created-at 1667369320876,
+  :block/updated-at 1667369320876}
  {:block/name "minimalapi",
   :block/created-at 1667263555865,
   :block/updated-at 1667263555865}
@@ -145,22 +199,16 @@
   :block/updated-at 1667263434121}
  {:block/name "nov 2nd, 2022",
   :block/created-at 1667344137096,
-  :block/updated-at 1667344137096}
+  :block/updated-at 1667367345678}
  {:block/name "now",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
  {:block/name "nukebuild",
   :block/created-at 1667263555701,
   :block/updated-at 1667263555701}
- {:block/name "objectives",
-  :block/created-at 1667263434422,
-  :block/updated-at 1667342980138}
  {:block/name "observability",
   :block/created-at 1667263555773,
   :block/updated-at 1667263555773}
- {:block/name "okrs",
-  :block/created-at 1667263512359,
-  :block/updated-at 1667343291923}
  {:block/name "performance",
   :block/created-at 1667263555960,
   :block/updated-at 1667263555960}
@@ -182,6 +230,9 @@
  {:block/name "reports",
   :block/created-at 1667263512417,
   :block/updated-at 1667263512417}
+ {:block/name "security",
+  :block/created-at 1667366427043,
+  :block/updated-at 1667368364085}
  {:block/name "shareknowledgecampaign",
   :block/created-at 1667263575892,
   :block/updated-at 1667263575892}
@@ -205,7 +256,7 @@
   :block/updated-at 1667263435057}
  {:block/name "tye",
   :block/created-at 1667263555825,
-  :block/updated-at 1667357384339}
+  :block/updated-at 1667357481934}
  {:block/name "typescript",
   :block/created-at 1667341885897,
   :block/updated-at 1667341885897}
@@ -224,9 +275,15 @@
  {:block/name "waiting",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
+ {:block/name "ways of working",
+  :block/created-at 1667369304440,
+  :block/updated-at 1667369304440}
  {:block/name "ways-of-working",
   :block/created-at 1667263512499,
   :block/updated-at 1667263512499}
+ {:block/name "wellbeing",
+  :block/created-at 1667368924816,
+  :block/updated-at 1667368924816}
  {:block/name "winget",
   :block/created-at 1667343376212,
   :block/updated-at 1667343376212}
