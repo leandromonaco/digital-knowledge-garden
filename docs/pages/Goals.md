@@ -10,6 +10,8 @@ title:: Goals
 - [Set goals with OKRs](https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/)
 - [How to write SMART goals](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals)
 - [OKRs and CFRs: How do they work together?](https://www.whatmatters.com/resources/difference-between-okr-cfr/)
+- https://devblogs.microsoft.com/devops/devops-dojo-okrs-objectives-and-key-results/
+- https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/business-outcomes/okr
 -
 - # Objectives
 - [[Culture]]

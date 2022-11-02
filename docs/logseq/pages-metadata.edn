@@ -1,6 +1,9 @@
 [{:block/name ".net",
   :block/created-at 1667275230271,
-  :block/updated-at 1667368235314}
+  :block/updated-at 1667369520543}
+ {:block/name ".net logging",
+  :block/created-at 1667369520542,
+  :block/updated-at 1667369614791}
  {:block/name ".net upgrade",
   :block/created-at 1667368235313,
   :block/updated-at 1667368241611}
@@ -18,16 +21,22 @@
   :block/updated-at 1667367764649}
  {:block/name "architecture",
   :block/created-at 1667263555291,
-  :block/updated-at 1667263555291}
+  :block/updated-at 1667369948826}
  {:block/name "args",
   :block/created-at 1667263435100,
   :block/updated-at 1667263435100}
+ {:block/name "asp.net",
+  :block/created-at 1667370267643,
+  :block/updated-at 1667370537056}
+ {:block/name "asp.net caching",
+  :block/created-at 1667370309225,
+  :block/updated-at 1667370312485}
  {:block/name "asp.net core security",
   :block/created-at 1667368364084,
   :block/updated-at 1667368433095}
  {:block/name "authentication",
   :block/created-at 1667263555440,
-  :block/updated-at 1667263555440}
+  :block/updated-at 1667370167129}
  {:block/name "aws",
   :block/created-at 1667263555351,
   :block/updated-at 1667263555351}
@@ -155,6 +164,9 @@
  {:block/name "health-monitor",
   :block/created-at 1667263575969,
   :block/updated-at 1667263575969}
+ {:block/name "hiring",
+  :block/created-at 1667369683530,
+  :block/updated-at 1667369822321}
  {:block/name "html",
   :block/created-at 1667367043744,
   :block/updated-at 1667367043744}
@@ -170,6 +182,9 @@
  {:block/name "index",
   :block/created-at 1667346741980,
   :block/updated-at 1667346741980}
+ {:block/name "interview",
+  :block/created-at 1667369799862,
+  :block/updated-at 1667369877444}
  {:block/name "javascript",
   :block/created-at 1667367065615,
   :block/updated-at 1667367065615}
@@ -184,7 +199,7 @@
   :block/updated-at 1667263698331}
  {:block/name "management",
   :block/created-at 1667368002991,
-  :block/updated-at 1667369320876}
+  :block/updated-at 1667370094785}
  {:block/name "metrics",
   :block/created-at 1667369320876,
   :block/updated-at 1667369320876}
@@ -209,6 +224,9 @@
  {:block/name "observability",
   :block/created-at 1667263555773,
   :block/updated-at 1667263555773}
+ {:block/name "onboarding",
+  :block/created-at 1667369805787,
+  :block/updated-at 1667369894755}
  {:block/name "performance",
   :block/created-at 1667263555960,
   :block/updated-at 1667263555960}
@@ -217,7 +235,7 @@
   :block/updated-at 1667263555933}
  {:block/name "quality",
   :block/created-at 1667344233834,
-  :block/updated-at 1667344233834}
+  :block/updated-at 1667370397472}
  {:block/name "redis",
   :block/created-at 1667263555943,
   :block/updated-at 1667263555943}
@@ -283,7 +301,7 @@
   :block/updated-at 1667263512499}
  {:block/name "wellbeing",
   :block/created-at 1667368924816,
-  :block/updated-at 1667368924816}
+  :block/updated-at 1667369730511}
  {:block/name "winget",
   :block/created-at 1667343376212,
   :block/updated-at 1667343376212}

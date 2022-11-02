@@ -1,7 +1,9 @@
 - Improve code quality to reduce technical debt
   
   Write quality code that does what it’s intended to do, follows a consistent style, is easy to understand, is well documented, and can be tested. 
-  Focus on readability, performance, maintainability, reliability/resiliency, and security.
+  Focus on readability, performance, maintainability, reliability/resiliency, and [[Security]] .
+-
+-
 #### Goal-Oriented Ideas
 - Remove legacy code that is no longer in use.
 - Take time to separate the code and use the object oriented design approach you’ve heard so much about.

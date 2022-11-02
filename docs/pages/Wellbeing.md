@@ -1,5 +1,7 @@
 - ## Mental Health
 - [How to ask R U OK?](https://www.ruok.org.au/how-to-ask)
+- https://codesubmit.io/blog/developer-burnout/
+-
 ## Happiness
 - [The Deloitte Global 2022 Gen Z and Millennial Survey](https://www2.deloitte.com/global/en/pages/about-deloitte/articles/genzmillennialsurvey.html)
 - [On the Unhappiness of Software Developers](https://arxiv.org/pdf/1703.04993.pdf)

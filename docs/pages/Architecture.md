@@ -1,5 +1,3 @@
-
-
 Reference Material
 
 - https://martinfowler.com/microservices/
@@ -9,3 +7,4 @@ Reference Material
 - https://github.com/jasontaylordev/CleanArchitecture
 - https://github.com/ardalis/CleanArchitecture
 - https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures
+- https://www.youtube.com/watch?v=NzcZcim9tp8

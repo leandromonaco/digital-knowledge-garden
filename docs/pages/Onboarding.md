@@ -1,0 +1,1 @@
+- https://codesubmit.io/blog/guide-to-onboarding-developers/
