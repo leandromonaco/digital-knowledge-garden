@@ -1,0 +1,3 @@
+- https://aws.amazon.com/getting-started/hands-on/control-your-costs-free-tier-budgets/
+- https://calculator.aws
+- https://aws.amazon.com/aws-cost-management/aws-budgets
