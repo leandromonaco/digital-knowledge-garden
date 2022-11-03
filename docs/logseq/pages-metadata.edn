@@ -115,7 +115,7 @@
   :block/updated-at 1667344233833}
  {:block/name "devcontainers",
   :block/created-at 1667344233886,
-  :block/updated-at 1667435186074}
+  :block/updated-at 1667445044140}
  {:block/name "development environment setup",
   :block/created-at 1667344233755,
   :block/updated-at 1667344233755}
@@ -170,6 +170,9 @@
  {:block/name "health-monitor",
   :block/created-at 1667263575969,
   :block/updated-at 1667263575969}
+ {:block/name "high performing teams",
+  :block/created-at 1667451236967,
+  :block/updated-at 1667451271196}
  {:block/name "hiring",
   :block/created-at 1667369683530,
   :block/updated-at 1667369822321}
@@ -203,9 +206,12 @@
  {:block/name "later",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
+ {:block/name "leadership",
+  :block/created-at 1667451092491,
+  :block/updated-at 1667451208621}
  {:block/name "management",
   :block/created-at 1667368002991,
-  :block/updated-at 1667370094785}
+  :block/updated-at 1667451236967}
  {:block/name "metrics",
   :block/created-at 1667369320876,
   :block/updated-at 1667369320876}
@@ -259,7 +265,7 @@
   :block/updated-at 1667263435097}
  {:block/name "reports",
   :block/created-at 1667263512417,
-  :block/updated-at 1667263512417}
+  :block/updated-at 1667450795025}
  {:block/name "secure code warriors",
   :block/created-at 1667428175896,
   :block/updated-at 1667428175896}

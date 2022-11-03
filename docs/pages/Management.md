@@ -1,4 +1,6 @@
 - https://rework.withgoogle.com/blog/the-evolution-of-project-oxygen/
+-
+-
 - # Topics
 - [[Effective Meetings]]
 - [[Coaching]]
@@ -9,3 +11,6 @@
 - [[Ways Of Working]]
 - [[Metrics]]
 - [[Hiring]]
+- [[reports]]
+- [[Leadership]]
+- [[High Performing Teams]]

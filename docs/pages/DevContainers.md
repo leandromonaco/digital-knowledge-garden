@@ -14,3 +14,5 @@
 - # Training
 - [Use a Docker container as a development environment with Visual Studio Code](https://learn.microsoft.com/en-us/training/modules/use-docker-container-dev-env-vs-code/)
 - [Dev Containers tutorial](https://code.visualstudio.com/docs/devcontainers/tutorial)
+- [Containers.dev](https://containers.dev/)
+- [Templates](https://containers.dev/templates)
