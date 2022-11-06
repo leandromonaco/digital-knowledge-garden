@@ -8,3 +8,5 @@ https://cloud.google.com/blog/products/devops-sre/dora-2022-accelerate-state-of-
 - [What Makes a Great Manager of Software Engineers?](https://www.microsoft.com/en-us/research/uploads/prod/2018/06/kalliamvakou-tse-2018.pdf)
 - [Tool: Try Google’s Manager Feedback Survey](https://rework.withgoogle.com/guides/managers-give-feedback-to-managers/steps/try-googles-manager-feedback-survey)
 - [Great managers still matter: the evolution of Google’s Project Oxygen](https://rework.withgoogle.com/blog/the-evolution-of-project-oxygen)
+- [The 2021 State of the Octoverse](https://octoverse.github.com/)
+- [Practices, research, and tools from Google to improve your people processes](https://rework.withgoogle.com/guides/)
