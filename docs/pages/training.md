@@ -14,6 +14,7 @@
 - [Rethinking Productivity in Software Engineering](https://github.com/leandromonaco/leandromonaco.github.io/blob/main/docs/books/Rethinking%20Productivity%20in%20Software%20Engineering.pdf)
 - [Site Reliability Engineering](https://sre.google/sre-book/table-of-contents/) (Google)
 - [Kubernetes Comic](https://cloud.google.com/kubernetes-engine/kubernetes-comic)
+- [Debugging Teams](https://www.google.com.au/books/edition/Debugging_Teams)
 
 ## Blog Posts
 
