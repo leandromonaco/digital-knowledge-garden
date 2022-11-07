@@ -24,16 +24,17 @@
   * On-Call
   * Logging
   * Monitoring (SRE and Observability)
-#### Reference Material
-
-* [Testing in .NET](https://docs.microsoft.com/en-us/dotnet/core/testing/).
-* [Playwright for .NET](https://playwright.dev/dotnet/docs/intro).
-* [Five Ways to Improve Your Code Quality](https://blog.sonatype.com/five-ways-to-improve-your-code-quality).
-* [Future frontiers: Why developers need to go beyond the OWASP Top 10 for secure coding mastery](https://discover.securecodewarrior.com/OWASP-Top-10-and-beyond-whitepaper.html)
-* [On Technical Debt And Code Smells: Surprising insights from scientific studies](https://www.scrum.org/resources/blog/technical-debt-and-code-smells-surprising-insights-scientific-studies)
-* [Plan for tradeoffs: You can’t optimize all software quality attributes](https://stackoverflow.blog/2022/01/17/plan-for-tradeoffs-you-cant-optimize-all-software-quality-attributes)
-* [Is High Quality Software Worth the Cost?](https://martinfowler.com/articles/is-quality-worth-cost.html)
-* [The 12-Factor App](https://12factor.net/)
-* [Why SOLID principles are still the foundation for modern software architecture](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
-* [Code Review Developer Guide](https://google.github.io/eng-practices/review)
-* [The Ultimate Code Review Blog Post Series](https://www.michaelagreiler.com/code-review-blog-post-series/)
+- #### Reference Material
+  
+  * [Testing in .NET](https://docs.microsoft.com/en-us/dotnet/core/testing/).
+  * [Playwright for .NET](https://playwright.dev/dotnet/docs/intro).
+  * [Five Ways to Improve Your Code Quality](https://blog.sonatype.com/five-ways-to-improve-your-code-quality).
+  * [Future frontiers: Why developers need to go beyond the OWASP Top 10 for secure coding mastery](https://discover.securecodewarrior.com/OWASP-Top-10-and-beyond-whitepaper.html)
+  * [On Technical Debt And Code Smells: Surprising insights from scientific studies](https://www.scrum.org/resources/blog/technical-debt-and-code-smells-surprising-insights-scientific-studies)
+  * [Plan for tradeoffs: You can’t optimize all software quality attributes](https://stackoverflow.blog/2022/01/17/plan-for-tradeoffs-you-cant-optimize-all-software-quality-attributes)
+  * [Is High Quality Software Worth the Cost?](https://martinfowler.com/articles/is-quality-worth-cost.html)
+  * [The 12-Factor App](https://12factor.net/)
+  * [Why SOLID principles are still the foundation for modern software architecture](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
+  * [Code Review Developer Guide](https://google.github.io/eng-practices/review)
+  * [The Ultimate Code Review Blog Post Series](https://www.michaelagreiler.com/code-review-blog-post-series/)
+  *

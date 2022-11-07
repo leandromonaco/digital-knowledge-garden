@@ -115,10 +115,6 @@
  {:block/name "cve",
   :block/created-at 1667428362174,
   :block/updated-at 1667428595562}
- {:block/name
-  "data:image/png;base64,ivborw0kggoaaaansuheugaaacaaaaaxcaiaaadlz9q2aaaaaxnsr0iars4c6qaaaarnqu1baacxjwv8yquaaaajcehzcwaadsmaaa7dacdvqgqaaactsurbvehl5zxbdyawcewtq+ggnucxabzoju7tqzyi/hhigi+ashrwnedyh9bdq4yx8ysuuqh0ikqchnwi7muozyegp86nfwpwxkoeqavih7ezgge6gtydmil6gi/sqethxsj3enuth9/a6bcdyoiqczcixgoub1ucemejxqsjmkyd0yksmalj+kd1bnbcbc6ffsonhhg3lgq20vaaaaaasuvork5cyii=",
-  :block/created-at 1667341146275,
-  :block/updated-at 1667341146275}
  {:block/name "delivery",
   :block/created-at 1667344233833,
   :block/updated-at 1667344233833}
@@ -200,9 +196,6 @@
  {:block/name "index",
   :block/created-at 1667346741980,
   :block/updated-at 1667346741980}
- {:block/name "infer#",
-  :block/created-at 1667864666207,
-  :block/updated-at 1667865054159}
  {:block/name "interview",
   :block/created-at 1667369799862,
   :block/updated-at 1667370742716}
@@ -243,11 +236,14 @@
   :block/created-at 1667397609647,
   :block/updated-at 1667397609647}
  {:block/name "nov 4th, 2022",
-  :block/created-at 1667864555732,
-  :block/updated-at 1667864555732}
- {:block/name "nov 8th, 2022",
-  :block/created-at 1667864553550,
-  :block/updated-at 1667864553550}
+  :block/created-at 1667484009024,
+  :block/updated-at 1667484009024}
+ {:block/name "nov 5th, 2022",
+  :block/created-at 1667598965944,
+  :block/updated-at 1667598965944}
+ {:block/name "nov 7th, 2022",
+  :block/created-at 1667769998833,
+  :block/updated-at 1667769998833}
  {:block/name "now",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
@@ -265,13 +261,13 @@
   :block/updated-at 1667428181432}
  {:block/name "performance",
   :block/created-at 1667263555960,
-  :block/updated-at 1667864840407}
+  :block/updated-at 1667428547371}
  {:block/name "playwright",
   :block/created-at 1667263555933,
   :block/updated-at 1667263555933}
  {:block/name "quality",
   :block/created-at 1667344233834,
-  :block/updated-at 1667864639912}
+  :block/updated-at 1667428637334}
  {:block/name "redis",
   :block/created-at 1667263555943,
   :block/updated-at 1667263555943}

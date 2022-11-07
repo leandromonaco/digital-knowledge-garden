@@ -39,7 +39,7 @@
   :block/updated-at 1667370167129}
  {:block/name "aws",
   :block/created-at 1667263555351,
-  :block/updated-at 1667515168510}
+  :block/updated-at 1667263555351}
  {:block/name "azure",
   :block/created-at 1667343470845,
   :block/updated-at 1667343470845}
@@ -70,15 +70,9 @@
  {:block/name "certificates",
   :block/created-at 1667263555472,
   :block/updated-at 1667263555472}
- {:block/name "certifications",
-  :block/created-at 1667515146544,
-  :block/updated-at 1667515150740}
  {:block/name "cli",
   :block/created-at 1667263555583,
   :block/updated-at 1667263555583}
- {:block/name "cloud costs",
-  :block/created-at 1667513202612,
-  :block/updated-at 1667513325991}
  {:block/name "coaching",
   :block/created-at 1667344233378,
   :block/updated-at 1667369076579}
@@ -88,9 +82,6 @@
  {:block/name "codingstandards",
   :block/created-at 1667263555646,
   :block/updated-at 1667263555646}
- {:block/name "community of practice",
-  :block/created-at 1667515450627,
-  :block/updated-at 1667515725995}
  {:block/name "conferences",
   :block/created-at 1667263434509,
   :block/updated-at 1667263434509}
@@ -102,7 +93,7 @@
   :block/updated-at 1667263708888}
  {:block/name "continous learning",
   :block/created-at 1667263434511,
-  :block/updated-at 1667515450628}
+  :block/updated-at 1667342248663}
  {:block/name "cross-site request forgery",
   :block/created-at 1667367582572,
   :block/updated-at 1667367582572}
@@ -180,8 +171,8 @@
   :block/created-at 1667263575969,
   :block/updated-at 1667263575969}
  {:block/name "high performing teams",
-  :block/created-at 1667513007920,
-  :block/updated-at 1667513007920}
+  :block/created-at 1667451236967,
+  :block/updated-at 1667451271196}
  {:block/name "hiring",
   :block/created-at 1667369683530,
   :block/updated-at 1667369822321}
@@ -200,9 +191,6 @@
  {:block/name "index",
   :block/created-at 1667346741980,
   :block/updated-at 1667346741980}
- {:block/name "infer#",
-  :block/created-at 1667864666207,
-  :block/updated-at 1667865054159}
  {:block/name "interview",
   :block/created-at 1667369799862,
   :block/updated-at 1667370742716}
@@ -219,11 +207,11 @@
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
  {:block/name "leadership",
-  :block/created-at 1667513008019,
-  :block/updated-at 1667513008019}
+  :block/created-at 1667451092491,
+  :block/updated-at 1667451208621}
  {:block/name "management",
   :block/created-at 1667368002991,
-  :block/updated-at 1667513359130}
+  :block/updated-at 1667451236967}
  {:block/name "metrics",
   :block/created-at 1667369320876,
   :block/updated-at 1667369320876}
@@ -243,11 +231,8 @@
   :block/created-at 1667397609647,
   :block/updated-at 1667397609647}
  {:block/name "nov 4th, 2022",
-  :block/created-at 1667864555732,
-  :block/updated-at 1667864555732}
- {:block/name "nov 8th, 2022",
-  :block/created-at 1667864553550,
-  :block/updated-at 1667864553550}
+  :block/created-at 1667484009024,
+  :block/updated-at 1667484009024}
  {:block/name "now",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
@@ -265,13 +250,13 @@
   :block/updated-at 1667428181432}
  {:block/name "performance",
   :block/created-at 1667263555960,
-  :block/updated-at 1667864840407}
+  :block/updated-at 1667428547371}
  {:block/name "playwright",
   :block/created-at 1667263555933,
   :block/updated-at 1667263555933}
  {:block/name "quality",
   :block/created-at 1667344233834,
-  :block/updated-at 1667864639912}
+  :block/updated-at 1667428637334}
  {:block/name "redis",
   :block/created-at 1667263555943,
   :block/updated-at 1667263555943}
