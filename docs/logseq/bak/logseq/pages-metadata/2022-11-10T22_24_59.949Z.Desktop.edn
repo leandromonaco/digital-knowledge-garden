@@ -55,9 +55,6 @@
  {:block/name "c",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
- {:block/name "c#",
-  :block/created-at 1668123634473,
-  :block/updated-at 1668123634473}
  {:block/name "canceled",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
@@ -74,14 +71,14 @@
   :block/created-at 1667263555472,
   :block/updated-at 1667263555472}
  {:block/name "certifications",
-  :block/created-at 1668117900703,
-  :block/updated-at 1668117900703}
+  :block/created-at 1667515146544,
+  :block/updated-at 1667515150740}
  {:block/name "cli",
   :block/created-at 1667263555583,
   :block/updated-at 1667263555583}
  {:block/name "cloud costs",
-  :block/created-at 1668117900832,
-  :block/updated-at 1668117900832}
+  :block/created-at 1667513202612,
+  :block/updated-at 1667513325991}
  {:block/name "coaching",
   :block/created-at 1667344233378,
   :block/updated-at 1667369076579}
@@ -92,8 +89,8 @@
   :block/created-at 1667263555646,
   :block/updated-at 1667263555646}
  {:block/name "community of practice",
-  :block/created-at 1668117900910,
-  :block/updated-at 1668117900910}
+  :block/created-at 1667515450627,
+  :block/updated-at 1667515725995}
  {:block/name "conferences",
   :block/created-at 1667263434509,
   :block/updated-at 1667263434509}
@@ -150,8 +147,8 @@
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
  {:block/name "dotnet list package",
-  :block/created-at 1668117901014,
-  :block/updated-at 1668117901014}
+  :block/created-at 1667965371336,
+  :block/updated-at 1667965595877}
  {:block/name "dynamodb",
   :block/created-at 1667357465999,
   :block/updated-at 1667357465999}
@@ -186,8 +183,8 @@
   :block/created-at 1667263575969,
   :block/updated-at 1667263575969}
  {:block/name "high performing teams",
-  :block/created-at 1668117901037,
-  :block/updated-at 1668117901037}
+  :block/created-at 1667513007920,
+  :block/updated-at 1667513007920}
  {:block/name "hiring",
   :block/created-at 1667369683530,
   :block/updated-at 1667369822321}
@@ -207,8 +204,8 @@
   :block/created-at 1667346741980,
   :block/updated-at 1667346741980}
  {:block/name "infer#",
-  :block/created-at 1668117901069,
-  :block/updated-at 1668117901069}
+  :block/created-at 1667864666207,
+  :block/updated-at 1667865054159}
  {:block/name "interview",
   :block/created-at 1667369799862,
   :block/updated-at 1667370742716}
@@ -225,8 +222,8 @@
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
  {:block/name "leadership",
-  :block/created-at 1668117901152,
-  :block/updated-at 1668117901152}
+  :block/created-at 1667513008019,
+  :block/updated-at 1667513008019}
  {:block/name "management",
   :block/created-at 1667368002991,
   :block/updated-at 1667513359130}
@@ -234,17 +231,17 @@
   :block/created-at 1667369320876,
   :block/updated-at 1667369320876}
  {:block/name "microsoft application inspector",
-  :block/created-at 1668117901176,
-  :block/updated-at 1668117901176}
+  :block/created-at 1667865623887,
+  :block/updated-at 1667865793399}
  {:block/name "minimalapi",
   :block/created-at 1667263555865,
   :block/updated-at 1667263555865}
  {:block/name "namespace",
   :block/created-at 1667263435096,
   :block/updated-at 1667263435096}
- {:block/name "nov 11th, 2022",
-  :block/created-at 1668117900442,
-  :block/updated-at 1668124496607}
+ {:block/name "nov 10th, 2022",
+  :block/created-at 1668002450580,
+  :block/updated-at 1668002450580}
  {:block/name "nov 1st, 2022",
   :block/created-at 1667263434121,
   :block/updated-at 1667263434121}
@@ -257,6 +254,12 @@
  {:block/name "nov 4th, 2022",
   :block/created-at 1667864555732,
   :block/updated-at 1667864555732}
+ {:block/name "nov 8th, 2022",
+  :block/created-at 1667864553550,
+  :block/updated-at 1667864553550}
+ {:block/name "nov 9th, 2022",
+  :block/created-at 1667924678677,
+  :block/updated-at 1667924678677}
  {:block/name "now",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
@@ -279,8 +282,8 @@
   :block/created-at 1667263555933,
   :block/updated-at 1667263555933}
  {:block/name "psychological safety",
-  :block/created-at 1668117901197,
-  :block/updated-at 1668117901197}
+  :block/created-at 1667865219006,
+  :block/updated-at 1667865219006}
  {:block/name "quality",
   :block/created-at 1667344233834,
   :block/updated-at 1667864639912}
@@ -301,7 +304,7 @@
   :block/updated-at 1667428175896}
  {:block/name "security",
   :block/created-at 1667366427043,
-  :block/updated-at 1668123835598}
+  :block/updated-at 1667428362174}
  {:block/name "shareknowledgecampaign",
   :block/created-at 1667263575892,
   :block/updated-at 1667263575892}
