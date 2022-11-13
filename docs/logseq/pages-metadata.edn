@@ -176,6 +176,9 @@
  {:block/name "git",
   :block/created-at 1667263555759,
   :block/updated-at 1667263555759}
+ {:block/name "github",
+  :block/created-at 1668137251021,
+  :block/updated-at 1668137251021}
  {:block/name "goals",
   :block/created-at 1667263512359,
   :block/updated-at 1667370666044}
@@ -244,7 +247,7 @@
   :block/updated-at 1667263435096}
  {:block/name "nov 11th, 2022",
   :block/created-at 1668117900442,
-  :block/updated-at 1668124989563}
+  :block/updated-at 1668137324192}
  {:block/name "nov 2nd, 2022",
   :block/created-at 1667344137096,
   :block/updated-at 1667367345678}
