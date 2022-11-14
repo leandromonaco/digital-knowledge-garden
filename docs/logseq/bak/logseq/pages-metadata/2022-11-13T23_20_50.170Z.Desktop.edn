@@ -56,8 +56,8 @@
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
  {:block/name "c#",
-  :block/created-at 1668381051504,
-  :block/updated-at 1668381051504}
+  :block/created-at 1668123634473,
+  :block/updated-at 1668123634473}
  {:block/name "canceled",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
@@ -74,14 +74,14 @@
   :block/created-at 1667263555472,
   :block/updated-at 1667263555472}
  {:block/name "certifications",
-  :block/created-at 1668381051736,
-  :block/updated-at 1668381051736}
+  :block/created-at 1668117900703,
+  :block/updated-at 1668117900703}
  {:block/name "cli",
   :block/created-at 1667263555583,
   :block/updated-at 1667263555583}
  {:block/name "cloud costs",
-  :block/created-at 1668381051781,
-  :block/updated-at 1668381051781}
+  :block/created-at 1668117900832,
+  :block/updated-at 1668117900832}
  {:block/name "coaching",
   :block/created-at 1667344233378,
   :block/updated-at 1667369076579}
@@ -92,8 +92,8 @@
   :block/created-at 1667263555646,
   :block/updated-at 1667263555646}
  {:block/name "community of practice",
-  :block/created-at 1668381052103,
-  :block/updated-at 1668381052103}
+  :block/created-at 1668117900910,
+  :block/updated-at 1668117900910}
  {:block/name "conferences",
   :block/created-at 1667263434509,
   :block/updated-at 1667263434509}
@@ -118,6 +118,10 @@
  {:block/name "cve",
   :block/created-at 1667428362174,
   :block/updated-at 1667428595562}
+ {:block/name
+  "data:image/png;base64,ivborw0kggoaaaansuheugaaacaaaaaxcaiaaadlz9q2aaaaaxnsr0iars4c6qaaaarnqu1baacxjwv8yquaaaajcehzcwaadsmaaa7dacdvqgqaaactsurbvehl5zxbdyawcewtq+ggnucxabzoju7tqzyi/hhigi+ashrwnedyh9bdq4yx8ysuuqh0ikqchnwi7muozyegp86nfwpwxkoeqavih7ezgge6gtydmil6gi/sqethxsj3enuth9/a6bcdyoiqczcixgoub1ucemejxqsjmkyd0yksmalj+kd1bnbcbc6ffsonhhg3lgq20vaaaaaasuvork5cyii=",
+  :block/created-at 1667341146275,
+  :block/updated-at 1667341146275}
  {:block/name "delivery",
   :block/created-at 1667344233833,
   :block/updated-at 1667344233833}
@@ -138,7 +142,7 @@
   :block/updated-at 1667275230272}
  {:block/name "documentation",
   :block/created-at 1667343053184,
-  :block/updated-at 1668381957138}
+  :block/updated-at 1667343053184}
  {:block/name "doing",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
@@ -146,8 +150,8 @@
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
  {:block/name "dotnet list package",
-  :block/created-at 1668381052336,
-  :block/updated-at 1668381052336}
+  :block/created-at 1668117901014,
+  :block/updated-at 1668117901014}
  {:block/name "dynamodb",
   :block/created-at 1667357465999,
   :block/updated-at 1667357465999}
@@ -173,8 +177,8 @@
   :block/created-at 1667263555759,
   :block/updated-at 1667263555759}
  {:block/name "github",
-  :block/created-at 1668381051530,
-  :block/updated-at 1668381051530}
+  :block/created-at 1668137251021,
+  :block/updated-at 1668137251021}
  {:block/name "goals",
   :block/created-at 1667263512359,
   :block/updated-at 1667370666044}
@@ -185,8 +189,8 @@
   :block/created-at 1667263575969,
   :block/updated-at 1667263575969}
  {:block/name "high performing teams",
-  :block/created-at 1668381052491,
-  :block/updated-at 1668381052491}
+  :block/created-at 1668117901037,
+  :block/updated-at 1668117901037}
  {:block/name "hiring",
   :block/created-at 1667369683530,
   :block/updated-at 1667369822321}
@@ -206,8 +210,8 @@
   :block/created-at 1667346741980,
   :block/updated-at 1667346741980}
  {:block/name "infer#",
-  :block/created-at 1668381052612,
-  :block/updated-at 1668381052612}
+  :block/created-at 1668117901069,
+  :block/updated-at 1668117901069}
  {:block/name "interview",
   :block/created-at 1667369799862,
   :block/updated-at 1667370742716}
@@ -224,8 +228,8 @@
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
  {:block/name "leadership",
-  :block/created-at 1668381052801,
-  :block/updated-at 1668381052801}
+  :block/created-at 1668117901152,
+  :block/updated-at 1668117901152}
  {:block/name "management",
   :block/created-at 1667368002991,
   :block/updated-at 1667513359130}
@@ -233,8 +237,8 @@
   :block/created-at 1667369320876,
   :block/updated-at 1667369320876}
  {:block/name "microsoft application inspector",
-  :block/created-at 1668381052875,
-  :block/updated-at 1668381052875}
+  :block/created-at 1668117901176,
+  :block/updated-at 1668117901176}
  {:block/name "minimalapi",
   :block/created-at 1667263555865,
   :block/updated-at 1667263555865}
@@ -242,20 +246,11 @@
   :block/created-at 1667263435096,
   :block/updated-at 1667263435096}
  {:block/name "nov 11th, 2022",
-  :block/created-at 1668381051535,
-  :block/updated-at 1668381051535}
- {:block/name "nov 14th, 2022",
-  :block/created-at 1668381050870,
-  :block/updated-at 1668381829680}
- {:block/name "nov 1st, 2022",
-  :block/created-at 1667263434121,
-  :block/updated-at 1667263434121}
+  :block/created-at 1668117900442,
+  :block/updated-at 1668137324192}
  {:block/name "nov 2nd, 2022",
   :block/created-at 1667344137096,
-  :block/updated-at 1668381844779}
- {:block/name "nov 3rd, 2022",
-  :block/created-at 1667397609647,
-  :block/updated-at 1667397609647}
+  :block/updated-at 1667367345678}
  {:block/name "now",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
@@ -278,8 +273,8 @@
   :block/created-at 1667263555933,
   :block/updated-at 1667263555933}
  {:block/name "psychological safety",
-  :block/created-at 1668381053047,
-  :block/updated-at 1668381053047}
+  :block/created-at 1668117901197,
+  :block/updated-at 1668117901197}
  {:block/name "quality",
   :block/created-at 1667344233834,
   :block/updated-at 1667864639912}
@@ -289,9 +284,9 @@
  {:block/name "registry",
   :block/created-at 1667263435096,
   :block/updated-at 1667263435096}
- {:block/name "remote",
-  :block/created-at 1668381738809,
-  :block/updated-at 1668381738809}
+ {:block/name "remote-first",
+  :block/created-at 1668124966129,
+  :block/updated-at 1668124966129}
  {:block/name "replicas",
   :block/created-at 1667263435097,
   :block/updated-at 1667263435097}
