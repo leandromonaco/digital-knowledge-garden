@@ -1,4 +1,5 @@
 # 📚 Training
+title:: Training
 - [[Books]]
 -
 ## Blog Posts
