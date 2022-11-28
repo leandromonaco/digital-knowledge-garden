@@ -1,4 +1,8 @@
-- # Docker and [[.NET]] 
+- ## Installation
+- 1 - Ensure [Hyper-V has been enabled](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
+- 2 - Run ``winget install -e --id Docker.DockerDesktop``
+-
+- ## Docker and [[.NET]] 
   
   [Built-in container support for the .NET SDK](https://devblogs.microsoft.com/dotnet/announcing-builtin-container-support-for-the-dotnet-sdk/)
   
@@ -18,12 +22,12 @@
   ```
   
   Now you can go to `http://localhost:5010` and you should see the sample MVC application, rendered in all its glory.
-# Build and Run container
-
-1. Navigate to the folder where the Dockerfile is stored
-2. Run ```docker build -t angular-container:1.0 .```
-3. Search ImageID by running ```docker images```
-4. Run ```docker run -p 80:80 469b3a773ed7```
+- ## Build and Run container
+  
+  1. Navigate to the folder where the Dockerfile is stored
+  2. Run ```docker build -t angular-container:1.0 .```
+  3. Search ImageID by running ```docker images```
+  4. Run ```docker run -p 80:80 469b3a773ed7```
 ## Dockerfile example
 ```
 FROM node:lts as node
@@ -45,7 +49,7 @@ COPY --from=node /usr/src/app/my-app/dist/team-hub.ui /usr/share/nginx/html
 - https://hub.docker.com/_/nginx
 - https://hub.docker.com/_/microsoft-mssql-server
 - https://hub.docker.com/_/redis
-# Useful Commands
+- # Commands
 - Display containers' resource usage statistics ```docker stats --all --no-stream```
 - Stop running containers ```docker kill $(docker ps -q)```
 - Remove all containers ```docker rm $(docker ps -a -q)```

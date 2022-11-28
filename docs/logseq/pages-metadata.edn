@@ -50,8 +50,8 @@
   :block/created-at 1667264507934,
   :block/updated-at 1667264507934}
  {:block/name "books",
-  :block/created-at 1668385674258,
-  :block/updated-at 1668385985417}
+  :block/created-at 1669588350076,
+  :block/updated-at 1669588350076}
  {:block/name "browser compatibility",
   :block/created-at 1667366795950,
   :block/updated-at 1667366795950}
@@ -77,14 +77,14 @@
   :block/created-at 1667263555472,
   :block/updated-at 1667263555472}
  {:block/name "certifications",
-  :block/created-at 1668381051736,
-  :block/updated-at 1668381051736}
+  :block/created-at 1669588350407,
+  :block/updated-at 1669588350407}
  {:block/name "cli",
   :block/created-at 1667263555583,
   :block/updated-at 1667263555583}
  {:block/name "cloud costs",
-  :block/created-at 1668381051781,
-  :block/updated-at 1668381051781}
+  :block/created-at 1669588350473,
+  :block/updated-at 1669588350473}
  {:block/name "coaching",
   :block/created-at 1667344233378,
   :block/updated-at 1667369076579}
@@ -95,8 +95,8 @@
   :block/created-at 1667263555646,
   :block/updated-at 1667263555646}
  {:block/name "community of practice",
-  :block/created-at 1668381052103,
-  :block/updated-at 1668381052103}
+  :block/created-at 1669588351028,
+  :block/updated-at 1669588351028}
  {:block/name "conferences",
   :block/created-at 1667263434509,
   :block/updated-at 1667263434509}
@@ -121,6 +121,10 @@
  {:block/name "cve",
   :block/created-at 1667428362174,
   :block/updated-at 1667428595562}
+ {:block/name
+  "data:image/png;base64,ivborw0kggoaaaansuheugaaacaaaaaxcaiaaadlz9q2aaaaaxnsr0iars4c6qaaaarnqu1baacxjwv8yquaaaajcehzcwaadsmaaa7dacdvqgqaaactsurbvehl5zxbdyawcewtq+ggnucxabzoju7tqzyi/hhigi+ashrwnedyh9bdq4yx8ysuuqh0ikqchnwi7muozyegp86nfwpwxkoeqavih7ezgge6gtydmil6gi/sqethxsj3enuth9/a6bcdyoiqczcixgoub1ucemejxqsjmkyd0yksmalj+kd1bnbcbc6ffsonhhg3lgq20vaaaaaasuvork5cyii=",
+  :block/created-at 1667341146275,
+  :block/updated-at 1667341146275}
  {:block/name "delivery",
   :block/created-at 1667344233833,
   :block/updated-at 1667344233833}
@@ -129,7 +133,7 @@
   :block/updated-at 1667458175596}
  {:block/name "development environment setup",
   :block/created-at 1667344233755,
-  :block/updated-at 1667344233755}
+  :block/updated-at 1669589061607}
  {:block/name "development-guidelines",
   :block/created-at 1667263512465,
   :block/updated-at 1667263512465}
@@ -141,7 +145,7 @@
   :block/updated-at 1667275230272}
  {:block/name "documentation",
   :block/created-at 1667343053184,
-  :block/updated-at 1668381957138}
+  :block/updated-at 1668648670469}
  {:block/name "doing",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
@@ -149,8 +153,8 @@
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
  {:block/name "dotnet list package",
-  :block/created-at 1668381052336,
-  :block/updated-at 1668381052336}
+  :block/created-at 1669588351489,
+  :block/updated-at 1669588351489}
  {:block/name "dynamodb",
   :block/created-at 1667357465999,
   :block/updated-at 1667357465999}
@@ -188,8 +192,8 @@
   :block/created-at 1667263575969,
   :block/updated-at 1667263575969}
  {:block/name "high performing teams",
-  :block/created-at 1668381052491,
-  :block/updated-at 1668381052491}
+  :block/created-at 1669588351898,
+  :block/updated-at 1669588351898}
  {:block/name "hiring",
   :block/created-at 1667369683530,
   :block/updated-at 1667369822321}
@@ -209,8 +213,8 @@
   :block/created-at 1667346741980,
   :block/updated-at 1667346741980}
  {:block/name "infer#",
-  :block/created-at 1668381052612,
-  :block/updated-at 1668381052612}
+  :block/created-at 1669588352112,
+  :block/updated-at 1669588352112}
  {:block/name "interview",
   :block/created-at 1667369799862,
   :block/updated-at 1667370742716}
@@ -227,8 +231,8 @@
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}
  {:block/name "leadership",
-  :block/created-at 1668381052801,
-  :block/updated-at 1668381052801}
+  :block/created-at 1669588352594,
+  :block/updated-at 1669588352594}
  {:block/name "management",
   :block/created-at 1667368002991,
   :block/updated-at 1667513359130}
@@ -236,8 +240,8 @@
   :block/created-at 1667369320876,
   :block/updated-at 1667369320876}
  {:block/name "microsoft application inspector",
-  :block/created-at 1668381052875,
-  :block/updated-at 1668381052875}
+  :block/created-at 1669588352717,
+  :block/updated-at 1669588352717}
  {:block/name "minimalapi",
   :block/created-at 1667263555865,
   :block/updated-at 1667263555865}
@@ -250,15 +254,15 @@
  {:block/name "nov 14th, 2022",
   :block/created-at 1668381050870,
   :block/updated-at 1668381829680}
- {:block/name "nov 15th, 2022",
-  :block/created-at 1668440863415,
-  :block/updated-at 1668440863415}
- {:block/name "nov 16th, 2022",
-  :block/created-at 1668549783078,
-  :block/updated-at 1668549783078}
+ {:block/name "nov 17th, 2022",
+  :block/created-at 1668635526470,
+  :block/updated-at 1668648461896}
  {:block/name "nov 1st, 2022",
   :block/created-at 1667263434121,
   :block/updated-at 1667263434121}
+ {:block/name "nov 28th, 2022",
+  :block/created-at 1669588347383,
+  :block/updated-at 1669588347383}
  {:block/name "nov 2nd, 2022",
   :block/created-at 1667344137096,
   :block/updated-at 1668381844779}
@@ -287,8 +291,8 @@
   :block/created-at 1667263555933,
   :block/updated-at 1667263555933}
  {:block/name "psychological safety",
-  :block/created-at 1668381053047,
-  :block/updated-at 1668381053047}
+  :block/created-at 1669588353041,
+  :block/updated-at 1669588353041}
  {:block/name "quality",
   :block/created-at 1667344233834,
   :block/updated-at 1667864639912}
@@ -322,6 +326,9 @@
  {:block/name "support",
   :block/created-at 1667263527590,
   :block/updated-at 1667263527590}
+ {:block/name "tdd",
+  :block/created-at 1668648327631,
+  :block/updated-at 1668648327631}
  {:block/name "todo",
   :block/created-at 1667263698331,
   :block/updated-at 1667263698331}

@@ -1,3 +1,2 @@
-- [Docs as Code](https://writethedocs.org/guide/docs-as-code.html)
--
--
+- [Docs as Code](https://www.writethedocs.org/guide/docs-as-code/)
+- [Documentation Guide](https://www.writethedocs.org/guide/)
