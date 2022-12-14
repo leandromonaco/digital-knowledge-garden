@@ -1,11 +1,12 @@
 - ## Installation
   
-  1. Run`winget install -e --id Microsoft.WindowsTerminal`
-  2. Install [[Powershell]] 
-  3. Run `winget install JanDeDobbeleer.OhMyPosh -s winget`
-  4. Run `Install-Module PSReadLine -AllowPrerelease -Force`
-  5. Run `notepad $PROFILE` 
-  6. Add these lines
+  1. Install a [Nerd Font](https://www.nerdfonts.com/font-downloads)
+  2. Run`winget install -e --id Microsoft.WindowsTerminal`
+  3. Install [[Powershell]] 
+  4. Run `winget install JanDeDobbeleer.OhMyPosh -s winget`
+  5. Run `Install-Module PSReadLine -AllowPrerelease -Force`
+  6. Run `notepad $PROFILE` 
+  7. Add these lines
   ```
   oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" | Invoke-Expression
   Import-Module PSReadLine
