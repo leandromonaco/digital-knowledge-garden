@@ -1,4 +1,4 @@
-- ## Installation
+## Installation
   
   1. Install a [Nerd Font](https://www.nerdfonts.com/font-downloads)
   2. Run`winget install -e --id Microsoft.WindowsTerminal`
@@ -14,8 +14,8 @@
   Set-PSReadLineOption -PredictionViewStyle ListView  
   Set-PSReadLineOption -EditMode Windows
   ```
-  
-  7. Restart command prompt window
+  8. Restart command prompt window
+
 ## Documentation
 - [What is Windows Terminal?](https://learn.microsoft.com/en-us/windows/terminal/)
 - [Tutorial: Set up a custom prompt for PowerShell or WSL with Oh My Posh](https://docs.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup)
