@@ -2,11 +2,11 @@
   
   1. Install [Ubuntu Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/Ubuntu.zip)
   2. Run `winget install -e --id Microsoft.WindowsTerminal`
-  3. Install [[Powershell]] 
-  4. Run `winget install JanDeDobbeleer.OhMyPosh -s winget`
-  5. Run `Install-Module PSReadLine -AllowPrerelease -Force`
-  6. Run `notepad $PROFILE` 
-  7. Add these lines
+  4. Install [[Powershell]] 
+  5. Run `winget install JanDeDobbeleer.OhMyPosh -s winget`
+  6. Run `Install-Module PSReadLine -AllowPrerelease -Force`
+  7. Run `notepad $PROFILE` 
+  8. Add these lines
   ```
   oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" | Invoke-Expression
   Import-Module PSReadLine
@@ -15,6 +15,8 @@
   Set-PSReadLineOption -EditMode Windows
   ```
   8. Restart command prompt window
+  9. Go to Settings -> Profile -> Appearance
+  10. Choose the font
 
 ## Documentation
 - [What is Windows Terminal?](https://learn.microsoft.com/en-us/windows/terminal/)
