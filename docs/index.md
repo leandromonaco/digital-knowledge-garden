@@ -4,10 +4,12 @@ Welcome to my Digital Knowledge Garden
 
 ## Toolkit
 
-1. `winget install -e --id Mozilla.Firefox.DeveloperEdition`
-2. [Feedly](https://addons.mozilla.org/en-US/firefox/addon/feedly_mini/)
-3. [Pocket](https://getpocket.com/en/)
-4. [Daily.dev](https://daily.dev/)
+
+1. `winget install -e --id Logseq.Logseq`
+2. `winget install -e --id Mozilla.Firefox.DeveloperEdition`
+3. [Feedly](https://addons.mozilla.org/en-US/firefox/addon/feedly_mini/)
+4. [Pocket](https://getpocket.com/en/)
+5. [Daily.dev](https://daily.dev/)
 
 
 ## Reference
