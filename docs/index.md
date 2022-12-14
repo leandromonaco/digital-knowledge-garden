@@ -5,11 +5,12 @@ Welcome to my Digital Knowledge Garden
 ## Toolkit
 
 
-1. `winget install -e --id Logseq.Logseq`
-2. `winget install -e --id Mozilla.Firefox.DeveloperEdition`
-3. [Feedly](https://addons.mozilla.org/en-US/firefox/addon/feedly_mini/)
-4. [Pocket](https://getpocket.com/en/)
-5. [Daily.dev](https://daily.dev/)
+1. `git clone https://github.com/leandromonaco/leandromonaco.github.io.git C:\Dev\GitHub\Documentation`
+2. `winget install -e --id Logseq.Logseq`
+3. `winget install -e --id Mozilla.Firefox.DeveloperEdition`
+4. [Feedly](https://addons.mozilla.org/en-US/firefox/addon/feedly_mini/)
+5. [Pocket](https://getpocket.com/en/)
+6. [Daily.dev](https://daily.dev/)
 
 
 ## Reference
