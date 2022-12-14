@@ -1,6 +1,6 @@
 ## Installation
   
-  1. Install a [Nerd Font](https://www.nerdfonts.com/font-downloads)
+  1. Install [Ubuntu Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/Ubuntu.zip)
   2. Run`winget install -e --id Microsoft.WindowsTerminal`
   3. Install [[Powershell]] 
   4. Run `winget install JanDeDobbeleer.OhMyPosh -s winget`
