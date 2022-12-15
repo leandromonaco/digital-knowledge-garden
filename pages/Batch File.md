@@ -1,3 +1,8 @@
 - Open a Command Prompt (cmd)
 -
 - https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-xp/bb490890(v=technet.10)
+-
+- ## Example with [[Angular CLI]]
+- ```
+  ```
+-
