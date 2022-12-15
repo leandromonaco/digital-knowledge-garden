@@ -1,4 +1,3 @@
 - Open a Command Prompt (cmd)
 -
-- [Command-line reference A-Z]()https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-xp/bb490890(v=technet.10))
--
+- https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-xp/bb490890(v=technet.10)
