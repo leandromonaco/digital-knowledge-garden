@@ -8,6 +8,7 @@
   2. Run ```docker build -t angular-container:1.0 .```
   3. Search ImageID by running ```docker images```
   4. Run ```docker run -p 80:80 469b3a773ed7```
+-
 ## Dockerfile example
 ```
 FROM node:lts as node
