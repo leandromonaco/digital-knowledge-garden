@@ -14,6 +14,7 @@
   DISM /online /enable-feature /featurename:IIS-ISAPIExtensions
   DISM /online /enable-feature /featurename:IIS-ISAPIFilter
   DISM /online /enable-feature /featurename:IIS-ASPNET45
+  DISM /online /enable-feature /featurename:IIS-CGI
   DISM /online /enable-feature /featurename:IIS-DefaultDocument
   DISM /online /enable-feature /featurename:IIS-DirectoryBrowsing
   DISM /online /enable-feature /featurename:IIS-HttpErrors

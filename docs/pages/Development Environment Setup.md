@@ -4,8 +4,8 @@
 - 4 - [[Windows Terminal]]
 - 5 - [[Docker]]
 - 6 - [[WSL]]
-- 7 - [[Git]] 
-- 8 - [[NodeJS]] 
+- 7 - [[Git]]
+- 8 - [[NodeJS]]
 - 9 - [[Angular CLI]]
 - 10 - [[.NET]]
 - 11 - [[Visual Studio]]
@@ -50,21 +50,22 @@ winget install -e --id WiresharkFoundation.Wireshark
 winget install -e --id=Amazon.NoSQLWorkbench 
 winget install DevToys
 ```
-# Misc
-```
-winget install "Files App"
-winget install -e --id 7zip.7zip
-winget install -e --id Microsoft.PowerToys
-winget install -e --id VideoLAN.VLC
-winget install -e --id ShareX.ShareX
-winget install -e --id Grammarly.ForOffice
-winget install -e --id Grammarly.ForWindows
-winget install -e --id OBSProject.OBSStudio
-winget install -e --id JGraph.Draw
-winget install -e --id GIMP.GIMP
-winget install -e --id JAMSoftware.TreeSize.Free
-winget install -e --id Logseq.Logseq
-```
+- # Misc
+  ```
+  winget install "Files App"
+  winget install -e --id 7zip.7zip
+  winget install -e --id Microsoft.PowerToys
+  winget install -e --id VideoLAN.VLC
+  winget install -e --id ShareX.ShareX
+  winget install -e --id Grammarly.ForOffice
+  winget install -e --id Grammarly.ForWindows
+  winget install -e --id OBSProject.OBSStudio
+  winget install -e --id JGraph.Draw
+  winget install -e --id GIMP.GIMP
+  winget install -e --id JAMSoftware.TreeSize.Free
+  winget install -e --id Logseq.Logseq
+  winget install -e --id Twilio.Authy
+  ```
 - # [[AWS]] 
   ```
   winget install -e --id Amazon.AWSCLI
