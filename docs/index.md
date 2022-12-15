@@ -1,7 +1,6 @@
-Welcome to my Digital Knowledge Garden
-
-"The more I learn, the more I realize how much I don't know" -Aristotle
-
+- Welcome to my Digital Knowledge Garden 🌱
+  
+  "The more I learn, the more I realize how much I don't know" -Aristotle
 - ## Toolkit
 - ### LogSeq
 - 1. `git clone https://github.com/leandromonaco/leandromonaco.github.io.git C:\Dev\GitHub\Documentation`
