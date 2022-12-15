@@ -1,6 +1,6 @@
 ## Installation
   
-  1. Install [Ubuntu Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/Ubuntu.zip)
+  1. Install [Caskaydia Cove Nerd Font Complete Regular.otf](https://github.com/ryanoasis/nerd-fonts/blob/3b93c9963710a840f12c3f3e4e6f6240e39cbbdc/patched-fonts/CascadiaCode/Regular/complete/Caskaydia%20Cove%20Nerd%20Font%20Complete%20Regular.otf)
   2. Run `winget install -e --id Microsoft.WindowsTerminal`
   4. Install [[Powershell]] 
   5. Run `winget install JanDeDobbeleer.OhMyPosh -s winget`
@@ -16,7 +16,7 @@
   ```
   8. Restart command prompt window
   9. Go to Settings -> Profile -> Appearance
-  10. Choose the font
+  10. Choose the CaskaydiaCove Nerd Font
 
 ## Documentation
 - [What is Windows Terminal?](https://learn.microsoft.com/en-us/windows/terminal/)
