@@ -4,11 +4,12 @@
   2. Click on nvm-setup.zip
   3. Extract and install it (Reboot might be required)
   4. Run `nvm --version` to verify if your nvm installation was successful.
+-
 - **NVM Commands:**
   ```
   nvm install latest
   nvm install lts
   nvm list
-  nvm use lts
+  nvm use latest
   nvm current
   ```

@@ -3,8 +3,8 @@
 Introduction to Angular: [Codelab](https://codelabs.developers.google.com/introduction-to-angular#0) | [Video](https://www.youtube.com/watch?v=qxchrt04bTA)
 - # Tools
   
-  1. 
-  3. Install Angular Language Service for VS Code ```code --install-extension angular.ng-template```
+  1. [[Angular CLI]] 
+  3. Install Angular Language Service for VS Code `code --install-extension angular.ng-template`
 # Create a new Angular App
 
 1. Run ```ng new NewApp.UI --strict false```
