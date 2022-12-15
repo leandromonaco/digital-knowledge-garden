@@ -16,7 +16,8 @@
   ```
   8. Restart command prompt window
   9. Go to Settings -> Profile -> Appearance
-  10. Choose the CaskaydiaCove Nerd Font
+  10. Check "Show all fonts"
+  11. Choose the CaskaydiaCove Nerd Font
 
 ## Documentation
 - [What is Windows Terminal?](https://learn.microsoft.com/en-us/windows/terminal/)
