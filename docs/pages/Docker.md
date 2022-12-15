@@ -2,27 +2,7 @@
 - 1 - Ensure [Hyper-V has been enabled](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
 - 2 - Run ``winget install -e --id Docker.DockerDesktop``
 -
-- ## Docker and [[.NET]] 
-  
-  [Built-in container support for the .NET SDK](https://devblogs.microsoft.com/dotnet/announcing-builtin-container-support-for-the-dotnet-sdk/)
-  
-  ```
-  # create a new project and move to its directory
-  dotnet new mvc -n my-awesome-container-app
-  cd my-awesome-container-app
-  
-  # add a reference to a (temporary) package that creates the container
-  dotnet add package Microsoft.NET.Build.Containers
-  
-  # publish your project for linux-x64
-  dotnet publish --os linux --arch x64 -p:PublishProfile=DefaultContainer
-  
-  # run your app using the new container
-  docker run -it --rm -p 5010:80 my-awesome-container-app:1.0.0
-  ```
-  
-  Now you can go to `http://localhost:5010` and you should see the sample MVC application, rendered in all its glory.
-- ## Build and Run container
+- ## Build and Run a Container
   
   1. Navigate to the folder where the Dockerfile is stored
   2. Run ```docker build -t angular-container:1.0 .```
