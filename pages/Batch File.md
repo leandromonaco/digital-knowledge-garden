@@ -4,14 +4,13 @@
 -
 - ## Example with [[Angular CLI]]
 -
-- AngularParallelBuild.bat
+- **AngularParallelBuild.bat**
 - ```
   start AngularBuild.bat C:\Dev\App1
   start AngularBuild.bat C:\Dev\App2
   start AngularBuild.bat C:\Dev\App3
   start AngularBuild.bat C:\Dev\App3
   ```
--
 -
 - **AngularBuild.bat**
 - ```
