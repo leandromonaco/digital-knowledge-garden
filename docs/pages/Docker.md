@@ -5,9 +5,9 @@
 - ## Build and Run a Container
   
   1. Navigate to the folder where the Dockerfile is stored
-  2. Run ```docker build -t angular-container:1.0 .```
-  3. Search ImageID by running ```docker images```
-  4. Run ```docker run -p 80:80 469b3a773ed7```
+  2. Run `docker build -t angular-container:1.0 .`
+  3. Search ImageID by running `docker images`
+  4. Run `docker run -p 80:80 469b3a773ed7`
 -
 ## Dockerfile example
 ```
