@@ -13,6 +13,7 @@ Welcome to my Digital Knowledge Garden
   7. [Feedly](https://addons.mozilla.org/en-US/firefox/addon/feedly_mini/)
   8. [Pocket](https://getpocket.com/en/)
   9. [Daily.dev](https://daily.dev/)
+-
 ## Reference
 - [Your future self will thank you: Building your personal documentation](https://github.com/readme/guides/private-documentation)
 - [Cultivating a 'digital knowledge garden' with Logseq](https://www.youtube.com/watch?v=SUOdfa3MucE)
