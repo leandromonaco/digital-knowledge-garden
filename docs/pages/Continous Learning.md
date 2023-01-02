@@ -16,6 +16,10 @@
 - [[Community Of Practice]]
 - [[Certifications]]
 -
+- ### [[Azure]]
+-
+- Obtain a [certification](https://docs.microsoft.com/en-us/learn/certifications/certification-process-overview) or [renew](https://docs.microsoft.com/en-us/learn/certifications/renew-your-microsoft-certification) it
+-
 - ### [[Soft Skills]]
 - Develop a [growth mindset](https://docs.microsoft.com/en-us/learn/modules/develop-growth-mindset/)
 - Enhance your [self-efficacy](https://docs.microsoft.com/en-us/learn/modules/enhance-self-efficacy/)
