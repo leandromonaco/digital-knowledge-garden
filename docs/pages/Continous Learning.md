@@ -22,8 +22,11 @@
 - [[Community Of Practice]]
 - [[Certifications]]
 -
-- [[]]
+- ### Free Training
 - https://learndigital.withgoogle.com/digitalgarage/
+-
+- ### [[Project Management]]
+- https://www.perfectkickoff.com/
 -
 - ### [[AWS]]
 -
