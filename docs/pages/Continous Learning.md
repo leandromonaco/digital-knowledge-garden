@@ -22,6 +22,8 @@
 - [[Community Of Practice]]
 - [[Certifications]]
 -
+-
+-
 - ### [[AWS]]
 -
 - [AWS Workshops](https://workshops.aws/)
