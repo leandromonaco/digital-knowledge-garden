@@ -24,6 +24,7 @@
 -
 - ### Free Training
 - https://learndigital.withgoogle.com/digitalgarage/
+- https://grow.google
 -
 - ### [[Project Management]]
 - https://www.perfectkickoff.com/
