@@ -14,6 +14,9 @@
 - Participate in a [hackathon](https://www.agorize.com/en/challenges?group=3)
 - [[Community Of Practice]]
 -
+- ### [[Hackatons]]
+- https://www.agorize.com/en/challenges
+-
 - ### [[Code Katas]]
 - https://www.codewars.com/
 -
