@@ -14,7 +14,8 @@
 - Participate in a [hackathon](https://www.agorize.com/en/challenges?group=3)
 - Practice with [code katas](https://www.codewars.com/)
 - [[Community Of Practice]]
-- [[Certifications]]
+-
+- [[Code Katas]]
 -
 - ### [[Azure]]
 -
