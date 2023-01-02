@@ -17,7 +17,12 @@
 - [[Community Of Practice]]
 - [[Certifications]]
 -
--
+- ### [[Soft Skills]]
+- Develop a [growth mindset](https://docs.microsoft.com/en-us/learn/modules/develop-growth-mindset/)
+- Enhance your [self-efficacy](https://docs.microsoft.com/en-us/learn/modules/enhance-self-efficacy/)
+- Exercise your [emotional intelligence](https://docs.microsoft.com/en-us/learn/modules/exercise-your-emotional-intelligence/)
+- Grow your [cognitive flexibility](https://docs.microsoft.com/en-us/learn/modules/grow-cognitive-flexibility/)
+- Leverage [self-regulation](https://docs.microsoft.com/en-us/learn/modules/self-regulation-work-strategically/) to work strategically
 -
 - ### Training
 - https://learndigital.withgoogle.com/digitalgarage/
