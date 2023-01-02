@@ -1,4 +1,4 @@
-- # Learning
+- # [[Learning]]
 - [AWS Workshops](https://workshops.aws/)
 - [AWS Skill Builder](https://explore.skillbuilder.aws/learn)
 - [Ramp-Up Guides](https://aws.amazon.com/training/ramp-up-guides)
@@ -33,9 +33,7 @@
   - ```sam --version```
   - SAM Templates: Run ```sam init```
   ![image](https://user-images.githubusercontent.com/5598150/194959241-e345d6ee-dcd1-4e2d-b94d-0b22d8a27051.png)
-  
-  
-  ```New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" -Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force```
+  ```
 # AWS CLI
 - Install aws-cli ```winget install -e --id Amazon.AWSCLI```
 ## Useful Commands
