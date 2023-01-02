@@ -8,7 +8,6 @@
 - Apply the knowledge to something you care about
 - Join a [course club](https://learning.linkedin.com/course-club)
 - Complete [online training sessions](https://docs.microsoft.com/en-us/learn/)
-- Obtain a [certification](https://docs.microsoft.com/en-us/learn/certifications/certification-process-overview) or [renew](https://docs.microsoft.com/en-us/learn/certifications/renew-your-microsoft-certification) it
 - Participate in [forums](https://docs.microsoft.com/en-us/answers/products/dotnet) and [communities](https://techcommunity.microsoft.com/t5/net/ct-p/dotnet)
 - Read [documentation](https://docs.microsoft.com/en-us/dotnet/), [e-books](https://azure.microsoft.com/en-us/resources/whitepapers/search/?type=EBookResource), [blogs](https://devblogs.microsoft.com/) or other [online resources](https://azure.microsoft.com/en-us/resources)
 - Contribute to [open source](https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/)
@@ -33,7 +32,7 @@
 - https://www.coursera.org/professional-certificates/google-project-management
 -
 - ### [[AWS]]
--
+- https://aws.amazon.com/partners/training/
 - [AWS Workshops](https://workshops.aws/)
 - [AWS Skill Builder](https://explore.skillbuilder.aws/learn)
 - [Ramp-Up Guides](https://aws.amazon.com/training/ramp-up-guides)
