@@ -3,11 +3,6 @@
   This a list of ideas to make learning a part the routine.
 - https://github.com/jorgef/engineeringladders
 - https://github.com/stars/leandromonaco/lists/roadmaps
-- Develop a [growth mindset](https://docs.microsoft.com/en-us/learn/modules/develop-growth-mindset/)
-- Enhance your [self-efficacy](https://docs.microsoft.com/en-us/learn/modules/enhance-self-efficacy/)
-- Exercise your [emotional intelligence](https://docs.microsoft.com/en-us/learn/modules/exercise-your-emotional-intelligence/)
-- Grow your [cognitive flexibility](https://docs.microsoft.com/en-us/learn/modules/grow-cognitive-flexibility/)
-- Leverage [self-regulation](https://docs.microsoft.com/en-us/learn/modules/self-regulation-work-strategically/) to work strategically
 - Attend [conferences](conferences.md)
 - Maintain a [catalog of reference-able notes](https://github.com/readme/guides/private-documentation) by documenting your learnings on an ongoing basis
 - Apply the knowledge to something you care about
@@ -22,7 +17,9 @@
 - [[Community Of Practice]]
 - [[Certifications]]
 -
-- ### Free Training
+-
+-
+- ### Training
 - https://learndigital.withgoogle.com/digitalgarage/
 - https://grow.google
 -
