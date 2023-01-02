@@ -28,6 +28,7 @@
 -
 - ### [[Project Management]]
 - https://www.perfectkickoff.com/
+- https://www.coursera.org/professional-certificates/google-project-management
 -
 - ### [[AWS]]
 -
