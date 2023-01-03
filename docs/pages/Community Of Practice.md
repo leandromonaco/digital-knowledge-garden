@@ -58,7 +58,7 @@
    a community of practice. And it is by developing these three elements 
   in parallel that one cultivates such a community.
 -
--
+- ![image.png](../../assets/image_1672704213276_0.png)
 -
 -
 - ### Sources
