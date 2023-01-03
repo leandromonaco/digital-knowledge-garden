@@ -3,7 +3,11 @@
   interact regularly.
 -
 - Three characteristics are crucial:
-- *The domain*. A community of practice is not 
+- - Domain
+- - Community
+- - Practice
+-
+- **The domain**. A community of practice is not 
   merely a club of friends or a network of connections between people. It 
   has an identity defined by a shared domain of interest. Membership 
   therefore implies a commitment to the domain, and therefore a shared 
