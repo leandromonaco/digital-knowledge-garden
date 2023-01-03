@@ -1,20 +1,6 @@
-- https://www.wenger-trayner.com/introduction-to-communities-of-practice/
--
-- Communities of practice are formed by people who engage in a 
-  process of collective learning in a shared domain of human endeavor: a 
-  tribe learning to survive, a band of artists seeking new forms of 
-  expression, a group of engineers working on similar problems, a clique 
-  of pupils defining their identity in the school, a network of surgeons 
-  exploring novel techniques, a gathering of first-time managers helping 
-  each other cope. In a nutshell:
-  
-  ![image.png](../assets/image_1667515606733_0.png) 
-  
-  Note that this definition allows for, but does not assume, 
-  intentionality: learning can be the reason the community comes together 
-  or an incidental outcome of member’s interactions. Not everything called
-   a community is a community of practice. A neighborhood for instance, is
-   often called a community, but is usually not a community of practice.
+- Communities of practice are groups of people who share a concern or a 
+  passion for something they do and learn how to do it better as they 
+  interact regularly.
 -
 - Three characteristics are crucial:
   
