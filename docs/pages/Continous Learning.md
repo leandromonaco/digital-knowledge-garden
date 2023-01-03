@@ -3,7 +3,13 @@
 -
 - ### Career
 - https://github.com/jorgef/engineeringladders
-- https://github.com/stars/leandromonaco/lists/roadmaps
+- https://github.com/sulco/angular-developer-roadmap
+- https://github.com/Elfocrash/.NET-Backend-Developer-Roadmap
+- https://github.com/MoienTajik/AspNetCore-Developer-Roadmap
+- https://github.com/kamranahmedse/developer-roadmap
+-
+-
+-
 -
 -
 - Attend [conferences](conferences.md)
