@@ -1,5 +1,6 @@
 - This a list of ideas to make learning a part the routine.
 -
+-
 - ### Career
 - https://github.com/jorgef/engineeringladders
 - https://github.com/stars/leandromonaco/lists/roadmaps
