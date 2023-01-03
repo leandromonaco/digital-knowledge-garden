@@ -1,12 +1,13 @@
 - This a list of ideas to make learning a part the routine.
 - ![image.png](../../assets/image_1672704712173_0.png)
 -
-- ### Career
+- ### Career Roadmap
 - https://github.com/jorgef/engineeringladders
 - https://github.com/sulco/angular-developer-roadmap
 - https://github.com/Elfocrash/.NET-Backend-Developer-Roadmap
 - https://github.com/MoienTajik/AspNetCore-Developer-Roadmap
 - https://github.com/kamranahmedse/developer-roadmap
+- https://github.com/fityanos/awesome-quality-assurance-roadmap
 -
 -
 -
@@ -15,8 +16,8 @@
 - Attend [conferences](conferences.md)
 - Maintain a [catalog of reference-able notes](https://github.com/readme/guides/private-documentation) by documenting your learnings on an ongoing basis
 - Apply the knowledge to something you care about
-- Join a [LinkedIn Learning Course Club](https://learning.linkedin.com/course-club)
-- Complete [online training sessions](https://docs.microsoft.com/en-us/learn/)
+- Join a Free [LinkedIn Learning Course Club](https://learning.linkedin.com/course-club)
+- Complete online training sessions on [online training sessions](https://docs.microsoft.com/en-us/learn/)
 - Participate in [forums](https://docs.microsoft.com/en-us/answers/products/dotnet) and [communities](https://techcommunity.microsoft.com/t5/net/ct-p/dotnet)
 - Read [documentation](https://docs.microsoft.com/en-us/dotnet/), [e-books](https://azure.microsoft.com/en-us/resources/whitepapers/search/?type=EBookResource), [blogs](https://devblogs.microsoft.com/) or other [online resources](https://azure.microsoft.com/en-us/resources)
 - Contribute to [open source](https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/)
