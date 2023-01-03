@@ -1,7 +1,10 @@
-- ### Career
--
--
 - This a list of ideas to make learning a part the routine.
+-
+- ### Career
+- https://github.com/jorgef/engineeringladders
+- https://github.com/stars/leandromonaco/lists/roadmaps
+-
+-
 - Attend [conferences](conferences.md)
 - Maintain a [catalog of reference-able notes](https://github.com/readme/guides/private-documentation) by documenting your learnings on an ongoing basis
 - Apply the knowledge to something you care about
