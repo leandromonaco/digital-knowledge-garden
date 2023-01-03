@@ -2,7 +2,7 @@
   passion for something they do and learn how to do it better as they 
   interact regularly.
 -
-- Three characteristics are crucial:
+- **Three characteristics are crucial:**
   
   *The domain*. A community of practice is not 
   merely a club of friends or a network of connections between people. It 
@@ -57,3 +57,6 @@
    a community of practice. And it is by developing these three elements 
   in parallel that one cultivates such a community.
 - ![image.png](../assets/image_1667515543570_0.png)
+-
+- ### Sources
+- https://www.wenger-trayner.com/introduction-to-communities-of-practice/
