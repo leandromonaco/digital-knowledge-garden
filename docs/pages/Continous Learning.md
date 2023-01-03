@@ -10,6 +10,7 @@
 - https://github.com/fityanos/awesome-quality-assurance-roadmap
 -
 - Attend [conferences](conferences.md)
+- Apply the knowledge to something you care about
 - Maintain a [catalog of reference-able notes](https://github.com/readme/guides/private-documentation) by documenting your learnings on an ongoing basis
 - Join a Free [LinkedIn Learning Course Club](https://learning.linkedin.com/course-club)
 - Complete online training sessions on [Microsoft Learn](https://docs.microsoft.com/en-us/learn/)
