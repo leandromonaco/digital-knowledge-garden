@@ -12,15 +12,12 @@
 -
 - Attend [conferences](conferences.md)
 - Maintain a [catalog of reference-able notes](https://github.com/readme/guides/private-documentation) by documenting your learnings on an ongoing basis
-- Apply the knowledge to something you care about
 - Join a Free [LinkedIn Learning Course Club](https://learning.linkedin.com/course-club)
 - Complete online training sessions on [Microsoft Learn](https://docs.microsoft.com/en-us/learn/)
 - Participate in [forums](https://docs.microsoft.com/en-us/answers/products/dotnet) and [communities](https://techcommunity.microsoft.com/t5/net/ct-p/dotnet)
 - Read [documentation](https://docs.microsoft.com/en-us/dotnet/), [e-books](https://azure.microsoft.com/en-us/resources/whitepapers/search/?type=EBookResource), [blogs](https://devblogs.microsoft.com/) or other [online resources](https://azure.microsoft.com/en-us/resources)
 - Contribute to [open source](https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/)
--
-- Community
-- [[Community Of Practice]]
+- Participate in a [[Community Of Practice]]
 -
 - ### [[Hackatons]]
 - https://www.agorize.com/en/challenges
