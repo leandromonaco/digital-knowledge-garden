@@ -9,7 +9,6 @@
 - https://github.com/kamranahmedse/developer-roadmap
 - https://github.com/fityanos/awesome-quality-assurance-roadmap
 -
--
 - Attend [conferences](conferences.md)
 - Maintain a [catalog of reference-able notes](https://github.com/readme/guides/private-documentation) by documenting your learnings on an ongoing basis
 - Join a Free [LinkedIn Learning Course Club](https://learning.linkedin.com/course-club)
