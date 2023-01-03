@@ -1,5 +1,5 @@
 - This a list of ideas to make learning a part the routine.
--
+- ![image.png](../../assets/image_1672704712173_0.png)
 -
 - ### Career
 - https://github.com/jorgef/engineeringladders
