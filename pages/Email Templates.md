@@ -30,4 +30,25 @@
 - Please join me in welcoming [new team member] to the team. I know that they are looking forward to getting to know everyone and getting started on their new role.
 - Best,
   [Your Name]
-- Starting CoP
+-
+- **Starting a Community Of Practice**
+-
+- Dear [Colleagues],
+  
+  I hope this email finds you well. I wanted to reach out to you about an idea I have been thinking about for a while - starting a community of practice (CoP) centered around [focus of CoP].
+  
+  I believe that this CoP has the potential to bring together a group of individuals who are passionate about [focus of CoP] and provide a space for us to share our knowledge and experiences, collaborate on projects, and support each other in our professional development.
+  
+  I envision the CoP meeting [frequency] and hosting events or activities that facilitate learning and collaboration. Some potential benefits of participating in the CoP include:
+- Staying up-to-date on the latest developments in [focus of CoP]
+- Connecting with like-minded professionals
+- Sharing best practices and ideas
+- Collaborating on projects and initiatives
+- Providing support and guidance to one another
+  
+  I would love to hear your thoughts on this idea and whether you might be interested in joining the CoP. Please let me know if you have any questions or if there is anything else I can provide to help convince you of the value of this opportunity.
+  
+  Thank you for considering this request.
+  
+  Best,
+  [Your Name]
