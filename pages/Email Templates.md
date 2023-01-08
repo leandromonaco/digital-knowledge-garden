@@ -52,3 +52,22 @@
   
   Best,
   [Your Name]
+-
+- **CoP Invite**
+-
+- Dear [CoP Members],
+  
+  I hope this email finds you well. I am writing to invite you to the next meeting of our community of practice (CoP) focused on [focus of CoP].
+  
+  The meeting will take place on [date] at [time] and will be held via [online platform or in-person location]. The agenda for the meeting is as follows:
+- [Agenda item 1]
+- [Agenda item 2]
+- [Agenda item 3]
+- [etc.]
+  
+  I encourage you to come prepared to share any updates, ideas, or successes related to [focus of CoP] and to actively participate in the discussion.
+  
+  I look forward to seeing you at the meeting and continuing to collaborate as a community.
+  
+  Best,
+  [Your Name]
