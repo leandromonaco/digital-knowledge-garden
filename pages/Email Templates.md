@@ -17,7 +17,7 @@
 - Our team typically starts the day at 9:00 AM, with a stand-up meeting at 9:30 AM. This is a short meeting where everyone shares what they're working on for the day.
 - Your team leader is [team leader name] and they will be your primary point of contact. Feel free to reach out to them with any questions you have.
 - We have a slack channel for the team where we communicate throughout the day. Make sure to join and introduce yourself to the team!
-- To help you get up to speed and integrated into the team as quickly as possible, I have put together an onboarding plan for your first few weeks with us.
+- I have put together an onboarding plan for your first few weeks with us to help you get up to speed.
 -
 - Again, welcome to the team! I'm looking forward to working with you.
   
