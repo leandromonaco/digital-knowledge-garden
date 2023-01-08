@@ -22,3 +22,11 @@
   
   Best,
   [Your Name]
+-
+- **Introducing a new team member**
+-
+- Hi team,
+- I am excited to introduce [new team member] who will be joining us on the team! [New team member] brings with them a wealth of experience in [industry/area of expertise] and I have no doubt that they will be a valuable asset to our group.
+- Please join me in welcoming [new team member] to the team. I know that they are looking forward to getting to know everyone and getting started on their new role.
+- Best,
+  [Your Name]
