@@ -30,3 +30,4 @@
 - Please join me in welcoming [new team member] to the team. I know that they are looking forward to getting to know everyone and getting started on their new role.
 - Best,
   [Your Name]
+- Starting CoP
