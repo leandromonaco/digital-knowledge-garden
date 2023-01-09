@@ -9,7 +9,7 @@
   
   After waiting for setup to complete, selecting the *Infer# Analysis* menu item again will prompt you to provide a directory tree (defaulting  to the solution directory, if it exists) containing the DLLs and PDBs you want to analyze. Your selection is automatically saved for future runs in the *.infersharpconfig* file created in your project directory. The analysis will then run, displaying the warnings in the Error List pane. Additionally, information about the analysis steps is shown in a pane on the right side of the editor, with clickable links to the relevant lines of code.
 - ![image.png](../assets/image_1667865053544_0.png)
-- # References
+# References
 - https://devblogs.microsoft.com/dotnet/slaying-zombie-no-repo-crashes-with-infersharp/
 - https://devblogs.microsoft.com/dotnet/infer-interprocedural-memory-safety-analysis-for-c/
 - https://github.com/microsoft/infersharp

@@ -23,7 +23,7 @@ winget install -e --id Google.Chrome.Dev
 winget install -e --id Mozilla.Firefox.DeveloperEdition
 winget install -e --id Opera.Opera
 ```
-- # Dev Tools
+# Dev Tools
   ```
   winget install -e --id Postman.Postman
   winget install -e --id Docker.DockerDesktop
@@ -50,7 +50,7 @@ winget install -e --id WiresharkFoundation.Wireshark
 winget install -e --id=Amazon.NoSQLWorkbench 
 winget install DevToys
 ```
-- # Misc
+# Misc
   ```
   winget install "Files App"
   winget install -e --id 7zip.7zip
@@ -66,12 +66,12 @@ winget install DevToys
   winget install -e --id Logseq.Logseq
   winget install -e --id Twilio.Authy
   ```
-- # [[AWS]] 
+# [[AWS]] 
   ```
   winget install -e --id Amazon.AWSCLI
   winget install -e --id Amazon.SAM-CLI
   ```
-- # [[Azure]] 
+# [[Azure]] 
   ```
   winget install -e --id Microsoft.AzureCLI
   ```

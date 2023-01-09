@@ -1,7 +1,7 @@
 # Training
 
 Introduction to Angular: [Codelab](https://codelabs.developers.google.com/introduction-to-angular#0) | [Video](https://www.youtube.com/watch?v=qxchrt04bTA)
-- # Tools
+# Tools
   
   1. [[Angular CLI]] 
   3. Install Angular Language Service for VS Code `code --install-extension angular.ng-template`

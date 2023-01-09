@@ -7,7 +7,7 @@
 - [Measure What Matters](https://www.amazon.com/Measure-What-Matters-audiobook/dp/B07BMJ4L1S/)
 - [Debugging Teams](https://www.google.com.au/books/edition/Debugging_Teams)
 -
-- # Online
+# Online
 - [Software Engineering at Google](https://abseil.io/resources/swe-book/html/toc.html)
 - [Site Reliability Engineering](https://sre.google/sre-book/table-of-contents/) (Google)
 - [Rethinking Productivity in Software Engineering](https://github.com/leandromonaco/leandromonaco.github.io/blob/main/books/Rethinking%20Productivity%20in%20Software%20Engineering.pdf)

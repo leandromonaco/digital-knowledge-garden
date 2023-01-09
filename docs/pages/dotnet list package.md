@@ -9,6 +9,6 @@
 - Migration is as easy as right-clicking ``packages.config``, and clicking ``Migrate packages.config to 
   PackageReference...``, then restoring packages by building the solution.
 -
-- # Parameters
+# Parameters
 - `--vulnerable`
 - Lists packages that have known [[Security]] vulnerabilities. Cannot be combined with  `--deprecated`  or  `--outdated`  options. Nuget.org is the source of information about vulnerabilities. For more information, see [Vulnerabilities](https://learn.microsoft.com/en-us/nuget/api/registration-base-url-resource) and [How to Scan NuGet Packages for Security Vulnerabilities](https://devblogs.microsoft.com/nuget/how-to-scan-nuget-packages-for-security-vulnerabilities/).

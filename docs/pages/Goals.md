@@ -13,7 +13,7 @@ title:: Goals
 - https://devblogs.microsoft.com/devops/devops-dojo-okrs-objectives-and-key-results/
 - https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/business-outcomes/okr
 -
-- # Objectives
+# Objectives
 - [[Culture]]
 - [[Tools and Processes]]
 - [[Delivery]]
