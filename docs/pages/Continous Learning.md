@@ -19,7 +19,11 @@
 - Contribute to [open source](https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/)
 - Participate in a [[Community Of Practice]]
 -
-- [[Communities]]
+- ### [[Redis]]
+- https://university.redis.com/
+- https://university.redis.com/courses/ru102n/
+-
+- ### [[Communities]]
 - https://techcommunity.microsoft.com/t5/net/ct-p/dotnet
 - https://stackoverflow.com/collectives/aws
 - https://repost.aws/
