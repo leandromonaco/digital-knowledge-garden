@@ -1,4 +1,4 @@
-- ## Create Self-Signed Certificate
+## Create Self-Signed Certificate
 - > [[WSL]] is required.
 -
 - 1. Open a command prompt window
@@ -45,15 +45,15 @@
 - CRT file does not contain the private key
 - KEY file contains the private key
 - PFX file contains the private key, but it's protected by a password (eg. 12345)
-- ## Install on [[Windows]]
+## Install on [[Windows]]
 - 1. Open a PowerShell window with admin rights 
   3. Run `Import-Certificate -FilePath "C:\Dev\SSL\MyLocalCertificateAuthority.crt" -CertStoreLocation Cert:\LocalMachine\Root\`
   4. Run `$mypwd = ConvertTo-SecureString "P@ssW0rD!" -AsPlainText -Force` or `$mypwd = Get-Credential -UserName 'Leandrom'`
   6. Run `Import-PfxCertificate -FilePath "C:\Dev\SSL\mydomain.com.pfx" -CertStoreLocation Cert:\LocalMachine\My\ -Password $mypwd.Password`
-- ## Configure Certificate in [[ASP.NET]]
+## Configure Certificate in [[ASP.NET]]
 - See [Documentation](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel/endpoints?view=aspnetcore-6.0)
 - See [Example](https://github.com/leandromonaco/Workbench/commit/5bf095de315630410f10bbb98d667a3148beabba)
-- ## Configure Certificate in [[Angular]]
+## Configure Certificate in [[Angular]]
 - See [Documentation](https://angular.io/cli/serve)
 - See [Example](https://github.com/leandromonaco/Workbench/commit/ef5d07e754ffe3ff812438013fa4212a5b776545)
 ## Manage Certificate Private keys 
@@ -66,7 +66,7 @@
 Notes:
 - Private key must be exportable when installing the certificate
 - In Windows 10 1809, it seems that the Manage Private Keys option is available only to certificates in the Personal store. The workaround is to drag and drop the certificate there, add permissions as needed and drag it back to where you need it.
-- ## Documentation
+## Documentation
   [How HTTPS Works](https://howhttps.works/)
 - [Import-PfxCertificate](https://docs.microsoft.com/en-us/powershell/module/pki/import-pfxcertificate?view=windowsserver2022-ps)
 - [Trusted Root Certification Authorities Certificate Store](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/trusted-root-certification-authorities-certificate-store)

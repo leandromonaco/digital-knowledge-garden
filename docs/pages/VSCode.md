@@ -1,9 +1,9 @@
 - [Visual Studio Code](https://code.visualstudio.com/download)
 -
-- ## Installation
+## Installation
 - Run ``winget install -e --id Microsoft.VisualStudioCode``
 -
-- ## Extensions
+## Extensions
   ```
   code --install-extension ms-vscode-remote.remote-containers
   code --install-extension amazonwebservices.aws-toolkit-vscode
@@ -40,5 +40,5 @@
   code --install-extension ms-vscode-remote.vscode-remote-extensionpack
   ```
 -
-- ## Documentation
+## Documentation
 - [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) extension pack for VS Code

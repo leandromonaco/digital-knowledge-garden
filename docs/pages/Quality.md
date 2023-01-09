@@ -24,7 +24,7 @@
   * On-Call
   * Logging
   * Monitoring (SRE and Observability)
-- #### Reference Material
+#### Reference Material
   
   * [Testing in .NET](https://docs.microsoft.com/en-us/dotnet/core/testing/).
   * [Playwright for .NET](https://playwright.dev/dotnet/docs/intro).

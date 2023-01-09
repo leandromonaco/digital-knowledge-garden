@@ -1,9 +1,9 @@
-- ## DISM Commands
+## DISM Commands
 - List All Features: `DISM /online /get-features /Format:Table`
 - See Feature Info: `DISM /online /get-featureinfo /featurename:[feature name]`
 - Disable Feature: `DISM /online /disable-feature /featurename:[feature name]`
 - Enable Feature: `DISM /online /enable-feature /featurename:[feature name]`
-- ## Enable Windows Features (Windows 10)
+## Enable Windows Features (Windows 10)
   
   
   ```
@@ -32,16 +32,16 @@
   DISM /online /enable-feature /featurename:IIS-CertProvider
   ```
 -
-- ## Configure IP/Port Mapping
-- ### Overview
+## Configure IP/Port Mapping
+### Overview
   ![image](https://user-images.githubusercontent.com/5598150/176797511-7b7a1cfd-0b69-4120-808b-243fc162a3da.png)
-- ### Actions
+### Actions
   
   1. Started my server on localhost:8081
   2. Added my "local DNS" in the hosts file as a new line (127.65.43.21 example.app). Any free address in the network 127.0.0.0/8 (127.x.x.x) can be used. You can check with ```netstat -a -n -p TCP | grep "LISTENING"```
   3. Added the following network configuration with `netsh interface portproxy add v4tov4 listenport=80 listenaddress=127.65.43.21 connectport=8081 connectaddress=127.0.0.1`
   4. I can now access the server at http://example.app
-- ### Notes
+### Notes
 - These commands/file modifications need to be executed with Admin rights
 - netsh portproxy needs ipv6 libraries even only to use v4tov4, typically they will also be included by default, otherwise install them using the following command: netsh interface ipv6 install
   
@@ -52,7 +52,7 @@
   You can remove the entry with the following command:
   
   `netsh interface portproxy delete v4tov4 listenport=80 listenaddress=127.65.43.21`
-- ## Documentation
+## Documentation
 - [DISM - Deployment Image Servicing and Management](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/dism---deployment-image-servicing-and-management-technical-reference-for-windows)
 - [Using Netsh](https://technet.microsoft.com/en-us/library/bb490939.aspx)
 - [Netsh commands for Interface IP](https://technet.microsoft.com/en-us/library/cc738592(v=ws.10).aspx)

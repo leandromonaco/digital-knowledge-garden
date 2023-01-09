@@ -17,7 +17,7 @@
 - # Create ``tye.yaml``
 - 1. Go to the solution folder
   2. Run ```tye init``` to generate ```tye.yaml```
-- ## ```tye.yaml``` Example
+## ```tye.yaml``` Example
   extensions:
   - name: seq
     logPath: ./.logs

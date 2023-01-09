@@ -61,5 +61,5 @@
 - ![image.png](../../assets/image_1672704213276_0.png)
 -
 -
-- ### Sources
+### Sources
 - https://www.wenger-trayner.com/introduction-to-communities-of-practice/
