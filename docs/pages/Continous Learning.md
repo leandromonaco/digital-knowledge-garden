@@ -58,9 +58,9 @@
 - [Well-Architected Labs](https://www.wellarchitectedlabs.com/)
 - [Training and Certification](https://aws.amazon.com/training/?sc_ichannel=ha&sc_icampaign=acq_awsblogsb&sc_icontent=architecture-resources)
 - [AWS Serverless SaaS Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/b0c6ad36-0a4b-45d8-856b-8a64f0ac76bb/en-US)
-- https://workshops.aws/
 - https://serverlessland.com
 - https://studiolab.sagemaker.aws/ (Learn and experiment with machine learning)
+- [](https://aws.amazon.com/developer/language/net/)
 -
 - - [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) | [Training](https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials) & [Ramp-Up Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Cloud_Foundations.pdf)
 - - [AWS Certified Developer - Associate](https://aws.amazon.com/certification/certified-developer-associate/) | [Ramp-Up Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Developer.pdf)
