@@ -1,4 +1,4 @@
-# Development Strategy
+# Development Guidelines
 
 ## Table of contents
 - [Introduction](#introduction)
