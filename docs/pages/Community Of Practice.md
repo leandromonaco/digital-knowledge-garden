@@ -1,13 +1,13 @@
-- Communities of practice are groups of people who share a concern or a 
+Communities of practice are groups of people who share a concern or a 
   passion for something they do and learn how to do it better as they 
   interact regularly.
--
-- Three characteristics are crucial:
-- - Domain
-- - Community
-- - Practice
--
-- **The domain**. A community of practice is not 
+
+Three characteristics are crucial:
+- Domain
+- Community
+- Practice
+
+**The domain**. A community of practice is not 
   merely a club of friends or a network of connections between people. It 
   has an identity defined by a shared domain of interest. Membership 
   therefore implies a commitment to the domain, and therefore a shared 
@@ -57,9 +57,8 @@
   It is the combination of these three elements that constitutes
    a community of practice. And it is by developing these three elements 
   in parallel that one cultivates such a community.
--
-- ![image.png](../../assets/image_1672704213276_0.png)
--
--
+
+![image.png](../../assets/image_1672704213276_0.png)
+
 ### Sources
 - https://www.wenger-trayner.com/introduction-to-communities-of-practice/
