@@ -60,7 +60,7 @@
 - [AWS Serverless SaaS Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/b0c6ad36-0a4b-45d8-856b-8a64f0ac76bb/en-US)
 - https://serverlessland.com
 - https://studiolab.sagemaker.aws/ (Learn and experiment with machine learning)
-- [[[.NET]] on [[AWS]] ](https://aws.amazon.com/developer/language/net/)
+- [[.NET]] on [[AWS]] ](https://aws.amazon.com/developer/language/net/)
 -
 - - [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) | [Training](https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials) & [Ramp-Up Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Cloud_Foundations.pdf)
 - - [AWS Certified Developer - Associate](https://aws.amazon.com/certification/certified-developer-associate/) | [Ramp-Up Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Developer.pdf)
