@@ -2,6 +2,6 @@
 - ![image.png](../assets/image_1667865747494_0.png)
 - Additionally, it includes a confidence indicator (and filter) as well as the ability to drill down to the code file area where the match was found.
   ![image.png](../assets/image_1667865786921_0.png)
-- # References
+# References
 - https://github.com/microsoft/ApplicationInspector
 - https://github.com/Microsoft/ApplicationInspector/wiki

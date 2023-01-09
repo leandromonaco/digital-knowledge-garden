@@ -1,4 +1,4 @@
-- # WSL
+# WSL
   
   Docker Desktop for Windows provides a development environment for building, shipping, and running dockerized apps. By enabling the WSL 2 based engine, you can run both Linux and Windows containers in Docker Desktop on the same machine.
 -

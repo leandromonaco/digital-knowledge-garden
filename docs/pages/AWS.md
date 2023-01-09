@@ -1,4 +1,4 @@
-- # Credentials
+# Credentials
 - C:\\Users\\{USER}\.aws\credentials
 # AWS CDK
 - [AWS Cloud Development Kit](https://aws.amazon.com/cdk/)
@@ -174,6 +174,6 @@
 - ```awslocal lambda delete-function --function-name helloLambda```
 - ```awslocal apigatewayv2 get-apis```
 -
-- # Related Topics
+# Related Topics
 - [[Cloud Costs]]
 - [[Certifications]]

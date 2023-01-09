@@ -1,4 +1,4 @@
-- # References
+# References
 - [GiHub Project](https://github.com/dotnet/tye)
 - [Documentation](https://github.com/dotnet/tye/blob/main/docs/README.md)
 - [Schema](https://github.com/dotnet/tye/blob/main/docs/reference/schema.md)
@@ -6,7 +6,7 @@
 - [Recipes](https://github.com/dotnet/tye/tree/main/docs/recipes)
 - [Samples](https://github.com/dotnet/tye/tree/main/samples)
 - [Tye Command](https://github.com/dotnet/tye/blob/main/docs/reference/commandline/tye-run.md)
-- # Installation
+# Installation
   
   ```
   dotnet tool uninstall -g Microsoft.Tye
@@ -14,7 +14,7 @@
   tye --version
   ```
 -
-- # Create ``tye.yaml``
+# Create ``tye.yaml``
 - 1. Go to the solution folder
   2. Run ```tye init``` to generate ```tye.yaml```
 ## ```tye.yaml``` Example
@@ -148,7 +148,7 @@
 - **DynamoDB Container Note**
 - ``-inMemory`` and ``-dbPath`` cannot be set at the same time
 - Local [[DynamoDB]] has serious performance issues when not using ``-inMemory`` parameter
-- # Run Tye
+# Run Tye
 - 1. Run ``tye run --port 10000 --dashboard`` (where the ``tye.yaml`` file is located)
   2. Add ``--watch`` to watch file changes in all projects.
   3. Add ``--debug *`` to debug (and attach the debugger to the application process)
@@ -158,7 +158,7 @@
   aws --endpoint-url=http://localhost:8000 dynamodb create-table --table-name ServiceName_Setting --attribute-definitions AttributeName=TenantId,AttributeType=S --key-schema AttributeName=TenantId,KeyType=HASH --billing-mode PAY_PER_REQUEST  
   ```
 -
-- # Troubleshooting
+# Troubleshooting
 - **An attempt was made to access a socket in a way forbidden by its access permissions**
   Run ``net stop hns`` and ``net start hns``
 -
