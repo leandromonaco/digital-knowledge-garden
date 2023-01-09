@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-- Welcome to my **Digital Knowledge Garden** "The more I learn, the more I realize how much I don't know" -Aristotle
-- ## Toolkit
-- ### LogSeq
-- 1. `git clone https://github.com/leandromonaco/leandromonaco.github.io.git C:\Dev\GitHub\Documentation`
-  2. `winget install -e --id Logseq.Logseq`
-  3. Install [Git Plugin for LogSeq](https://github.com/haydenull/logseq-plugin-git)
-  4. Open LogSeq -> Settings -> Version Control -> Enabled Auto Commit
-- ### Sources
-- 6. `winget install -e --id Mozilla.Firefox.DeveloperEdition`
-  7. [Feedly](https://addons.mozilla.org/en-US/firefox/addon/feedly_mini/)
-  8. [Pocket](https://getpocket.com/en/)
-  9. [Daily.dev](https://daily.dev/)
--
-=======
 Welcome to my **Digital Knowledge Garden** 🌱
 
 "The more I learn, the more I realize how much I don't know" -Aristotle
@@ -24,6 +9,9 @@ Welcome to my **Digital Knowledge Garden** 🌱
 2. `winget install -e --id Logseq.Logseq`
 3. Install [Git Plugin for LogSeq](https://github.com/haydenull/logseq-plugin-git)
 4. Open LogSeq -> Settings -> Version Control -> Enabled Auto Commit
+5. Click ![image](https://user-images.githubusercontent.com/5598150/211421503-c27663ef-0587-4e1b-8114-71536a6d5447.png)
+6. Click "Add new graph"
+7. Select LogSeq root folder
 
 ### Sources
 1. `winget install -e --id Mozilla.Firefox.DeveloperEdition`
@@ -31,7 +19,6 @@ Welcome to my **Digital Knowledge Garden** 🌱
 3. [Pocket](https://getpocket.com/en/)
 4. [Daily.dev](https://daily.dev/)
 
->>>>>>> 456007fa217302ddfcc0eef207aebe743ce44725
 ## Reference
 - [Your future self will thank you: Building your personal documentation](https://github.com/readme/guides/private-documentation)
 - [Cultivating a 'digital knowledge garden' with Logseq](https://www.youtube.com/watch?v=SUOdfa3MucE)
