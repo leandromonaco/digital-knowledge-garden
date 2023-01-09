@@ -1,2 +1,3 @@
-- [[AWS]] Code Whisperer
+- **[[AWS]] CodeWhisperer**
+- [Setting up CodeWhisperer](https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/codewhisper-setup-general.html)
 -
