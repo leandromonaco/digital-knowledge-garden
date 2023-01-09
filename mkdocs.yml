@@ -4,25 +4,25 @@ site_description: My Second Brain
 site_author: Leandro Monaco
 
 nav:
-    - Home: index.md
-    - Library: library.md
-    - 'Development Machine Setup': 'technology/DevelopmentMachineSetup.md'
+    - Home: index
+    - Library: library
+    - 'Development Machine Setup': 'pages/Development Environment Setup/'
     - Development:
-        - 'Angular': 'docs/pages/Angular.md'
-        - 'Playwright': 'docs/pages/Playwright.md'
-        - 'Configuration': 'docs/pages/Configuration.md'
-        - 'AWS': 'docs/pages/AWS.md'
-        - 'Docker': 'docs/pages/Docker.md'
-        - 'Git': 'docs/pages/Git.md'
+        - 'Angular': 'pages/Angular'
+        - 'Playwright': 'pages/Playwright'
+        - 'Configuration': 'pages/Configuration'
+        - 'AWS': 'pages/AWS'
+        - 'Docker': 'pages/Docker'
+        - 'Git': 'pages/Git'
     - Database:
-        - 'SQL Server': 'docs/pages/SqlServer.md'
-        - 'Entity Framework': 'docs/pages/EntityFramework.md'
+        - 'SQL Server': 'pages/SqlServer'
+        - 'Entity Framework': 'pages/EntityFramework'
     - Management:
-        - '1:1 Guidelines': 'docs/pages/1-on-1-guidelines.md'
-        - 'OKRs': 'docs/pages/OKRs.md'
-        - 'Ways of Working': 'docs/pages/ways-of-working.md'
-        - 'Development Guidelines': 'docs/pages/development-guidelines.md'
-        - 'Coding Standards': 'docs/pages/CodingStandards.md'
+        - '1:1 Guidelines': 'pages/1on1s'
+        - 'OKRs': 'pages/OKRs'
+        - 'Ways of Working': 'pages/ways-of-working'
+        - 'Development Guidelines': 'pages/development-guidelines'
+        - 'Coding Standards': 'pages/CodingStandards'
 
 repo_name: leandromonaco.github.io
 repo_url: https://github.com/leandromonaco/leandromonaco.github.io
