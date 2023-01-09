@@ -19,6 +19,10 @@
 - Contribute to [open source](https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/)
 - Participate in a [[Community Of Practice]]
 -
+- [[Communities]]
+- https://techcommunity.microsoft.com/t5/net/ct-p/dotnet
+- https://repost.aws/
+- https://stackoverflow.com/
 -
 - ### [[Hackatons]]
 - https://www.agorize.com/en/challenges
