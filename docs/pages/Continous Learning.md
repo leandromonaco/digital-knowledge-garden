@@ -19,6 +19,7 @@
 - Contribute to [open source](https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/)
 - Participate in a [[Community Of Practice]]
 -
+-
 - ### [[Hackatons]]
 - https://www.agorize.com/en/challenges
 -
