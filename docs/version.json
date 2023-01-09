@@ -1,9 +1,0 @@
-{
-  "version": "21.0",
-  "pathFilters": [ "." ],
-  "release": {
-    "branchName" : "release/v{version}",
-    "versionIncrement" : "minor",
-    "firstUnstableTag" : "alpha"
-  }
-}
