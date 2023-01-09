@@ -21,6 +21,7 @@
 -
 - [[Communities]]
 - https://techcommunity.microsoft.com/t5/net/ct-p/dotnet
+- https://stackoverflow.com/collectives/aws
 - https://repost.aws/
 - https://stackoverflow.com/
 -
