@@ -1,4 +1,4 @@
-- ## Mental Health
+## Mental Health
 - [How to ask R U OK?](https://www.ruok.org.au/how-to-ask)
 - https://codesubmit.io/blog/developer-burnout/
 -

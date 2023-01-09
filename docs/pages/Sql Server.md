@@ -4,7 +4,7 @@ winget install -e --id Microsoft.SQLServer.2019.Express
 winget install -e --id Microsoft.SQLServer.2019.Developer --override '/QUIET /IACCEPTSQLSERVERLICENSETERMS /CONFIGURATIONFILE="C:\Dev\SQLConfigurationFile.ini"'
 winget install -e --id Microsoft.SQLServerManagementStudio
 ```
-- ## SQLConfigurationFile.ini
+## SQLConfigurationFile.ini
   ```
   ; Microsoft SQL Server Configuration file  
   [OPTIONS]  
@@ -22,6 +22,6 @@ winget install -e --id Microsoft.SQLServerManagementStudio
   SECURITYMODE=SQL
   SAPWD="S4P4ssw0rd"
   ```
-- ## Documentation
+## Documentation
 - [Install SQL Server from the Command Prompt](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server-from-the-command-prompt)
 - [Install SQL Server using a configuration file](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server-using-a-configuration-file)

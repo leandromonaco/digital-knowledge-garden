@@ -1,4 +1,4 @@
-- ## Installation
+## Installation
 - ```
   winget install -e --id Microsoft.VisualStudio.2019.Professional
   winget install -e --id Microsoft.VisualStudio.2022.Enterprise
@@ -10,7 +10,7 @@
   winget install -e --id Microsoft.VisualStudio.2022.Community
   winget install -e --id Microsoft.VisualStudio.2022.BuildTools
   ```
-- ## Configuration
+## Configuration
 - [Import or export installation configurations](https://docs.microsoft.com/en-us/visualstudio/install/import-export-installation-configurations)
 ## Extensions
 ```powershell

@@ -1,8 +1,8 @@
-- ## Installation
+## Installation
 - 1 - Ensure [Hyper-V has been enabled](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
 - 2 - Run ``winget install -e --id Docker.DockerDesktop``
 -
-- ## Build and Run a Container
+## Build and Run a Container
   
   1. Navigate to the folder where the Dockerfile is stored
   2. Run `docker build -t angular-container:1.0 .`
@@ -26,13 +26,13 @@ FROM nginx:alpine
 COPY --from=node /usr/src/app/my-app/dist/team-hub.ui /usr/share/nginx/html
 ```
 -
-- ## Images
+## Images
 - https://hub.docker.com/_/microsoft-windows-nanoserver
 - https://hub.docker.com/_/nginx
 - https://hub.docker.com/_/microsoft-mssql-server
 - https://hub.docker.com/_/redis
 -
-- ## Commands
+## Commands
 - Display containers' resource usage statistics `docker stats --all --no-stream`
 - Stop running containers `docker kill $(docker ps -q)`
 - Remove all containers `docker rm $(docker ps -a -q)`

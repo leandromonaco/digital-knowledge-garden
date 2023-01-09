@@ -1,7 +1,7 @@
 - This a list of ideas to make learning a part the routine.
 - ![image.png](../../assets/image_1672704712173_0.png)
 -
-- ### Career Roadmap
+### Career Roadmap
 - https://github.com/jorgef/engineeringladders
 - https://github.com/sulco/angular-developer-roadmap
 - https://github.com/Elfocrash/.NET-Backend-Developer-Roadmap
@@ -19,42 +19,42 @@
 - Contribute to [open source](https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/)
 - Participate in a [[Community Of Practice]]
 -
-- ### [[Redis]]
+### [[Redis]]
 - https://university.redis.com/
 - https://university.redis.com/courses/ru102n/
 -
-- ### [[Communities]]
+### [[Communities]]
 - https://techcommunity.microsoft.com/t5/net/ct-p/dotnet
 - https://stackoverflow.com/collectives/aws
 - https://repost.aws/
 - https://stackoverflow.com/
 -
-- ### [[Hackatons]]
+### [[Hackatons]]
 - https://www.agorize.com/en/challenges
 -
-- ### [[Code Katas]]
+### [[Code Katas]]
 - https://www.codewars.com/
 -
-- ### [[Azure]]
+### [[Azure]]
 -
 - Obtain a [certification](https://docs.microsoft.com/en-us/learn/certifications/certification-process-overview) or [renew](https://docs.microsoft.com/en-us/learn/certifications/renew-your-microsoft-certification) it
 -
-- ### [[Soft Skills]]
+### [[Soft Skills]]
 - Develop a [growth mindset](https://docs.microsoft.com/en-us/learn/modules/develop-growth-mindset/)
 - Enhance your [self-efficacy](https://docs.microsoft.com/en-us/learn/modules/enhance-self-efficacy/)
 - Exercise your [emotional intelligence](https://docs.microsoft.com/en-us/learn/modules/exercise-your-emotional-intelligence/)
 - Grow your [cognitive flexibility](https://docs.microsoft.com/en-us/learn/modules/grow-cognitive-flexibility/)
 - Leverage [self-regulation](https://docs.microsoft.com/en-us/learn/modules/self-regulation-work-strategically/) to work strategically
 -
-- ### Training
+### Training
 - https://learndigital.withgoogle.com/digitalgarage/
 - https://grow.google
 -
-- ### [[Project Management]]
+### [[Project Management]]
 - https://www.perfectkickoff.com/
 - https://www.coursera.org/professional-certificates/google-project-management
 -
-- ### [[AWS]]
+### [[AWS]]
 - https://aws.amazon.com/partners/training/
 - [AWS Workshops](https://workshops.aws/)
 - [AWS Skill Builder](https://explore.skillbuilder.aws/learn)
