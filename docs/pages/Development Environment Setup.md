@@ -1,19 +1,19 @@
-- 1 - [[Windows]]
-- 2 - [[WinGet]]
-- 3 - [[VSCode]]
-- 4 - [[Windows Terminal]]
-- 5 - [[Docker]]
-- 6 - [[WSL]]
-- 7 - [[Git]]
-- 8 - [[NodeJS]]
-- 9 - [[Angular CLI]]
-- 10 - [[.NET]]
-- 11 - [[Visual Studio]]
-- 12 - [[Sql Server]]
-- 13 - [[SSL Certificate]]
-- 14 - [[IIS]]
-- 15 - [[Host File]]
--
+1 - [[Windows]]
+2 - [[WinGet]]
+3 - [[VSCode]]
+4 - [[Windows Terminal]]
+5 - [[Docker]]
+6 - [[WSL]]
+7 - [[Git]]
+8 - [[NodeJS]]
+9 - [[Angular CLI]]
+10 - [[.NET]]
+11 - [[Visual Studio]]
+12 - [[Sql Server]]
+13 - [[SSL Certificate]]
+14 - [[IIS]]
+15 - [[Host File]]
+
 # Browsers
 ```
 winget install -e --id Microsoft.Edge.Dev
@@ -24,16 +24,16 @@ winget install -e --id Mozilla.Firefox.DeveloperEdition
 winget install -e --id Opera.Opera
 ```
 # Dev Tools
-  ```
-  winget install -e --id Postman.Postman
-  winget install -e --id Docker.DockerDesktop
-  winget install -e --id Datalust.Seq
-  winget install -e --id Microsoft.DeploymentToolkit
-  winget install -e --id Microsoft.webpicmd
-  winget install -e --id qishibo.AnotherRedisDesktopManager
-  winget install -e --id Microsoft.PowerAutomateDesktop
-  winget install -e --id Gauge.Gauge
-  ```
+```
+winget install -e --id Postman.Postman
+winget install -e --id Docker.DockerDesktop
+winget install -e --id Datalust.Seq
+winget install -e --id Microsoft.DeploymentToolkit
+winget install -e --id Microsoft.webpicmd
+winget install -e --id qishibo.AnotherRedisDesktopManager
+winget install -e --id Microsoft.PowerAutomateDesktop
+winget install -e --id Gauge.Gauge
+```
 # Development Utilities
 ```
 dotnet tool install -g Microsoft.Tye --version "0.11.0-alpha.22111.1"
@@ -51,27 +51,27 @@ winget install -e --id=Amazon.NoSQLWorkbench
 winget install DevToys
 ```
 # Misc
-  ```
-  winget install "Files App"
-  winget install -e --id 7zip.7zip
-  winget install -e --id Microsoft.PowerToys
-  winget install -e --id VideoLAN.VLC
-  winget install -e --id ShareX.ShareX
-  winget install -e --id Grammarly.ForOffice
-  winget install -e --id Grammarly.ForWindows
-  winget install -e --id OBSProject.OBSStudio
-  winget install -e --id JGraph.Draw
-  winget install -e --id GIMP.GIMP
-  winget install -e --id JAMSoftware.TreeSize.Free
-  winget install -e --id Logseq.Logseq
-  winget install -e --id Twilio.Authy
-  ```
+```
+winget install "Files App"
+winget install -e --id 7zip.7zip
+winget install -e --id Microsoft.PowerToys
+winget install -e --id VideoLAN.VLC
+winget install -e --id ShareX.ShareX
+winget install -e --id Grammarly.ForOffice
+winget install -e --id Grammarly.ForWindows
+winget install -e --id OBSProject.OBSStudio
+winget install -e --id JGraph.Draw
+winget install -e --id GIMP.GIMP
+winget install -e --id JAMSoftware.TreeSize.Free
+winget install -e --id Logseq.Logseq
+winget install -e --id Twilio.Authy
+```
 # [[AWS]] 
-  ```
-  winget install -e --id Amazon.AWSCLI
-  winget install -e --id Amazon.SAM-CLI
-  ```
+```
+winget install -e --id Amazon.AWSCLI
+winget install -e --id Amazon.SAM-CLI
+```
 # [[Azure]] 
-  ```
-  winget install -e --id Microsoft.AzureCLI
-  ```
+```
+winget install -e --id Microsoft.AzureCLI
+```
