@@ -1,6 +1,6 @@
-- This a list of ideas to make learning a part the routine.
-- ![image.png](../../assets/image_1672704712173_0.png)
--
+This a list of ideas to make learning a part the routine.
+![image.png](../../assets/image_1672704712173_0.png)
+
 ### Career Roadmap
 - https://github.com/jorgef/engineeringladders
 - https://github.com/sulco/angular-developer-roadmap
@@ -8,7 +8,7 @@
 - https://github.com/MoienTajik/AspNetCore-Developer-Roadmap
 - https://github.com/kamranahmedse/developer-roadmap
 - https://github.com/fityanos/awesome-quality-assurance-roadmap
--
+
 - Attend [conferences](conferences.md)
 - Apply the knowledge to something you care about
 - Maintain a [catalog of reference-able notes](https://github.com/readme/guides/private-documentation) by documenting your learnings on an ongoing basis
@@ -18,42 +18,41 @@
 - Read [documentation](https://docs.microsoft.com/en-us/dotnet/), [e-books](https://azure.microsoft.com/en-us/resources/whitepapers/search/?type=EBookResource), [blogs](https://devblogs.microsoft.com/) or other [online resources](https://azure.microsoft.com/en-us/resources)
 - Contribute to [open source](https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/)
 - Participate in a [[Community Of Practice]]
--
+
 ### [[Redis]]
 - https://university.redis.com/
 - https://university.redis.com/courses/ru102n/
--
+
 ### [[Communities]]
 - https://techcommunity.microsoft.com/t5/net/ct-p/dotnet
 - https://stackoverflow.com/collectives/aws
 - https://repost.aws/
 - https://stackoverflow.com/
--
+
 ### [[Hackatons]]
 - https://www.agorize.com/en/challenges
--
+
 ### [[Code Katas]]
 - https://www.codewars.com/
--
+
 ### [[Azure]]
--
 - Obtain a [certification](https://docs.microsoft.com/en-us/learn/certifications/certification-process-overview) or [renew](https://docs.microsoft.com/en-us/learn/certifications/renew-your-microsoft-certification) it
--
+
 ### [[Soft Skills]]
 - Develop a [growth mindset](https://docs.microsoft.com/en-us/learn/modules/develop-growth-mindset/)
 - Enhance your [self-efficacy](https://docs.microsoft.com/en-us/learn/modules/enhance-self-efficacy/)
 - Exercise your [emotional intelligence](https://docs.microsoft.com/en-us/learn/modules/exercise-your-emotional-intelligence/)
 - Grow your [cognitive flexibility](https://docs.microsoft.com/en-us/learn/modules/grow-cognitive-flexibility/)
 - Leverage [self-regulation](https://docs.microsoft.com/en-us/learn/modules/self-regulation-work-strategically/) to work strategically
--
+
 ### Training
 - https://learndigital.withgoogle.com/digitalgarage/
 - https://grow.google
--
+
 ### [[Project Management]]
 - https://www.perfectkickoff.com/
 - https://www.coursera.org/professional-certificates/google-project-management
--
+
 ### [[AWS]]
 - https://aws.amazon.com/partners/training/
 - [AWS Workshops](https://workshops.aws/)
@@ -65,18 +64,16 @@
 - https://serverlessland.com
 - https://studiolab.sagemaker.aws/ (Learn and experiment with machine learning)
 - [[.NET]] on [[AWS]]: https://aws.amazon.com/developer/language/net/
--
-- - [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) | [Training](https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials) & [Ramp-Up Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Cloud_Foundations.pdf)
-- - [AWS Certified Developer - Associate](https://aws.amazon.com/certification/certified-developer-associate/) | [Ramp-Up Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Developer.pdf)
-- - [AWS Certified DevOps Engineer - Professional](https://aws.amazon.com/certification/certified-devops-engineer-professional/) | [Ramp-Up Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_DevOps.pdf)
-- - [AWS Certified Solutions Architect – Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate/) & [Professional](https://aws.amazon.com/certification/certified-devops-engineer-professional/) | [Ramp-Up Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Architect.pdf)
 
-title:: Training
-- [[Books]]
+- [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) | [Training](https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials) & [Ramp-Up Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Cloud_Foundations.pdf)
+-  [AWS Certified Developer - Associate](https://aws.amazon.com/certification/certified-developer-associate/) | [Ramp-Up Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Developer.pdf)
+-  [AWS Certified DevOps Engineer - Professional](https://aws.amazon.com/certification/certified-devops-engineer-professional/) | [Ramp-Up Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_DevOps.pdf)
+-  [AWS Certified Solutions Architect – Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate/) & [Professional](https://aws.amazon.com/certification/certified-devops-engineer-professional/) | [Ramp-Up Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Architect.pdf)
+
+[[Books]]
 ## Blog Posts
-- [Kubernetes 101: Pods, Nodes, Containers, and Clusters](https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16)
+[Kubernetes 101: Pods, Nodes, Containers, and Clusters](https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16)
 ## Videos
-
 TBA
 ## Training
 ### General
