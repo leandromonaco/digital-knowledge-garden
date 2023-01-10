@@ -1,3 +1,2 @@
 - https://learn.securecodewarrior.com/guidelines
 - https://www.securecodewarrior.com/
--
