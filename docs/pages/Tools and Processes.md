@@ -6,4 +6,3 @@
 - [Why SOLID principles are still the foundation for modern software architecture](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
 - [The twelve-factor app](https://12factor.net/)
 - [Automate the boring parts of your job](https://stackoverflow.blog/2022/07/25/automate-the-boring-parts-of-your-job)
--
