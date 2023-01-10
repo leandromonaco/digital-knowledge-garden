@@ -12,6 +12,7 @@ Welcome to my **Digital Knowledge Garden** 🌱
 5. Click ![image](https://user-images.githubusercontent.com/5598150/211421503-c27663ef-0587-4e1b-8114-71536a6d5447.png)
 6. Click "Add new graph"
 7. Select root_folder/docs
+8. Enable Document Mode: Type "esc + t + d"
 
 ### Sources
 1. `winget install -e --id Mozilla.Firefox.DeveloperEdition`
