@@ -5,7 +5,7 @@ site_author: Leandro Monaco
 
 nav:
     - Home: index
-    - Library: library
+    - Books: 'pages/Books'
     - 'Development Machine Setup': 'pages/Development Environment Setup/'
     - Development:
         - 'Angular': 'pages/Angular'
