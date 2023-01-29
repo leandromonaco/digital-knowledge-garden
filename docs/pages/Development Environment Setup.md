@@ -1,18 +1,20 @@
-1 - #Windows
-2 - [[WinGet]]
-3 - [[VSCode]]
-4 - [[Windows Terminal]]
-5 - [[Docker]]
-6 - [[WSL]]
-7 - [[Git]]
-8 - [[NodeJS]]
-9 - [[Angular CLI]]
-10 - [[.NET]]
-11 - [[Visual Studio]]
-12 - [[Sql Server]]
-13 - [[SSL Certificate]]
-14 - [[IIS]]
-15 - [[Host File]]
+# Index
+
+1. #Windows
+2. [[WinGet]]
+3. [[VSCode]]
+4. [[Windows Terminal]]
+5. [[Docker]]
+6. [[WSL]]
+7. [[Git]]
+8. [[NodeJS]]
+9. [[Angular CLI]]
+10. [[.NET]]
+11. [[Visual Studio]]
+12. [[Sql Server]]
+13. [[SSL Certificate]]
+14. [[IIS]]
+15. [[Host File]]
 
 # Browsers
 ```
