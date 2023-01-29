@@ -26,7 +26,7 @@ nav:
 
 repo_name: leandromonaco.github.io
 repo_url: https://github.com/leandromonaco/leandromonaco.github.io
-#edit_uri: ""
+edit_uri: "edit/main"
 
 theme:
   name: material
