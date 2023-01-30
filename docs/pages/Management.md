@@ -11,7 +11,7 @@
 - [[Ways Of Working]]
 - [[Metrics]]
 - [[Hiring]]
-- [[reports]]
+- [[Reports]]
 - [[Leadership]]
 - [[High Performing Teams]]
 - [[Cloud Costs]]
