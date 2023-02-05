@@ -6,6 +6,7 @@ site_author: Leandro Monaco
 nav:
     - Home: index
     - Books: 'pages/Books'
+    - Training: 'pages/Training' 
     - 'Development Machine Setup': 'pages/Development Environment Setup/'
     - Development:
         - 'Angular': 'pages/Angular'
