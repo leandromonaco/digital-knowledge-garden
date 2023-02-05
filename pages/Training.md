@@ -1,1 +1,1 @@
-- https://aws.amazon.com/developer/language/net/badges-and-training/
+- ⭐ [Badges & Training - .NET on AWS](https://aws.amazon.com/developer/language/net/badges-and-training)
