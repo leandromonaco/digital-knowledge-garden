@@ -18,9 +18,13 @@
 - # Redis
   ```
   docker run -it --rm redis redis-cli --verbose -h host.docker.internal
+  docker run --name hfredis -p 6379:6379 -v hfredisdata:/var/opt/redis -d redis:latest
   ```
   
+  
+  
   # Browsers
+  
   ```
   winget install -e --id Microsoft.Edge.Dev
   winget install -e --id BraveSoftware.BraveBrowser
