@@ -15,15 +15,20 @@
   13. [[SSL Certificate]]
   14. [[IIS]]
   15. [[Host File]]
-# Browsers
-```
-winget install -e --id Microsoft.Edge.Dev
-winget install -e --id BraveSoftware.BraveBrowser
-winget install -e --id Microsoft.Edge
-winget install -e --id Google.Chrome.Dev
-winget install -e --id Mozilla.Firefox.DeveloperEdition
-winget install -e --id Opera.Opera
-```
+- # Redis
+  ```
+  docker run -it --rm redis redis-cli --verbose -h host.docker.internal
+  ```
+  
+  # Browsers
+  ```
+  winget install -e --id Microsoft.Edge.Dev
+  winget install -e --id BraveSoftware.BraveBrowser
+  winget install -e --id Microsoft.Edge
+  winget install -e --id Google.Chrome.Dev
+  winget install -e --id Mozilla.Firefox.DeveloperEdition
+  winget install -e --id Opera.Opera
+  ```
 # Dev Tools
 ```
 winget install -e --id Postman.Postman
