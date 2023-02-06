@@ -1,4 +1,4 @@
-- # Index
+# Index
   
   1. [[Windows]]
   2. [[WinGet]]
@@ -15,7 +15,8 @@
   13. [[SSL Certificate]]
   14. [[IIS]]
   15. [[Host File]]
-- # Browsers
+
+# Browsers
   ```
   winget install -e --id Microsoft.Edge.Dev
   winget install -e --id BraveSoftware.BraveBrowser
@@ -24,12 +25,14 @@
   winget install -e --id Mozilla.Firefox.DeveloperEdition
   winget install -e --id Opera.Opera
   ```
-- # Redis
+
+# Redis
   ```
-  docker run --name redisserver -p 6379:6379 -v hfredisdata:/var/opt/redis -d redis:latest
+  docker run --name redisserver -p 6379:6379 -v redisdata:/var/opt/redis -d redis:latest
   docker run -it --rm redis redis-cli --verbose -h host.docker.internal --tls --insecure
   docker run -it --rm redis redis-cli --verbose -h host.docker.internal 
   ```
+
 # Dev Tools
 ```
 winget install -e --id Postman.Postman
@@ -41,6 +44,7 @@ winget install -e --id qishibo.AnotherRedisDesktopManager
 winget install -e --id Microsoft.PowerAutomateDesktop
 winget install -e --id Gauge.Gauge
 ```
+
 # Development Utilities
 ```
 dotnet tool install -g Microsoft.Tye --version "0.11.0-alpha.22111.1"
@@ -57,6 +61,7 @@ winget install -e --id WiresharkFoundation.Wireshark
 winget install -e --id=Amazon.NoSQLWorkbench 
 winget install DevToys
 ```
+
 # Misc
 ```
 winget install "Files App"
@@ -73,11 +78,13 @@ winget install -e --id JAMSoftware.TreeSize.Free
 winget install -e --id Logseq.Logseq
 winget install -e --id Twilio.Authy
 ```
+
 # [[AWS]] 
 ```
 winget install -e --id Amazon.AWSCLI
 winget install -e --id Amazon.SAM-CLI
 ```
+
 # [[Azure]] 
 ```
 winget install -e --id Microsoft.AzureCLI
