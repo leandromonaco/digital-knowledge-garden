@@ -22,9 +22,7 @@
   ```
   
   
-  
   # Browsers
-  
   ```
   winget install -e --id Microsoft.Edge.Dev
   winget install -e --id BraveSoftware.BraveBrowser
