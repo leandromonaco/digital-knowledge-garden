@@ -1,0 +1,2 @@
+* [[https://learn.microsoft.com/en-us/ef/core/querying/tags][https://learn.microsoft.com/en-us/ef/core/querying/tags]]
+https://www.cultureamp.com/blog/employee-feedback-examples
