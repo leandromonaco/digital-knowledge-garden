@@ -38,6 +38,13 @@ RESTORE DATABASE [DbName]
 FROM DISK = N'C:\Dev\Database\DbName.bak'
 WITH RECOVERY
 GO
+
+RESTORE DATABASE [DbName]
+FROM DISK = N'C:\Dev\Database\DbName.bak'
+WITH MOVE 'DbName' TO 'C:\Dev\Database\DbName.mdf',
+     MOVE 'DbName_log' TO 'C:\Dev\Database\DbName_log.ldf',
+	 RECOVERY, REPLACE
+GO
 ```
 ## Get all linked tables by FK
 ```sql
