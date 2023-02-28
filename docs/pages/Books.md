@@ -6,7 +6,7 @@
 - [The Lean Startup](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898)
 - [Measure What Matters](https://www.amazon.com/Measure-What-Matters-audiobook/dp/B07BMJ4L1S/)
 - [Debugging Teams](https://www.google.com.au/books/edition/Debugging_Teams)
-
+  https://thetechresume.com/
 # Online
 - [Software Engineering at Google](https://abseil.io/resources/swe-book/html/toc.html)
 - [Site Reliability Engineering](https://sre.google/sre-book/table-of-contents/) (Google)
