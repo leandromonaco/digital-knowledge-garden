@@ -7,12 +7,13 @@ Welcome to my **Digital Knowledge Garden** 🌱
 ### LogSeq
 1. `git clone https://github.com/leandromonaco/leandromonaco.github.io.git C:\Dev\GitHub\Documentation`
 2. `winget install -e --id Logseq.Logseq`
-3. Install [Git Plugin for LogSeq](https://github.com/haydenull/logseq-plugin-git)
-4. Open LogSeq -> Settings -> Version Control -> Enabled Auto Commit
-5. Click ![image](https://user-images.githubusercontent.com/5598150/211421503-c27663ef-0587-4e1b-8114-71536a6d5447.png)
-6. Click "Add new graph"
-7. Select root_folder/docs
-8. Enable Document Mode: Type "esc + t + d"
+3. `winget install -e --id GitHub.GitHubDesktop`
+4. Install [Git Plugin for LogSeq](https://github.com/haydenull/logseq-plugin-git)
+5. Open LogSeq -> Settings -> Version Control -> Enabled Auto Commit
+6. Click ![image](https://user-images.githubusercontent.com/5598150/211421503-c27663ef-0587-4e1b-8114-71536a6d5447.png)
+7. Click "Add new graph"
+8. Select root_folder/docs
+9. Enable Document Mode: Type "esc + t + d"
 
 ### Sources
 1. `winget install -e --id Mozilla.Firefox.DeveloperEdition`
