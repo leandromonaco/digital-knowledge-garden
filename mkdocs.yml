@@ -20,10 +20,9 @@ nav:
         - 'Entity Framework': 'pages/EntityFramework'
     - Management:
         - '1:1 Guidelines': 'pages/1on1s'
-        - 'OKRs': 'pages/OKRs'
-        - 'Ways of Working': 'pages/ways-of-working'
-        - 'Development Guidelines': 'pages/development-guidelines'
-        - 'Coding Standards': 'pages/CodingStandards'
+        - 'OKRs': 'pages/Goals'
+        - 'Ways of Working': 'pages/Ways of Working'
+        - 'Software Development Strategy': 'pages/Software Development Strategy'
 
 repo_name: leandromonaco.github.io
 repo_url: https://github.com/leandromonaco/leandromonaco.github.io
