@@ -1,5 +1,5 @@
-# Development Guidelines
-title:: Software Development Strategy
+# Software Development Strategy
+
 ## Table of contents
 - [Introduction](#introduction)
 - [General](#general)
