@@ -38,8 +38,7 @@ Documentation | - [Technical Writing Style Guide](https://docs.microsoft.com/en-
   
   
   https://awslabs.github.io/aws-lambda-powertools-dotnet/
-## Coding Standards
-- See [Coding Standards](https://github.com/leandromonaco/leandromonaco.github.io/blob/main/docs/technology/CodingStandards.md)
+
 ## Code Reviews
 - https://github.com/mgreiler/code-review-checklist
 - https://github.com/joho/awesome-code-review
@@ -47,6 +46,62 @@ Documentation | - [Technical Writing Style Guide](https://docs.microsoft.com/en-
 - https://awesome-guidelines.com/
 # Tools
 https://snyk.io/code-checker
+
+## Logging
+
+Always use *Structured Logging*, which makes it easier to store and query log-events.
+https://datatracker.ietf.org/doc/html/rfc7807
+ 
+## Health Checks
+
+A health check API is a separate REST service that is implemented within a microservice component that quickly returns the operational status of the service and an indication of its ability to connect to downstream dependent services.
+Example: myservice.com/health
+
+## Caching
+
+A distributed cache is a cache shared by multiple app servers, typically maintained as an external service to the app servers that access it. A distributed cache can improve the performance and scalability of an application, especially when the application is hosted by a cloud service or a server farm.
+
+When cached data is distributed, the data:
+
+    - Is coherent (consistent) across requests to multiple servers.
+    - Survives server restarts and app deployments.
+    - Doesn't use local memory.
+
+## API Versioning
+Versioning is an important aspect of any mature web service. Microsoft has published REST API guidelines that require that all compliant services must support explicit versioning. This ensures that clients can rely on services to be stable over time, while still enabling service changes and new features. Detailed information about the recommended guidance can be found in the [Microsoft REST Guidelines for versioning](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#12-versioning).
+
+### Example
+
+- https://service-a.com/{instanceId}/endpoint?api-version=1.0
+- https://service-a.com/{instanceId}/endpoint?api-version=2.0
+
+### Code
+```
+// Define a 'version set' that applies to an API group
+var versionSet = app.NewApiVersionSet()
+                    .HasApiVersion(1.0)
+                    .HasApiVersion(2.0)
+                    .ReportApiVersions()
+                    .Build();
+
+app.MapGet("{instanceId}/endpoint", [Authorize] async (IMediator mediator, [FromHeader] string authorization, Guid instanceId, CancellationToken cancellationToken) => await mediator.Send(new RequestV1() { InstanceId = instanceId }, cancellationToken))
+   .WithApiVersionSet(versionSet)
+   .MapToApiVersion(1.0);
+
+app.MapGet("{instanceId}/endpoint", [Authorize] async (IMediator mediator, [FromHeader] string authorization, Guid instanceId, CancellationToken cancellationToken) => await mediator.Send(new RequestV2() { InstanceId = instanceId }, cancellationToken))
+   .WithApiVersionSet(versionSet)
+   .MapToApiVersion(2.0);
+```
+
+## Rate Limiting
+[Rate Limiting](https://devblogs.microsoft.com/dotnet/announcing-rate-limiting-for-dotnet/)
+
+## Output Caching
+https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-dotnet-7-preview-6/
+
+## Paging
+https://devblogs.microsoft.com/odata/up-running-w-odata-in-asp-net-6/
+
 # Coding Standards
 ## Clean Code
 
@@ -141,3 +196,15 @@ See [.NET Documentation](https://docs.microsoft.com/en-us/dotnet/fundamentals/co
 ## Reference Material
 - https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-6.0
 - https://docs.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/monitor-app-health
+- https://aws.amazon.com/blogs/compute/introducing-the-net-6-runtime-for-aws-lambda/
+- https://aws.amazon.com/blogs/compute/building-serverless-net-applications-on-aws-lambda-using-net-7/
+- https://docs.aws.amazon.com/codedeploy/latest/userguide/tutorial-lambda-sam-template.html
+- https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-specification.html
+- https://aws.amazon.com/architecture/well-architected
+- https://aws.amazon.com/architecture/icons/
+- https://aws.amazon.com/blogs/architecture/lets-architect-creating-resilient-architecture
+- https://aws.amazon.com/blogs/architecture/modernization-pathways-for-a-legacy-net-framework-monolithic-application-on-aws
+- https://aws.amazon.com/blogs/compute/best-practices-for-organizing-larger-serverless-applications/
+- https://aws.amazon.com/blogs/architecture/throttling-a-tiered-multi-tenant-rest-api-at-scale-using-api-gateway-part-1/?nc1=b_rp
+- https://aws.amazon.com/blogs/architecture/throttling-a-tiered-multi-tenant-rest-api-at-scale-using-api-gateway-part-2
+- https://aws.amazon.com/cdk/
