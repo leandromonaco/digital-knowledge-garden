@@ -16,6 +16,14 @@
 14. [[IIS]]
 15. [[Host File]]
 
+# Winget
+
+This step is not required from Windows 11 onwards
+
+Install from https://aka.ms/getwinget
+
+Check installation with `winget --version`
+    
 # Find packages
 
 `winget search dapr`
