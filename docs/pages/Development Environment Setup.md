@@ -15,25 +15,32 @@
 13. [[SSL Certificate]]
 14. [[IIS]]
 15. [[Host File]]
-- # All Packages
-  [GitHub](https://github.com/microsoft/winget-pkgs/tree/master/manifests%2Fg%2FGitHub)
-  [Amazon](https://github.com/microsoft/winget-pkgs/tree/master/manifests%2Fa%2FAmazon)
-  [Microsoft](https://github.com/microsoft/winget-pkgs/tree/master/manifests%2Fm%2FMicrosoft)
+
+# Find packages
+
+`winget search dapr`
+
+See [documentation](https://learn.microsoft.com/en-us/windows/package-manager/winget/search)
+
+- [GitHub](https://github.com/microsoft/winget-pkgs/tree/master/manifests%2Fg%2FGitHub)
+- [Amazon](https://github.com/microsoft/winget-pkgs/tree/master/manifests%2Fa%2FAmazon)
+- [Microsoft](https://github.com/microsoft/winget-pkgs/tree/master/manifests%2Fm%2FMicrosoft)
   
-  # Stay up to date
-  `winget upgrade --all --silent`
+# Stay up to date
   
-  See [documentation](https://learn.microsoft.com/en-us/windows/package-manager/winget/upgrade)
+`winget upgrade --all --silent`
+
+See [documentation](https://learn.microsoft.com/en-us/windows/package-manager/winget/upgrade)
   
-  # Browsers
-  ```
-  winget install -e --id Microsoft.Edge.Dev
-  winget install -e --id BraveSoftware.BraveBrowser
-  winget install -e --id Microsoft.Edge
-  winget install -e --id Google.Chrome.Dev
-  winget install -e --id Mozilla.Firefox.DeveloperEdition
-  winget install -e --id Opera.Opera
-  ```
+# Browsers
+```
+winget install -e --id Microsoft.Edge.Dev
+winget install -e --id BraveSoftware.BraveBrowser
+winget install -e --id Microsoft.Edge
+winget install -e --id Google.Chrome.Dev
+winget install -e --id Mozilla.Firefox.DeveloperEdition
+winget install -e --id Opera.Opera
+```
 # [[Redis]]
 ```
 docker run --name redisserver -p 6379:6379 -v redisdata:/var/opt/redis -d redis:latest
@@ -53,6 +60,7 @@ winget install -e --id Gauge.Gauge
 # Development Utilities
 ```
 dotnet tool install -g Microsoft.Tye --version "0.11.0-alpha.22111.1"
+winget install -e --id Dapr.CLI --silent
 winget install -e --id Microsoft.RemoteDesktopClient
 winget install -e --id ScooterSoftware.BeyondCompare4
 winget install -e --id LINQPad.LINQPad.7
