@@ -3,11 +3,11 @@
 - 2 - Run ``winget install -e --id Docker.DockerDesktop``
 -
 ## Build and Run a Container
-  
-  1. Navigate to the folder where the Dockerfile is stored
-  2. Run `docker build -t angular-container:1.0 .`
-  3. Search ImageID by running `docker images`
-  4. Run `docker run -p 80:80 469b3a773ed7`
+
+1. Navigate to the folder where the Dockerfile is stored
+2. Run `docker build -t angular-container:1.0 .`
+3. Search ImageID by running `docker images`
+4. Run `docker run -p 80:80 469b3a773ed7`
 -
 ## Dockerfile example
 ```
@@ -37,3 +37,9 @@ COPY --from=node /usr/src/app/my-app/dist/team-hub.ui /usr/share/nginx/html
 - Stop running containers `docker kill $(docker ps -q)`
 - Remove all containers `docker rm $(docker ps -a -q)`
 - Remove all images `docker rmi $(docker images -q)`
+* ## [[Security]] 
+:PROPERTIES:
+:heading: 2
+:END:
+
+https://docs.docker.com/scout/
