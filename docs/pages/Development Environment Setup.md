@@ -1,7 +1,7 @@
 # Index
 
 1. [[Windows]]
-2. [[WinGet]]
+2. [WinGet](https://leandromonaco.github.io/pages/WinGet/)
 3. [[VSCode]]
 4. [[Windows Terminal]]
 5. [[Docker]]
@@ -15,30 +15,6 @@
 13. [[SSL Certificate]]
 14. [[IIS]]
 15. [[Host File]]
-
-# Winget
-
-This step is not required from Windows 11 onwards
-
-Install from https://aka.ms/getwinget
-
-Check installation with `winget --version`
-    
-# Find packages
-
-`winget search dapr`
-
-See [documentation](https://learn.microsoft.com/en-us/windows/package-manager/winget/search)
-
-- [GitHub](https://github.com/microsoft/winget-pkgs/tree/master/manifests%2Fg%2FGitHub)
-- [Amazon](https://github.com/microsoft/winget-pkgs/tree/master/manifests%2Fa%2FAmazon)
-- [Microsoft](https://github.com/microsoft/winget-pkgs/tree/master/manifests%2Fm%2FMicrosoft)
-  
-# Stay up to date
-  
-`winget upgrade --all --silent`
-
-See [documentation](https://learn.microsoft.com/en-us/windows/package-manager/winget/upgrade)
   
 # Browsers
 ```
