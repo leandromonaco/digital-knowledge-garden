@@ -15,6 +15,7 @@
 13. [SSL Certificate](https://leandromonaco.github.io/pages/SSL%20Certificate/)
 14. [IIS](https://leandromonaco.github.io/pages/IIS/)
 15. [Host File](https://leandromonaco.github.io/pages/Host%20File/)
+16. [Redis](https://leandromonaco.github.io/pages/Redis)
   
 # Browsers
 ```
@@ -25,11 +26,7 @@ winget install -e --id Google.Chrome.Dev
 winget install -e --id Mozilla.Firefox.DeveloperEdition
 winget install -e --id Opera.Opera
 ```
-# [[Redis]]
-```
-docker run --name redisserver -p 6379:6379 -v redisdata:/var/opt/redis -d redis:latest
-docker run -it --rm redis redis-cli --verbose -h host.docker.internal 
-```
+
 # Dev Tools
 ```
 winget install -e --id Postman.Postman
