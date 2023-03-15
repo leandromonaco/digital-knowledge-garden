@@ -1,20 +1,20 @@
 # Index
 
-1. [[Windows]]
+1. [Windows](https://leandromonaco.github.io/pages/Windows/)
 2. [WinGet](https://leandromonaco.github.io/pages/WinGet/)
-3. [[VSCode]]
-4. [[Windows Terminal]]
-5. [[Docker]]
-6. [[WSL]]
-7. [[Git]]
-8. [[NodeJS]]
-9. [[Angular CLI]]
-10. [[.NET]]
-11. [[Visual Studio]]
-12. [[Sql Server]]
-13. [[SSL Certificate]]
-14. [[IIS]]
-15. [[Host File]]
+3. [VSCode](https://leandromonaco.github.io/pages/VSCode/)
+4. [Windows Terminal](https://leandromonaco.github.io/pages/Windows Terminal/)
+5. [Docker](https://leandromonaco.github.io/pages/Docker/)
+6. [WSL](https://leandromonaco.github.io/pages/Windows/)
+7. [Git](https://leandromonaco.github.io/pages/WSL/)
+8. [NodeJS](https://leandromonaco.github.io/pages/NodeJS/)
+9. [Angular CLI](https://leandromonaco.github.io/pages/Angular CLI/)
+10. [.NET](https://leandromonaco.github.io/pages/.NET/)
+11. [Visual Studio](https://leandromonaco.github.io/pages/Visual Studio/)
+12. [Sql Server](https://leandromonaco.github.io/pages/Sql Server/)
+13. [SSL Certificate](https://leandromonaco.github.io/pages/SSL Certificate/)
+14. [IIS](https://leandromonaco.github.io/pages/IIS/)
+15. [Host File](https://leandromonaco.github.io/pages/Host File/)
   
 # Browsers
 ```
