@@ -1,4 +1,4 @@
-## Installation
+## Tools
 
 - `winget install -e --id Git.Git`
 - `winget install -e --id GitHub.GitHubDesktop`
