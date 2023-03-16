@@ -203,8 +203,12 @@ LOCALSTACK_API_KEY=[Insert PRO Version Key]
 - `awslocal lambda delete-function --function-name helloLambda`
 - `awslocal apigatewayv2 get-apis`
 
-## .NET
+## .NET Lambda Tools
 
+**Commands**
+`dotnet-lambda --help`
+
+**Documentation**
 - https://aws.amazon.com/developer/language/net/
 - https://awslabs.github.io/aws-lambda-powertools-dotnet/
 - https://docs.aws.amazon.com/lambda/latest/dg/csharp-image.html
