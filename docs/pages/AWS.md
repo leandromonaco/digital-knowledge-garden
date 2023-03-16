@@ -5,6 +5,8 @@
 - `winget install -e --id Amazon.NoSQLWorkbench`
 - `npm install -g aws-cdk`
 - `dotnet tool install -g Amazon.Lambda.Tools`
+- [AWS Application Composer](https://aws.amazon.com/blogs/aws/aws-application-composer-now-generally-available-visually-build-serverless-applications-quickly/)
+
   
 **Upgrade**
 
@@ -46,6 +48,8 @@
 **Documentation**
 - [What is the AWS Serverless Application Model (AWS SAM)?](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html)
 - [AWS Serverless Application Model](https://aws.amazon.com/serverless/sam/)
+- https://docs.aws.amazon.com/codedeploy/latest/userguide/tutorial-lambda-sam-template.html
+- https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-specification.html
 
 ## AWS CLI
 
@@ -197,8 +201,22 @@ LOCALSTACK_API_KEY=[Insert PRO Version Key]
 - `awslocal lambda delete-function --function-name helloLambda`
 - `awslocal apigatewayv2 get-apis`
 
+## .NET
+
+- https://aws.amazon.com/developer/language/net/
+- https://awslabs.github.io/aws-lambda-powertools-dotnet/
+- https://docs.aws.amazon.com/lambda/latest/dg/csharp-image.html
+- https://aws.amazon.com/blogs/compute/introducing-the-net-6-runtime-for-aws-lambda/
+- https://aws.amazon.com/blogs/compute/building-serverless-net-applications-on-aws-lambda-using-net-7/
+  
 ## Reference Material
 - https://aws.amazon.com/getting-started/hands-on/control-your-costs-free-tier-budgets/
 - https://calculator.aws
 - https://aws.amazon.com/aws-cost-management/aws-budgets
-  https://aws.amazon.com/faqs/
+- https://aws.amazon.com/faqs/
+- https://aws.amazon.com/blogs/architecture/lets-architect-creating-resilient-architecture
+- https://aws.amazon.com/blogs/architecture/modernization-pathways-for-a-legacy-net-framework-monolithic-application-on-aws
+- https://aws.amazon.com/blogs/compute/best-practices-for-organizing-larger-serverless-applications/
+- https://aws.amazon.com/blogs/architecture/throttling-a-tiered-multi-tenant-rest-api-at-scale-using-api-gateway-part-1
+- https://aws.amazon.com/blogs/architecture/throttling-a-tiered-multi-tenant-rest-api-at-scale-using-api-gateway-part-2
+- https://aws.amazon.com/cdk/
