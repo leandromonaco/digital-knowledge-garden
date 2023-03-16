@@ -1,6 +1,20 @@
-# Credentials
+- ## Tools
+  
+  `winget install -e --id Amazon.AWSCLI`
+  `winget install -e --id Amazon.SAM-CLI`
+  `winget install -e --id Amazon.NoSQLWorkbench`
+  `npm install -g aws-cdk`
+  
+  
+  # Credentials
 - C:\\Users\\{USER}\.aws\credentials
-# AWS CDK
+- Run `aws configure`
+- AWS Access Key ID: `test`
+- AWS Secret Access Key: `test`
+- Default region name: `ap-southeast-2`
+- Default output format: `json`
+- Run `aws configure list` to verify the newly configured credentials
+- ## AWS CDK
 - [AWS Cloud Development Kit](https://aws.amazon.com/cdk/)
 - [Getting started with the AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html)
 - https://docs.aws.amazon.com/cdk/v2/guide/troubleshooting.html#troubleshooting_toolkit
@@ -13,7 +27,7 @@
 * ```cdk deploy```       deploy this stack to your default AWS account/region
 * ```cdk diff```         compare deployed stack with current state
 * ```cdk synth```       emits the synthesized CloudFormation template
-# SAM
+- ## SAM CLI
 - [What is the AWS Serverless Application Model (AWS SAM)?](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html)
 - [AWS Serverless Application Model](https://aws.amazon.com/serverless/sam/)
 - ```winget install -e --id Amazon.SAM-CLI``` or ```winget upgrade -e --id Amazon.SAM-CLI```
@@ -22,7 +36,6 @@
   ![image](https://user-images.githubusercontent.com/5598150/194959241-e345d6ee-dcd1-4e2d-b94d-0b22d8a27051.png)
   ```
 # AWS CLI
-- Install aws-cli ```winget install -e --id Amazon.AWSCLI```
 ## Useful Commands
 - ```aws --endpoint-url=http://localhost:4566 dynamodb create-table --table-name ServiceName_Setting --attribute-definitions AttributeName=TenantId,AttributeType=S --key-schema AttributeName=TenantId,KeyType=HASH --billing-mode PAY_PER_REQUEST```
   - ```aws --endpoint-url=http://localhost:4566 sqs create-queue --queue-name sample-queue2```
