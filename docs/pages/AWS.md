@@ -14,6 +14,7 @@
 - `winget upgrade -e --id Amazon.SAM-CLI`
 - `cdk --version`
 - `npm upgrade -g aws-cdk`
+- `dotnet tool update -g Amazon.Lambda.Tools`
   
 ## Credentials
 
