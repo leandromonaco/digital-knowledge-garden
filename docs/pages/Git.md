@@ -1,5 +1,4 @@
 ## Tools
-
 - `winget install -e --id Git.Git`
 - `winget install -e --id GitHub.GitHubDesktop`
 - `winget install -e --id GitHub.cli`
@@ -9,24 +8,38 @@
 - `winget install -e --id Microsoft.GitCredentialManagerCore`
 - `winget install -e --id Atlassian.Sourcetree`
 - `winget install -e --id TortoiseGit.TortoiseGit`
-
 ## Git Credentials Manager
 
 [GitHub Repo](https://github.com/git-ecosystem/git-credential-manager)
-
-
 ## Commands
-### Reset author for ALL commits
+- ### Git Clone with Submodules
+  
+  `git clone git@github.com:leandromonaco/leandromonaco.github.io.git C:\Dev\Repo --recurse-submodules`
+  
+  ### Basic Git Commands
+  
+  ```
+  git checkout main
+  git fetch
+  git pull
+  git branch branch_name
+  git checkout branch_name
+  git push --set-upstream origin branch_name
+  --Make code changes, stage and commit them
+  git push
+  ```
+  
+  ### Reset author for ALL commits
   ```
   git filter-branch -f --env-filter "GIT_AUTHOR_NAME='Newname'; GIT_AUTHOR_EMAIL='new@email'; GIT_COMMITTER_NAME='Newname'; GIT_COMMITTER_EMAIL='new@email';" HEAD
   git push --force --tags origin 'refs/heads/main'
   ```
 ### Change last commit message
-  
-  1. Run ``git commit --amend -m "New and correct message"``
+
+1. Run ``git commit --amend -m "New and correct message"``
 ### Delete the most recent commit
-  without destroying the work you've done: ``git reset --soft HEAD~1``
-  destroying the work you've done: ``git reset --hard HEAD~1``
+without destroying the work you've done: ``git reset --soft HEAD~1``
+destroying the work you've done: ``git reset --hard HEAD~1``
 ### Fix .gitignore issues
 1. Run ``git rm -r --cached .`` to unstage and remove the path to your files from the Git index.
 2. Execute ``git add .`` to re-add all your files back (only the correct files will be updated).
@@ -63,8 +76,8 @@ git config --global user.email [email address]
 3. ```git push --force```
 - if dealing with protected commits add ```--no-blob-protection``` parameter
 ## Troubleshooting
-  
-  ```
-  set GIT_TRACE=1
-  set GIT_CURL_VERBOSE=1
-  ```
+
+```
+set GIT_TRACE=1
+set GIT_CURL_VERBOSE=1
+```
