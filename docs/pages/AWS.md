@@ -12,6 +12,7 @@
 
 - `sam --version`
 - `winget upgrade -e --id Amazon.SAM-CLI`
+- `winget upgrade -e --id Amazon.AWSCLI`
 - `cdk --version`
 - `npm upgrade -g aws-cdk`
 - `dotnet tool update -g Amazon.Lambda.Tools`
