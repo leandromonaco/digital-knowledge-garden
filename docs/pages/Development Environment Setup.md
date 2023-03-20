@@ -1,4 +1,4 @@
-# Index
+## Index
 
 1. [Windows](https://leandromonaco.github.io/pages/Windows/)
 2. [WinGet](https://leandromonaco.github.io/pages/WinGet/)
@@ -16,8 +16,11 @@
 14. [IIS](https://leandromonaco.github.io/pages/IIS/)
 15. [Host File](https://leandromonaco.github.io/pages/Host%20File/)
 16. [Redis](https://leandromonaco.github.io/pages/Redis)
+17. [AWS](https://leandromonaco.github.io/pages/AWS)
+18. [Azure](https://leandromonaco.github.io/pages/Azure)
   
-# Browsers
+## Browsers
+
 ```
 winget install -e --id Microsoft.Edge.Dev
 winget install -e --id BraveSoftware.BraveBrowser
@@ -27,7 +30,8 @@ winget install -e --id Mozilla.Firefox.DeveloperEdition
 winget install -e --id Opera.Opera
 ```
 
-# Dev Tools
+## Dev Tools
+
 ```
 winget install -e --id Postman.Postman
 winget install -e --id Docker.DockerDesktop
@@ -38,7 +42,9 @@ winget install -e --id qishibo.AnotherRedisDesktopManager
 winget install -e --id Microsoft.PowerAutomateDesktop
 winget install -e --id Gauge.Gauge
 ```
-# Development Utilities
+
+## Development Utilities
+
 ```
 dotnet tool install -g Microsoft.Tye --version "0.11.0-alpha.22111.1"
 winget install -e --id Dapr.CLI --silent
@@ -55,7 +61,9 @@ winget install -e --id WiresharkFoundation.Wireshark
 winget install -e --id=Amazon.NoSQLWorkbench 
 winget install DevToys
 ```
-# Misc
+
+## Misc
+
 ```
 winget install "Files App"
 winget install -e --id 7zip.7zip
@@ -70,13 +78,4 @@ winget install -e --id GIMP.GIMP
 winget install -e --id JAMSoftware.TreeSize.Free
 winget install -e --id Logseq.Logseq
 winget install -e --id Twilio.Authy
-```
-# [[AWS]] 
-```
-winget install -e --id Amazon.AWSCLI
-winget install -e --id Amazon.SAM-CLI
-```
-# [[Azure]] 
-```
-winget install -e --id Microsoft.AzureCLI
 ```
