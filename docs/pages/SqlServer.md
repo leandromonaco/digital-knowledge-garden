@@ -47,6 +47,13 @@ WITH MOVE 'DbName' TO 'C:\Dev\Database\DbName.mdf',
    MOVE 'DbName_log' TO 'C:\Dev\Database\DbName_log.ldf',
 RECOVERY, REPLACE
 GO
+
+RESTORE DATABASE Local
+FROM DISK = N'/var/opt/mssql/data/Local.bak'
+WITH MOVE 'Database' TO '/var/opt/mssql/data/Local.mdf',
+     MOVE 'Database_Log' TO '/var/opt/mssql/log/Local.ldf',
+RECOVERY, REPLACE
+GO
 ```
 ## Get all linked tables by FK
 ```sql
