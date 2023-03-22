@@ -7,7 +7,7 @@ nav:
     - Home: index
     - Books: 'pages/Books'
     - Training: 'pages/Training' 
-    - 'Development Machine Setup': 'pages/Development Environment Setup/'
+    - 'Development Machine Setup': 'pages/Development Environment Setup'
     - Development:
         - 'Angular': 'pages/Angular'
         - 'Playwright': 'pages/Playwright'
@@ -16,7 +16,7 @@ nav:
         - 'Docker': 'pages/Docker'
         - 'Git': 'pages/Git'
     - Database:
-        - 'SQL Server': 'pages/SqlServer'
+        - 'SQL Server': 'pages/Sql Server'
         - 'Entity Framework': 'pages/EntityFramework'
     - Management:
         - '1:1 Guidelines': 'pages/1on1s'
