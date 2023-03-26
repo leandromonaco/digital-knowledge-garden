@@ -10,7 +10,7 @@
 ## .NET Console App
 ```csharp
  var configuration = new ConfigurationBuilder()
-                                        .SetBasePath(Environment.CurrentDirectory)
+                                        .SetBasePath(AppContext.BaseDirectory)
                                         .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
                                         .Build();
 ```
@@ -20,7 +20,7 @@
 private static ConfigurationManager GetConfiguration(ConfigurationManager configurationManager)
 {
     configurationManager
-                 .SetBasePath(Environment.CurrentDirectory)
+                 .SetBasePath(AppContext.BaseDirectory)
                  .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
                  .AddJsonFile($"appsettings.Development.json", optional: true, reloadOnChange: true)
                  .AddEnvironmentVariables("AppPrefix:")
