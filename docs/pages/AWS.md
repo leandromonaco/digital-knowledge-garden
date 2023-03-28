@@ -5,6 +5,7 @@
 - `winget install -e --id Amazon.NoSQLWorkbench`
 - `npm install -g aws-cdk`
 - `dotnet tool install -g Amazon.Lambda.Tools`
+-  `npm install -g aws-cdk-local aws-cdk` (ECR is a PRO feature https://github.com/localstack/localstack/issues/5382)
 - [AWS Application Composer](https://aws.amazon.com/blogs/aws/aws-application-composer-now-generally-available-visually-build-serverless-applications-quickly/)
 
   
@@ -17,9 +18,9 @@
 - `aws --version`
 - `npm upgrade -g aws-cdk`
 - `cdk --version`
-
 - `dotnet tool update -g Amazon.Lambda.Tools`
-  
+
+ 
 ## Credentials
 
 1. Run `aws configure`
@@ -43,6 +44,9 @@
 - `cdk synth` emits the synthesized CloudFormation template
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
+
+
+https://github.com/localstack/aws-cdk-local
 
 ****
 
@@ -175,7 +179,7 @@ LOCALSTACK_API_KEY=[Insert PRO Version Key]
   
 **Test with LocalStack**
   
-  1. ```npm install -g aws-cdk-local aws-cdk``` (ECR is a PRO feature https://github.com/localstack/localstack/issues/5382)
+  1.
   2. ```cdklocal init app --language=csharp```
   3. Change Stack.cs file
   4. ```cdklocal synth -v``` (this must be run where the cdk.json file is located. It creates the cdk.out folder)
