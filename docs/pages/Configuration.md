@@ -5,6 +5,7 @@
 - [Microsoft.Extensions.Configuration](https://www.nuget.org/packages/Microsoft.Extensions.Configuration/)
 - [Microsoft.Extensions.Configuration.Json](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Json/)
 - [Microsoft.Extensions.Configuration.EnvironmentVariables](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.EnvironmentVariables)
+- [Microsoft.Extensions.Configuration.UserSecrets](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.UserSecrets/)
 
 ## Implementation
 
@@ -25,6 +26,7 @@ public static class ConfigurationManager
                                         .SetBasePath(AppContext.BaseDirectory)
                                         .AddJsonFile("appsettings.Development.json", optional: true, reloadOnChange: true)
                                         .AddEnvironmentVariables("AppId:")
+                                        .AddUserSecrets("3490e6ac-9364-432d-9bfb-7c37692752cb")
                                         .Build();
             }
             return _configuration;
