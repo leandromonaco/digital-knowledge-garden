@@ -179,12 +179,12 @@ LOCALSTACK_API_KEY=[Insert PRO Version Key]
   
 **Test with LocalStack**
   
-  1.
-  2. ```cdklocal init app --language=csharp```
+  1. Add Environment Variable `EDGE_PORT=52005` (custom LocalStack port number)
+  2. `cdklocal init app --language=csharp`
   3. Change Stack.cs file
-  4. ```cdklocal synth -v``` (this must be run where the cdk.json file is located. It creates the cdk.out folder)
-  5. ```cdklocal bootstrap -v``` (if you get "Unable to resolve AWS account to use." make sure the localstack service is running http://localhost:4566/health)
-  6. ```cdklocal deploy -v```
+  4. `cdklocal synth -v` (this must be run where the cdk.json file is located. It creates the cdk.out folder)
+  5. `cdklocal bootstrap --profile default` (if you get "Unable to resolve AWS account to use." make sure the localstack service is running http://localhost:4566/health)
+  6. `cdklocal deploy -v`
   8. Test endpoint using Postman![image](https://user-images.githubusercontent.com/5598150/169179873-6bdf5b22-fcd7-4eee-a314-be505a528da5.png)
   
 **Documentation**
