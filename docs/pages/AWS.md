@@ -10,11 +10,14 @@
   
 **Upgrade**
 
-- `sam --version`
+
 - `winget upgrade -e --id Amazon.SAM-CLI`
+- `sam --version`
 - `winget upgrade -e --id Amazon.AWSCLI`
-- `cdk --version`
+- `aws --version`
 - `npm upgrade -g aws-cdk`
+- `cdk --version`
+
 - `dotnet tool update -g Amazon.Lambda.Tools`
   
 ## Credentials
@@ -31,10 +34,17 @@
 
 **Commands**
 
+- `mkdir CDK`
+- `CD CDK`
+- `cdk init app --language csharp`
 - `dotnet build src` compile this app
 - `cdk deploy` deploy this stack to your default AWS account/region
 - `cdk diff` compare deployed stack with current state
 - `cdk synth` emits the synthesized CloudFormation template
+
+The `cdk.json` file tells the CDK Toolkit how to execute your app.
+
+****
 
 **Documentation**
 - [AWS Cloud Development Kit](https://aws.amazon.com/cdk/)
