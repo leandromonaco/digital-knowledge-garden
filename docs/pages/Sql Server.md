@@ -31,10 +31,15 @@ docker pull mcr.microsoft.com/mssql/server:2022-latest
 ```
 
 ### SQL Server Management Studio
-
 ```
 winget install -e --id Microsoft.SQLServerManagementStudio
 winget upgrade -e --id Microsoft.SQLServerManagementStudio
+```
+
+### Sqlcmd Tools
+```
+winget install -e --id Microsoft.Sqlcmd
+winget upgrade -e --id Microsoft.Sqlcmd
 ```
 
 
