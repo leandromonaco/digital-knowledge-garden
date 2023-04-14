@@ -5,17 +5,22 @@
 - `winget install -e --id Amazon.NoSQLWorkbench`
 - `npm install -g aws-cdk`
 - `dotnet tool install -g Amazon.Lambda.Tools`
+-  `npm install -g aws-cdk-local aws-cdk` (ECR is a PRO feature https://github.com/localstack/localstack/issues/5382)
 - [AWS Application Composer](https://aws.amazon.com/blogs/aws/aws-application-composer-now-generally-available-visually-build-serverless-applications-quickly/)
 
   
 **Upgrade**
 
-- `sam --version`
+
 - `winget upgrade -e --id Amazon.SAM-CLI`
-- `cdk --version`
+- `sam --version`
+- `winget upgrade -e --id Amazon.AWSCLI`
+- `aws --version`
 - `npm upgrade -g aws-cdk`
+- `cdk --version`
 - `dotnet tool update -g Amazon.Lambda.Tools`
-  
+
+ 
 ## Credentials
 
 1. Run `aws configure`
@@ -30,10 +35,20 @@
 
 **Commands**
 
+- `mkdir CDK`
+- `CD CDK`
+- `cdk init app --language csharp`
 - `dotnet build src` compile this app
 - `cdk deploy` deploy this stack to your default AWS account/region
 - `cdk diff` compare deployed stack with current state
 - `cdk synth` emits the synthesized CloudFormation template
+
+The `cdk.json` file tells the CDK Toolkit how to execute your app.
+
+
+https://github.com/localstack/aws-cdk-local
+
+****
 
 **Documentation**
 - [AWS Cloud Development Kit](https://aws.amazon.com/cdk/)
@@ -164,12 +179,12 @@ LOCALSTACK_API_KEY=[Insert PRO Version Key]
   
 **Test with LocalStack**
   
-  1. ```npm install -g aws-cdk-local aws-cdk``` (ECR is a PRO feature https://github.com/localstack/localstack/issues/5382)
-  2. ```cdklocal init app --language=csharp```
+  1. Add Environment Variable `EDGE_PORT=52005` (custom LocalStack port number)
+  2. `cdklocal init app --language=csharp`
   3. Change Stack.cs file
-  4. ```cdklocal synth -v``` (this must be run where the cdk.json file is located. It creates the cdk.out folder)
-  5. ```cdklocal bootstrap -v``` (if you get "Unable to resolve AWS account to use." make sure the localstack service is running http://localhost:4566/health)
-  6. ```cdklocal deploy -v```
+  4. `cdklocal synth -v` (this must be run where the cdk.json file is located. It creates the cdk.out folder)
+  5. `cdklocal bootstrap --profile default` (if you get "Unable to resolve AWS account to use." make sure the localstack service is running http://localhost:4566/health)
+  6. `cdklocal deploy -v`
   8. Test endpoint using Postman![image](https://user-images.githubusercontent.com/5598150/169179873-6bdf5b22-fcd7-4eee-a314-be505a528da5.png)
   
 **Documentation**

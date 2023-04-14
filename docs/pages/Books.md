@@ -1,3 +1,6 @@
+[Books](https://ebookfoundation.github.io/free-programming-books/) suggested by the community
+
+## Paper
 - [The Effective Engineer](https://www.amazon.com/Effective-Engineer-Engineering-Disproportionate-Meaningful/dp/0996128107)
 - [The Clean Coder](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/B08X7MNTCX/)
 - [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052)
@@ -6,8 +9,10 @@
 - [The Lean Startup](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898)
 - [Measure What Matters](https://www.amazon.com/Measure-What-Matters-audiobook/dp/B07BMJ4L1S/)
 - [Debugging Teams](https://www.google.com.au/books/edition/Debugging_Teams)
-  https://thetechresume.com/
-# Online
+- [The Tech Resume](https://thetechresume.com)
+ 
+  
+## Online
 - [Software Engineering at Google](https://abseil.io/resources/swe-book/html/toc.html)
 - [Site Reliability Engineering](https://sre.google/sre-book/table-of-contents/) (Google)
 - [Rethinking Productivity in Software Engineering](https://github.com/leandromonaco/leandromonaco.github.io/blob/main/books/Rethinking%20Productivity%20in%20Software%20Engineering.pdf)
