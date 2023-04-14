@@ -5,19 +5,24 @@ site_author: Leandro Monaco
 
 nav:
     - Home: index
-    - Books: 'pages/Books'
-    - Training: 'pages/Training' 
-    - 'Development Machine Setup': 'pages/Development Environment Setup/'
-    - Development:
-        - 'Angular': 'pages/Angular'
+    - Learning:
+        - Books: 'pages/Books'
+        - Training: 'pages/Training' 
+    - Tooling:
         - 'Playwright': 'pages/Playwright'
-        - 'Configuration': 'pages/Configuration'
-        - 'AWS': 'pages/AWS'
         - 'Docker': 'pages/Docker'
-        - 'Git': 'pages/Git'
-    - Database:
-        - 'SQL Server': 'pages/SqlServer'
+        - 'Git': 'pages/Git'    
+        - 'Development Machine Setup': 'pages/Development Environment Setup'
+    - '.NET':
+        - 'Configuration': 'pages/Configuration'
+    - Cloud:
+        - 'AWS': 'pages/AWS'
+        - 'Azure': 'pages/Azure'
+    - Data:
+        - 'SQL Server': 'pages/Sql Server'
         - 'Entity Framework': 'pages/EntityFramework'
+    - 'Front-end':
+        - 'Angular': 'pages/Angular'
     - Management:
         - '1:1 Guidelines': 'pages/1on1s'
         - 'OKRs': 'pages/Goals'

@@ -38,7 +38,7 @@ winget install -e --id Docker.DockerDesktop
 winget install -e --id Datalust.Seq
 winget install -e --id Microsoft.DeploymentToolkit
 winget install -e --id Microsoft.webpicmd
-winget install -e --id qishibo.AnotherRedisDesktopManager
+winget install --name RedisInsight
 winget install -e --id Microsoft.PowerAutomateDesktop
 winget install -e --id Gauge.Gauge
 ```
