@@ -27,7 +27,8 @@ nav:
         - '1:1 Guidelines': 'pages/1on1s'
         - 'Ways of Working': 'pages/Ways of Working'
         - 'Software Development Strategy': 'pages/Software Development Strategy'
-    - 'Goals': 'pages/Goals'
+    - 'Goals': 
+        - 'OKRs': 'pages/Goals'
         - 'Delivery': 'pages/Delivery'
         - 'Quality': 'pages/Quality'
         - 'Continous Improvement': 'pages/Continous Improvement'
