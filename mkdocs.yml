@@ -28,8 +28,8 @@ nav:
         - 'Ways of Working': 'pages/Ways of Working'
         - 'Software Development Strategy': 'pages/Software Development Strategy'
     - 'Goals': 'pages/Goals'
-        - 'Delivery': 'pages/Product Delivery'
-        - 'Quality': 'pages/Code Quality'
+        - 'Delivery': 'pages/Delivery'
+        - 'Quality': 'pages/Quality'
         - 'Continous Improvement': 'pages/Continous Improvement'
         - 'Knowledge Sharing': 'pages/Knowledge Sharing'
 
