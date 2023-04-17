@@ -1,4 +1,9 @@
-- # OKRs
+# Objectives
+- [[Continuous Improvement]]
+- [[Delivery]]
+- [[Quality]]
+- [[Knowledge Sharing]]
+# OKRs
 ## Definition
 OKR stands for [[Objectives]] and Key Results. OKRs help break up big, audacious missions into actionable goals and milestones.
 * **Objectives (The “What”):** An objective is what you want to do. It describes our mission-supporting goal.
@@ -12,9 +17,3 @@ OKR stands for [[Objectives]] and Key Results. OKRs help break up big, audacious
 - https://devblogs.microsoft.com/devops/devops-dojo-okrs-objectives-and-key-results/
 - https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/business-outcomes/okr
 -
-# Objectives
-- [[Culture]]
-- [[Tools and Processes]]
-- [[Delivery]]
-- [[Quality]]
-- [[Knowledge Sharing]]

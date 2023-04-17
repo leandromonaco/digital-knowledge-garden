@@ -1,0 +1,5 @@
+* [[https://app.cloudcraft.co][app.cloudcraft.co]] #Bookmarks
+https://aws.amazon.com/blogs/dotnet/ #Blogs
+https://githubnext.com/ #Research
+https://aws.github.io/copilot-cli/ #Tools #AWS
+https://learn.microsoft.com/en-us/training/learn-community #[[Continous Learning]]

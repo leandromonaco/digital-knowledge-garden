@@ -5,6 +5,9 @@
 
 [[.NET]] Upgrade Assistant
 
+https://devblogs.microsoft.com/dotnet/learn-how-to-modernize-your-dotnet-apps/
+https://learn.microsoft.com/en-us/visualstudio/code-quality/migrate-from-legacy-analysis-to-net-analyzers
+
 1. [Documentation](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant)
 2. [VS Extension](https://marketplace.visualstudio.com/items?itemName=WebToolsTeam.aspnetprojectmigrations)
 *
