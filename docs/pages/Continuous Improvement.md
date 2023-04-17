@@ -16,9 +16,15 @@
 - Ask [better questions](https://stackoverflow.com/help/how-to-ask) in team's [discussions](https://docs.github.com/en/discussions)
 - Participate effectively in [Scrum Events](https://scrumguides.org/scrum-guide.html#scrum-events)
 - Address common [team challenges](https://www.atlassian.com/team-playbook)
-#### Reference Material
 - [Westrum organizational culture](https://cloud.google.com/architecture/devops/devops-culture-westrum-organizational-culture)
 - [Remote culture](https://about.gitlab.com/company/culture/all-remote/)
 - [Understanding team effectiveness](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/)
 - [DevOps cultural capabilities](https://cloud.google.com/architecture/devops/capabilities#cultural-capabilities)
 - [An introduction to innersource](https://resources.github.com/innersource/fundamentals/)
+- **Efficiency**
+- [Scale through automation](https://octoverse.github.com/writing-code-faster/#scale-through-automation)
+- [Reuse code without the friction](https://octoverse.github.com/writing-code-faster/#reusing-code-without-the-friction)
+- Maximize [Developer Effectiveness](https://martinfowler.com/articles/developer-effectiveness.html)
+- Optimize [local development environments](https://github.com/readme/guides/developer-onboarding)
+- Create [efficiencies](https://docs.microsoft.com/en-us/learn/paths/devops-dojo-white-belt-foundation/) that support the business
+- Improve [DevOps Capabilities](https://cloud.google.com/architecture/devops/capabilities#technical-capabilities)

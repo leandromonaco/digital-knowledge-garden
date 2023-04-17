@@ -1,6 +1,5 @@
 # Objectives
 - [[Continuous Improvement]]
-- [[Delivery]]
 - [[Quality]]
 - [[Knowledge Sharing]]
 # OKRs
