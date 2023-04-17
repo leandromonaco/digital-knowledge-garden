@@ -25,9 +25,13 @@ nav:
         - 'Angular': 'pages/Angular'
     - Management:
         - '1:1 Guidelines': 'pages/1on1s'
-        - 'OKRs': 'pages/Goals'
         - 'Ways of Working': 'pages/Ways of Working'
         - 'Software Development Strategy': 'pages/Software Development Strategy'
+    - 'Goals': 'pages/Goals'
+        - 'Product Delivery': 'pages/Product Delivery'
+        - 'Continous Improvement': 'pages/Continous Improvement'
+        - 'Knowledge Sharing': 'pages/Knowledge Sharing'
+        - 'Code Quality': 'pages/Code Quality'
 
 repo_name: leandromonaco.github.io
 repo_url: https://github.com/leandromonaco/leandromonaco.github.io
