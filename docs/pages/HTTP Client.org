@@ -1,0 +1,18 @@
+* //Program.cs
+            services.AddHttpClient("MyClient", client =>
+            {
+                client.DefaultRequestHeaders.Add("authToken", "token123");
+            }).AddTransientHttpErrorPolicy(p => p.WaitAndRetryAsync(3, _ => TimeSpan.FromMilliseconds(300)));
+
+Create Instance
+
+Inject IHttpClientFactory 
+var  httpClient = _httpClientFactory.CreateClient("MyClient");
+
+OR
+
+ var httpClient = new HttpClient();
+
+responseJson = await cmcApiClient.GetStringAsync($"https://domain.com/endpoint");
+var instance = JsonSerializer.Deserialize<ObjectDeserialized>(responseJson)!;
+*

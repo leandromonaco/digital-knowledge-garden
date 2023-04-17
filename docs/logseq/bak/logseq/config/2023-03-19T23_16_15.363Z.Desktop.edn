@@ -208,7 +208,7 @@
 
  :ref/linked-references-collapsed-threshold 50
 
- :favorites ["AWS" "Ways of Working" "software development strategy" "Development Guidelines" "Team Building" "Development Environment Setup"]
+ :favorites ["WireMock.Net" "AWS" "Ways of Working" "software development strategy" "Development Guidelines" "Team Building" "Development Environment Setup"]
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
@@ -296,7 +296,7 @@
  ;;     ;use triple underscore `___` for slash `/` in page title
  ;;     ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
- :preferred-format :markdown
+ :preferred-format :org
  :ui/show-brackets? false
  :publishing/all-pages-public? true
  }

@@ -1,9 +1,13 @@
 - Improve code quality to reduce technical debt
+  title:: Quality
   
   Write quality code that does what it’s intended to do, follows a consistent style, is easy to understand, is well documented, and can be tested. 
   Focus on readability, [[Performance]] , maintainability, reliability/resiliency, and [[Security]] .
 -
--
+- **Finding Issues**
+  
+  1. [Legacy Code Analysis for .NET Framework](https://learn.microsoft.com/en-us/visualstudio/code-quality/static-code-analysis-for-managed-code-overview)
+  2. [Code Analysis for .NET Core & .NET 5+](https://learn.microsoft.com/en-us/visualstudio/code-quality/roslyn-analyzers-overview)
 #### Goal-Oriented Ideas
 - Remove legacy code that is no longer in use.
 - Take time to separate the code and use the object oriented design approach you’ve heard so much about.
@@ -24,7 +28,7 @@
   * On-Call
   * Logging
   * Monitoring (SRE and Observability)
-#### Reference Material
+- #### Reference Material
   
   * [Testing in .NET](https://docs.microsoft.com/en-us/dotnet/core/testing/).
   * [Playwright for .NET](https://playwright.dev/dotnet/docs/intro).
@@ -37,4 +41,3 @@
   * [Why SOLID principles are still the foundation for modern software architecture](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
   * [Code Review Developer Guide](https://google.github.io/eng-practices/review)
   * [The Ultimate Code Review Blog Post Series](https://www.michaelagreiler.com/code-review-blog-post-series/)
-  *
