@@ -84,7 +84,7 @@ docker pull jijiechen/papercut:latest
 - Remove all containers `docker rm $(docker ps -a -q)`
 - Remove all images `docker rmi $(docker images -q)`
 
-##Security
+## Security
 
 https://docs.docker.com/scout/
 
