@@ -1,16 +1,18 @@
 ## Create Self-Signed Certificate
-- > [[WSL]] is required.
--
-- 1. Open a command prompt window
-  2. Run ```ubuntu```
-  3. Copy and Paste the following code. This will generate a .crt and a .key using [OpenSSL](https://www.openssl.org/)
+> **Note**
+> This process requires WSL2 and Ubuntu. Read [here](Docker%20Desktop.md) for installation steps.
+
+
+1. Open a command prompt window
+2. Run `ubuntu`
+3. Copy and Paste the following code. This will generate a .crt and a .key using [OpenSSL](https://www.openssl.org/)
   ``` 
-  PARENT="localhost"
+  PARENT="*.mydomain.dev"
   openssl req \
   -x509 \
   -newkey rsa:4096 \
   -sha256 \
-  -days 18250 \
+  -days 36500 \
   -nodes \
   -keyout $PARENT.key \
   -out $PARENT.crt \
@@ -35,21 +37,26 @@
   echo 'basicConstraints = critical, CA:TRUE, pathlen:0'; \
   echo 'keyUsage = critical, cRLSign, keyCertSign'; \
   echo 'extendedKeyUsage = serverAuth, clientAuth')
-  
+
   openssl x509 -noout -text -in $PARENT.crt
   ```
-  3. Run ```openssl pkcs12 -export -out $PARENT.pfx -inkey $PARENT.key -in $PARENT.crt``` to get a .pfx
-  4. Run ```explorer.exe .``` to open Windows Explorer and get the Certificate files
+  3. Run `openssl pkcs12 -export -out $PARENT.pfx -inkey $PARENT.key -in $PARENT.crt` to get a .pfx
+  4. Confirm password
+  5. Run `explorer.exe .` to open Windows Explorer and get the Certificate files
+  6. Copy files to `C:\Dev\SSL\`
+  7. Open a PowerShell window with admin rights
+  8. Execute `Import-Certificate -FilePath "C:\Dev\SSL\*.mydomain.dev.crt" -CertStoreLocation Cert:\LocalMachine\Root\`
+  9. Import PFX Certificate
+  ```
+    $mypwd = ConvertTo-SecureString "password from step 4" -AsPlainText -Force
+    Import-PfxCertificate -FilePath "C:\Dev\SSL\*.mydomain.dev.pfx" -CertStoreLocation Cert:\LocalMachine\My\ -Password $mypwd.Password
+  ```
   
   **Notes**
 - CRT file does not contain the private key
 - KEY file contains the private key
 - PFX file contains the private key, but it's protected by a password (eg. 12345)
-## Install on [[Windows]]
-- 1. Open a PowerShell window with admin rights 
-  3. Run `Import-Certificate -FilePath "C:\Dev\SSL\MyLocalCertificateAuthority.crt" -CertStoreLocation Cert:\LocalMachine\Root\`
-  4. Run `$mypwd = ConvertTo-SecureString "P@ssW0rD!" -AsPlainText -Force` or `$mypwd = Get-Credential -UserName 'Leandrom'`
-  6. Run `Import-PfxCertificate -FilePath "C:\Dev\SSL\mydomain.com.pfx" -CertStoreLocation Cert:\LocalMachine\My\ -Password $mypwd.Password`
+
 ## Configure Certificate in [[ASP.NET]]
 - See [Documentation](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel/endpoints?view=aspnetcore-6.0)
 - See [Example](https://github.com/leandromonaco/Workbench/commit/5bf095de315630410f10bbb98d667a3148beabba)
