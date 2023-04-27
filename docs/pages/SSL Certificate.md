@@ -5,57 +5,55 @@
 
 1. Open a command prompt window
 2. Run `ubuntu`
-3. Copy and Paste the following code. This will generate a .crt and a .key using [OpenSSL](https://www.openssl.org/)
-  ``` 
-  PARENT="*.mydomain.dev"
-  openssl req \
-  -x509 \
-  -newkey rsa:4096 \
-  -sha256 \
-  -days 36500 \
-  -nodes \
-  -keyout $PARENT.key \
-  -out $PARENT.crt \
-  -subj "/CN=${PARENT}" \
-  -extensions v3_ca \
-  -extensions v3_req \
-  -config <( \
-  echo '[req]'; \
-  echo 'default_bits= 4096'; \
-  echo 'distinguished_name=req'; \
-  echo 'x509_extension = v3_ca'; \
-  echo 'req_extensions = v3_req'; \
-  echo '[v3_req]'; \
-  echo 'basicConstraints = CA:FALSE'; \
-  echo 'keyUsage = nonRepudiation, digitalSignature, keyEncipherment'; \
-  echo 'subjectAltName = @alt_names'; \
-  echo '[ alt_names ]'; \
-  echo "DNS.1 = ${PARENT}"; \
-  echo '[ v3_ca ]'; \
-  echo 'subjectKeyIdentifier=hash'; \
-  echo 'authorityKeyIdentifier=keyid:always,issuer'; \
-  echo 'basicConstraints = critical, CA:TRUE, pathlen:0'; \
-  echo 'keyUsage = critical, cRLSign, keyCertSign'; \
-  echo 'extendedKeyUsage = serverAuth, clientAuth')
-
-  openssl x509 -noout -text -in $PARENT.crt
+3. Create `san.cnf`
   ```
-  3. Run `openssl pkcs12 -export -out $PARENT.pfx -inkey $PARENT.key -in $PARENT.crt` to get a .pfx
-  4. Confirm password
-  5. Run `explorer.exe .` to open Windows Explorer and get the Certificate files
-  6. Copy files to `C:\Dev\SSL\`
-  7. Open a PowerShell window with admin rights
-  8. Execute `Import-Certificate -FilePath "C:\Dev\SSL\*.mydomain.dev.crt" -CertStoreLocation Cert:\LocalMachine\Root\`
-  9. Import PFX Certificate
+  [req]
+  distinguished_name = req_distinguished_name
+  req_extensions = v3_req
+  [req_distinguished_name]
+  [v3_req]
+  basicConstraints = CA:FALSE
+  keyUsage = nonRepudiation, digitalSignature, keyEncipherment
+  subjectAltName = @alt_names
+  [alt_names]
+  DNS.1   = local.mydomain.dev
+  DNS.2   = support.mydomain.dev
+  DNS.3   = test.mydomain.dev
+  ```
+ 4. Create a private key for the CA
+ `openssl genpkey -algorithm RSA -out ca.key`
+ 5. Create a self-signed certificate for the CA
+ `openssl req -x509 -new -key ca.key -out ca.crt -days 36500` (this will prompt you for information about the CA, such as its name and location.)
+ 6. Create a private key for the server
+ `openssl genpkey -algorithm RSA -out server.key`
+ 7. Create a certificate signing request (CSR) for the server
+ `openssl req -new -key server.key -out server.csr -subj "/CN=mydomain.dev" -config san.cnf` (this will prompt you for information about the server, such as its name and location.)
+ 8. Sign the server's CSR with the CA
+ `openssl x509 -req -days 36500 -in server.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out server.crt -extensions v3_req -extfile san.cnf`
+ 9. Verify the Certificate
+ `openssl verify -CAfile ca.crt -verify_hostname local.mydomain.dev server.crt`
+ 10. Generate PFX files
+ ``` 
+  openssl pkcs12 -export -out ca.pfx -inkey ca.key -in ca.crt -passout pass:P4ssW0rd
+  openssl pkcs12 -export -out server.pfx -inkey server.key -in server.crt -passout pass:P4ssW0rd
+ ```
+ 11. Run `explorer.exe .` to open Windows Explorer and get the PFX Certificate files
+ 12. Copy files to `C:\Dev\SSL\`
+ 13. Open a PowerShell window with admin rights
+ 14. Execute `Import-PfxCertificate -FilePath .\ca.pfx -Password (ConvertTo-SecureString -String 'P4ssW0rd' -AsPlainText -Force) -CertStoreLocation Cert:\LocalMachine\Root`
+ 15. Execute `Import-PfxCertificate -FilePath .\server.pfx -Password (ConvertTo-SecureString -String 'P4ssW0rd' -AsPlainText -Force) -CertStoreLocation Cert:\LocalMachine\My`
+ 16. Import PFX Certificate
   ```
     $mypwd = ConvertTo-SecureString "password from step 4" -AsPlainText -Force
     Import-PfxCertificate -FilePath "C:\Dev\SSL\*.mydomain.dev.pfx" -CertStoreLocation Cert:\LocalMachine\My\ -Password $mypwd.Password
   ```
   
+Trust the CA on Firefox: `Settings -> Privacy & Security -> View Certificates -> Authorities -> import ca.crt`
+  
   **Notes**
 - CRT file does not contain the private key
 - KEY file contains the private key
-- PFX file contains the private key, but it's protected by a password (eg. 12345)
+- PFX file contains the private key, but it's protected by a password (eg. P4ssW0rd)
 
 ## Configure Certificate in [[ASP.NET]]
 - See [Documentation](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel/endpoints?view=aspnetcore-6.0)
