@@ -160,7 +160,7 @@ col.column_id
 ```
 
 ### List tables with no records
-```
+```sql
 SELECT
   t.NAME AS TableName,
   p.rows AS RowCounts
