@@ -1,5 +1,5 @@
 site_name:  Digital Knowledge Garden
-site_url: https://leandromonaco.github.io
+site_url: https://leandromonaco.github.io/digital-knowledge-garden/
 site_description: Digital Knowledge Garden
 site_author: Leandro Monaco
 
@@ -34,8 +34,8 @@ nav:
         - 'Knowledge Sharing': 'pages/Knowledge Sharing'
 
 
-repo_name: leandromonaco.github.io
-repo_url: https://github.com/leandromonaco/leandromonaco.github.io
+repo_name: digital-knowledge-garden
+repo_url: https://github.com/leandromonaco/digital-knowledge-garden/
 edit_uri: "edit/main/docs"
 
 theme:
