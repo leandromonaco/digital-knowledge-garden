@@ -23,7 +23,10 @@ Security | - [OWASP Top 10 - 2021](https://owasp.org/Top10/) <br> - [.NET Securi
 Architecture | - [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) <br> - [The Twelve-Factor App](https://12factor.net/)
 Process | - [Scrum Guide](https://scrumguides.org/scrum-guide.html) <br> - [Kanban Guide for Scrum Teams](https://www.scrum.org/resources/kanban-guide-scrum-teams)
 Documentation | - [Technical Writing Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome/)
-- ## Tools and Frameworks
+
+## Tools, Frameworks and Libraries
+- [Nuget Trends](https://nugettrends.com/)
+- `dotnet list package` [Documentation](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-list-package)
   
   Area | Packages
   ------------ | -------------
