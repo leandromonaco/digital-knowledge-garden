@@ -32,6 +32,7 @@ winget install -e --id Opera.Opera
 ## Dev Tools
 
 ```
+winget install -e --id Microsoft.NuGet
 winget install -e --id Postman.Postman
 winget install -e --id Docker.DockerDesktop
 winget install -e --id Datalust.Seq
