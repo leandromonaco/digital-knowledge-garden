@@ -1,5 +1,9 @@
 ## Index
 
+
+| :memo:        | [Powershell Script](https://gist.github.com/leandromonaco/f827810b4c953a85218049c51e7e336f)       |
+|---------------|:------------------------|
+
 1. [Windows](https://leandromonaco.github.io/pages/Windows/)
 2. [WinGet](https://leandromonaco.github.io/pages/WinGet/)
 3. [VSCode](https://leandromonaco.github.io/pages/VSCode/)
