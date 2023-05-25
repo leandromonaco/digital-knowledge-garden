@@ -2,8 +2,8 @@
   
   1. Install [Caskaydia Cove Nerd Font Complete Regular.otf](https://github.com/ryanoasis/nerd-fonts/blob/3b93c9963710a840f12c3f3e4e6f6240e39cbbdc/patched-fonts/CascadiaCode/Regular/complete/Caskaydia%20Cove%20Nerd%20Font%20Complete%20Regular.otf)
   2. Run `winget install -e --id Microsoft.WindowsTerminal`
-  4. Install [[Powershell]] 
-  5. Run `winget install JanDeDobbeleer.OhMyPosh -s winget`
+  4. Run `winget install —id Microsoft.PowerShell`
+  5. Run `winget install —id JanDeDobbeleer.OhMyPosh`
   6. Run `Install-Module PSReadLine -AllowPrerelease -Force`
   7. Run `notepad $PROFILE` 
   8. Add these lines
