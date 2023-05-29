@@ -22,6 +22,11 @@
 17. [AWS](https://leandromonaco.github.io/pages/AWS)
 18. [Azure](https://leandromonaco.github.io/pages/Azure)
   
+## Dev Drive
+
+- https://devblogs.microsoft.com/visualstudio/devdrive/
+- https://learn.microsoft.com/en-us/windows/dev-drive/
+
 ## Browsers
 
 ```
