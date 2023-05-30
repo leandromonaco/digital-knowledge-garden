@@ -67,9 +67,7 @@
 - [Using ChatOps to help Actions on-call engineers](https://github.blog/2021-12-01-using-chatops-to-help-actions-on-call-engineers)
 - [7 Incident Management Best Practices for Long Term Success](https://www.xmatters.com/blog/7-incident-management-best-practices-for-long-term-success)
 - [What the Ideal Incident Lifecycle Should Be](https://www.xmatters.com/blog/what-the-ideal-incident-lifecycle-should-be)
-## Metrics
-- [Report Metrics](https://help.pluralsight.com/help/cant-you-just-game-the-metrics)
-- [The engineering manager's guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)
+
 ## People Management
 - [Managing Staff-plus engineers](https://lethain.com/managing-staff-plus-engineers/)
 ## Time Management
