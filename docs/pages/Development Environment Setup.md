@@ -29,6 +29,7 @@
 - [Set up a Dev Drive on Windows 11](https://learn.microsoft.com/en-us/windows/dev-drive/)
 - [DevHome GitHub Repo](https://github.com/microsoft/devhome) | [GitHub Extension](https://github.com/microsoft/devhomegithubextension)
 - [Windows Sandbox](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)
+- [PSReadLine](https://github.com/PowerShell/PSReadLine)
 
 ## Browsers
 
