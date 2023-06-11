@@ -1,8 +1,18 @@
-## Index
+## Essentials
+
+- [WinGet Configuration](https://learn.microsoft.com/en-us/windows/package-manager/configuration)
+- [Dev Home for Windows Developers](https://learn.microsoft.com/en-us/windows/dev-home)
+- [Set up a Dev Drive on Windows 11](https://learn.microsoft.com/en-us/windows/dev-drive/)
+- [DevHome GitHub Repo](https://github.com/microsoft/devhome) | [GitHub Extension](https://github.com/microsoft/devhomegithubextension)
+- [Windows Sandbox](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)
+- [Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal)
+- [PSReadLine](https://github.com/PowerShell/PSReadLine)
+- [Oh My Posh](https://learn.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup)
 
 
-| :memo:        | [Powershell Script](https://gist.github.com/leandromonaco/f827810b4c953a85218049c51e7e336f)       |
-|---------------|:------------------------|
+| :memo:        | TODO: Migrate [this](https://gist.github.com/leandromonaco/f827810b4c953a85218049c51e7e336f) to **Winget Configuration**       |
+
+## Tools
 
 1. [Windows](https://leandromonaco.github.io/pages/Windows/)
 2. [WinGet](https://leandromonaco.github.io/pages/WinGet/)
@@ -21,15 +31,6 @@
 16. [Redis](https://leandromonaco.github.io/pages/Redis)
 17. [AWS](https://leandromonaco.github.io/pages/AWS)
 18. [Azure](https://leandromonaco.github.io/pages/Azure)
-  
-## Essentials
-
-- [WinGet Configuration](https://learn.microsoft.com/en-us/windows/package-manager/configuration)
-- [Dev Home for Windows Developers](https://learn.microsoft.com/en-us/windows/dev-home)
-- [Set up a Dev Drive on Windows 11](https://learn.microsoft.com/en-us/windows/dev-drive/)
-- [DevHome GitHub Repo](https://github.com/microsoft/devhome) | [GitHub Extension](https://github.com/microsoft/devhomegithubextension)
-- [Windows Sandbox](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)
-- [PSReadLine](https://github.com/PowerShell/PSReadLine)
 
 ## Browsers
 
