@@ -22,10 +22,12 @@
 17. [AWS](https://leandromonaco.github.io/pages/AWS)
 18. [Azure](https://leandromonaco.github.io/pages/Azure)
   
-## Dev Drive
+## Essentials
 
-- https://devblogs.microsoft.com/visualstudio/devdrive/
-- https://learn.microsoft.com/en-us/windows/dev-drive/
+- [WinGet Configuration](https://learn.microsoft.com/en-us/windows/package-manager/configuration)
+- [Dev Home for Windows Developers](https://learn.microsoft.com/en-us/windows/dev-home)
+- [Set up a Dev Drive on Windows 11](https://learn.microsoft.com/en-us/windows/dev-drive/)
+- [DevHome GitHub Repo](https://github.com/microsoft/devhome) | [GitHub Extension](https://github.com/microsoft/devhomegithubextension)
 
 ## Browsers
 
