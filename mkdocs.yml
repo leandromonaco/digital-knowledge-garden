@@ -26,7 +26,7 @@ nav:
     - Management:
         - '1:1 Guidelines': 'pages/1on1s'
         - 'Developer Experience': 'pages/Developer Experience'
-        - 'Metrics':'pages/Metrics'
+        - 'Metrics': 'pages/Metrics'
         - 'Ways of Working': 'pages/Ways of Working'
         - 'Software Development Strategy': 'pages/Software Development Strategy'
     - 'Goals': 
