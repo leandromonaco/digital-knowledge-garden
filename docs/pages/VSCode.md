@@ -5,6 +5,7 @@
 -
 ## Extensions
   ```
+  code --install-extension ms-dotnettools.csdevkit
   code --install-extension ms-vscode-remote.remote-containers
   code --install-extension amazonwebservices.aws-toolkit-vscode
   code --install-extension angular.ng-template
