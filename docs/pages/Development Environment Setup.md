@@ -14,23 +14,23 @@
 
 ## Tools
 
-1. [Windows](https://leandromonaco.github.io/pages/Windows/)
-2. [WinGet](https://leandromonaco.github.io/pages/WinGet/)
-3. [VSCode](https://leandromonaco.github.io/pages/VSCode/)
-4. [Windows Terminal](https://leandromonaco.github.io/pages/Windows%20Terminal/)
-5. [Docker Desktop](https://leandromonaco.github.io/pages/Docker%20Desktop/)
-7. [Git](https://leandromonaco.github.io/pages/Git/)
+1. [Windows](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/Windows/)
+2. [WinGet](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/WinGet/)
+3. [VSCode](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/VSCode.md)
+4. [Windows Terminal](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/Windows%20Terminal/)
+5. [Docker Desktop](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/Docker%20Desktop/)
+7. [Git](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/Git/)
 8. [NodeJS](https://leandromonaco.github.io/pages/NodeJS/)
-9. [Angular CLI](https://leandromonaco.github.io/pages/Angular%20CLI/)
+9. [Angular CLI](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/Angular%20CLI/)
 10. [.NET](https://leandromonaco.github.io/pages/.NET/)
-11. [Visual Studio](https://leandromonaco.github.io/pages/Visual%20Studio/)
-12. [Sql Server](https://leandromonaco.github.io/pages/Sql%20Server/)
-13. [SSL Certificate](https://leandromonaco.github.io/pages/SSL%20Certificate/)
-14. [IIS](https://leandromonaco.github.io/pages/IIS/)
-15. [Host File](https://leandromonaco.github.io/pages/Host%20File/)
-16. [Redis](https://leandromonaco.github.io/pages/Redis)
-17. [AWS](https://leandromonaco.github.io/pages/AWS)
-18. [Azure](https://leandromonaco.github.io/pages/Azure)
+11. [Visual Studio](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/Visual%20Studio/)
+12. [Sql Server](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/Sql%20Server/)
+13. [SSL Certificate](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/SSL%20Certificate/)
+14. [IIS](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/IIS/)
+15. [Host File](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/Host%20File/)
+16. [Redis](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/Redis)
+17. [AWS](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/AWS)
+18. [Azure](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/Azure)
 
 ## Browsers
 
