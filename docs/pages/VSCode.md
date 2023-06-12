@@ -2,7 +2,7 @@
 -
 ## Installation
 - Run ``winget install -e --id Microsoft.VisualStudioCode``
--
+
 ## Extensions
   ```
   code --install-extension ms-dotnettools.csdevkit
