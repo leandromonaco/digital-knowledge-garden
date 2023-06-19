@@ -1,5 +1,5 @@
 ## Installation
-- ```
+ ```
   winget install -e --id Microsoft.VisualStudio.2019.Professional
   winget install -e --id Microsoft.VisualStudio.2022.Enterprise
   winget install -e --id Microsoft.VisualStudio.2022.TestController
@@ -11,8 +11,10 @@
   winget install -e --id Microsoft.VisualStudio.2022.BuildTools
   ```
 ## Configuration
-- [Import or export installation configurations](https://docs.microsoft.com/en-us/visualstudio/install/import-export-installation-configurations)
-- ## Extensions
+ [Import or export installation configurations](https://docs.microsoft.com/en-us/visualstudio/install/import-export-installation-configurations)
+
+
+## Extensions
   ```powershell
   
   #Credits: https://gist.github.com/ScottHutchinson/b22339c3d3688da5c9b477281e258400
@@ -73,3 +75,7 @@
   
   Write-Host "Installation of $($PackageName) complete!"
   ```
+
+## Features
+
+- [Profiling](https://docs.microsoft.com/en-us/visualstudio/profiling)
