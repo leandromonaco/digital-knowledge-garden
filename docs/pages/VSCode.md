@@ -1,4 +1,4 @@
-- [Visual Studio Code](https://code.visualstudio.com/download)
+See [Official Site](https://code.visualstudio.com)
 
 ## Installation
 - Run ``winget install -e --id Microsoft.VisualStudioCode``
