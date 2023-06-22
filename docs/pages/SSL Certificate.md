@@ -19,6 +19,7 @@
   DNS.1   = local.mydomain.dev
   DNS.2   = support.mydomain.dev
   DNS.3   = test.mydomain.dev
+  DNS.4   = automation.mydomain.dev
   ```
  4. Create a private key for the CA
  `openssl genpkey -algorithm RSA -out ca.key`
@@ -75,3 +76,22 @@ Notes:
   [How HTTPS Works](https://howhttps.works/)
 - [Import-PfxCertificate](https://docs.microsoft.com/en-us/powershell/module/pki/import-pfxcertificate?view=windowsserver2022-ps)
 - [Trusted Root Certification Authorities Certificate Store](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/trusted-root-certification-authorities-certificate-store)
+- [Create a CSR](https://www.filecloud.com/supportdocs/fcdoc/latest/server/filecloud-administrator-guide/installing-filecloud-server/post-installation/ssl-configuration/use-ssl-on-linux/create-a-csr-for-filecloud)
+
+## Using CloudFlare as CA
+
+1. Go to https://dash.cloudflare.com
+2. Create a Website
+3. Run `Ubuntu`
+4. Run `openssl req -new -newkey rsa:2048 -nodes -keyout server.key -out server.csr`
+5. When prompted **Common Name**, make sure you use a wildcard address `*.mydomain.dev`
+6. Run `ls` and check if `server.csr` is listed
+7. Run `cat server.csr`
+8. Copy the CSR content
+9. Go to CloudFare -> Website -> SSL/TLS -> Client Certificates -> Create Certificate
+10. Select "Use my private key and CSR"
+11. Copy content from step 8
+12. Click Create
+13. Select PEM Format
+14. Copy content into a notepad and save as newsslcertificate.crt
+
