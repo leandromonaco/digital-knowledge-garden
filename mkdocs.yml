@@ -15,9 +15,11 @@ nav:
         - 'Development Machine Setup': 'pages/Development Environment Setup'
     - '.NET':
         - 'Configuration': 'pages/Configuration'
-    - Cloud:
+        - 'Configuration': 'pages/ASP.NET'
+    - Infrastructure:
         - 'AWS': 'pages/AWS'
         - 'Azure': 'pages/Azure'
+        - 'SSL': 'pages/SSL Certificate'
     - Data:
         - 'SQL Server': 'pages/Sql Server'
         - 'Entity Framework': 'pages/EntityFramework'
