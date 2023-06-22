@@ -94,4 +94,5 @@ Notes:
 12. Click Create
 13. Select PEM Format
 14. Copy content into a notepad and save as newsslcertificate.crt
+15. Generate PFX `openssl pkcs12 -export -out server.pfx -inkey server.key -in server.crt -passout pass:P4ssW0rd`
 
