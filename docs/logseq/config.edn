@@ -208,7 +208,7 @@
 
  :ref/linked-references-collapsed-threshold 50
 
- :favorites ["AWS" "Ways of Working" "software development strategy" "Development Guidelines" "Team Building" "Development Environment Setup"]
+ :favorites ["ASP.NET" "Visual Studio" ".NET" "AWS" "Ways of Working" "software development strategy" "Development Guidelines" "Team Building" "Development Environment Setup"]
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5

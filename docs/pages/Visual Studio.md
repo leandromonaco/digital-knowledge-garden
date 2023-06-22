@@ -1,4 +1,8 @@
-## Installation
+- https://learn.microsoft.com/en-us/visualstudio/get-started/visual-studio-ide
+  https://learn.microsoft.com/en-us/aspnet/core/test/dev-tunnels
+  https://learn.microsoft.com/en-us/aspnet/core/test/http-files
+  
+  ## Installation
 - ```
   winget install -e --id Microsoft.VisualStudio.2019.Professional
   winget install -e --id Microsoft.VisualStudio.2022.Enterprise
