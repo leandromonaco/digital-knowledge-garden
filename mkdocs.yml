@@ -15,7 +15,7 @@ nav:
         - 'Development Machine Setup': 'pages/Development Environment Setup'
     - '.NET':
         - 'Configuration': 'pages/Configuration'
-        - 'Configuration': 'pages/ASP.NET'
+        - 'ASP.NET': 'pages/ASP.NET'
     - Infrastructure:
         - 'AWS': 'pages/AWS'
         - 'Azure': 'pages/Azure'
