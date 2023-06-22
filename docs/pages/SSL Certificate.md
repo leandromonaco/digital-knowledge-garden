@@ -88,7 +88,7 @@ Notes:
 6. Run `ls` and check if `server.csr` is listed
 7. Run `cat server.csr`
 8. Copy the CSR content
-9. Go to CloudFare -> Website -> SSL/TLS -> Client Certificates -> Create Certificate
+9. Go to CloudFare -> Website -> SSL/TLS -> Origin Server -> Create Certificate
 10. Select "Use my private key and CSR"
 11. Copy content from step 8
 12. Click Create
