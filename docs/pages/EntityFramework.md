@@ -7,8 +7,9 @@
 ## Create/Update Model (Database First)
 1. csproj file must reference  ```Microsoft.EntityFrameworkCore.Design``` and ```Microsoft.EntityFrameworkCore.SqlServer``` nuget packages
 2. Navigate to the folder where you want to store the model
-3. Update EF Model Classes ```dotnet ef dbcontext scaffold "Server=localhost;Database=DbName;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Database -f```
+3. Update EF Model Classes `dotnet ef dbcontext scaffold "Server=localhost;Database=DbName;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Database -f --project C:\Dev\Something.csproj`
     
 ## Configure Connection String
 
-Modify ```OnConfiguring``` method located in ```[your-db-name-goes-here]Context```
+1. Search for `DbContext` class
+2. Modify `OnConfiguring` method located in `[your-db-name-goes-here]Context`
