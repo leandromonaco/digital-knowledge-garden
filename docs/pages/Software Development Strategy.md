@@ -4,7 +4,7 @@
 - [Introduction](#introduction)
 - [General](#general)
 - [Guidelines](#guidelines)
-- [Tools and Frameworks](#tools-and-frameworks)
+- [Tools, Frameworks and Libraries](#tools-frameworks-and-libraries)
 - [Coding Standards](#coding-standards)
 ## Introduction
 
@@ -30,7 +30,7 @@ Documentation | - [Technical Writing Style Guide](https://docs.microsoft.com/en-
   
   Area | Packages
   ------------ | -------------
-  Testing | - [Specflow](https://specflow.org/tools/specflow/) <br> - [xUnit](https://xunit.net/) <br> - [nSubstitute](https://nsubstitute.github.io/) <br> - [Fluent Assertions](https://fluentassertions.com/) <br> - [Fluent Validations](https://fluentvalidation.net/) <br> - [AutoFixture](https://autofixture.github.io/) <br> - [BenchmarkDotNet](https://benchmarkdotnet.org/) <br> - [Coverlet](https://dotnetfoundation.org/projects/coverlet) <br> - [NBomber](https://github.com/PragmaticFlow/NBomber) <br> - [Playwright](https://playwright.dev/dotnet/docs/next/intro) <br> - [WireMock.Net](https://github.com/WireMock-Net/WireMock.Net) <br> - [TestContainers](https://github.com/testcontainers/testcontainers-dotnet) <br> - [LocalStack](https://github.com/localstack/localstack) <br> - [Spectre.Console](https://github.com/spectreconsole/spectre.console)
+  Testing | - [Specflow](https://specflow.org/tools/specflow/) <br> - [xUnit](https://xunit.net/) <br> - [nSubstitute](https://nsubstitute.github.io/) <br> - [Fluent Assertions](https://fluentassertions.com/) <br> - [AutoFixture](https://autofixture.github.io/) <br> - [BenchmarkDotNet](https://benchmarkdotnet.org/) <br> - [Coverlet](https://dotnetfoundation.org/projects/coverlet) <br> - [NBomber](https://github.com/PragmaticFlow/NBomber) <br> - [Playwright](https://playwright.dev/dotnet/docs/next/intro) <br> - [WireMock.Net](https://github.com/WireMock-Net/WireMock.Net) <br> - [TestContainers](https://github.com/testcontainers/testcontainers-dotnet) <br> - [LocalStack](https://github.com/localstack/localstack) <br> - [Spectre.Console](https://github.com/spectreconsole/spectre.console)
   Logging | - [Serilog](https://serilog.net/) <br> - [SEQ](https://datalust.co/seq)
   Architecture | - [Clean Architecture Solution Template](https://github.com/jasontaylordev/CleanArchitecture)
   Worker Service  | - [Quartz.NET](https://www.quartz-scheduler.net/) <br> - [Hangfire](https://www.hangfire.io/)
@@ -38,10 +38,8 @@ Documentation | - [Technical Writing Style Guide](https://docs.microsoft.com/en-
   Build | - [Nuke](https://nuke.build/) <br> - [Nerdbank.GitVersioning](https://github.com/dotnet/Nerdbank.GitVersioning) <br> 
   SMTP Testing | - [Papercut](https://github.com/ChangemakerStudios/Papercut-SMTP)
   CLI Tools | - [System.CommandLine](https://docs.microsoft.com/en-us/dotnet/standard/commandline/)
+  Code Analyzers | - [SonarAnalyzer.CSharp](https://github.com/SonarSource/sonar-dotnet) <br> - [FluentAssertions.Analyzers](https://github.com/fluentassertions/fluentassertions.analyzers)
   
-  
-  
-
 ## Code Reviews
 - https://github.com/mgreiler/code-review-checklist
 - https://github.com/joho/awesome-code-review
@@ -108,6 +106,11 @@ https://devblogs.microsoft.com/odata/up-running-w-odata-in-asp-net-6/
 # Coding Standards
 ## Clean Code
 
+- https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/configuration-options
+- https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options
+- https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-quality-rule-options
+- https://learn.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options
+
 ✅ Detect and address Code Smells with [Sonarlint](https://www.sonarlint.org/visualstudio/ "https://www.sonarlint.org/visualstudio/")
 
 ✅ Follow Clean Code [Programming Principles](https://github.com/webpro/programming-principles "https://github.com/webpro/programming-principles")
@@ -171,10 +174,11 @@ Notice a couple of things here:
 - We run it with the `RUN_LOCAL` flag to bypass some of the GitHub Actions checks. This automatically sets `VALIDATE_ALL_CODEBASE` to true.
 - We map our local codebase to `/tmp/lint` so that the linter can pick up the code.
 - The way we set environment variables is of course different, but the overall process of running the GitHub Super Linter remains the same.
-- # Pre-Commit Hooks
+
+# Pre-Commit Hooks
   https://alirezanet.github.io/Husky.Net/guide/#features
-# Nuget Packages
-- [SonarAnalyzer.CSharp](https://www.nuget.org/packages/SonarAnalyzer.CSharp/)
+
+
 # Rules Catalog
 - [SonarSource](https://rules.sonarsource.com/csharp)
 - [DevExpress](https://docs.devexpress.com/CodeRushForRoslyn/116021/static-code-analysis/analyzers-library)
