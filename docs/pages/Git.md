@@ -12,7 +12,16 @@
 
 [GitHub Repo](https://github.com/git-ecosystem/git-credential-manager)
 ## Commands
-- ### Git Clone with Submodules
+
+### Clean Repository
+
+`git clean -fdx` is a command used in Git to remove untracked files and directories from the working tree.
+
+- `-f` flag stands for "force", which allows the command to execute without prompting the user for confirmation. 
+- `-d` flag is used to also remove untracked directories. 
+- `-x` flag is used to also remove ignored files.
+
+### Git Clone with Submodules
   
   `git clone git@github.com:leandromonaco/leandromonaco.github.io.git C:\Dev\Repo --recurse-submodules`
   
