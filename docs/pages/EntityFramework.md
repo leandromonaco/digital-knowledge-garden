@@ -1,15 +1,44 @@
-[Entity Framework Core tools reference - .NET Core CLI](https://docs.microsoft.com/en-us/ef/core/cli/dotnet)
+## EF CLI
 
-## Install/Update
-1. Install EF command `dotnet tool install --global dotnet-ef`
-2. Update EF command (if required) `dotnet tool update --global dotnet-ef`
+- [Entity Framework Core tools reference - .NET Core CLI](https://docs.microsoft.com/en-us/ef/core/cli/dotnet)
+
+### Commands
+- Install:     `dotnet tool install --global dotnet-ef`
+- Update:      `dotnet tool update --global dotnet-ef`
 
 ## Create/Update Model (Database First)
-1. csproj file must reference  ```Microsoft.EntityFrameworkCore.Design``` and ```Microsoft.EntityFrameworkCore.SqlServer``` nuget packages
-2. Navigate to the folder where you want to store the model
-3. Update EF Model Classes `dotnet ef dbcontext scaffold "Server=localhost;Database=DbName;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Database -f --project C:\Dev\Something.csproj`
+1. `.csproj` file must reference the following nuget packages:
+    - `Microsoft.EntityFrameworkCore.Design` 
+    - `Microsoft.EntityFrameworkCore.SqlServer`
+3. Navigate to the folder where you want to store the model
+4. Update EF Model Classes `dotnet ef dbcontext scaffold "Server=localhost;Database=DbName;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Database -f --project C:\Dev\Something.csproj`
     
-## Configure Connection String
+## Connection String
 
-1. Search for `DbContext` class
-2. Modify `OnConfiguring` method located in `[your-db-name-goes-here]Context`
+- [Connection String Syntax](https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/connection-string-syntax)
+
+Search for `DbContext.cs` class
+
+
+```csharp
+protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+{
+    var connectionString = "Persist Security Info=False;User ID=*****;Password=*****;Initial Catalog=AdventureWorks;Server=MySqlServer";
+    optionsBuilder.UseSqlServer(connectionString);
+}
+```
+
+## Logging
+
+This will allow us to see the SQL Queries being executed
+
+```csharp
+protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+{
+    var connectionString = "Persist Security Info=False;User ID=*****;Password=*****;Initial Catalog=AdventureWorks;Server=MySqlServer";
+    optionsBuilder.LogTo(Console.Write, LogLevel.Trace)
+                  .EnableSensitiveDataLogging()
+                  .EnableDetailedErrors()
+                  .UseSqlServer(connectionString);
+}
+```
