@@ -65,8 +65,16 @@ Enable transient error resiliency by adding `EnableRetryOnFailure` to the `UseSq
 ## Useful Queries
 ### Backup
 ```sql
+
+--Windows
 BACKUP DATABASE [DbName] TO
 DISK = N'C:\Dev\Database\DbName.bak'
+WITH COMPRESSION, STATS = 10
+GO
+
+--Linux
+BACKUP DATABASE [DbName] TO
+DISK = N'/var/opt/mssql/data/DbName.bak'
 WITH COMPRESSION, STATS = 10
 GO
 ```
