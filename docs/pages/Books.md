@@ -1,6 +1,6 @@
 [Books](https://ebookfoundation.github.io/free-programming-books/) suggested by the community
 
-## Paper
+## Paperback
 - [The Effective Engineer](https://www.amazon.com/Effective-Engineer-Engineering-Disproportionate-Meaningful/dp/0996128107)
 - [The Clean Coder](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/B08X7MNTCX/)
 - [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052)
@@ -19,3 +19,5 @@
 - [Kubernetes Comic](https://cloud.google.com/kubernetes-engine/kubernetes-comic)
 - [.NET Architecture Guides](https://dotnet.microsoft.com/en-us/learn/dotnet/architecture-guides)
 - [LINQ Explained with Sketches](https://github.com/leandromonaco/leandromonaco.github.io/blob/main/books/LINQ%20Explained%20with%20Sketches.pdf)
+- [The Concise TypeScript Book](https://github.com/gibbok/typescript-book)
+- [How HTTPS works](https://howhttps.works/)
