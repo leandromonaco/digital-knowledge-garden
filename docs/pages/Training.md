@@ -19,5 +19,6 @@
 2. [Project Management](https://www.perfectkickoff.com)
 3. [Agile](https://www.atlassian.com/agile)
 4. [Git](https://www.atlassian.com/git)
-5. [Redis for .NET Developers](https://university.redis.com/courses/ru102n/)
-6. [SQL](https://www.w3schools.com/sql/default.asp)
+5. [Git Hooks](https://www.atlassian.com/git/tutorials/git-hooks)
+6. [Redis for .NET Developers](https://university.redis.com/courses/ru102n/)
+7. [SQL](https://www.w3schools.com/sql/default.asp)
