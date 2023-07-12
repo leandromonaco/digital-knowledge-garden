@@ -1,4 +1,0 @@
-* ## RU102N [[Redis]] for .NET Developers
-*
-*
-* dfs
