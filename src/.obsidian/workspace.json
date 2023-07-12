@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ways of Working.md",
+                "file": "Management/Psychological Safety.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ways of Working.md",
+                "file": "Management/Psychological Safety.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ways of Working.md",
+                "file": "Management/Psychological Safety.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ways of Working.md"
+                "file": "Management/Psychological Safety.md"
               }
             }
           }
@@ -148,7 +148,8 @@
   },
   "active": "396453fa1c016e01",
   "lastOpenFiles": [
-    "Index.md",
+    "AI.md",
+    "Angular CLI.md",
     "Angular.md",
     "Architecture.md",
     "ASP.NET.md",
@@ -157,23 +158,23 @@
     "Batch File.md",
     "bookmarks.md",
     "Books.md",
-    "Career.md",
     "CLI.md",
-    "Coaching.md",
     "coding-exercise.md",
-    "Community Of Practice.md",
     "Conferences.md",
     "Configuration.md",
     "contents.md",
     "Continous Learning.md",
-    "Continuous Improvement.md",
     "CSS.md",
+    "Continuous Improvement.md",
     "CVE.md",
     "DevContainers.md",
     "Development Environment Setup.md",
     "DiagramsAsCode.md",
     "Docker Desktop.md",
     "Docker.md",
+    "Documentation.md",
+    "Effective Meetings.md",
+    "Management",
     "RU102N Redis for .NET Developers.org",
     "NuGet.org",
     "Modernization.org",

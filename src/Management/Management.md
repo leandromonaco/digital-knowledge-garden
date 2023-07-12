@@ -8,7 +8,7 @@
 - [[Wellbeing]]
 - [[Career]]
 - [[1:1s]]
-- [[Ways Of Working]]
+- [[Ways of Working]]
 - [[Metrics]]
 - [[Hiring]]
 - [[Reports]]
