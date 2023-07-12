@@ -15,6 +15,9 @@ Welcome to my **Digital Knowledge Garden** 🌱
 8. Select root_folder/docs
 9. Enable Document Mode: Type "esc + t + d"
 
+### Obsidian (evaluating migration from LogSeq)
+1. `winget install --id Obsidian.Obsidian`
+
 ### Sources
 1. `winget install -e --id Mozilla.Firefox.DeveloperEdition`
 2. [Feedly](https://addons.mozilla.org/en-US/firefox/addon/feedly_mini/)
