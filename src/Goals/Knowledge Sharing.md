@@ -70,3 +70,13 @@ Sharing knowledge is crucial for software development teams to be successful in 
   **X. Closing**
 - Final thoughts
 - Thank audience for their time and attention
+# Documentation and Knowledge Sharing
+- [Email templates to kick-start team engagement](https://stackoverflow.help/en/articles/4515533-email-templates-to-kick-start-team-engagement)
+- [Tales from documentation: Write for your clueless users](https://stackoverflow.blog/2020/07/13/tales-from-documentation-write-for-your-dumbest-user/)
+- [How writing can advance your career as a developer](https://stackoverflow.blog/2021/08/09/how-writing-can-advance-your-career-as-a-developer/)
+- [How to write in plain English](https://plainenglish.co.uk/how-to-write-in-plain-english.html)
+- [Documentation, Disrupted: How Two Technical Writers Changed Google Engineering Culture](https://www.youtube.com/watch?v=EnB8GtPuauw)
+- [About writing and formatting on GitHub](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github)
+- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material)
+- [Let's Treat Docs Like Code](https://www.docslikecode.com/)
+- [How to Write a Good Documentation](https://guides.lib.berkeley.edu/how-to-write-good-documentation)

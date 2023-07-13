@@ -6,11 +6,6 @@ This step is not required from Windows 11 onwards
 
 ![WindowsTerminal_KmYQFR6mEb](https://user-images.githubusercontent.com/5598150/165411040-9037b37d-9c4b-4d2d-b93b-799a6e57e860.gif)
 
-
-
-
-
-    
 ## Search
 
 `winget search dapr`
@@ -28,6 +23,10 @@ See [documentation](https://learn.microsoft.com/en-us/windows/package-manager/wi
 `winget upgrade --all --silent`
 
 See [documentation](https://learn.microsoft.com/en-us/windows/package-manager/winget/upgrade)
+
+## Configure
+
+https://learn.microsoft.com/en-us/windows/package-manager/configuration/
 
 ## Documentation
 - https://aka.ms/winget-command-help

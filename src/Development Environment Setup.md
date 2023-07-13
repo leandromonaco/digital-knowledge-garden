@@ -9,28 +9,29 @@
 - [PSReadLine](https://github.com/PowerShell/PSReadLine)
 - [Oh My Posh](https://learn.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup)
 
+Using a [[WinGet]] Configuration file, you can consolidate manual machine setup and project onboarding to a single command that is reliable and repeatable.
 
 | :memo:        | TODO: Migrate [this](https://gist.github.com/leandromonaco/f827810b4c953a85218049c51e7e336f) to **Winget Configuration**       |
 
 ## Tools
 
-1. [Windows](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/Windows/)
-2. [WinGet](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/WinGet/)
-3. [VSCode](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/VSCode.md)
-4. [Windows Terminal](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/Windows%20Terminal/)
-5. [Docker Desktop](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/Docker%20Desktop/)
-7. [Git](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/Git/)
-8. [NodeJS](https://leandromonaco.github.io/pages/NodeJS/)
-9. [Angular CLI](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/Angular%20CLI/)
-10. [.NET](https://leandromonaco.github.io/pages/.NET/)
-11. [Visual Studio](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/Visual%20Studio/)
-12. [Sql Server](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/Sql%20Server/)
-13. [SSL Certificate](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/SSL%20Certificate/)
-14. [IIS](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/IIS/)
-15. [Host File](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/Host%20File/)
-16. [Redis](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/Redis)
-17. [AWS](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/AWS)
-18. [Azure](https://github.com/leandromonaco/digital-knowledge-garden/blob/main/docs/pages/Azure)
+1. [[Windows]]
+2. [[WinGet]]
+3. [[VSCode]]
+4. [[Windows Terminal]]
+5. [[Docker Desktop]]
+7. [[Git]]
+8. [[NodeJS]]
+9. [[Angular CLI]]
+10. [[.NET]]
+11. [[Visual Studio]]
+12. [[Sql Server]]
+13. [[SSL Certificate]]
+14. [[IIS]]
+15. [[Host File]]
+16. [[Redis]]
+17. [[AWS]]
+18. [[Azure]]
 
 ## Browsers
 

@@ -1,0 +1,5 @@
+- [Why Google Stores Billions of Lines of Code in a Single Repository](https://research.google/pubs/pub45424/)
+- [Monorepo to Multirepo and Back Again](https://www.youtube.com/watch?v=lV8-1S28ycM)
+- [Optimize your monorepo experience](https://www.youtube.com/watch?v=RcqLV1lU408&t=81s)
+- [Make your monorepo feel small with Git’s sparse index](https://github.blog/2021-11-10-make-your-monorepo-feel-small-with-gits-sparse-index/)
+- [Get up to speed with partial clone and shallow clone](https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone)

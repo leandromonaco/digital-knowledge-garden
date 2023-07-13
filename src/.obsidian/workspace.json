@@ -25,14 +25,98 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Management/Psychological Safety.md",
+                "file": "Development Environment Setup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a52bcfc5f0d224b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Management/Hiring.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "213064d5be87d4c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bookmarks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "98af21ea0c3c3101",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bookmarks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "791c3c7c546abcd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Management/Metrics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "58acf7b738354680",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bookmarks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d4c83fa47723c66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bookmarks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be3c6e7c8c3509db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/slngen.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -98,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Management/Psychological Safety.md",
+                "file": "Tools/slngen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Management/Psychological Safety.md",
+                "file": "Tools/slngen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Management/Psychological Safety.md"
+                "file": "Tools/slngen.md"
               }
             }
           }
@@ -159,34 +243,37 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "b1e3193ee734d803",
+  "active": "be3c6e7c8c3509db",
   "lastOpenFiles": [
-    "Management/Psychological Safety.md",
-    "Management/Change Management.md",
-    "AI.md",
-    "Angular CLI.md",
-    "Angular.md",
-    "Architecture.md",
-    "ASP.NET.md",
-    "AWS.md",
-    "Azure.md",
-    "Batch File.md",
+    "Management/Salary.md",
+    "Tools/slngen.md",
+    "Tools",
+    "Management/1on1s.md",
+    "Management/Management.md",
+    "Playwright.md",
+    "Untitled.md",
+    "Firefox.md",
     "bookmarks.md",
-    "Books.md",
-    "CLI.md",
-    "coding-exercise.md",
-    "Conferences.md",
-    "Configuration.md",
-    "contents.md",
-    "Continous Learning.md",
+    "Management/Software Development Strategy.md",
+    "Microsoft Certifications.md",
+    "Goals/Quality.md",
     "CSS.md",
-    "Continuous Improvement.md",
     "CVE.md",
-    "DevContainers.md",
-    "Development Environment Setup.md",
-    "DiagramsAsCode.md",
-    "Docker Desktop.md",
-    "Docker.md",
+    "dotnet list package.md",
+    "IIS.md",
+    "NukeBuild.md",
+    "WireMockNet.md",
+    "WinGet.md",
+    "Windows Terminal.md",
+    "Windows.md",
+    "VSCode.md",
+    "Visual Studio.md",
+    "Tye.md",
+    "Technical Support.md",
+    "CLI.md",
+    "Documentation.md",
+    "Goals",
+    "Email Templates",
     "Management",
     "RU102N Redis for .NET Developers.org",
     "NuGet.org",

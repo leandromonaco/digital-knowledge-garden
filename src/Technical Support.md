@@ -17,7 +17,7 @@ Give the security code to the person you’re helping and tell them to follow th
 1. Click on your Windows Start search menu
 2. Type “PSR” and then click on psr.exe in the search results.
 3. Open the application
-4. Start the recording from the login page until you reach the page where you can see the error message/problem occured.
+4. Start the recording from the login page until you reach the page where you can see the error message/problem occurred.
 5. Once you reach the last page, ensure your home page before you stop the recording to ensure that you have captured the last page where we encountered the error message.
 6. In the Save As dialog box, type a name for the file, and then click Save. Then it will be created as a zip file. Please send the zip file attached to this email
 You may look online for more suitable steps for your computer if the above steps will not work. 

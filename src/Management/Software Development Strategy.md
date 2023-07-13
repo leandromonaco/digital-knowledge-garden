@@ -6,9 +6,10 @@
 - [Guidelines](#guidelines)
 - [Tools, Frameworks and Libraries](#tools-frameworks-and-libraries)
 - [Coding Standards](#coding-standards)
+
 ## Introduction
 
-This document is a set of upfront decisions that allows the team to come up with an effective set of dos, don’ts and hows regarding 
+This document is a set of upfront decisions that allows the team to come up with an effective set of dos, don’ts and how's regarding 
 the future application design, development and deployment, and move consistently through each step of a development project.
 ## General
 - Use GitHub folder structure (src, doc, test, build, tool)
@@ -132,7 +133,8 @@ https://devblogs.microsoft.com/odata/up-running-w-odata-in-asp-net-6/
 - [CWE TOP 25](https://cwe.mitre.org/top25/archive/2022/2022_cwe_top25.html "https://cwe.mitre.org/top25/archive/2022/2022_cwe_top25.html")
 - [APIs](https://github.com/shieldfy/API-Security-Checklist "https://github.com/shieldfy/API-Security-Checklist")
 # Guidelines
-- [Secure Coding Guidelines](https://learn.securecodewarrior.com/guidelines)
+- [Secure coding Guidelines Microsoft](https://docs.microsoft.com/en-us/dotnet/standard/security/secure-coding-guidelines)
+- [Secure Coding Guidelines SCW](https://learn.securecodewarrior.com/guidelines)
 - https://cheatsheetseries.owasp.org/cheatsheets/DotNet_Security_Cheat_Sheet.html
 - https://github.com/treffynnon/sqlstyle.guide
 - https://github.com/webpro/programming-principles

@@ -1,3 +1,3 @@
 - https://codesubmit.io/blog/test-programming-skills/
 - [[Interview]]
-- [[Onboarding]]
+- [[Management/Onboarding]]

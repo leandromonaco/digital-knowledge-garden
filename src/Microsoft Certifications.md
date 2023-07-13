@@ -1,0 +1,3 @@
+
+- [Is your certification expiring soon? Renew it for free today!](https://techcommunity.microsoft.com/t5/microsoft-learn-blog/is-your-certification-expiring-soon-renew-it-for-free-today/ba-p/2150405)
+- [New to Microsoft Certification exams? We have something you need to try](https://techcommunity.microsoft.com/t5/microsoft-learn-blog/new-to-microsoft-certification-exams-we-have-something-you-need/ba-p/3041520)
