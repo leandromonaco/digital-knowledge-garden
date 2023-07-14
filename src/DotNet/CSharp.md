@@ -1,0 +1,1 @@
+[Welcome to C# 10](https://devblogs.microsoft.com/dotnet/welcome-to-csharp-10)

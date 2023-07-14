@@ -13,5 +13,3 @@ After waiting for setup to complete, selecting the *Infer# Analysis* menu item a
 - https://devblogs.microsoft.com/dotnet/slaying-zombie-no-repo-crashes-with-infersharp/
 - https://devblogs.microsoft.com/dotnet/infer-interprocedural-memory-safety-analysis-for-c/
 - https://github.com/microsoft/infersharp
--
--

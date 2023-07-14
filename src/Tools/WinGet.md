@@ -32,3 +32,8 @@ https://learn.microsoft.com/en-us/windows/package-manager/configuration/
 - https://aka.ms/winget-command-help
 - https://docs.microsoft.com/en-us/windows/package-manager/winget/install
 - [The Windows Package Manager Manifest Creator command-line tool](https://github.com/microsoft/winget-create)
+- [https://github.com/microsoft/winget-cli](https://github.com/microsoft/winget-cli)
+- [https://github.com/microsoft/winget-pkgs](https://github.com/microsoft/winget-pkgs)
+- [https://github.com/microsoft/winget-create](https://github.com/microsoft/winget-create)
+- [https://github.com/microsoft/winget-cli-restsource](https://github.com/microsoft/winget-cli-restsource)
+- [https://docs.microsoft.com/windows/package-manager](https://docs.microsoft.com/windows/package-manager)

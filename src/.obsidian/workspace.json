@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development Environment Setup.md",
+                "file": "Development/Development Environment Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,30 +44,6 @@
             }
           },
           {
-            "id": "213064d5be87d4c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bookmarks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "98af21ea0c3c3101",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bookmarks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "791c3c7c546abcd5",
             "type": "leaf",
             "state": {
@@ -80,43 +56,55 @@
             }
           },
           {
-            "id": "58acf7b738354680",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bookmarks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8d4c83fa47723c66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bookmarks.md",
+                "file": "Performance/General.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "be3c6e7c8c3509db",
+            "id": "ff6644499bc02be7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/slngen.md",
+                "file": "How-to/Batch File.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "418ab84c808d127b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Technology/Monorepo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7425896784a52d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Performance/General.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -146,7 +134,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -166,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 429.5
   },
   "right": {
     "id": "4246eb7bd482af4e",
@@ -182,9 +170,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/slngen.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "file": "Technology/Monorepo.md",
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -199,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/slngen.md",
+                "file": "Technology/Monorepo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,15 +210,23 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/slngen.md"
+                "file": "Technology/Monorepo.md"
               }
+            }
+          },
+          {
+            "id": "afc1ff84af5a6774",
+            "type": "leaf",
+            "state": {
+              "type": "RSS_FEED",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 580.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,43 +239,45 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "be3c6e7c8c3509db",
+  "active": "b1e3193ee734d803",
   "lastOpenFiles": [
-    "Management/Salary.md",
-    "Tools/slngen.md",
-    "Tools",
-    "Management/1on1s.md",
-    "Management/Management.md",
-    "Playwright.md",
-    "Untitled.md",
-    "Firefox.md",
-    "bookmarks.md",
-    "Management/Software Development Strategy.md",
-    "Microsoft Certifications.md",
-    "Goals/Quality.md",
-    "CSS.md",
-    "CVE.md",
-    "dotnet list package.md",
-    "IIS.md",
-    "NukeBuild.md",
-    "WireMockNet.md",
-    "WinGet.md",
-    "Windows Terminal.md",
-    "Windows.md",
-    "VSCode.md",
-    "Visual Studio.md",
-    "Tye.md",
-    "Technical Support.md",
-    "CLI.md",
-    "Documentation.md",
-    "Goals",
-    "Email Templates",
-    "Management",
-    "RU102N Redis for .NET Developers.org",
-    "NuGet.org",
-    "Modernization.org",
-    "Incident Management.org",
-    "HTTP Client.org",
-    "AWS KMS.org"
+    "Technology/HTTP 3.md",
+    "Security/JWT.md",
+    "Index.md",
+    "How-to/Technical Support.md",
+    "Technology/Monorepo.md",
+    "Tools/InferSharp.md",
+    "Technology/Architecture.md",
+    "Technology/AI.md",
+    "How-to/Docker.md",
+    "Goals/Continous Learning.md",
+    "Books.md",
+    "Tools/Sql Server.md",
+    "Tools/Redis.md",
+    "How-to/CLI.md",
+    "Frontend/Index.md",
+    "Frontend",
+    "DotNet/CSharp.md",
+    "How-to/Batch File.md",
+    "Frontend/Angular.md",
+    "How-to/Change host file on Windows.md",
+    "Technology/Coding Exercise.md",
+    "Agile.md",
+    "Tools/Windows Terminal.md",
+    "How-to/Install multiple NodeJS Versions.md",
+    "How-to/Create IIS Websites.md",
+    "Security/CVE.md",
+    "Security/OWASP TOP 10.md",
+    "How-to/Git",
+    "How-to/Powershell",
+    "How-to/C#",
+    "How-to",
+    "Technology",
+    "Development",
+    "Documentation",
+    "Performance",
+    "Security",
+    "Untitled.canvas",
+    "Tools/Untitled.canvas"
   ]
 }

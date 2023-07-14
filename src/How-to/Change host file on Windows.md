@@ -1,4 +1,3 @@
-# Change host file on [[Windows]] 
   
   ```powershell
   

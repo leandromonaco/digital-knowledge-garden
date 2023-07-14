@@ -1,1 +1,0 @@
-- [Agile Essentials](https://www.agilealliance.org/agile-essentials/)

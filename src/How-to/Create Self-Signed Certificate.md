@@ -1,4 +1,4 @@
-## Create Self-Signed Certificate
+
 > **Note**
 > This process requires WSL2 and Ubuntu. Read [here](Docker%20Desktop.md) for installation steps.
 
@@ -58,7 +58,7 @@ Required to be visible on IIS, which needs a private key associated to the certi
 2. `Import-PfxCertificate -FilePath C:\Dev\SSL\server.pfx -Password (ConvertTo-SecureString -String 'C0mp4ny' -AsPlainText -Force) -CertStoreLocation Cert:\LocalMachine\My`
 
 ## Firefox
-Trust the Certificate Authority: `Settings -> Privacy & Security -> View Certificates -> Authorities -> import ca.crt`
+Trust the Certificate Authority on #Firefox: `Settings -> Privacy & Security -> View Certificates -> Authorities -> import ca.crt`
 
 ## Configure Certificate in [[ASP.NET]]
 - See [Documentation](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel/endpoints?view=aspnetcore-6.0)

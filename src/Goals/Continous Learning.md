@@ -70,7 +70,7 @@ This a list of ideas to make learning a part the routine.
 -  [AWS Certified DevOps Engineer - Professional](https://aws.amazon.com/certification/certified-devops-engineer-professional/) | [Ramp-Up Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_DevOps.pdf)
 -  [AWS Certified Solutions Architect – Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate/) & [Professional](https://aws.amazon.com/certification/certified-devops-engineer-professional/) | [Ramp-Up Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Architect.pdf)
 
-[[Books]]
+[[Continous Learning]]
 ## Blog Posts
 [Kubernetes 101: Pods, Nodes, Containers, and Clusters](https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16)
 ## Videos
@@ -91,3 +91,68 @@ TBA
 - https://developer.mozilla.org/en-US/docs/Learn/JavaScript
 - https://www.typescriptlang.org/docs/handbook/intro.html
 - https://angular.io/guide/developer-guide-overview
+
+
+- [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
+- [Free PMI Project Manager Course](https://www.perfectkickoff.com/)
+- [Microsoft Learn](https://docs.microsoft.com/en-us/learn/)
+- [Learn TV](https://docs.microsoft.com/en-us/learn/tv/)
+- [GitHub Universe](https://githubuniverse.com/)
+
+## Cloud
+
+1. [Badges & Training - .NET on AWS](https://aws.amazon.com/developer/language/net/badges-and-training)
+2. [Microsoft Learn](https://learn.microsoft.com/en-us/)
+3. [AWS Learning Badges](https://aws.amazon.com/training/badges/)
+4. [AWS Educate](https://aws.amazon.com/education/awseducate/)
+
+## Frontend
+
+1. HTML: [Mozilla](https://developer.mozilla.org/en-US/docs/Learn/HTML) | [Google](https://web.dev/learn/html/)
+2. CSS: [Mozilla](https://developer.mozilla.org/en-US/docs/Learn/CSS) | [Google](https://web.dev/learn/css/)
+3. [Javascript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
+4. [TypeScript](https://www.typescriptlang.org/docs/handbook/intro.html)
+5. [Angular]( https://angular.io/guide/developer-guide-overview)
+
+## Misc
+
+1. https://university.atlassian.com
+2. [Project Management](https://www.perfectkickoff.com)
+3. [Agile](https://www.atlassian.com/agile)
+4. [Git](https://www.atlassian.com/git)
+5. [Git Hooks](https://www.atlassian.com/git/tutorials/git-hooks)
+6. [Redis for .NET Developers](https://university.redis.com/courses/ru102n/)
+7. [SQL](https://www.w3schools.com/sql/default.asp)
+
+
+
+- [Is your certification expiring soon? Renew it for free today!](https://techcommunity.microsoft.com/t5/microsoft-learn-blog/is-your-certification-expiring-soon-renew-it-for-free-today/ba-p/2150405)
+- [New to Microsoft Certification exams? We have something you need to try](https://techcommunity.microsoft.com/t5/microsoft-learn-blog/new-to-microsoft-certification-exams-we-have-something-you-need/ba-p/3041520)
+
+- [Agile Essentials](https://www.agilealliance.org/agile-essentials/)
+
+## Books
+
+[Books](https://ebookfoundation.github.io/free-programming-books/) suggested by the community
+
+## Paperback
+- [The Effective Engineer](https://www.amazon.com/Effective-Engineer-Engineering-Disproportionate-Meaningful/dp/0996128107)
+- [The Clean Coder](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/B08X7MNTCX/)
+- [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052)
+- [Refactoring: Improving the Design of Existing Code](https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599)
+- [Extreme Programming Explained](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658)
+- [The Lean Startup](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898)
+- [Measure What Matters](https://www.amazon.com/Measure-What-Matters-audiobook/dp/B07BMJ4L1S/)
+- [Debugging Teams](https://www.google.com.au/books/edition/Debugging_Teams)
+- [The Tech Resume](https://thetechresume.com)
+ 
+  
+## Online
+- [Software Engineering at Google](https://abseil.io/resources/swe-book/html/toc.html)
+- [Site Reliability Engineering](https://sre.google/sre-book/table-of-contents/) (Google)
+- [Rethinking Productivity in Software Engineering](https://github.com/leandromonaco/leandromonaco.github.io/blob/main/books/Rethinking%20Productivity%20in%20Software%20Engineering.pdf)
+- [Kubernetes Comic](https://cloud.google.com/kubernetes-engine/kubernetes-comic)
+- [.NET Architecture Guides](https://dotnet.microsoft.com/en-us/learn/dotnet/architecture-guides)
+- [LINQ Explained with Sketches](https://github.com/leandromonaco/leandromonaco.github.io/blob/main/books/LINQ%20Explained%20with%20Sketches.pdf)
+- [The Concise TypeScript Book](https://github.com/gibbok/typescript-book)
+- [How HTTPS works](https://howhttps.works/)
