@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology/Monorepo.md",
+                "file": "APIs/GitHub API.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technology/Monorepo.md",
+                "file": "APIs/GitHub API.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technology/Monorepo.md",
+                "file": "APIs/GitHub API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology/Monorepo.md"
+                "file": "APIs/GitHub API.md"
               }
             }
           },
@@ -241,6 +241,17 @@
   },
   "active": "418ab84c808d127b",
   "lastOpenFiles": [
+    "APIs/Google Calendar API.md",
+    "APIs/GitHub API.md",
+    "APIs",
+    "Cloud/AWS/Moto.md",
+    "Cloud/AWS/Cognito.md",
+    "Cloud/AWS/Index.md",
+    "Cloud/Azure/Index.md",
+    "Cloud/Azure",
+    "Cloud/AWS",
+    "Cloud",
+    "Technology/Monorepo.md",
     "Email Templates/Knowledge Sharing.md",
     "Email Templates/Onboarding.md",
     "Goals/Continuous Improvement.md",
@@ -260,23 +271,12 @@
     "Management/Leadership.md",
     "Management/Management.md",
     "Management/Metrics.md",
-    "Management/Psychological Safety.md",
-    "Management/Onboarding.md",
-    "Management/Reports.md",
-    "Management/Salary.md",
-    "Management/Software Development Strategy.md",
-    "Management/Ways of Working.md",
-    "Management/Wellbeing.md",
     "Frontend",
     "How-to/Git",
     "How-to/Powershell",
     "How-to/C#",
     "How-to",
     "Technology",
-    "Development",
-    "Documentation",
-    "Performance",
-    "Security",
     "Untitled.canvas",
     "Tools/Untitled.canvas"
   ]

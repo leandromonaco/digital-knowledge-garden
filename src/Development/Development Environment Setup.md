@@ -30,8 +30,8 @@ Using a [[WinGet]] Configuration file, you can consolidate manual machine setup 
 14. [[Create IIS Websites]]
 15. [[Change host file on Windows]]
 16. [[Redis]]
-17. [[AWS]]
-18. [[Azure]]
+17. [[Cloud/AWS/Index]]
+18. [[Cloud/Azure/Index]]
 
 ## Browsers
 
