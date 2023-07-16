@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APIs/GitHub API.md",
+                "file": "Cloud/AWS/Cognito.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "APIs/GitHub API.md",
+                "file": "Cloud/AWS/Cognito.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "APIs/GitHub API.md",
+                "file": "Cloud/AWS/Cognito.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "APIs/GitHub API.md"
+                "file": "Cloud/AWS/Cognito.md"
               }
             }
           },
@@ -241,12 +241,13 @@
   },
   "active": "418ab84c808d127b",
   "lastOpenFiles": [
-    "APIs/Google Calendar API.md",
-    "APIs/GitHub API.md",
-    "APIs",
+    "Cloud/AWS/Index.md",
     "Cloud/AWS/Moto.md",
     "Cloud/AWS/Cognito.md",
-    "Cloud/AWS/Index.md",
+    "Tools/Docker Desktop.md",
+    "APIs/GitHub API.md",
+    "APIs/Google Calendar API.md",
+    "APIs",
     "Cloud/Azure/Index.md",
     "Cloud/Azure",
     "Cloud/AWS",
@@ -270,7 +271,6 @@
     "Management/Hiring.md",
     "Management/Leadership.md",
     "Management/Management.md",
-    "Management/Metrics.md",
     "Frontend",
     "How-to/Git",
     "How-to/Powershell",

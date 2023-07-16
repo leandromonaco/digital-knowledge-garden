@@ -1,20 +1,25 @@
-```
-aws --endpoint-url=http://localhost:52007 cognito-idp create-user-pool --pool-name "localcloud"
-aws --endpoint-url=http://localhost:52007 cognito-idp list-user-pools --max-results 20
-```
+**Tag: #Cognito**
 
-Copy user pool id
+Execute `POST http://localhost:52009/moto-api/seed?a=42` to ensure the resulting state will always be the same.
+
 
 ```
-aws --endpoint-url=http://localhost:52007 cognito-idp create-user-pool-client --user-pool-id "ap-southeast-2_366f47d5c8fd1bbefcf3afec577af68d09ebfa7d5" --client-name msnotification --generate-secret
+aws --endpoint-url=http://localhost:52009 cognito-idp create-user-pool --pool-name "LocalDev"
+
+aws --endpoint-url=http://localhost:52009 cognito-idp create-user-pool-client --user-pool-id "ap-southeast-2_366f47d5c8fd1bbefcf3afec577af68d09ebfa7d5" --client-name msnotification --generate-secret
+
+aws --endpoint-url=http://localhost:52009 cognito-idp admin-create-user --user-pool-id "ap-southeast-2_366f47d5c8fd1bbefcf3afec577af68d09ebfa7d5" --username "testuser"
+
+aws --endpoint-url=http://localhost:52009 cognito-idp admin-set-user-password --user-pool-id "ap-southeast-2_366f47d5c8fd1bbefcf3afec577af68d09ebfa7d5" --username "testuser" --password "L0c4lD3v" --permanent
+
+aws --endpoint-url=http://localhost:52009 cognito-idp initiate-auth --auth-flow USER_PASSWORD_AUTH --auth-parameters USERNAME=testuser,PASSWORD=L0c4lD3v --client-id 71hfe86y5r215dew1zcyqesh0a --region ap-southeast-2
 ```
 
-Copy Client Id
+
+### Troubleshoot
 
 ```
-aws --endpoint-url=http://localhost:52007 cognito-idp admin-create-user --user-pool-id "ap-southeast-2_366f47d5c8fd1bbefcf3afec577af68d09ebfa7d5" --username "testuser"
+aws --endpoint-url=http://localhost:52009 cognito-idp list-user-pools
 
-aws --endpoint-url=http://localhost:52007 cognito-idp admin-set-user-password --user-pool-id "ap-southeast-2_366f47d5c8fd1bbefcf3afec577af68d09ebfa7d5" --username "testuser" --password "Hum4nF0rc3!" --permanent
-
-aws --endpoint-url=http://localhost:52007 cognito-idp initiate-auth --auth-flow USER_PASSWORD_AUTH --auth-parameters USERNAME=testuser,PASSWORD=Hum4nF0rc3! --client-id {INSERT_NEW_CLIENTID} --region ap-southeast-2
+aws --endpoint-url=http://localhost:52009 cognito-idp list-user-pool-clients --user-pool-id ap-southeast-2_366f47d5c8fd1bbefcf3afec577af68d09ebfa7d5
 ```
