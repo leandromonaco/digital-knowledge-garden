@@ -241,9 +241,9 @@
   },
   "active": "418ab84c808d127b",
   "lastOpenFiles": [
-    "Cloud/AWS/Index.md",
     "Cloud/AWS/Moto.md",
     "Cloud/AWS/Cognito.md",
+    "Cloud/AWS/Index.md",
     "Tools/Docker Desktop.md",
     "APIs/GitHub API.md",
     "APIs/Google Calendar API.md",
