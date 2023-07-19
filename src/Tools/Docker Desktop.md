@@ -14,8 +14,17 @@ Docker Desktop for Windows provides a development environment for building, ship
 4. Tick the “Start Docker Desktop when you log in“ option
 5. Run `systeminfo | find "System Type"` to check if your system is x64 (if so, [download wsl_update_x64.msi](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi))
 6. Run `wsl --set-default-version 2`
-7. Run `wsl --install -d Ubuntu`
+7. Run `wsl --install -d Ubuntu` (This is optional - Docker will configure `docker-desktop-data` as the default distro)
 8. Create a default UNIX user account
+
+### Reinstall Distribution
+
+```
+wsl --list
+wsl --unregister Ubuntu
+wsl --list
+wsl --install -d Ubuntu
+```
 
 ## WSL Process
 ![image](https://user-images.githubusercontent.com/5598150/171560772-3528ca14-e4be-40f9-8c7c-9c032c640e6e.png)

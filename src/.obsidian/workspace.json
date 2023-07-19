@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "How-to/Run a tool globally on Windows.md",
+                "file": "How-to/Creating a permanent PowerShell Alias using Set-Alias.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "How-to/Run a tool globally on Windows.md",
+                "file": "How-to/Creating a permanent PowerShell Alias using Set-Alias.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "How-to/Run a tool globally on Windows.md",
+                "file": "How-to/Creating a permanent PowerShell Alias using Set-Alias.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "How-to/Run a tool globally on Windows.md"
+                "file": "How-to/Creating a permanent PowerShell Alias using Set-Alias.md"
               }
             }
           },
@@ -253,12 +253,13 @@
   },
   "active": "c6e726f8aada69c0",
   "lastOpenFiles": [
-    "Management/Psychological Safety.md",
     "How-to/Run a tool globally on Windows.md",
+    "How-to/Creating a permanent PowerShell Alias using Set-Alias.md",
+    "Tools/Docker Desktop.md",
+    "Management/Psychological Safety.md",
     "Cloud/AWS/Moto.md",
     "Cloud/AWS/Cognito.md",
     "Cloud/AWS/Index.md",
-    "Tools/Docker Desktop.md",
     "APIs/GitHub API.md",
     "APIs/Google Calendar API.md",
     "APIs",
@@ -282,7 +283,6 @@
     "Management/Culture.md",
     "Management/Health Monitor.md",
     "Management/High Performing Teams.md",
-    "Management/Hiring.md",
     "Frontend",
     "How-to/Git",
     "How-to/Powershell",
