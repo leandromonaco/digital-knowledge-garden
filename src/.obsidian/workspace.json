@@ -102,9 +102,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c6e726f8aada69c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "How-to/Run a tool globally on Windows.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -170,9 +182,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cloud/AWS/Cognito.md",
-                "collapseAll": true,
-                "extraContext": true,
+                "file": "How-to/Run a tool globally on Windows.md",
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -187,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cloud/AWS/Cognito.md",
+                "file": "How-to/Run a tool globally on Windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cloud/AWS/Cognito.md"
+                "file": "How-to/Run a tool globally on Windows.md"
               }
             }
           },
@@ -226,7 +238,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 580.5
+    "width": 271.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,8 +251,10 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "418ab84c808d127b",
+  "active": "c6e726f8aada69c0",
   "lastOpenFiles": [
+    "Management/Psychological Safety.md",
+    "How-to/Run a tool globally on Windows.md",
     "Cloud/AWS/Moto.md",
     "Cloud/AWS/Cognito.md",
     "Cloud/AWS/Index.md",
@@ -269,8 +283,6 @@
     "Management/Health Monitor.md",
     "Management/High Performing Teams.md",
     "Management/Hiring.md",
-    "Management/Leadership.md",
-    "Management/Management.md",
     "Frontend",
     "How-to/Git",
     "How-to/Powershell",
