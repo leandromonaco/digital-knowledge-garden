@@ -239,8 +239,11 @@ DECLARE @auth VARCHAR(40) = '7AECFD07-4643-41FC-B17C-472AD71699E7'
 SELECT CONVERT(VARCHAR(100), DECRYPTBYKEY(@encryptedData, 1, @auth))
 ```
 ## Troubleshooting
-- **Error:** 'Agent XPs' component is turned off as part of the security configuration for this server. A system administrator can enable the use of 'Agent XPs' by using sp_configure. For more information about enabling 'Agent XPs', see "Surface Area Configuration" in SQL Server Books Online. (Microsoft.SqlServer.Management.MaintenancePlanWizard)
-- **Solution:**
+
+---
+**Error:** 'Agent XPs' component is turned off as part of the security configuration for this server. A system administrator can enable the use of 'Agent XPs' by using sp_configure. For more information about enabling 'Agent XPs', see "Surface Area Configuration" in SQL Server Books Online. (Microsoft.SqlServer.Management.MaintenancePlanWizard)
+
+**Solution:**
   ```sql
   sp_configure 'show advanced options', 1;  
   GO  
@@ -251,10 +254,17 @@ SELECT CONVERT(VARCHAR(100), DECRYPTBYKEY(@encryptedData, 1, @auth))
   RECONFIGURE  
   GO
   ```
-- **Error:** SQLServerAgent is not currently running so it cannot be notified of this action. (Microsoft SQL Server, Error: 22022)
-- **Solution:** Open SQL Server Configuration Manager and enable SQL Server Agent Service
-- **Error:** Cannot execute as the database principal because the principal ‘dbo’ does not exist, this type of principal cannot be impersonated, or you do not have permission. (Microsoft SQL Server, Error: 15517)
-- **Solution:**
+
+---
+**Error:** SQLServerAgent is not currently running so it cannot be notified of this action. (Microsoft SQL Server, Error: 22022)
+
+**Solution:** Open SQL Server Configuration Manager and enable SQL Server Agent Service
+
+---
+
+**Error:** Cannot execute as the database principal because the principal ‘dbo’ does not exist, this type of principal cannot be impersonated, or you do not have permission. (Microsoft SQL Server, Error: 15517)
+
+**Solution:**
   ```sql
   USE [AdventureWorks]
   GO
@@ -262,9 +272,13 @@ SELECT CONVERT(VARCHAR(100), DECRYPTBYKEY(@encryptedData, 1, @auth))
   GO
   ```
 
+---
+
 ## Performance
   
 - [Performance Center for SQL Server Database](https://docs.microsoft.com/en-us/sql/relational-databases/performance/performance-center-for-sql-server-database-engine-and-azure-sql-database?view=sql-server-ver16)
 - [Start and use the Database Engine Tuning Advisor](https://docs.microsoft.com/en-us/sql/relational-databases/performance/start-and-use-the-database-engine-tuning-advisor?view=sql-server-ver16)
 - [Monitor performance by using the Query Store](https://docs.microsoft.com/en-us/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?view=sql-server-ver16)
 - [Use the Maintenance Plan Wizard](https://docs.microsoft.com/en-us/sql/relational-databases/maintenance-plans/use-the-maintenance-plan-wizard)
+
+

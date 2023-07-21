@@ -7,3 +7,9 @@
 
 
 #Cognito http://docs.getmoto.org/en/latest/docs/services/cognito-idp.html
+
+
+**Documentation**
+- http://docs.getmoto.org/en/latest/docs/server_mode.html
+- https://hub.docker.com/r/motoserver/moto/tags
+- http://docs.getmoto.org/en/latest/docs/services/events.html

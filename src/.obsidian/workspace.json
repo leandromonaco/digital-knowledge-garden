@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud/AWS/Cognito.md",
+                "file": "Cloud/AWS/Services/Cognito.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "How-to/Creating a permanent PowerShell Alias using Set-Alias.md",
+                "file": "Tools/Sql Server.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "How-to/Creating a permanent PowerShell Alias using Set-Alias.md",
+                "file": "Tools/Sql Server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "How-to/Creating a permanent PowerShell Alias using Set-Alias.md",
+                "file": "Tools/Sql Server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "How-to/Creating a permanent PowerShell Alias using Set-Alias.md"
+                "file": "Tools/Sql Server.md"
               }
             }
           },
@@ -253,13 +253,23 @@
   },
   "active": "c6e726f8aada69c0",
   "lastOpenFiles": [
-    "How-to/Run a tool globally on Windows.md",
+    "Cloud/AWS/Services/CloudFormation.md",
+    "Cloud/AWS/Index.md",
+    "Cloud/AWS/Tools/LocalStack.md",
+    "Cloud/AWS/Services/Cognito.md",
+    "Cloud/AWS/Tools/Lambda Tools.md",
+    "Cloud/AWS/Tools/SAM CLI.md",
+    "Cloud/AWS/Tools/Moto.md",
+    "Cloud/AWS/Services/Lambda.md",
+    "Cloud/AWS/Tools/AWS CLI.md",
+    "Cloud/AWS/Tools/CDK.md",
+    "Cloud/AWS/Services",
+    "Cloud/AWS/Tools",
+    "Cloud/AWS/Services/DynamoDB.md",
     "How-to/Creating a permanent PowerShell Alias using Set-Alias.md",
+    "How-to/Run a tool globally on Windows.md",
     "Tools/Docker Desktop.md",
     "Management/Psychological Safety.md",
-    "Cloud/AWS/Moto.md",
-    "Cloud/AWS/Cognito.md",
-    "Cloud/AWS/Index.md",
     "APIs/GitHub API.md",
     "APIs/Google Calendar API.md",
     "APIs",
@@ -275,20 +285,10 @@
     "Goals/Quality.md",
     "Goals/Continous Learning.md",
     "Index.md",
-    "Management/1on1s.md",
-    "Management/Career.md",
-    "Management/Change Management.md",
-    "Management/Community Of Practice.md",
-    "Management/Coaching.md",
-    "Management/Culture.md",
-    "Management/Health Monitor.md",
-    "Management/High Performing Teams.md",
     "Frontend",
     "How-to/Git",
     "How-to/Powershell",
     "How-to/C#",
-    "How-to",
-    "Technology",
     "Untitled.canvas",
     "Tools/Untitled.canvas"
   ]
