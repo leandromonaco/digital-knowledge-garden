@@ -109,14 +109,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Sql Server.md",
+                "file": "Tools/CMD.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e0b40f11fc41083",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/GitHub Copilot.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fb9693b3b0dff45e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Management/Index.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -182,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Sql Server.md",
+                "file": "Management/Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Sql Server.md",
+                "file": "Management/Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Sql Server.md"
+                "file": "Management/Index.md"
               }
             }
           },
@@ -251,44 +275,44 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "c6e726f8aada69c0",
+  "active": "b1e3193ee734d803",
   "lastOpenFiles": [
+    "Management/Agile.md",
+    "Management/Ways of Working.md",
+    "Management/Metrics.md",
+    "Goals/Continous Learning.md",
+    "Certifications/AZ-400 Designing and Implementing Microsoft DevOps Solutions.md",
+    "Tools/GitHub Copilot.md",
+    "How-to/Create Self-Signed Certificate.md",
+    "Untitled",
+    "Certifications",
+    "Tools/Docker Desktop.md",
+    "Tools/Docker CLI.md",
+    "How-to/Build and Run a Container with Docker.md",
+    "Cloud/AWS/Tools/Moto.md",
+    "Security/Security.md",
+    "Development/Development Environment Setup.md",
+    "Management/Onboarding.md",
+    "How-to/Git.md",
+    "Tools/CMD.md",
+    "Tools/Sql Server.md",
     "Cloud/AWS/Services/CloudFormation.md",
     "Cloud/AWS/Index.md",
     "Cloud/AWS/Tools/LocalStack.md",
     "Cloud/AWS/Services/Cognito.md",
     "Cloud/AWS/Tools/Lambda Tools.md",
     "Cloud/AWS/Tools/SAM CLI.md",
-    "Cloud/AWS/Tools/Moto.md",
     "Cloud/AWS/Services/Lambda.md",
     "Cloud/AWS/Tools/AWS CLI.md",
     "Cloud/AWS/Tools/CDK.md",
     "Cloud/AWS/Services",
     "Cloud/AWS/Tools",
-    "Cloud/AWS/Services/DynamoDB.md",
-    "How-to/Creating a permanent PowerShell Alias using Set-Alias.md",
-    "How-to/Run a tool globally on Windows.md",
-    "Tools/Docker Desktop.md",
-    "Management/Psychological Safety.md",
-    "APIs/GitHub API.md",
-    "APIs/Google Calendar API.md",
     "APIs",
-    "Cloud/Azure/Index.md",
     "Cloud/Azure",
     "Cloud/AWS",
     "Cloud",
-    "Technology/Monorepo.md",
-    "Email Templates/Knowledge Sharing.md",
-    "Email Templates/Onboarding.md",
-    "Goals/Continuous Improvement.md",
-    "Goals/Knowledge Sharing.md",
-    "Goals/Quality.md",
-    "Goals/Continous Learning.md",
-    "Index.md",
     "Frontend",
     "How-to/Git",
-    "How-to/Powershell",
-    "How-to/C#",
     "Untitled.canvas",
     "Tools/Untitled.canvas"
   ]

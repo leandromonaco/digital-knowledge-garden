@@ -1,13 +1,10 @@
-## Installation
-- 1 - Ensure [Hyper-V has been enabled](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
-- 2 - Run ``winget install -e --id Docker.DockerDesktop``
--
-## Build and Run a Container
+
 
 1. Navigate to the folder where the Dockerfile is stored
 2. Run `docker build -t angular-container:1.0 .`
 3. Search ImageID by running `docker images`
 4. Run `docker run -p 80:80 469b3a773ed7`
+
 - ## Running Docker Windows and Linux Containers Simultaneously
 - https://devblogs.microsoft.com/premier-developer/running-docker-windows-and-linux-containers-simultaneously/
   
@@ -34,6 +31,7 @@
 - https://hub.docker.com/_/nginx
 - https://hub.docker.com/_/microsoft-mssql-server
 - https://hub.docker.com/_/redis
+
 - ## Docker Pull
 - `docker pull jagregory/cognito-local:latest`
 - `docker pull localstack/localstack:latest`
@@ -41,14 +39,9 @@
 - `docker pull redis:latest`
 - `docker pull mcr.microsoft.com/mssql/server:2019-latest`
 - `docker pull datalust/seq:latest`
-## Commands
-- Display containers' resource usage statistics `docker stats --all --no-stream`
-- Stop running containers `docker kill $(docker ps -q)`
-- Remove all containers `docker rm $(docker ps -a -q)`
-- Remove all images `docker rmi $(docker images -q)`
-* ## [[Security]] 
-:PROPERTIES:
-:heading: 2
-:END:
 
-https://docs.docker.com/scout/
+### Tags
+
+- #Docker 
+
+

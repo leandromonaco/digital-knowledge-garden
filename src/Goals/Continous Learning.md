@@ -118,7 +118,6 @@ TBA
 
 1. https://university.atlassian.com
 2. [Project Management](https://www.perfectkickoff.com)
-3. [Agile](https://www.atlassian.com/agile)
 4. [Git](https://www.atlassian.com/git)
 5. [Git Hooks](https://www.atlassian.com/git/tutorials/git-hooks)
 6. [Redis for .NET Developers](https://university.redis.com/courses/ru102n/)
@@ -129,7 +128,7 @@ TBA
 - [Is your certification expiring soon? Renew it for free today!](https://techcommunity.microsoft.com/t5/microsoft-learn-blog/is-your-certification-expiring-soon-renew-it-for-free-today/ba-p/2150405)
 - [New to Microsoft Certification exams? We have something you need to try](https://techcommunity.microsoft.com/t5/microsoft-learn-blog/new-to-microsoft-certification-exams-we-have-something-you-need/ba-p/3041520)
 
-- [Agile Essentials](https://www.agilealliance.org/agile-essentials/)
+
 
 ## Books
 

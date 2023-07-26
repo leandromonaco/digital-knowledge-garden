@@ -10,7 +10,7 @@
   
   `git clone git@github.com:leandromonaco/leandromonaco.github.io.git C:\Dev\Repo --recurse-submodules`
   
-### Basic Git Commands
+### Start a new change
   
   ```
   git checkout main
@@ -18,11 +18,21 @@
   git pull
   git branch branch_name
   git checkout branch_name
-  git push --set-upstream origin branch_name
-  --Make code changes, stage and commit them
-  git push
   ```
   
+### Commit Changes
+```
+git status --short
+git add myfile.txt
+git commit -m "Made changes to myfile.txt"
+```
+
+### Push changes
+```
+git push --set-upstream origin branch_name
+git push
+```
+
 ### Reset author for ALL commits
   
   ```

@@ -1,4 +1,4 @@
-- 1. Check if [[Docker]] is installed by running ``docker version``
+- 1. Check if [[Build and Run a Container with Docker]] is installed by running ``docker version``
 - 2. Install [[VSCode]] and its extensions
 - ```
   winget install -e --id Microsoft.VisualStudioCode  

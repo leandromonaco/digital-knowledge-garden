@@ -2,8 +2,7 @@
 
 ## Project Planning
 
-* [Scrum Framework](https://www.youtube.com/watch?v=zVNnEIf_PLY)
-* [Atlassian's Agile Coach](https://www.atlassian.com/agile)
+[[Agile]]
 
 ## Capacity Planning
 
@@ -28,10 +27,6 @@ The Definition of Done creates transparency by providing everyone a shared under
 * The change is code reviewed via a pull request.
 * Code is merged into the main branch.
 * Testing is done by Testers.
-
-## Managing Risks, Assumptions, Impediments, and Dependencies
-
-https://www.techagilist.com/agile/scrum/raid/
 
 ## Strategy
 * [Objectives](https://github.com/leandromonaco/Documentation/blob/main/software-development-objectives.md)

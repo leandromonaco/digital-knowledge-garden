@@ -8,14 +8,16 @@ Docker Desktop for Windows provides a development environment for building, ship
 > **Warning**
 > This process requires reboot
 
-1. Ensure [Hyper-V has been enabled](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
-2. Run `winget install -e --id Docker.DockerDesktop`
-3. Click Settings
-4. Tick the “Start Docker Desktop when you log in“ option
-5. Run `systeminfo | find "System Type"` to check if your system is x64 (if so, [download wsl_update_x64.msi](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi))
-6. Run `wsl --set-default-version 2`
-7. Run `wsl --install -d Ubuntu` (This is optional - Docker will configure `docker-desktop-data` as the default distro)
-8. Create a default UNIX user account
+1. Run `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All`
+2. Run `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
+3. Run `winget install -e --id Docker.DockerDesktop`
+4. Run `winget install -e --id Docker.DockerCLI
+5. Click Settings
+6. Tick the “Start Docker Desktop when you log in“ option
+7. Run `systeminfo | find "System Type"` to check if your system is x64 (if so, [download wsl_update_x64.msi](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi))
+8. Run `wsl --set-default-version 2`
+9. Run `wsl --install -d Ubuntu` (This is optional - Docker will configure `docker-desktop-data` as the default distro)
+10. Create a default UNIX user account
 
 ### Reinstall Distribution
 
@@ -100,6 +102,14 @@ https://docs.docker.com/scout/
 ## Documentation
 
 - [Developing on Amazon Linux 2 using Windows](https://aws.amazon.com/blogs/developer/developing-on-amazon-linux-2-using-windows/)
+- [Install Hyper-V on Windows 10](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
 - Documentation: https://help.ubuntu.com
 - Management: https://landscape.canonical.com
 - Support: https://ubuntu.com/advantage
+- [Comparing WSL Versions](https://learn.microsoft.com/en-us/windows/wsl/compare-versions)
+
+
+### Tags
+
+- #Docker 
+
