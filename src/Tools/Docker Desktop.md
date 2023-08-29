@@ -18,6 +18,13 @@ Docker Desktop for Windows provides a development environment for building, ship
 8. Run `wsl --set-default-version 2`
 9. Run `wsl --install -d Ubuntu` (This is optional - Docker will configure `docker-desktop-data` as the default distro)
 10. Create a default UNIX user account
+11. Check WSL2 Settings
+
+**Documentation:**
+https://learn.microsoft.com/en-us/windows/wsl/wsl-config#wsl-2-settings
+https://learn.microsoft.com/en-us/windows/wsl/install
+https://learn.microsoft.com/en-us/windows/wsl/install-manual
+
 
 ### Reinstall Distribution
 

@@ -1,0 +1,163 @@
+{
+  "main": {
+    "id": "a9c6c5edb5e2ccba",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2b5cda95d63242a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ffc2bca58ee45428",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/APIs/QMetry API.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "92a070bf84588147",
+    "type": "split",
+    "children": [
+      {
+        "id": "c210061ff0feb32a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28b6ed5739f80b7c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "002f7d038cb8a33b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6d35e08e093ec93e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 537.5
+  },
+  "right": {
+    "id": "854443f02233b8b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "497f9544062e25c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f97223375bcaec3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "src/APIs/QMetry API.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "98d04c01878f7b6a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "src/APIs/QMetry API.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "604672e004d60a7b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "17d96c0b536ff4f3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "src/APIs/QMetry API.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ffc2bca58ee45428",
+  "lastOpenFiles": [
+    "src/APIs/Google Calendar API.md",
+    "src/APIs/QMetry API.md",
+    "src/APIs/JIRA API.md",
+    "src/Tools/Git.md",
+    "src/Development/Development Environment Setup.md",
+    "src/Performance/General.md",
+    "src/Management/1on1s.md",
+    "src/Management/Onboarding.md",
+    "books/50 Things You Need to Know to Be a Top IT Pro.pdf",
+    "src/Pasted image 20230810091642.png",
+    "src/Pasted image 20230731083648.png"
+  ]
+}

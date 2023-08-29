@@ -15,4 +15,5 @@
 - [DevEx: What Actually Drives Productivity](https://queue.acm.org/detail.cfm?id=3595878)
 - [SPACE: A Framework for Understanding Developer Productivity](https://queue.acm.org/detail.cfm?id=3454124)
 - [DORA: DevOps Research and Assessment](https://dora.dev/)
+- https://getdx.com/developer-experience-management-paper
 

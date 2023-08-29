@@ -95,3 +95,4 @@ winget install -e --id JAMSoftware.TreeSize.Free
 winget install -e --id Logseq.Logseq
 winget install -e --id Twilio.Authy
 ```
+
