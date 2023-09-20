@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/APIs/QMetry API.md",
+                "file": "src/Goals/Continous Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1c1854a259bdbad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/Frontend/Index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "17cc314d6eb2696c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/Goals/Continous Learning.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "books",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/APIs/QMetry API.md",
+                "file": "src/Goals/Continous Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/APIs/QMetry API.md",
+                "file": "src/Goals/Continous Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/APIs/QMetry API.md"
+                "file": "src/Goals/Continous Learning.md"
               }
             }
           }
@@ -146,13 +172,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ffc2bca58ee45428",
+  "active": "17cc314d6eb2696c",
   "lastOpenFiles": [
+    "books/Kubernetes Learning Path.pdf",
+    "src/Management/Goals.md",
+    "Objectives.md",
     "src/APIs/Google Calendar API.md",
+    "src/Tools/Nuget CLI.md",
+    "src/Development/Development Environment Setup.md",
+    "src/How-to/CLI.md",
+    "src/Frontend/CSS.md",
+    "src/Frontend/Index.md",
+    "src/Frontend/Angular.md",
+    "pasted image 0.png",
+    "src/Certifications/AZ-400 Designing and Implementing Microsoft DevOps Solutions.md",
+    "src/Cloud/AWS/Index.md",
+    "src/Cloud/AWS/Tools/AWS CLI.md",
+    "src/Technology/AI.md",
     "src/APIs/QMetry API.md",
     "src/APIs/JIRA API.md",
     "src/Tools/Git.md",
-    "src/Development/Development Environment Setup.md",
     "src/Performance/General.md",
     "src/Management/1on1s.md",
     "src/Management/Onboarding.md",
