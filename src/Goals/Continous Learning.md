@@ -71,8 +71,7 @@ This a list of ideas to make learning a part the routine.
 -  [AWS Certified Solutions Architect – Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate/) & [Professional](https://aws.amazon.com/certification/certified-devops-engineer-professional/) | [Ramp-Up Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Architect.pdf)
 
 [[Continous Learning]]
-## Blog Posts
-[Kubernetes 101: Pods, Nodes, Containers, and Clusters](https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16)
+
 ## Videos
 TBA
 ## Training
