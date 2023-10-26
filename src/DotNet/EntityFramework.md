@@ -10,9 +10,14 @@
 1. `.csproj` file must reference the following nuget packages:
     - `Microsoft.EntityFrameworkCore.Design` 
     - `Microsoft.EntityFrameworkCore.SqlServer`
-3. Navigate to the folder where you want to store the model
-4. Update EF Model Classes `dotnet ef dbcontext scaffold "Server=localhost;Database=DbName;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Database -f --project C:\Dev\Something.csproj`
-    
+    - `Microsoft.EntityFrameworkCore.Sqlite`
+1. Navigate to the folder where you want to store the model
+2. Update EF Model Classes
+
+`dotnet ef dbcontext scaffold "Server=localhost;Database=DbName;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Database -f --project C:\Dev\Something.csproj`
+
+`dotnet ef dbcontext scaffold "DataSource='C:\ScrumTeamSqlLite3.db" Microsoft.EntityFrameworkCore.Sqlite -o Database -f --project C:\Dev\Something.csproj`
+
 ## Connection String
 
 - [Connection String Syntax](https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/connection-string-syntax)
