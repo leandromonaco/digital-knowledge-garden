@@ -433,6 +433,46 @@ spec:
 ```
 
 `kubectl apply -f volume.yml`
+
+### ## Init Containers
+
+The idea of an init container is to execute some startup commands using public images without having to embed those commands into the main container image. As they work like regular pods, it is possible to mount shared filesystems or empty folders so they can write the command outputs for coordination; and as they are guaranteed to execute sequentially it is easy to coordinate the outputs as next step inputs.
+
+`volumes.yml`
+
+`kubectl delete pod volumes -n leandrom`
+`kubectl apply -f volumes.yml`
+
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: volumes
+  namespace: leandrom
+spec:
+  securityContext:
+    runAsUser: 1000
+    runAsGroup: 1000
+    fsGroup: 1000
+  initContainers:
+    - name: download
+      image: curlimages/curl:latest
+      command: ['sh', '-c', "curl google.com -o /write/google.html"]
+      volumeMounts:
+        - mountPath: /write
+          name: shared-volume
+  containers:
+    - name: app
+      image: busybox:1.28
+      command: ['sh', '-c', 'cat /read/google.html']
+      volumeMounts:
+        - mountPath: /read
+          name: shared-volume
+  volumes:
+    - name: shared-volume
+      emptyDir:
+        sizeLimit: 100Mi
+```
 ## References
 https://kubernetes.io/docs/concepts/
 [Kubernetes 101: Pods, Nodes, Containers, and Clusters](https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16)

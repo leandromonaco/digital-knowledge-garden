@@ -8,53 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "36790678afa0b37e",
+            "id": "6028243a93cf0e4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/Tools/Kubernetes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd1e7f3da36e3d53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL Lite.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9093b37135bfa698",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.16"
-              }
-            }
-          },
-          {
-            "id": "5f6eed2d4b41ab78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/Tools/Kubernetes.md",
+                "file": "src/Testing/Playwright using TypeScript.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kubernetes",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -121,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/Tools/Kubernetes.md",
+                "file": "src/Testing/Playwright using TypeScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/Tools/Kubernetes.md",
+                "file": "src/Testing/Playwright using TypeScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/Tools/Kubernetes.md"
+                "file": "src/Testing/Playwright using TypeScript.md"
               }
             }
           },
@@ -171,16 +135,26 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "51c2f20c078fbdec",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,41 +163,50 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5f6eed2d4b41ab78",
+  "active": "6028243a93cf0e4b",
   "lastOpenFiles": [
-    "books/The Startup CTO Handbook.pdf",
-    "src/Management/Metrics.md",
-    "src/Management/Health Monitor.md",
-    "Interviewer.md",
-    "src/DotNet/EntityFramework.md",
-    "SQL Lite.md",
-    "src/Tools/Kubernetes.md",
-    "src/Goals/Continous Learning.md",
-    "src/APIs/Google Calendar API.md",
-    "src/Tools/VSCode.md",
-    "src/Tools/Visual Studio.md",
-    "src/Tools/Tye.md",
+    "src/Testing/Playwright using .NET.md",
+    "src/Testing/MsTest.md",
+    "src/Testing/Playwright using TypeScript.md",
+    "44aedbbb-d23e-4dc9-8fa6-5391fa175bea_3000x2250.webp",
+    "src/Pasted image 20230731083648.png",
+    "src/DotNet/MinimalAPI.md",
+    "src/Testing/WireMockNet.md",
+    "src/FeatureManagement/Microsoft.FeatureManagement.md",
+    "src/FeatureManagement",
+    "src/Testing",
+    "2024-04-12.md",
+    "2024-04-16.md",
+    "Untitled.canvas",
     "src/Tools/Docker Desktop.md",
-    "src/Tools/Docker CLI.md",
-    "src/Technology/AI.md",
-    "src/Technology/Architecture.md",
-    "pasted image 0.png",
-    "src/Management/Software Development Strategy.md",
-    "src/Goals/Quality.md",
-    "books/Kubernetes Learning Path.pdf",
-    "src/Management/Goals.md",
-    "Objectives.md",
-    "src/Tools/Nuget CLI.md",
+    "src/How-to/Install multiple NodeJS Versions.md",
+    "src/How-to/Build and Run a Container with Docker.md",
+    "[Playwright.md",
+    "src/Tools/Sql Server.md",
     "src/Development/Development Environment Setup.md",
-    "src/How-to/CLI.md",
-    "src/Frontend/CSS.md",
-    "src/Frontend/Index.md",
-    "src/Frontend/Angular.md",
-    "books/50 Things You Need to Know to Be a Top IT Pro.pdf",
+    "src/Management/Code Reviews.md",
+    "src/Management/Metrics.md",
+    "src/Management/Developer Experience.md",
+    "src/Management/Engineering Management.md",
+    "44aedbbb-d23e-4dc9-8fa6-5391fa175bea_3000x2250.png",
+    "a0a584bd-c3f4-43d1-8842-d8ccc3cd2f75_3000x2250.png",
+    "src/Management/Wellbeing.md",
+    "src/Management/Ways of Working.md",
+    "src/Management/Software Development Strategy.md",
+    "src/Management/Salary.md",
+    "src/Management/Reports.md",
+    "src/Management/Psychological Safety.md",
+    "src/Management/Onboarding.md",
+    "src/Management/Manage for Better Results.md",
     "src/Pasted image 20230810091642.png",
-    "src/Pasted image 20230731083648.png"
+    "assets",
+    "books/The Startup CTO Handbook.pdf",
+    "pasted image 0.png",
+    "books/Kubernetes Learning Path.pdf",
+    "books/50 Things You Need to Know to Be a Top IT Pro.pdf"
   ]
 }

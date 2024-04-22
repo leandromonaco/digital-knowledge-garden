@@ -1,0 +1,1 @@
+- [The engineering manager's guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)

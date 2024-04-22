@@ -61,7 +61,8 @@ winget upgrade -e --id Microsoft.Sqlcmd
 
 Enable transient error resiliency by adding `EnableRetryOnFailure` to the `UseSqlServer` call on [[ASP.NET]]
 
-
+## Useful Commands
+`sp_helptext`
 ## Useful Queries
 ### Backup
 ```sql
@@ -141,30 +142,39 @@ SELECT compatibility_level
 FROM sys.databases WHERE name = 'AdventureWorks2019';  
 GO
 ```
-### List table and columns with their foreign keys 
+### List all tables that are linked by foreign keys
 ```sql
-SELECT
-schema_name(tab.schema_id) + '.' + tab.name AS [Table],
-col.name AS 'Column Name',
-t.name AS 'Data Type',
-col.max_length AS 'Max Length',
-col.precision AS 'Precision',
-schema_name(pk_tab.schema_id) + '.' + pk_tab.name AS 'Primary Table',
-pk_col.name AS 'PK Column Name',
-fk.name AS 'FK Constraint Name'
-FROM
-sys.tables tab
-INNER JOIN sys.columns col ON col.object_id = tab.object_id
-LEFT OUTER JOIN sys.foreign_key_columns fk_cols ON fk_cols.parent_object_id = tab.object_id
-AND fk_cols.parent_column_id = col.column_id
-LEFT OUTER JOIN sys.types AS t ON col.user_type_id = t.user_type_id
-LEFT OUTER JOIN sys.foreign_keys fk ON fk.object_id = fk_cols.constraint_object_id
-LEFT OUTER JOIN sys.tables pk_tab ON pk_tab.object_id = fk_cols.referenced_object_id
-LEFT OUTER JOIN sys.columns pk_col ON pk_col.column_id = fk_cols.referenced_column_id
-AND pk_col.object_id = fk_cols.referenced_object_id
-ORDER BY
-schema_name(tab.schema_id) + '.' + tab.name,
-col.column_id
+SELECT 
+    FK_Table = FK.TABLE_NAME,
+    FK_Column = CU.COLUMN_NAME,
+    PK_Table = PK.TABLE_NAME,
+    PK_Column = PT.COLUMN_NAME,
+    Constraint_Name = C.CONSTRAINT_NAME
+FROM 
+    INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS C
+INNER JOIN 
+    INFORMATION_SCHEMA.TABLE_CONSTRAINTS FK 
+        ON C.CONSTRAINT_NAME = FK.CONSTRAINT_NAME
+INNER JOIN 
+    INFORMATION_SCHEMA.TABLE_CONSTRAINTS PK 
+        ON C.UNIQUE_CONSTRAINT_NAME = PK.CONSTRAINT_NAME
+INNER JOIN 
+    INFORMATION_SCHEMA.KEY_COLUMN_USAGE CU 
+        ON C.CONSTRAINT_NAME = CU.CONSTRAINT_NAME
+INNER JOIN 
+    (
+    SELECT 
+        i1.TABLE_NAME, 
+        i2.COLUMN_NAME
+    FROM 
+        INFORMATION_SCHEMA.TABLE_CONSTRAINTS i1
+    INNER JOIN 
+        INFORMATION_SCHEMA.KEY_COLUMN_USAGE i2 
+        ON i1.CONSTRAINT_NAME = i2.CONSTRAINT_NAME
+    WHERE 
+        i1.CONSTRAINT_TYPE = 'PRIMARY KEY'
+    ) PT 
+    ON PT.TABLE_NAME = PK.TABLE_NAME
 ```
 
 ### List tables with no records
@@ -186,6 +196,27 @@ ORDER BY
   t.Name
 ```
 
+### List all DB objects in a Database
+```sql
+SELECT name,*
+FROM [DBName].sys.all_objects
+WHERE upper(name) LIKE upper('%someName%')
+ORDER BY type_desc
+```
+
+## Data Size
+
+```sql
+SELECT  CAST(SUM(TotalSize) AS varchar(255)) + ' bytes'
+FROM(
+		SELECT (DATALENGTH(Column) + 
+				DATALENGTH(Column) + 
+				DATALENGTH(Column) + 
+				DATALENGTH(Column) + 
+				DATALENGTH(Column)) AS TotalSize 
+		FROM TableName 
+) t
+```
 ## Encryption by Certificate
 - https://docs.microsoft.com/en-us/sql/t-sql/functions/encryptbycert-transact-sql
 - https://docs.microsoft.com/en-us/sql/t-sql/functions/decryptbycert-transact-sql
