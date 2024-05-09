@@ -13,9 +13,12 @@ This project was inspired by this [blog post](https://github.com/readme/guides/p
 
 ## Publish
 
-Folder: `digital-knowledge-garden\docs` (this folder is used by GitHub pages to publish https://leandromonaco.github.io/digital-knowledge-garden)
-
-![[Pasted image 20240510083448.png]]
+1. Delete all files in `digital-knowledge-garden\docs`
+2. Export `src` as HTML Documents (self-contained)![[Pasted image 20240510083448.png]]![[Pasted image 20240510085959.png]]
+3. Copy `docs\src` to `docs`
+4. Delete `docs\src` and `docs\lib` folders
+5. Push Git changes
+6. A GitHub Action will be triggered to publish https://leandromonaco.github.io/digital-knowledge-garden
 ### Sources
 
 - [Daily.dev](https://daily.dev/)

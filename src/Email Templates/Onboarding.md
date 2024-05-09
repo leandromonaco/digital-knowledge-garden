@@ -1,4 +1,4 @@
-- [[Management/Onboarding]] Templates
+- [[src/Engineering Management/Onboarding]] Templates
 -
 - **Before Starting**
 - Hi [new team member],

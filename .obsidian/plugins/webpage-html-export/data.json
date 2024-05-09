@@ -1,7 +1,7 @@
 {
   "settingsVersion": "1.8.01",
   "makeOfflineCompatible": false,
-  "inlineAssets": false,
+  "inlineAssets": true,
   "includePluginCSS": "",
   "includeSvelteCSS": true,
   "titleProperty": "title",
@@ -16,21 +16,21 @@
   "allowResizingSidebars": true,
   "logLevel": "warning",
   "minifyHTML": true,
-  "makeNamesWebStyle": true,
+  "makeNamesWebStyle": false,
   "onlyExportModified": true,
   "deleteOldFiles": true,
   "addThemeToggle": true,
   "addOutline": true,
   "addFileNav": true,
-  "addSearchBar": true,
-  "addGraphView": true,
+  "addSearchBar": false,
+  "addGraphView": false,
   "addTitle": true,
   "addRSSFeed": true,
   "siteURL": "",
   "authorName": "",
   "vaultTitle": "digital-knowledge-garden",
-  "exportPreset": "website",
-  "openAfterExport": false,
+  "exportPreset": "documents",
+  "openAfterExport": true,
   "graphAttractionForce": 1,
   "graphLinkLength": 10,
   "graphRepulsionForce": 150,
@@ -43,8 +43,10 @@
   "defaultFileIcon": "lucide//file",
   "defaultFolderIcon": "lucide//folder",
   "defaultMediaIcon": "lucide//file-image",
-  "exportPath": "",
+  "exportPath": "C:\\\\Dev\\GitHub\\workbench\\digital-knowledge-garden\\docs",
   "filesToExport": [
-    []
+    [
+      "src"
+    ]
   ]
 }

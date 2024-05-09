@@ -179,50 +179,92 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "4ae7314987c01415",
+  "floating": {
+    "id": "7addaee0b30a5c83",
+    "type": "floating",
+    "children": [
+      {
+        "id": "cf1a7974493e6c55",
+        "type": "window",
+        "children": [
+          {
+            "id": "24d7f1cd0fd21b69",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0bd3f57d393ff55c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "src/Index.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1470,
+        "y": 532,
+        "width": 900,
+        "height": 500,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "0bd3f57d393ff55c",
   "lastOpenFiles": [
-    "images/Pasted image 20240510083448.png",
+    "docs/src/Goals/Knowledge Sharing.html",
+    "docs/src/Goals/Continuous Improvement.html",
+    "docs/src/Goals/Quality.html",
+    "docs/src/Goals/Continous Learning.html",
+    "docs/src/Goals",
+    "docs/src/Frontend/CSS.html",
+    "docs/src/Frontend/Index.html",
+    "docs/src/Frontend/Angular.html",
+    "docs/src/Frontend",
+    "docs/src/FeatureManagement/Microsoft.FeatureManagement.html",
+    "docs/src/FeatureManagement",
     "src/Tools/WinGet.md",
-    "src/Tools/Windows Terminal.md",
     "src/Tools/Windows.md",
     "src/Tools/VSCode.md",
     "src/Tools/Visual Studio.md",
     "src/Tools/Troubleshooting.md",
-    "images/Pasted image 20230810091642.png",
-    "images/Pasted image 20230731083648.png",
-    "src/Tools/Proxy.md",
-    "src/Tools/NuGet.md",
-    "src/Tools/Slack CLI.md",
-    "src/Tools/Redash.md",
-    "src/Tools/Docker Compose.md",
+    "src/Tools/Sql Server.md",
     "src/Tools/SQL Lite.md",
-    "images/learning pyramid.png",
-    "Untitled.canvas",
-    "Objectives.md",
-    "2024-04-16.md",
-    "src/Untitled.md",
-    "src/Untitled.canvas",
-    "2024-04-12.md",
-    "src/Management/Engineering Management.md",
-    "images/engineering manager framework.png",
-    "images/what engineering managers should do.png",
-    "images",
-    "a0a584bd-c3f4-43d1-8842-d8ccc3cd2f75_3000x2250.png",
-    "src/Management/Health Monitor.md",
-    "src/Management/Engineering Management.png",
-    "src/Management/Interviewer.md",
-    "44aedbbb-d23e-4dc9-8fa6-5391fa175bea_3000x2250.webp",
-    "src/Testing/Playwright using TypeScript.md",
-    "src/Testing/Playwright using .NET.md",
-    "src/Testing/MsTest.md",
-    "src/DotNet/MinimalAPI.md",
+    "src/Tools/Slack CLI.md",
+    "src/Tools/Redis.md",
+    "src/Tools/Proxy.md",
+    "src/Tools/Powershell.md",
+    "src/Tools/Nuget CLI.md",
+    "src/Tools/NuGet.md",
+    "src/Tools/Microsoft Application Inspector.md",
+    "src/Tools/Kubernetes.md",
+    "src/Tools/InferSharp.md",
+    "src/Tools/Ideas.md",
+    "src/Tools/GitHub Copilot.md",
+    "src/Tools/Git.md",
+    "src/Tools/Docker Desktop.md",
+    "src/Tools/Docker Compose.md",
+    "src/Tools/Docker CLI.md",
+    "src/Tools/CMD.md",
     "src/Testing/WireMockNet.md",
-    "src/FeatureManagement/Microsoft.FeatureManagement.md",
-    "src/FeatureManagement",
-    "src/Testing",
-    "assets",
-    "books/The Startup CTO Handbook.pdf",
-    "books/Kubernetes Learning Path.pdf",
-    "books/50 Things You Need to Know to Be a Top IT Pro.pdf"
+    "src/Testing/Playwright using TypeScript.md",
+    "images/Pasted image 20240510085959.png",
+    "docs/lib/media/favicon.png",
+    "docs/lib/media/pasted-image-20240510083448.png",
+    "docs/lib/media/pasted-image-20230731083648.png",
+    "docs/lib/media/pasted-image-20230810091642.png",
+    "docs/lib/media/learning-pyramid.png",
+    "docs/lib/media/what-engineering-managers-should-do.png",
+    "docs/lib/media/engineering-manager-framework.png",
+    "images/Pasted image 20240510083448.png",
+    "images/Pasted image 20230810091642.png",
+    "Untitled.canvas",
+    "src/Untitled.canvas"
   ]
 }
