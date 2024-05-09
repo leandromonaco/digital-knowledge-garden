@@ -1,6 +1,6 @@
-![[44aedbbb-d23e-4dc9-8fa6-5391fa175bea_3000x2250.png]]
+![[what engineering managers should do.png]]
 
-![[a0a584bd-c3f4-43d1-8842-d8ccc3cd2f75_3000x2250.png]]
+![[engineering manager framework.png]]
 
 # Tech Lead vs Engineering Manager
 

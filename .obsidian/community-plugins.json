@@ -1,4 +1,6 @@
 [
   "obsidian-plugin-toc",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "obsidian-git",
+  "webpage-html-export"
 ]
