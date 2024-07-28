@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/Index.md",
+                "file": "Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/Index.md"
+                "file": "Index.md"
               }
             }
           },
@@ -130,6 +130,23 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
+            }
+          },
+          {
+            "id": "9533478d4b46183c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
             }
           }
         ],
@@ -156,20 +173,20 @@
     "type": "floating",
     "children": [
       {
-        "id": "e72462fb8beba3dc",
+        "id": "ff7ae97911d0ff45",
         "type": "window",
         "children": [
           {
-            "id": "c1be695f1cca8757",
+            "id": "bff19a153c5cabbd",
             "type": "tabs",
             "children": [
               {
-                "id": "066ed0dcf8395789",
+                "id": "edfcd3b1a858d29e",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "src/Index.md",
+                    "file": "Index.md",
                     "mode": "source",
                     "source": false
                   }
@@ -179,8 +196,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 738,
-        "y": 178,
+        "x": 1470,
+        "y": 532,
         "width": 900,
         "height": 500,
         "maximize": false,
@@ -188,8 +205,27 @@
       }
     ]
   },
-  "active": "066ed0dcf8395789",
+  "active": "edfcd3b1a858d29e",
   "lastOpenFiles": [
+    "docs/docs/src/how-to/modernization.html",
+    "docs/docs/src/how-to/creating-a-permanent-powershell-alias-using-set-alias.html",
+    "docs/docs/src/how-to/create-self-signed-certificate.html",
+    "docs/docs/src/how-to/technical-support.html",
+    "docs/docs/src/how-to/run-a-tool-globally-on-windows.html",
+    "docs/docs/src/how-to/measure-method-elapsed-time-with-csharp.html",
+    "docs/docs/src/how-to/change-host-file-on-windows.html",
+    "docs/docs/src/how-to/install-multiple-nodejs-versions.html",
+    "docs/docs/src/how-to/http-client.html",
+    "docs/docs/src/how-to/git.html",
+    "docs/docs/src/how-to/create-iis-websites.html",
+    "docs/docs/images/what-engineering-managers-should-do.png",
+    "docs/docs/images/pasted-image-20240729081305.png",
+    "docs/docs/images/pasted-image-20240510085959.png",
+    "docs/docs/images/pasted-image-20240510083448.png",
+    "docs/docs/images/pasted-image-20230810091642.png",
+    "docs/docs/images/pasted-image-20230731083648.png",
+    "docs/docs/images/learning-pyramid.png",
+    "docs/docs/images/engineering-manager-framework.png",
     "src/Tools/WinGet.md",
     "src/Tools/Windows.md",
     "src/Tools/VSCode.md",
@@ -215,27 +251,8 @@
     "src/Tools/CMD.md",
     "src/Tools/Clipchamp.md",
     "src/Testing/WireMockNet.md",
-    "src/Testing/Playwright using TypeScript.md",
     "images/Pasted image 20230731083648.png",
-    "docs/src/Goals/Knowledge Sharing.html",
-    "docs/src/Goals/Continuous Improvement.html",
-    "docs/src/Goals/Quality.html",
-    "docs/src/Goals/Continous Learning.html",
-    "docs/src/Goals",
-    "docs/src/Frontend/CSS.html",
-    "docs/src/Frontend/Index.html",
-    "docs/src/Frontend/Angular.html",
-    "docs/src/Frontend",
-    "docs/src/FeatureManagement/Microsoft.FeatureManagement.html",
     "images/Pasted image 20240510085959.png",
-    "docs/lib/media/favicon.png",
-    "docs/lib/media/pasted-image-20240510083448.png",
-    "docs/lib/media/pasted-image-20230731083648.png",
-    "docs/lib/media/pasted-image-20230810091642.png",
-    "docs/lib/media/learning-pyramid.png",
-    "docs/lib/media/what-engineering-managers-should-do.png",
-    "docs/lib/media/engineering-manager-framework.png",
-    "images/Pasted image 20240510083448.png",
     "Untitled.canvas",
     "src/Untitled.canvas"
   ]

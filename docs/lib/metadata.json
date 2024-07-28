@@ -1,6 +1,6 @@
 {
   "vaultName": "digital-knowledge-garden",
-  "lastExport": 1722204970365,
+  "lastExport": 1722206063766,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon is-focused",
   "useCustomHeadContent": false,
@@ -40,6 +40,188 @@
     "books/The 5 Foundational DevOps Practices.pdf",
     "books/The Startup CTO Handbook.pdf",
     "books/whattolookforinacodereview.pdf",
+    "docs/books/50 Things You Need to Know to Be a Top IT Pro.pdf",
+    "docs/books/500 Things You Need to Know to Succeed in Your IT Career.pdf",
+    "docs/books/Advance Your Tech Career in One Simple Step.pdf",
+    "docs/books/Agile contracts primer.pdf",
+    "docs/books/Angular_Authentication_Complete_Guide.pdf",
+    "docs/books/Azure Developer Guide.pdf",
+    "docs/books/Build+modern+applications+on+AWS.pdf",
+    "docs/books/Build+Web+and+Mobile+Apps+Faster+eBook.pdf",
+    "docs/books/Building a culture of innovation.pdf",
+    "docs/books/Building-an-Offshore-Team-DY-E-Book.pdf",
+    "docs/books/Building+Event-Driven+Architectures+with+AWS+Guide.pdf",
+    "docs/books/Business+Value+of+Cloud+Modernization.pdf",
+    "docs/books/Continuous+learning,+continuous+modernization.pdf",
+    "docs/books/Designing Distributed Systems.pdf",
+    "docs/books/Determining+the+total+cost+of+ownership+-+Comparing+serverless+and+server-based+technologies.pdf",
+    "docs/books/ebook-driving-full-service-ownership.pdf",
+    "docs/books/Effective DevOps.pdf",
+    "docs/books/Introduction+to+Event-Driven+Architectures+Guide.pdf",
+    "docs/books/IT Professionals Resume Makeover Guide.pdf",
+    "docs/books/jwt-handbook-v0_14_1.pdf",
+    "docs/books/Kubernetes Learning Path.pdf",
+    "docs/books/LINQ Explained with Sketches.pdf",
+    "docs/books/Microsoft_Press_eBook_Building_Cloud_Apps_with Microsoft_Azure_PDF.pdf",
+    "docs/books/NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
+    "docs/books/OAuth2_and_OpenID_Connect_The_Professional_Guide_Ebook_v02.pdf",
+    "docs/books/PMBOK7.pdf",
+    "docs/books/Remote_Work_Playbook.pdf",
+    "docs/books/Rethinking Productivity in Software Engineering.pdf",
+    "docs/books/shape-up.pdf",
+    "docs/books/Six Strategies to Keep Your IT Career  Secure (and Lucrative).pdf",
+    "docs/books/SQL Server Execution Plans.pdf",
+    "docs/books/The 5 Foundational DevOps Practices.pdf",
+    "docs/books/The Startup CTO Handbook.pdf",
+    "docs/books/whattolookforinacodereview.pdf",
+    "docs/images/engineering manager framework.png",
+    "docs/images/learning pyramid.png",
+    "docs/images/Pasted image 20230731083648.png",
+    "docs/images/Pasted image 20230810091642.png",
+    "docs/images/Pasted image 20240510083448.png",
+    "docs/images/Pasted image 20240510085959.png",
+    "docs/images/Pasted image 20240729081305.png",
+    "docs/images/what engineering managers should do.png",
+    "docs/lib/metadata.json",
+    "docs/lib/rss.xml",
+    "docs/papers/On the Unhappiness of Software Developers.pdf",
+    "docs/papers/The 2021 State of the Octoverse.url",
+    "docs/papers/The 2021 State of the Octoverse.pdf",
+    "docs/papers/What Makes a Great Software Engineer.pdf",
+    "docs/src/AI/ollama.html",
+    "docs/src/APIs/GitHub API.html",
+    "docs/src/APIs/Google Calendar API.html",
+    "docs/src/APIs/JIRA API.html",
+    "docs/src/APIs/QMetry API.html",
+    "docs/src/AWS/AWS KMS.html",
+    "docs/src/Certifications/AZ-400 Designing and Implementing Microsoft DevOps Solutions.html",
+    "docs/src/Cloud/AWS/Services/CloudFormation.html",
+    "docs/src/Cloud/AWS/Services/Cognito.html",
+    "docs/src/Cloud/AWS/Services/DynamoDB.html",
+    "docs/src/Cloud/AWS/Services/Lambda.html",
+    "docs/src/Cloud/AWS/Tools/AWS CLI.html",
+    "docs/src/Cloud/AWS/Tools/CDK.html",
+    "docs/src/Cloud/AWS/Tools/Lambda Tools.html",
+    "docs/src/Cloud/AWS/Tools/LocalStack.html",
+    "docs/src/Cloud/AWS/Tools/Moto.html",
+    "docs/src/Cloud/AWS/Tools/SAM CLI.html",
+    "docs/src/Cloud/AWS/Index.html",
+    "docs/src/Cloud/Azure/Index.html",
+    "docs/src/Development/DevContainers.html",
+    "docs/src/Development/Developer Productivity.html",
+    "docs/src/Development/Development Environment Setup.html",
+    "docs/src/DevOps/Observability.html",
+    "docs/src/Documentation/DiagramsAsCode.html",
+    "docs/src/Documentation/Documentation.html",
+    "docs/src/DotNet/CLI/dotnet list package.html",
+    "docs/src/DotNet/CLI/dotnet monitor.html",
+    "docs/src/DotNet/Libraries/IdentityServer.html",
+    "docs/src/DotNet/Libraries/NukeBuild.html",
+    "docs/src/DotNet/Libraries/YARP.html",
+    "docs/src/DotNet/ASP.NET.html",
+    "docs/src/DotNet/Configuration.html",
+    "docs/src/DotNet/CSharp.html",
+    "docs/src/DotNet/Deployment.html",
+    "docs/src/DotNet/EntityFramework.html",
+    "docs/src/DotNet/MinimalAPI.html",
+    "docs/src/Email Templates/Knowledge Sharing.html",
+    "docs/src/Email Templates/Onboarding.html",
+    "docs/src/Engineering Management/1on1s.html",
+    "docs/src/Engineering Management/Agile.html",
+    "docs/src/Engineering Management/Career.html",
+    "docs/src/Engineering Management/Change Management.html",
+    "docs/src/Engineering Management/Coaching.html",
+    "docs/src/Engineering Management/Code Reviews.html",
+    "docs/src/Engineering Management/Community Of Practice.html",
+    "docs/src/Engineering Management/Culture.html",
+    "docs/src/Engineering Management/Developer Experience.html",
+    "docs/src/Engineering Management/Effective Meetings.html",
+    "docs/src/Engineering Management/Engineering Management.html",
+    "docs/src/Engineering Management/Goals.html",
+    "docs/src/Engineering Management/Health Monitor.html",
+    "docs/src/Engineering Management/High Performing Teams.html",
+    "docs/src/Engineering Management/Hiring.html",
+    "docs/src/Engineering Management/Incident Management.html",
+    "docs/src/Engineering Management/Index.html",
+    "docs/src/Engineering Management/Interview.html",
+    "docs/src/Engineering Management/Interviewer.html",
+    "docs/src/Engineering Management/Leadership.html",
+    "docs/src/Engineering Management/Manage for Better Results.html",
+    "docs/src/Engineering Management/Metrics.html",
+    "docs/src/Engineering Management/Onboarding.html",
+    "docs/src/Engineering Management/Psychological Safety.html",
+    "docs/src/Engineering Management/Reports.html",
+    "docs/src/Engineering Management/Salary.html",
+    "docs/src/Engineering Management/Software Development Strategy.html",
+    "docs/src/Engineering Management/Ways of Working.html",
+    "docs/src/Engineering Management/Wellbeing.html",
+    "docs/src/FeatureManagement/Microsoft.FeatureManagement.html",
+    "docs/src/Frontend/Angular.html",
+    "docs/src/Frontend/CSS.html",
+    "docs/src/Frontend/Index.html",
+    "docs/src/Goals/Continous Learning.html",
+    "docs/src/Goals/Continuous Improvement.html",
+    "docs/src/Goals/Knowledge Sharing.html",
+    "docs/src/Goals/Quality.html",
+    "docs/src/How-to/Batch File.html",
+    "docs/src/How-to/Build and Run a Container with Docker.html",
+    "docs/src/How-to/Change host file on Windows.html",
+    "docs/src/How-to/CLI.html",
+    "docs/src/How-to/Create IIS Websites.html",
+    "docs/src/How-to/Create Self-Signed Certificate.html",
+    "docs/src/How-to/Creating a permanent PowerShell Alias using Set-Alias.html",
+    "docs/src/How-to/Git.html",
+    "docs/src/How-to/HTTP Client.html",
+    "docs/src/How-to/Install multiple NodeJS Versions.html",
+    "docs/src/How-to/Measure Method Elapsed Time with CSharp.html",
+    "docs/src/How-to/Modernization.html",
+    "docs/src/How-to/Run a tool globally on Windows.html",
+    "docs/src/How-to/Technical Support.html",
+    "docs/src/Performance/General.html",
+    "docs/src/Security/CVE.html",
+    "docs/src/Security/HackerOne.html",
+    "docs/src/Security/JWT.html",
+    "docs/src/Security/OWASP TOP 10.html",
+    "docs/src/Security/Secure Code Warriors.html",
+    "docs/src/Security/Security.html",
+    "docs/src/Technology/AI.html",
+    "docs/src/Technology/Architecture.html",
+    "docs/src/Technology/Coding Exercise.html",
+    "docs/src/Technology/HTTP 3.html",
+    "docs/src/Technology/Monorepo.html",
+    "docs/src/Testing/MsTest.html",
+    "docs/src/Testing/Playwright using .NET.html",
+    "docs/src/Testing/Playwright using TypeScript.html",
+    "docs/src/Testing/WireMockNet.html",
+    "docs/src/Tools/Clipchamp.html",
+    "docs/src/Tools/CMD.html",
+    "docs/src/Tools/Docker CLI.html",
+    "docs/src/Tools/Docker Compose.html",
+    "docs/src/Tools/Docker Desktop.html",
+    "docs/src/Tools/Firefox.html",
+    "docs/src/Tools/Git.html",
+    "docs/src/Tools/GitHub Copilot.html",
+    "docs/src/Tools/Ideas.html",
+    "docs/src/Tools/InferSharp.html",
+    "docs/src/Tools/Kubernetes.html",
+    "docs/src/Tools/Microsoft Application Inspector.html",
+    "docs/src/Tools/NuGet.html",
+    "docs/src/Tools/Nuget CLI.html",
+    "docs/src/Tools/Powershell.html",
+    "docs/src/Tools/Proxy.html",
+    "docs/src/Tools/Redash.html",
+    "docs/src/Tools/Redis.html",
+    "docs/src/Tools/Slack CLI.html",
+    "docs/src/Tools/slngen.html",
+    "docs/src/Tools/SQL Lite.html",
+    "docs/src/Tools/Sql Server.html",
+    "docs/src/Tools/Troubleshooting.html",
+    "docs/src/Tools/Visual Studio.html",
+    "docs/src/Tools/VSCode.html",
+    "docs/src/Tools/Windows.html",
+    "docs/src/Tools/Windows Terminal.html",
+    "docs/src/Tools/WinGet.html",
+    "docs/Index.html",
     "images/engineering manager framework.png",
     "images/learning pyramid.png",
     "images/Pasted image 20230731083648.png",
@@ -185,1088 +367,2345 @@
     "src/Tools/Windows.md",
     "src/Tools/Windows Terminal.md",
     "src/Tools/WinGet.md",
-    "Index.md"
+    "Index.md",
+    "lib/media/what-engineering-managers-should-do.png",
+    "lib/media/engineering-manager-framework.png",
+    "lib/media/learning-pyramid.png",
+    "lib/media/pasted-image-20230810091642.png",
+    "lib/media/pasted-image-20230731083648.png",
+    "lib/scripts/graph-wasm.wasm",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css"
   ],
-  "mainDependencies": [],
+  "mainDependencies": [
+    "lib/scripts/graph-wasm.wasm",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css"
+  ],
   "fileInfo": {
     "books/50 Things You Need to Know to Be a Top IT Pro.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1045006,
-      "exportedPath": "books/50 Things You Need to Know to Be a Top IT Pro.pdf",
+      "exportedPath": "books/50-things-you-need-to-know-to-be-a-top-it-pro.pdf",
       "dependencies": []
     },
     "books/500 Things You Need to Know to Succeed in Your IT Career.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 459008,
-      "exportedPath": "books/500 Things You Need to Know to Succeed in Your IT Career.pdf",
+      "exportedPath": "books/500-things-you-need-to-know-to-succeed-in-your-it-career.pdf",
       "dependencies": []
     },
     "books/Advance Your Tech Career in One Simple Step.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 976356,
-      "exportedPath": "books/Advance Your Tech Career in One Simple Step.pdf",
+      "exportedPath": "books/advance-your-tech-career-in-one-simple-step.pdf",
       "dependencies": []
     },
     "books/Agile contracts primer.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 609167,
-      "exportedPath": "books/Agile contracts primer.pdf",
+      "exportedPath": "books/agile-contracts-primer.pdf",
       "dependencies": []
     },
     "books/Angular_Authentication_Complete_Guide.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1042964,
-      "exportedPath": "books/Angular_Authentication_Complete_Guide.pdf",
+      "exportedPath": "books/angular_authentication_complete_guide.pdf",
       "dependencies": []
     },
     "books/Azure Developer Guide.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 3436168,
-      "exportedPath": "books/Azure Developer Guide.pdf",
+      "exportedPath": "books/azure-developer-guide.pdf",
       "dependencies": []
     },
     "books/Build+modern+applications+on+AWS.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 2907202,
-      "exportedPath": "books/Build+modern+applications+on+AWS.pdf",
+      "exportedPath": "books/build+modern+applications+on+aws.pdf",
       "dependencies": []
     },
     "books/Build+Web+and+Mobile+Apps+Faster+eBook.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1015140,
-      "exportedPath": "books/Build+Web+and+Mobile+Apps+Faster+eBook.pdf",
+      "exportedPath": "books/build+web+and+mobile+apps+faster+ebook.pdf",
       "dependencies": []
     },
     "books/Building a culture of innovation.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 9706488,
-      "exportedPath": "books/Building a culture of innovation.pdf",
+      "exportedPath": "books/building-a-culture-of-innovation.pdf",
       "dependencies": []
     },
     "books/Building-an-Offshore-Team-DY-E-Book.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 6307429,
-      "exportedPath": "books/Building-an-Offshore-Team-DY-E-Book.pdf",
+      "exportedPath": "books/building-an-offshore-team-dy-e-book.pdf",
       "dependencies": []
     },
     "books/Building+Event-Driven+Architectures+with+AWS+Guide.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1235790,
-      "exportedPath": "books/Building+Event-Driven+Architectures+with+AWS+Guide.pdf",
+      "exportedPath": "books/building+event-driven+architectures+with+aws+guide.pdf",
       "dependencies": []
     },
     "books/Business+Value+of+Cloud+Modernization.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 811493,
-      "exportedPath": "books/Business+Value+of+Cloud+Modernization.pdf",
+      "exportedPath": "books/business+value+of+cloud+modernization.pdf",
       "dependencies": []
     },
     "books/Continuous+learning,+continuous+modernization.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1396834,
-      "exportedPath": "books/Continuous+learning,+continuous+modernization.pdf",
+      "exportedPath": "books/continuous+learning,+continuous+modernization.pdf",
       "dependencies": []
     },
     "books/Designing Distributed Systems.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 6922568,
-      "exportedPath": "books/Designing Distributed Systems.pdf",
+      "exportedPath": "books/designing-distributed-systems.pdf",
       "dependencies": []
     },
     "books/Determining+the+total+cost+of+ownership+-+Comparing+serverless+and+server-based+technologies.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 2761966,
-      "exportedPath": "books/Determining+the+total+cost+of+ownership+-+Comparing+serverless+and+server-based+technologies.pdf",
+      "exportedPath": "books/determining+the+total+cost+of+ownership+-+comparing+serverless+and+server-based+technologies.pdf",
       "dependencies": []
     },
     "books/ebook-driving-full-service-ownership.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 171916,
       "exportedPath": "books/ebook-driving-full-service-ownership.pdf",
       "dependencies": []
     },
     "books/Effective DevOps.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1750149,
-      "exportedPath": "books/Effective DevOps.pdf",
+      "exportedPath": "books/effective-devops.pdf",
       "dependencies": []
     },
     "books/Introduction+to+Event-Driven+Architectures+Guide.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 4208083,
-      "exportedPath": "books/Introduction+to+Event-Driven+Architectures+Guide.pdf",
+      "exportedPath": "books/introduction+to+event-driven+architectures+guide.pdf",
       "dependencies": []
     },
     "books/IT Professionals Resume Makeover Guide.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 3694750,
-      "exportedPath": "books/IT Professionals Resume Makeover Guide.pdf",
+      "exportedPath": "books/it-professionals-resume-makeover-guide.pdf",
       "dependencies": []
     },
     "books/jwt-handbook-v0_14_1.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1728914,
       "exportedPath": "books/jwt-handbook-v0_14_1.pdf",
       "dependencies": []
     },
     "books/Kubernetes Learning Path.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 2730880,
-      "exportedPath": "books/Kubernetes Learning Path.pdf",
+      "exportedPath": "books/kubernetes-learning-path.pdf",
       "dependencies": []
     },
     "books/LINQ Explained with Sketches.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 3765285,
-      "exportedPath": "books/LINQ Explained with Sketches.pdf",
+      "exportedPath": "books/linq-explained-with-sketches.pdf",
       "dependencies": []
     },
     "books/Microsoft_Press_eBook_Building_Cloud_Apps_with Microsoft_Azure_PDF.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 7637988,
-      "exportedPath": "books/Microsoft_Press_eBook_Building_Cloud_Apps_with Microsoft_Azure_PDF.pdf",
+      "exportedPath": "books/microsoft_press_ebook_building_cloud_apps_with-microsoft_azure_pdf.pdf",
       "dependencies": []
     },
     "books/NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 12386392,
-      "exportedPath": "books/NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
+      "exportedPath": "books/net-microservices-architecture-for-containerized-net-applications.pdf",
       "dependencies": []
     },
     "books/OAuth2_and_OpenID_Connect_The_Professional_Guide_Ebook_v02.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 5579748,
-      "exportedPath": "books/OAuth2_and_OpenID_Connect_The_Professional_Guide_Ebook_v02.pdf",
+      "exportedPath": "books/oauth2_and_openid_connect_the_professional_guide_ebook_v02.pdf",
       "dependencies": []
     },
     "books/PMBOK7.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 4578972,
-      "exportedPath": "books/PMBOK7.pdf",
+      "exportedPath": "books/pmbok7.pdf",
       "dependencies": []
     },
     "books/Remote_Work_Playbook.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 506983,
-      "exportedPath": "books/Remote_Work_Playbook.pdf",
+      "exportedPath": "books/remote_work_playbook.pdf",
       "dependencies": []
     },
     "books/Rethinking Productivity in Software Engineering.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 5331600,
-      "exportedPath": "books/Rethinking Productivity in Software Engineering.pdf",
+      "exportedPath": "books/rethinking-productivity-in-software-engineering.pdf",
       "dependencies": []
     },
     "books/shape-up.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 7298260,
       "exportedPath": "books/shape-up.pdf",
       "dependencies": []
     },
     "books/Six Strategies to Keep Your IT Career  Secure (and Lucrative).pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 517036,
-      "exportedPath": "books/Six Strategies to Keep Your IT Career  Secure (and Lucrative).pdf",
+      "exportedPath": "books/six-strategies-to-keep-your-it-career-secure-(and-lucrative).pdf",
       "dependencies": []
     },
     "books/SQL Server Execution Plans.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 24789232,
-      "exportedPath": "books/SQL Server Execution Plans.pdf",
+      "exportedPath": "books/sql-server-execution-plans.pdf",
       "dependencies": []
     },
     "books/The 5 Foundational DevOps Practices.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 19207540,
-      "exportedPath": "books/The 5 Foundational DevOps Practices.pdf",
+      "exportedPath": "books/the-5-foundational-devops-practices.pdf",
       "dependencies": []
     },
     "books/The Startup CTO Handbook.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 2810757,
-      "exportedPath": "books/The Startup CTO Handbook.pdf",
+      "exportedPath": "books/the-startup-cto-handbook.pdf",
       "dependencies": []
     },
     "books/whattolookforinacodereview.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 2716775,
       "exportedPath": "books/whattolookforinacodereview.pdf",
       "dependencies": []
     },
     "images/engineering manager framework.png": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 151246,
-      "exportedPath": "images/engineering manager framework.png",
+      "exportedPath": "images/engineering-manager-framework.png",
       "dependencies": []
     },
     "images/learning pyramid.png": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 178872,
-      "exportedPath": "images/learning pyramid.png",
+      "exportedPath": "images/learning-pyramid.png",
       "dependencies": []
     },
     "images/Pasted image 20230731083648.png": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 18996,
-      "exportedPath": "images/Pasted image 20230731083648.png",
+      "exportedPath": "images/pasted-image-20230731083648.png",
       "dependencies": []
     },
     "images/Pasted image 20230810091642.png": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 31676,
-      "exportedPath": "images/Pasted image 20230810091642.png",
+      "exportedPath": "images/pasted-image-20230810091642.png",
       "dependencies": []
     },
     "images/Pasted image 20240510083448.png": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 14285,
-      "exportedPath": "images/Pasted image 20240510083448.png",
+      "exportedPath": "images/pasted-image-20240510083448.png",
       "dependencies": []
     },
     "images/Pasted image 20240510085959.png": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 8710,
-      "exportedPath": "images/Pasted image 20240510085959.png",
+      "exportedPath": "images/pasted-image-20240510085959.png",
       "dependencies": []
     },
     "images/Pasted image 20240729081305.png": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 39452,
-      "exportedPath": "images/Pasted image 20240729081305.png",
+      "exportedPath": "images/pasted-image-20240729081305.png",
       "dependencies": []
     },
     "images/what engineering managers should do.png": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 72292,
-      "exportedPath": "images/what engineering managers should do.png",
+      "exportedPath": "images/what-engineering-managers-should-do.png",
       "dependencies": []
     },
     "papers/On the Unhappiness of Software Developers.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 610952,
-      "exportedPath": "papers/On the Unhappiness of Software Developers.pdf",
+      "exportedPath": "papers/on-the-unhappiness-of-software-developers.pdf",
       "dependencies": []
     },
     "papers/The 2021 State of the Octoverse.url": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 250,
-      "exportedPath": "papers/The 2021 State of the Octoverse.url",
+      "exportedPath": "papers/the-2021-state-of-the-octoverse.url",
       "dependencies": []
     },
     "papers/The 2021 State of the Octoverse.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 883874,
-      "exportedPath": "papers/The 2021 State of the Octoverse.pdf",
+      "exportedPath": "papers/the-2021-state-of-the-octoverse.pdf",
       "dependencies": []
     },
     "papers/What Makes a Great Software Engineer.pdf": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 672429,
-      "exportedPath": "papers/What Makes a Great Software Engineer.pdf",
+      "exportedPath": "papers/what-makes-a-great-software-engineer.pdf",
       "dependencies": []
     },
     "src/AI/ollama.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 589,
-      "exportedPath": "src/AI/ollama.html",
+      "exportedPath": "src/ai/ollama.html",
       "dependencies": []
     },
     "src/APIs/GitHub API.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 146,
-      "exportedPath": "src/APIs/GitHub API.html",
+      "exportedPath": "src/apis/github-api.html",
       "dependencies": []
     },
     "src/APIs/Google Calendar API.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 7359,
-      "exportedPath": "src/APIs/Google Calendar API.html",
+      "exportedPath": "src/apis/google-calendar-api.html",
       "dependencies": []
     },
     "src/APIs/JIRA API.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 59,
-      "exportedPath": "src/APIs/JIRA API.html",
+      "exportedPath": "src/apis/jira-api.html",
       "dependencies": []
     },
     "src/APIs/QMetry API.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 56,
-      "exportedPath": "src/APIs/QMetry API.html",
+      "exportedPath": "src/apis/qmetry-api.html",
       "dependencies": []
     },
     "src/AWS/AWS KMS.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 349,
-      "exportedPath": "src/AWS/AWS KMS.html",
+      "exportedPath": "src/aws/aws-kms.html",
       "dependencies": []
     },
     "src/Certifications/AZ-400 Designing and Implementing Microsoft DevOps Solutions.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 148,
-      "exportedPath": "src/Certifications/AZ-400 Designing and Implementing Microsoft DevOps Solutions.html",
+      "exportedPath": "src/certifications/az-400-designing-and-implementing-microsoft-devops-solutions.html",
       "dependencies": []
     },
     "src/Cloud/AWS/Services/CloudFormation.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 374,
-      "exportedPath": "src/Cloud/AWS/Services/CloudFormation.html",
+      "exportedPath": "src/cloud/aws/services/cloudformation.html",
       "dependencies": []
     },
     "src/Cloud/AWS/Services/Cognito.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 2958,
-      "exportedPath": "src/Cloud/AWS/Services/Cognito.html",
+      "exportedPath": "src/cloud/aws/services/cognito.html",
       "dependencies": []
     },
     "src/Cloud/AWS/Services/DynamoDB.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1027,
-      "exportedPath": "src/Cloud/AWS/Services/DynamoDB.html",
+      "exportedPath": "src/cloud/aws/services/dynamodb.html",
       "dependencies": []
     },
     "src/Cloud/AWS/Services/Lambda.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 2094,
-      "exportedPath": "src/Cloud/AWS/Services/Lambda.html",
+      "exportedPath": "src/cloud/aws/services/lambda.html",
       "dependencies": []
     },
     "src/Cloud/AWS/Tools/AWS CLI.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 908,
-      "exportedPath": "src/Cloud/AWS/Tools/AWS CLI.html",
+      "exportedPath": "src/cloud/aws/tools/aws-cli.html",
       "dependencies": []
     },
     "src/Cloud/AWS/Tools/CDK.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 692,
-      "exportedPath": "src/Cloud/AWS/Tools/CDK.html",
+      "exportedPath": "src/cloud/aws/tools/cdk.html",
       "dependencies": []
     },
     "src/Cloud/AWS/Tools/Lambda Tools.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 434,
-      "exportedPath": "src/Cloud/AWS/Tools/Lambda Tools.html",
+      "exportedPath": "src/cloud/aws/tools/lambda-tools.html",
       "dependencies": []
     },
     "src/Cloud/AWS/Tools/LocalStack.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1218,
-      "exportedPath": "src/Cloud/AWS/Tools/LocalStack.html",
+      "exportedPath": "src/cloud/aws/tools/localstack.html",
       "dependencies": []
     },
     "src/Cloud/AWS/Tools/Moto.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 632,
-      "exportedPath": "src/Cloud/AWS/Tools/Moto.html",
+      "exportedPath": "src/cloud/aws/tools/moto.html",
       "dependencies": []
     },
     "src/Cloud/AWS/Tools/SAM CLI.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 586,
-      "exportedPath": "src/Cloud/AWS/Tools/SAM CLI.html",
+      "exportedPath": "src/cloud/aws/tools/sam-cli.html",
       "dependencies": []
     },
     "src/Cloud/AWS/Index.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 2034,
-      "exportedPath": "src/Cloud/AWS/Index.html",
+      "exportedPath": "src/cloud/aws/index.html",
       "dependencies": []
     },
     "src/Cloud/Azure/Index.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 55,
-      "exportedPath": "src/Cloud/Azure/Index.html",
+      "exportedPath": "src/cloud/azure/index.html",
       "dependencies": []
     },
     "src/Development/DevContainers.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 3045,
-      "exportedPath": "src/Development/DevContainers.html",
+      "exportedPath": "src/development/devcontainers.html",
       "dependencies": []
     },
     "src/Development/Developer Productivity.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 513,
-      "exportedPath": "src/Development/Developer Productivity.html",
+      "exportedPath": "src/development/developer-productivity.html",
       "dependencies": []
     },
     "src/Development/Development Environment Setup.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 3451,
-      "exportedPath": "src/Development/Development Environment Setup.html",
+      "exportedPath": "src/development/development-environment-setup.html",
       "dependencies": []
     },
     "src/DevOps/Observability.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 335,
-      "exportedPath": "src/DevOps/Observability.html",
+      "exportedPath": "src/devops/observability.html",
       "dependencies": []
     },
     "src/Documentation/DiagramsAsCode.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 245,
-      "exportedPath": "src/Documentation/DiagramsAsCode.html",
+      "exportedPath": "src/documentation/diagramsascode.html",
       "dependencies": []
     },
     "src/Documentation/Documentation.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 331,
-      "exportedPath": "src/Documentation/Documentation.html",
+      "exportedPath": "src/documentation/documentation.html",
       "dependencies": []
     },
     "src/DotNet/CLI/dotnet list package.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1289,
-      "exportedPath": "src/DotNet/CLI/dotnet list package.html",
+      "exportedPath": "src/dotnet/cli/dotnet-list-package.html",
       "dependencies": []
     },
     "src/DotNet/CLI/dotnet monitor.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 113,
-      "exportedPath": "src/DotNet/CLI/dotnet monitor.html",
+      "exportedPath": "src/dotnet/cli/dotnet-monitor.html",
       "dependencies": []
     },
     "src/DotNet/Libraries/IdentityServer.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 511,
-      "exportedPath": "src/DotNet/Libraries/IdentityServer.html",
+      "exportedPath": "src/dotnet/libraries/identityserver.html",
       "dependencies": []
     },
     "src/DotNet/Libraries/NukeBuild.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1656,
-      "exportedPath": "src/DotNet/Libraries/NukeBuild.html",
+      "exportedPath": "src/dotnet/libraries/nukebuild.html",
       "dependencies": []
     },
     "src/DotNet/Libraries/YARP.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 98,
-      "exportedPath": "src/DotNet/Libraries/YARP.html",
+      "exportedPath": "src/dotnet/libraries/yarp.html",
       "dependencies": []
     },
     "src/DotNet/ASP.NET.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 365,
-      "exportedPath": "src/DotNet/ASP.NET.html",
+      "exportedPath": "src/dotnet/asp.net.html",
       "dependencies": []
     },
     "src/DotNet/Configuration.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 4927,
-      "exportedPath": "src/DotNet/Configuration.html",
+      "exportedPath": "src/dotnet/configuration.html",
       "dependencies": []
     },
     "src/DotNet/CSharp.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 78,
-      "exportedPath": "src/DotNet/CSharp.html",
+      "exportedPath": "src/dotnet/csharp.html",
       "dependencies": []
     },
     "src/DotNet/Deployment.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 109,
-      "exportedPath": "src/DotNet/Deployment.html",
+      "exportedPath": "src/dotnet/deployment.html",
       "dependencies": []
     },
     "src/DotNet/EntityFramework.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1875,
-      "exportedPath": "src/DotNet/EntityFramework.html",
+      "exportedPath": "src/dotnet/entityframework.html",
       "dependencies": []
     },
     "src/DotNet/MinimalAPI.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 151,
-      "exportedPath": "src/DotNet/MinimalAPI.html",
+      "exportedPath": "src/dotnet/minimalapi.html",
       "dependencies": []
     },
     "src/Email Templates/Knowledge Sharing.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 4081,
-      "exportedPath": "src/Email Templates/Knowledge Sharing.html",
+      "exportedPath": "src/email-templates/knowledge-sharing.html",
       "dependencies": []
     },
     "src/Email Templates/Onboarding.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 4099,
-      "exportedPath": "src/Email Templates/Onboarding.html",
+      "exportedPath": "src/email-templates/onboarding.html",
       "dependencies": []
     },
     "src/Engineering Management/1on1s.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1996,
-      "exportedPath": "src/Engineering Management/1on1s.html",
+      "exportedPath": "src/engineering-management/1on1s.html",
       "dependencies": []
     },
     "src/Engineering Management/Agile.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 379,
-      "exportedPath": "src/Engineering Management/Agile.html",
+      "exportedPath": "src/engineering-management/agile.html",
       "dependencies": []
     },
     "src/Engineering Management/Career.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 508,
-      "exportedPath": "src/Engineering Management/Career.html",
+      "exportedPath": "src/engineering-management/career.html",
       "dependencies": []
     },
     "src/Engineering Management/Change Management.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 2261,
-      "exportedPath": "src/Engineering Management/Change Management.html",
+      "exportedPath": "src/engineering-management/change-management.html",
       "dependencies": []
     },
     "src/Engineering Management/Coaching.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 181,
-      "exportedPath": "src/Engineering Management/Coaching.html",
+      "exportedPath": "src/engineering-management/coaching.html",
       "dependencies": []
     },
     "src/Engineering Management/Code Reviews.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 118,
-      "exportedPath": "src/Engineering Management/Code Reviews.html",
+      "exportedPath": "src/engineering-management/code-reviews.html",
       "dependencies": []
     },
     "src/Engineering Management/Community Of Practice.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 3597,
-      "exportedPath": "src/Engineering Management/Community Of Practice.html",
+      "exportedPath": "src/engineering-management/community-of-practice.html",
       "dependencies": []
     },
     "src/Engineering Management/Culture.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 285,
-      "exportedPath": "src/Engineering Management/Culture.html",
+      "exportedPath": "src/engineering-management/culture.html",
       "dependencies": []
     },
     "src/Engineering Management/Developer Experience.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 957,
-      "exportedPath": "src/Engineering Management/Developer Experience.html",
+      "exportedPath": "src/engineering-management/developer-experience.html",
       "dependencies": []
     },
     "src/Engineering Management/Effective Meetings.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 71,
-      "exportedPath": "src/Engineering Management/Effective Meetings.html",
+      "exportedPath": "src/engineering-management/effective-meetings.html",
       "dependencies": []
     },
     "src/Engineering Management/Engineering Management.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 2878,
-      "exportedPath": "src/Engineering Management/Engineering Management.html",
-      "dependencies": []
+      "exportedPath": "src/engineering-management/engineering-management.html",
+      "dependencies": [
+        "lib/media/what-engineering-managers-should-do.png",
+        "lib/media/engineering-manager-framework.png"
+      ]
     },
     "src/Engineering Management/Goals.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1173,
-      "exportedPath": "src/Engineering Management/Goals.html",
+      "exportedPath": "src/engineering-management/goals.html",
       "dependencies": []
     },
     "src/Engineering Management/Health Monitor.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 6720,
-      "exportedPath": "src/Engineering Management/Health Monitor.html",
+      "exportedPath": "src/engineering-management/health-monitor.html",
       "dependencies": []
     },
     "src/Engineering Management/High Performing Teams.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 51,
-      "exportedPath": "src/Engineering Management/High Performing Teams.html",
+      "exportedPath": "src/engineering-management/high-performing-teams.html",
       "dependencies": []
     },
     "src/Engineering Management/Hiring.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 135,
-      "exportedPath": "src/Engineering Management/Hiring.html",
+      "exportedPath": "src/engineering-management/hiring.html",
       "dependencies": []
     },
     "src/Engineering Management/Incident Management.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 97,
-      "exportedPath": "src/Engineering Management/Incident Management.html",
+      "exportedPath": "src/engineering-management/incident-management.html",
       "dependencies": []
     },
     "src/Engineering Management/Index.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1626,
-      "exportedPath": "src/Engineering Management/Index.html",
+      "exportedPath": "src/engineering-management/index.html",
       "dependencies": []
     },
     "src/Engineering Management/Interview.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1227,
-      "exportedPath": "src/Engineering Management/Interview.html",
+      "exportedPath": "src/engineering-management/interview.html",
       "dependencies": []
     },
     "src/Engineering Management/Interviewer.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 3241,
-      "exportedPath": "src/Engineering Management/Interviewer.html",
+      "exportedPath": "src/engineering-management/interviewer.html",
       "dependencies": []
     },
     "src/Engineering Management/Leadership.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 51,
-      "exportedPath": "src/Engineering Management/Leadership.html",
+      "exportedPath": "src/engineering-management/leadership.html",
       "dependencies": []
     },
     "src/Engineering Management/Manage for Better Results.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1923,
-      "exportedPath": "src/Engineering Management/Manage for Better Results.html",
+      "exportedPath": "src/engineering-management/manage-for-better-results.html",
       "dependencies": []
     },
     "src/Engineering Management/Metrics.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 538,
-      "exportedPath": "src/Engineering Management/Metrics.html",
+      "exportedPath": "src/engineering-management/metrics.html",
       "dependencies": []
     },
     "src/Engineering Management/Onboarding.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1027,
-      "exportedPath": "src/Engineering Management/Onboarding.html",
+      "exportedPath": "src/engineering-management/onboarding.html",
       "dependencies": []
     },
     "src/Engineering Management/Psychological Safety.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 112,
-      "exportedPath": "src/Engineering Management/Psychological Safety.html",
+      "exportedPath": "src/engineering-management/psychological-safety.html",
       "dependencies": []
     },
     "src/Engineering Management/Reports.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1222,
-      "exportedPath": "src/Engineering Management/Reports.html",
+      "exportedPath": "src/engineering-management/reports.html",
       "dependencies": []
     },
     "src/Engineering Management/Salary.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 60,
-      "exportedPath": "src/Engineering Management/Salary.html",
+      "exportedPath": "src/engineering-management/salary.html",
       "dependencies": []
     },
     "src/Engineering Management/Software Development Strategy.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 14784,
-      "exportedPath": "src/Engineering Management/Software Development Strategy.html",
+      "exportedPath": "src/engineering-management/software-development-strategy.html",
       "dependencies": []
     },
     "src/Engineering Management/Ways of Working.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 990,
-      "exportedPath": "src/Engineering Management/Ways of Working.html",
+      "exportedPath": "src/engineering-management/ways-of-working.html",
       "dependencies": []
     },
     "src/Engineering Management/Wellbeing.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1323,
-      "exportedPath": "src/Engineering Management/Wellbeing.html",
+      "exportedPath": "src/engineering-management/wellbeing.html",
       "dependencies": []
     },
     "src/FeatureManagement/Microsoft.FeatureManagement.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 2646,
-      "exportedPath": "src/FeatureManagement/Microsoft.FeatureManagement.html",
+      "exportedPath": "src/featuremanagement/microsoft.featuremanagement.html",
       "dependencies": []
     },
     "src/Frontend/Angular.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 2332,
-      "exportedPath": "src/Frontend/Angular.html",
+      "exportedPath": "src/frontend/angular.html",
       "dependencies": []
     },
     "src/Frontend/CSS.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 64,
-      "exportedPath": "src/Frontend/CSS.html",
+      "exportedPath": "src/frontend/css.html",
       "dependencies": []
     },
     "src/Frontend/Index.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 68,
-      "exportedPath": "src/Frontend/Index.html",
+      "exportedPath": "src/frontend/index.html",
       "dependencies": []
     },
     "src/Goals/Continous Learning.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 9304,
-      "exportedPath": "src/Goals/Continous Learning.html",
-      "dependencies": []
+      "exportedPath": "src/goals/continous-learning.html",
+      "dependencies": [
+        "lib/media/learning-pyramid.png"
+      ]
     },
     "src/Goals/Continuous Improvement.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 3123,
-      "exportedPath": "src/Goals/Continuous Improvement.html",
+      "exportedPath": "src/goals/continuous-improvement.html",
       "dependencies": []
     },
     "src/Goals/Knowledge Sharing.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 5821,
-      "exportedPath": "src/Goals/Knowledge Sharing.html",
+      "exportedPath": "src/goals/knowledge-sharing.html",
       "dependencies": []
     },
     "src/Goals/Quality.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 3608,
-      "exportedPath": "src/Goals/Quality.html",
+      "exportedPath": "src/goals/quality.html",
       "dependencies": []
     },
     "src/How-to/Batch File.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 601,
-      "exportedPath": "src/How-to/Batch File.html",
+      "exportedPath": "src/how-to/batch-file.html",
       "dependencies": []
     },
     "src/How-to/Build and Run a Container with Docker.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1192,
-      "exportedPath": "src/How-to/Build and Run a Container with Docker.html",
+      "exportedPath": "src/how-to/build-and-run-a-container-with-docker.html",
       "dependencies": []
     },
     "src/How-to/Change host file on Windows.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1084,
-      "exportedPath": "src/How-to/Change host file on Windows.html",
+      "exportedPath": "src/how-to/change-host-file-on-windows.html",
       "dependencies": []
     },
     "src/How-to/CLI.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 830,
-      "exportedPath": "src/How-to/CLI.html",
+      "exportedPath": "src/how-to/cli.html",
       "dependencies": []
     },
     "src/How-to/Create IIS Websites.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 582,
-      "exportedPath": "src/How-to/Create IIS Websites.html",
+      "exportedPath": "src/how-to/create-iis-websites.html",
       "dependencies": []
     },
     "src/How-to/Create Self-Signed Certificate.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 5390,
-      "exportedPath": "src/How-to/Create Self-Signed Certificate.html",
+      "exportedPath": "src/how-to/create-self-signed-certificate.html",
       "dependencies": []
     },
     "src/How-to/Creating a permanent PowerShell Alias using Set-Alias.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 466,
-      "exportedPath": "src/How-to/Creating a permanent PowerShell Alias using Set-Alias.html",
+      "exportedPath": "src/how-to/creating-a-permanent-powershell-alias-using-set-alias.html",
       "dependencies": []
     },
     "src/How-to/Git.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 2764,
-      "exportedPath": "src/How-to/Git.html",
+      "exportedPath": "src/how-to/git.html",
       "dependencies": []
     },
     "src/How-to/HTTP Client.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 652,
-      "exportedPath": "src/How-to/HTTP Client.html",
+      "exportedPath": "src/how-to/http-client.html",
       "dependencies": []
     },
     "src/How-to/Install multiple NodeJS Versions.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 341,
-      "exportedPath": "src/How-to/Install multiple NodeJS Versions.html",
+      "exportedPath": "src/how-to/install-multiple-nodejs-versions.html",
       "dependencies": []
     },
     "src/How-to/Measure Method Elapsed Time with CSharp.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 671,
-      "exportedPath": "src/How-to/Measure Method Elapsed Time with CSharp.html",
+      "exportedPath": "src/how-to/measure-method-elapsed-time-with-csharp.html",
       "dependencies": []
     },
     "src/How-to/Modernization.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 726,
-      "exportedPath": "src/How-to/Modernization.html",
+      "exportedPath": "src/how-to/modernization.html",
       "dependencies": []
     },
     "src/How-to/Run a tool globally on Windows.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1213,
-      "exportedPath": "src/How-to/Run a tool globally on Windows.html",
+      "exportedPath": "src/how-to/run-a-tool-globally-on-windows.html",
       "dependencies": []
     },
     "src/How-to/Technical Support.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1372,
-      "exportedPath": "src/How-to/Technical Support.html",
+      "exportedPath": "src/how-to/technical-support.html",
       "dependencies": []
     },
     "src/Performance/General.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 2701,
-      "exportedPath": "src/Performance/General.html",
+      "exportedPath": "src/performance/general.html",
       "dependencies": []
     },
     "src/Security/CVE.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 51,
-      "exportedPath": "src/Security/CVE.html",
+      "exportedPath": "src/security/cve.html",
       "dependencies": []
     },
     "src/Security/HackerOne.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 326,
-      "exportedPath": "src/Security/HackerOne.html",
+      "exportedPath": "src/security/hackerone.html",
       "dependencies": []
     },
     "src/Security/JWT.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1548,
-      "exportedPath": "src/Security/JWT.html",
+      "exportedPath": "src/security/jwt.html",
       "dependencies": []
     },
     "src/Security/OWASP TOP 10.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 28,
-      "exportedPath": "src/Security/OWASP TOP 10.html",
+      "exportedPath": "src/security/owasp-top-10.html",
       "dependencies": []
     },
     "src/Security/Secure Code Warriors.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 85,
-      "exportedPath": "src/Security/Secure Code Warriors.html",
+      "exportedPath": "src/security/secure-code-warriors.html",
       "dependencies": []
     },
     "src/Security/Security.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 122,
-      "exportedPath": "src/Security/Security.html",
+      "exportedPath": "src/security/security.html",
       "dependencies": []
     },
     "src/Technology/AI.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 452,
-      "exportedPath": "src/Technology/AI.html",
+      "exportedPath": "src/technology/ai.html",
       "dependencies": []
     },
     "src/Technology/Architecture.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 682,
-      "exportedPath": "src/Technology/Architecture.html",
+      "exportedPath": "src/technology/architecture.html",
       "dependencies": []
     },
     "src/Technology/Coding Exercise.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 2778,
-      "exportedPath": "src/Technology/Coding Exercise.html",
+      "exportedPath": "src/technology/coding-exercise.html",
       "dependencies": []
     },
     "src/Technology/HTTP 3.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 88,
-      "exportedPath": "src/Technology/HTTP 3.html",
+      "exportedPath": "src/technology/http-3.html",
       "dependencies": []
     },
     "src/Technology/Monorepo.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 573,
-      "exportedPath": "src/Technology/Monorepo.html",
+      "exportedPath": "src/technology/monorepo.html",
       "dependencies": []
     },
     "src/Testing/MsTest.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 61,
-      "exportedPath": "src/Testing/MsTest.html",
+      "exportedPath": "src/testing/mstest.html",
       "dependencies": []
     },
     "src/Testing/Playwright using .NET.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1015,
-      "exportedPath": "src/Testing/Playwright using .NET.html",
+      "exportedPath": "src/testing/playwright-using-.net.html",
       "dependencies": []
     },
     "src/Testing/Playwright using TypeScript.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 5756,
-      "exportedPath": "src/Testing/Playwright using TypeScript.html",
+      "exportedPath": "src/testing/playwright-using-typescript.html",
       "dependencies": []
     },
     "src/Testing/WireMockNet.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 244,
-      "exportedPath": "src/Testing/WireMockNet.html",
+      "exportedPath": "src/testing/wiremocknet.html",
       "dependencies": []
     },
     "src/Tools/Clipchamp.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 73,
-      "exportedPath": "src/Tools/Clipchamp.html",
+      "exportedPath": "src/tools/clipchamp.html",
       "dependencies": []
     },
     "src/Tools/CMD.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 667,
-      "exportedPath": "src/Tools/CMD.html",
+      "exportedPath": "src/tools/cmd.html",
       "dependencies": []
     },
     "src/Tools/Docker CLI.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1256,
-      "exportedPath": "src/Tools/Docker CLI.html",
+      "exportedPath": "src/tools/docker-cli.html",
       "dependencies": []
     },
     "src/Tools/Docker Compose.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 327,
-      "exportedPath": "src/Tools/Docker Compose.html",
+      "exportedPath": "src/tools/docker-compose.html",
       "dependencies": []
     },
     "src/Tools/Docker Desktop.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 3790,
-      "exportedPath": "src/Tools/Docker Desktop.html",
+      "exportedPath": "src/tools/docker-desktop.html",
       "dependencies": []
     },
     "src/Tools/Firefox.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 25,
-      "exportedPath": "src/Tools/Firefox.html",
+      "exportedPath": "src/tools/firefox.html",
       "dependencies": []
     },
     "src/Tools/Git.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 548,
-      "exportedPath": "src/Tools/Git.html",
+      "exportedPath": "src/tools/git.html",
       "dependencies": []
     },
     "src/Tools/GitHub Copilot.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 98,
-      "exportedPath": "src/Tools/GitHub Copilot.html",
+      "exportedPath": "src/tools/github-copilot.html",
       "dependencies": []
     },
     "src/Tools/Ideas.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 25,
-      "exportedPath": "src/Tools/Ideas.html",
+      "exportedPath": "src/tools/ideas.html",
       "dependencies": []
     },
     "src/Tools/InferSharp.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1989,
-      "exportedPath": "src/Tools/InferSharp.html",
+      "exportedPath": "src/tools/infersharp.html",
       "dependencies": []
     },
     "src/Tools/Kubernetes.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 14007,
-      "exportedPath": "src/Tools/Kubernetes.html",
+      "exportedPath": "src/tools/kubernetes.html",
       "dependencies": []
     },
     "src/Tools/Microsoft Application Inspector.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 637,
-      "exportedPath": "src/Tools/Microsoft Application Inspector.html",
+      "exportedPath": "src/tools/microsoft-application-inspector.html",
       "dependencies": []
     },
     "src/Tools/NuGet.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 396,
-      "exportedPath": "src/Tools/NuGet.html",
+      "exportedPath": "src/tools/nuget.html",
       "dependencies": []
     },
     "src/Tools/Nuget CLI.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 319,
-      "exportedPath": "src/Tools/Nuget CLI.html",
+      "exportedPath": "src/tools/nuget-cli.html",
       "dependencies": []
     },
     "src/Tools/Powershell.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 169,
-      "exportedPath": "src/Tools/Powershell.html",
+      "exportedPath": "src/tools/powershell.html",
       "dependencies": []
     },
     "src/Tools/Proxy.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 136,
-      "exportedPath": "src/Tools/Proxy.html",
-      "dependencies": []
+      "exportedPath": "src/tools/proxy.html",
+      "dependencies": [
+        "lib/media/pasted-image-20230810091642.png"
+      ]
     },
     "src/Tools/Redash.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1827,
-      "exportedPath": "src/Tools/Redash.html",
+      "exportedPath": "src/tools/redash.html",
       "dependencies": []
     },
     "src/Tools/Redis.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 728,
-      "exportedPath": "src/Tools/Redis.html",
+      "exportedPath": "src/tools/redis.html",
       "dependencies": []
     },
     "src/Tools/Slack CLI.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 348,
-      "exportedPath": "src/Tools/Slack CLI.html",
-      "dependencies": []
+      "exportedPath": "src/tools/slack-cli.html",
+      "dependencies": [
+        "lib/media/pasted-image-20230731083648.png"
+      ]
     },
     "src/Tools/slngen.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 187,
-      "exportedPath": "src/Tools/slngen.html",
+      "exportedPath": "src/tools/slngen.html",
       "dependencies": []
     },
     "src/Tools/SQL Lite.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 176,
-      "exportedPath": "src/Tools/SQL Lite.html",
+      "exportedPath": "src/tools/sql-lite.html",
       "dependencies": []
     },
     "src/Tools/Sql Server.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 10471,
-      "exportedPath": "src/Tools/Sql Server.html",
+      "exportedPath": "src/tools/sql-server.html",
       "dependencies": []
     },
     "src/Tools/Troubleshooting.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1611,
-      "exportedPath": "src/Tools/Troubleshooting.html",
+      "exportedPath": "src/tools/troubleshooting.html",
       "dependencies": []
     },
     "src/Tools/Visual Studio.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 3425,
-      "exportedPath": "src/Tools/Visual Studio.html",
+      "exportedPath": "src/tools/visual-studio.html",
       "dependencies": []
     },
     "src/Tools/VSCode.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 2118,
-      "exportedPath": "src/Tools/VSCode.html",
+      "exportedPath": "src/tools/vscode.html",
       "dependencies": []
     },
     "src/Tools/Windows.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 3709,
-      "exportedPath": "src/Tools/Windows.html",
+      "exportedPath": "src/tools/windows.html",
       "dependencies": []
     },
     "src/Tools/Windows Terminal.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1362,
-      "exportedPath": "src/Tools/Windows Terminal.html",
+      "exportedPath": "src/tools/windows-terminal.html",
       "dependencies": []
     },
     "src/Tools/WinGet.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 1646,
-      "exportedPath": "src/Tools/WinGet.html",
+      "exportedPath": "src/tools/winget.html",
       "dependencies": []
     },
     "Index.md": {
-      "modifiedTime": 1722204970365,
+      "modifiedTime": 1722206063766,
       "sourceSize": 767,
-      "exportedPath": "Index.html",
+      "exportedPath": "index.html",
+      "dependencies": [
+        "images/pasted-image-20240729081305.png"
+      ]
+    },
+    "docs/books/50 Things You Need to Know to Be a Top IT Pro.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 1045006,
+      "exportedPath": "docs/books/50-things-you-need-to-know-to-be-a-top-it-pro.pdf",
+      "dependencies": []
+    },
+    "docs/books/500 Things You Need to Know to Succeed in Your IT Career.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 459008,
+      "exportedPath": "docs/books/500-things-you-need-to-know-to-succeed-in-your-it-career.pdf",
+      "dependencies": []
+    },
+    "docs/books/Advance Your Tech Career in One Simple Step.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 976356,
+      "exportedPath": "docs/books/advance-your-tech-career-in-one-simple-step.pdf",
+      "dependencies": []
+    },
+    "docs/books/Agile contracts primer.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 609167,
+      "exportedPath": "docs/books/agile-contracts-primer.pdf",
+      "dependencies": []
+    },
+    "docs/books/Angular_Authentication_Complete_Guide.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 1042964,
+      "exportedPath": "docs/books/angular_authentication_complete_guide.pdf",
+      "dependencies": []
+    },
+    "docs/books/Azure Developer Guide.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 3436168,
+      "exportedPath": "docs/books/azure-developer-guide.pdf",
+      "dependencies": []
+    },
+    "docs/books/Build+modern+applications+on+AWS.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 2907202,
+      "exportedPath": "docs/books/build+modern+applications+on+aws.pdf",
+      "dependencies": []
+    },
+    "docs/books/Build+Web+and+Mobile+Apps+Faster+eBook.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 1015140,
+      "exportedPath": "docs/books/build+web+and+mobile+apps+faster+ebook.pdf",
+      "dependencies": []
+    },
+    "docs/books/Building a culture of innovation.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 9706488,
+      "exportedPath": "docs/books/building-a-culture-of-innovation.pdf",
+      "dependencies": []
+    },
+    "docs/books/Building-an-Offshore-Team-DY-E-Book.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 6307429,
+      "exportedPath": "docs/books/building-an-offshore-team-dy-e-book.pdf",
+      "dependencies": []
+    },
+    "docs/books/Building+Event-Driven+Architectures+with+AWS+Guide.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 1235790,
+      "exportedPath": "docs/books/building+event-driven+architectures+with+aws+guide.pdf",
+      "dependencies": []
+    },
+    "docs/books/Business+Value+of+Cloud+Modernization.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 811493,
+      "exportedPath": "docs/books/business+value+of+cloud+modernization.pdf",
+      "dependencies": []
+    },
+    "docs/books/Continuous+learning,+continuous+modernization.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 1396834,
+      "exportedPath": "docs/books/continuous+learning,+continuous+modernization.pdf",
+      "dependencies": []
+    },
+    "docs/books/Designing Distributed Systems.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 6922568,
+      "exportedPath": "docs/books/designing-distributed-systems.pdf",
+      "dependencies": []
+    },
+    "docs/books/Determining+the+total+cost+of+ownership+-+Comparing+serverless+and+server-based+technologies.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 2761966,
+      "exportedPath": "docs/books/determining+the+total+cost+of+ownership+-+comparing+serverless+and+server-based+technologies.pdf",
+      "dependencies": []
+    },
+    "docs/books/ebook-driving-full-service-ownership.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 171916,
+      "exportedPath": "docs/books/ebook-driving-full-service-ownership.pdf",
+      "dependencies": []
+    },
+    "docs/books/Effective DevOps.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 1750149,
+      "exportedPath": "docs/books/effective-devops.pdf",
+      "dependencies": []
+    },
+    "docs/books/Introduction+to+Event-Driven+Architectures+Guide.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 4208083,
+      "exportedPath": "docs/books/introduction+to+event-driven+architectures+guide.pdf",
+      "dependencies": []
+    },
+    "docs/books/IT Professionals Resume Makeover Guide.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 3694750,
+      "exportedPath": "docs/books/it-professionals-resume-makeover-guide.pdf",
+      "dependencies": []
+    },
+    "docs/books/jwt-handbook-v0_14_1.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 1728914,
+      "exportedPath": "docs/books/jwt-handbook-v0_14_1.pdf",
+      "dependencies": []
+    },
+    "docs/books/Kubernetes Learning Path.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 2730880,
+      "exportedPath": "docs/books/kubernetes-learning-path.pdf",
+      "dependencies": []
+    },
+    "docs/books/LINQ Explained with Sketches.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 3765285,
+      "exportedPath": "docs/books/linq-explained-with-sketches.pdf",
+      "dependencies": []
+    },
+    "docs/books/Microsoft_Press_eBook_Building_Cloud_Apps_with Microsoft_Azure_PDF.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 7637988,
+      "exportedPath": "docs/books/microsoft_press_ebook_building_cloud_apps_with-microsoft_azure_pdf.pdf",
+      "dependencies": []
+    },
+    "docs/books/NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 12386392,
+      "exportedPath": "docs/books/net-microservices-architecture-for-containerized-net-applications.pdf",
+      "dependencies": []
+    },
+    "docs/books/OAuth2_and_OpenID_Connect_The_Professional_Guide_Ebook_v02.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 5579748,
+      "exportedPath": "docs/books/oauth2_and_openid_connect_the_professional_guide_ebook_v02.pdf",
+      "dependencies": []
+    },
+    "docs/books/PMBOK7.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 4578972,
+      "exportedPath": "docs/books/pmbok7.pdf",
+      "dependencies": []
+    },
+    "docs/books/Remote_Work_Playbook.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 506983,
+      "exportedPath": "docs/books/remote_work_playbook.pdf",
+      "dependencies": []
+    },
+    "docs/books/Rethinking Productivity in Software Engineering.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 5331600,
+      "exportedPath": "docs/books/rethinking-productivity-in-software-engineering.pdf",
+      "dependencies": []
+    },
+    "docs/books/shape-up.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 7298260,
+      "exportedPath": "docs/books/shape-up.pdf",
+      "dependencies": []
+    },
+    "docs/books/Six Strategies to Keep Your IT Career  Secure (and Lucrative).pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 517036,
+      "exportedPath": "docs/books/six-strategies-to-keep-your-it-career-secure-(and-lucrative).pdf",
+      "dependencies": []
+    },
+    "docs/books/SQL Server Execution Plans.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 24789232,
+      "exportedPath": "docs/books/sql-server-execution-plans.pdf",
+      "dependencies": []
+    },
+    "docs/books/The 5 Foundational DevOps Practices.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 19207540,
+      "exportedPath": "docs/books/the-5-foundational-devops-practices.pdf",
+      "dependencies": []
+    },
+    "docs/books/The Startup CTO Handbook.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 2810757,
+      "exportedPath": "docs/books/the-startup-cto-handbook.pdf",
+      "dependencies": []
+    },
+    "docs/books/whattolookforinacodereview.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 2716775,
+      "exportedPath": "docs/books/whattolookforinacodereview.pdf",
+      "dependencies": []
+    },
+    "docs/images/engineering manager framework.png": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 151246,
+      "exportedPath": "docs/images/engineering-manager-framework.png",
+      "dependencies": []
+    },
+    "docs/images/learning pyramid.png": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 178872,
+      "exportedPath": "docs/images/learning-pyramid.png",
+      "dependencies": []
+    },
+    "docs/images/Pasted image 20230731083648.png": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 18996,
+      "exportedPath": "docs/images/pasted-image-20230731083648.png",
+      "dependencies": []
+    },
+    "docs/images/Pasted image 20230810091642.png": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 31676,
+      "exportedPath": "docs/images/pasted-image-20230810091642.png",
+      "dependencies": []
+    },
+    "docs/images/Pasted image 20240510083448.png": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 14285,
+      "exportedPath": "docs/images/pasted-image-20240510083448.png",
+      "dependencies": []
+    },
+    "docs/images/Pasted image 20240510085959.png": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 8710,
+      "exportedPath": "docs/images/pasted-image-20240510085959.png",
+      "dependencies": []
+    },
+    "docs/images/Pasted image 20240729081305.png": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 39452,
+      "exportedPath": "docs/images/pasted-image-20240729081305.png",
+      "dependencies": []
+    },
+    "docs/images/what engineering managers should do.png": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 72292,
+      "exportedPath": "docs/images/what-engineering-managers-should-do.png",
+      "dependencies": []
+    },
+    "docs/lib/metadata.json": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 44646,
+      "exportedPath": "docs/lib/metadata.json",
+      "dependencies": []
+    },
+    "docs/lib/rss.xml": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 1281882,
+      "exportedPath": "docs/lib/rss.xml",
+      "dependencies": []
+    },
+    "docs/papers/On the Unhappiness of Software Developers.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 610952,
+      "exportedPath": "docs/papers/on-the-unhappiness-of-software-developers.pdf",
+      "dependencies": []
+    },
+    "docs/papers/The 2021 State of the Octoverse.url": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 250,
+      "exportedPath": "docs/papers/the-2021-state-of-the-octoverse.url",
+      "dependencies": []
+    },
+    "docs/papers/The 2021 State of the Octoverse.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 883874,
+      "exportedPath": "docs/papers/the-2021-state-of-the-octoverse.pdf",
+      "dependencies": []
+    },
+    "docs/papers/What Makes a Great Software Engineer.pdf": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 672429,
+      "exportedPath": "docs/papers/what-makes-a-great-software-engineer.pdf",
+      "dependencies": []
+    },
+    "docs/src/AI/ollama.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297322,
+      "exportedPath": "docs/src/ai/ollama.html",
+      "dependencies": []
+    },
+    "docs/src/APIs/GitHub API.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296515,
+      "exportedPath": "docs/src/apis/github-api.html",
+      "dependencies": []
+    },
+    "docs/src/APIs/Google Calendar API.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 309262,
+      "exportedPath": "docs/src/apis/google-calendar-api.html",
+      "dependencies": []
+    },
+    "docs/src/APIs/JIRA API.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296461,
+      "exportedPath": "docs/src/apis/jira-api.html",
+      "dependencies": []
+    },
+    "docs/src/APIs/QMetry API.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296477,
+      "exportedPath": "docs/src/apis/qmetry-api.html",
+      "dependencies": []
+    },
+    "docs/src/AWS/AWS KMS.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296742,
+      "exportedPath": "docs/src/aws/aws-kms.html",
+      "dependencies": []
+    },
+    "docs/src/Certifications/AZ-400 Designing and Implementing Microsoft DevOps Solutions.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297302,
+      "exportedPath": "docs/src/certifications/az-400-designing-and-implementing-microsoft-devops-solutions.html",
+      "dependencies": []
+    },
+    "docs/src/Cloud/AWS/Services/CloudFormation.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297165,
+      "exportedPath": "docs/src/cloud/aws/services/cloudformation.html",
+      "dependencies": []
+    },
+    "docs/src/Cloud/AWS/Services/Cognito.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 302917,
+      "exportedPath": "docs/src/cloud/aws/services/cognito.html",
+      "dependencies": []
+    },
+    "docs/src/Cloud/AWS/Services/DynamoDB.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 298595,
+      "exportedPath": "docs/src/cloud/aws/services/dynamodb.html",
+      "dependencies": []
+    },
+    "docs/src/Cloud/AWS/Services/Lambda.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 302216,
+      "exportedPath": "docs/src/cloud/aws/services/lambda.html",
+      "dependencies": []
+    },
+    "docs/src/Cloud/AWS/Tools/AWS CLI.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297959,
+      "exportedPath": "docs/src/cloud/aws/tools/aws-cli.html",
+      "dependencies": []
+    },
+    "docs/src/Cloud/AWS/Tools/CDK.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 298841,
+      "exportedPath": "docs/src/cloud/aws/tools/cdk.html",
+      "dependencies": []
+    },
+    "docs/src/Cloud/AWS/Tools/Lambda Tools.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297823,
+      "exportedPath": "docs/src/cloud/aws/tools/lambda-tools.html",
+      "dependencies": []
+    },
+    "docs/src/Cloud/AWS/Tools/LocalStack.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 298598,
+      "exportedPath": "docs/src/cloud/aws/tools/localstack.html",
+      "dependencies": []
+    },
+    "docs/src/Cloud/AWS/Tools/Moto.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 298246,
+      "exportedPath": "docs/src/cloud/aws/tools/moto.html",
+      "dependencies": []
+    },
+    "docs/src/Cloud/AWS/Tools/SAM CLI.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297952,
+      "exportedPath": "docs/src/cloud/aws/tools/sam-cli.html",
+      "dependencies": []
+    },
+    "docs/src/Cloud/AWS/Index.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 307643,
+      "exportedPath": "docs/src/cloud/aws/index.html",
+      "dependencies": []
+    },
+    "docs/src/Cloud/Azure/Index.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296727,
+      "exportedPath": "docs/src/cloud/azure/index.html",
+      "dependencies": []
+    },
+    "docs/src/Development/DevContainers.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 304924,
+      "exportedPath": "docs/src/development/devcontainers.html",
+      "dependencies": []
+    },
+    "docs/src/Development/Developer Productivity.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297841,
+      "exportedPath": "docs/src/development/developer-productivity.html",
+      "dependencies": []
+    },
+    "docs/src/Development/Development Environment Setup.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 309731,
+      "exportedPath": "docs/src/development/development-environment-setup.html",
+      "dependencies": []
+    },
+    "docs/src/DevOps/Observability.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297706,
+      "exportedPath": "docs/src/devops/observability.html",
+      "dependencies": []
+    },
+    "docs/src/Documentation/DiagramsAsCode.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 327206,
+      "exportedPath": "docs/src/documentation/diagramsascode.html",
+      "dependencies": []
+    },
+    "docs/src/Documentation/Documentation.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297777,
+      "exportedPath": "docs/src/documentation/documentation.html",
+      "dependencies": []
+    },
+    "docs/src/DotNet/CLI/dotnet list package.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 298854,
+      "exportedPath": "docs/src/dotnet/cli/dotnet-list-package.html",
+      "dependencies": []
+    },
+    "docs/src/DotNet/CLI/dotnet monitor.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296674,
+      "exportedPath": "docs/src/dotnet/cli/dotnet-monitor.html",
+      "dependencies": []
+    },
+    "docs/src/DotNet/Libraries/IdentityServer.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297997,
+      "exportedPath": "docs/src/dotnet/libraries/identityserver.html",
+      "dependencies": []
+    },
+    "docs/src/DotNet/Libraries/NukeBuild.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 301325,
+      "exportedPath": "docs/src/dotnet/libraries/nukebuild.html",
+      "dependencies": []
+    },
+    "docs/src/DotNet/Libraries/YARP.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296554,
+      "exportedPath": "docs/src/dotnet/libraries/yarp.html",
+      "dependencies": []
+    },
+    "docs/src/DotNet/ASP.NET.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297368,
+      "exportedPath": "docs/src/dotnet/asp.net.html",
+      "dependencies": []
+    },
+    "docs/src/DotNet/Configuration.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 322480,
+      "exportedPath": "docs/src/dotnet/configuration.html",
+      "dependencies": []
+    },
+    "docs/src/DotNet/CSharp.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296499,
+      "exportedPath": "docs/src/dotnet/csharp.html",
+      "dependencies": []
+    },
+    "docs/src/DotNet/Deployment.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296618,
+      "exportedPath": "docs/src/dotnet/deployment.html",
+      "dependencies": []
+    },
+    "docs/src/DotNet/EntityFramework.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 306231,
+      "exportedPath": "docs/src/dotnet/entityframework.html",
+      "dependencies": []
+    },
+    "docs/src/DotNet/MinimalAPI.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296800,
+      "exportedPath": "docs/src/dotnet/minimalapi.html",
+      "dependencies": []
+    },
+    "docs/src/Email Templates/Knowledge Sharing.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 303302,
+      "exportedPath": "docs/src/email-templates/knowledge-sharing.html",
+      "dependencies": []
+    },
+    "docs/src/Email Templates/Onboarding.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 302827,
+      "exportedPath": "docs/src/email-templates/onboarding.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/1on1s.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 304083,
+      "exportedPath": "docs/src/engineering-management/1on1s.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Agile.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297621,
+      "exportedPath": "docs/src/engineering-management/agile.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Career.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297723,
+      "exportedPath": "docs/src/engineering-management/career.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Change Management.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 300876,
+      "exportedPath": "docs/src/engineering-management/change-management.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Coaching.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296900,
+      "exportedPath": "docs/src/engineering-management/coaching.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Code Reviews.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296669,
+      "exportedPath": "docs/src/engineering-management/code-reviews.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Community Of Practice.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 301588,
+      "exportedPath": "docs/src/engineering-management/community-of-practice.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Culture.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 298102,
+      "exportedPath": "docs/src/engineering-management/culture.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Developer Experience.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 299280,
+      "exportedPath": "docs/src/engineering-management/developer-experience.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Effective Meetings.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296665,
+      "exportedPath": "docs/src/engineering-management/effective-meetings.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Engineering Management.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 993827,
+      "exportedPath": "docs/src/engineering-management/engineering-management.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Goals.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 301673,
+      "exportedPath": "docs/src/engineering-management/goals.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Health Monitor.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 310971,
+      "exportedPath": "docs/src/engineering-management/health-monitor.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/High Performing Teams.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296698,
+      "exportedPath": "docs/src/engineering-management/high-performing-teams.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Hiring.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297076,
+      "exportedPath": "docs/src/engineering-management/hiring.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Incident Management.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296728,
+      "exportedPath": "docs/src/engineering-management/incident-management.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Index.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 306423,
+      "exportedPath": "docs/src/engineering-management/index.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Interview.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 300248,
+      "exportedPath": "docs/src/engineering-management/interview.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Interviewer.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 300254,
+      "exportedPath": "docs/src/engineering-management/interviewer.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Leadership.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296577,
+      "exportedPath": "docs/src/engineering-management/leadership.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Manage for Better Results.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 298979,
+      "exportedPath": "docs/src/engineering-management/manage-for-better-results.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Metrics.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 299359,
+      "exportedPath": "docs/src/engineering-management/metrics.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Onboarding.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 300387,
+      "exportedPath": "docs/src/engineering-management/onboarding.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Psychological Safety.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296687,
+      "exportedPath": "docs/src/engineering-management/psychological-safety.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Reports.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 300135,
+      "exportedPath": "docs/src/engineering-management/reports.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Salary.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296477,
+      "exportedPath": "docs/src/engineering-management/salary.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Software Development Strategy.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 355617,
+      "exportedPath": "docs/src/engineering-management/software-development-strategy.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Ways of Working.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 302943,
+      "exportedPath": "docs/src/engineering-management/ways-of-working.html",
+      "dependencies": []
+    },
+    "docs/src/Engineering Management/Wellbeing.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 301253,
+      "exportedPath": "docs/src/engineering-management/wellbeing.html",
+      "dependencies": []
+    },
+    "docs/src/FeatureManagement/Microsoft.FeatureManagement.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 304694,
+      "exportedPath": "docs/src/featuremanagement/microsoft.featuremanagement.html",
+      "dependencies": []
+    },
+    "docs/src/Frontend/Angular.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 301082,
+      "exportedPath": "docs/src/frontend/angular.html",
+      "dependencies": []
+    },
+    "docs/src/Frontend/CSS.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296495,
+      "exportedPath": "docs/src/frontend/css.html",
+      "dependencies": []
+    },
+    "docs/src/Frontend/Index.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296966,
+      "exportedPath": "docs/src/frontend/index.html",
+      "dependencies": []
+    },
+    "docs/src/Goals/Continous Learning.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 1062432,
+      "exportedPath": "docs/src/goals/continous-learning.html",
+      "dependencies": []
+    },
+    "docs/src/Goals/Continuous Improvement.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 306102,
+      "exportedPath": "docs/src/goals/continuous-improvement.html",
+      "dependencies": []
+    },
+    "docs/src/Goals/Knowledge Sharing.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 314903,
+      "exportedPath": "docs/src/goals/knowledge-sharing.html",
+      "dependencies": []
+    },
+    "docs/src/Goals/Quality.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 307859,
+      "exportedPath": "docs/src/goals/quality.html",
+      "dependencies": []
+    },
+    "docs/src/How-to/Batch File.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 298500,
+      "exportedPath": "docs/src/how-to/batch-file.html",
+      "dependencies": []
+    },
+    "docs/src/How-to/Build and Run a Container with Docker.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 302858,
+      "exportedPath": "docs/src/how-to/build-and-run-a-container-with-docker.html",
+      "dependencies": []
+    },
+    "docs/src/How-to/Change host file on Windows.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 300663,
+      "exportedPath": "docs/src/how-to/change-host-file-on-windows.html",
+      "dependencies": []
+    },
+    "docs/src/How-to/CLI.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 302751,
+      "exportedPath": "docs/src/how-to/cli.html",
+      "dependencies": []
+    },
+    "docs/src/How-to/Create IIS Websites.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297276,
+      "exportedPath": "docs/src/how-to/create-iis-websites.html",
+      "dependencies": []
+    },
+    "docs/src/How-to/Create Self-Signed Certificate.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 314273,
+      "exportedPath": "docs/src/how-to/create-self-signed-certificate.html",
+      "dependencies": []
+    },
+    "docs/src/How-to/Creating a permanent PowerShell Alias using Set-Alias.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297428,
+      "exportedPath": "docs/src/how-to/creating-a-permanent-powershell-alias-using-set-alias.html",
+      "dependencies": []
+    },
+    "docs/src/How-to/Git.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 313686,
+      "exportedPath": "docs/src/how-to/git.html",
+      "dependencies": []
+    },
+    "docs/src/How-to/HTTP Client.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 302030,
+      "exportedPath": "docs/src/how-to/http-client.html",
+      "dependencies": []
+    },
+    "docs/src/How-to/Install multiple NodeJS Versions.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297447,
+      "exportedPath": "docs/src/how-to/install-multiple-nodejs-versions.html",
+      "dependencies": []
+    },
+    "docs/src/How-to/Measure Method Elapsed Time with CSharp.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 301469,
+      "exportedPath": "docs/src/how-to/measure-method-elapsed-time-with-csharp.html",
+      "dependencies": []
+    },
+    "docs/src/How-to/Modernization.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 298990,
+      "exportedPath": "docs/src/how-to/modernization.html",
+      "dependencies": []
+    },
+    "docs/src/How-to/Run a tool globally on Windows.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 300204,
+      "exportedPath": "docs/src/how-to/run-a-tool-globally-on-windows.html",
+      "dependencies": []
+    },
+    "docs/src/How-to/Technical Support.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 299303,
+      "exportedPath": "docs/src/how-to/technical-support.html",
+      "dependencies": []
+    },
+    "docs/src/Performance/General.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 299332,
+      "exportedPath": "docs/src/performance/general.html",
+      "dependencies": []
+    },
+    "docs/src/Security/CVE.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296571,
+      "exportedPath": "docs/src/security/cve.html",
+      "dependencies": []
+    },
+    "docs/src/Security/HackerOne.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297521,
+      "exportedPath": "docs/src/security/hackerone.html",
+      "dependencies": []
+    },
+    "docs/src/Security/JWT.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 300590,
+      "exportedPath": "docs/src/security/jwt.html",
+      "dependencies": []
+    },
+    "docs/src/Security/OWASP TOP 10.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296558,
+      "exportedPath": "docs/src/security/owasp-top-10.html",
+      "dependencies": []
+    },
+    "docs/src/Security/Secure Code Warriors.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296784,
+      "exportedPath": "docs/src/security/secure-code-warriors.html",
+      "dependencies": []
+    },
+    "docs/src/Security/Security.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297228,
+      "exportedPath": "docs/src/security/security.html",
+      "dependencies": []
+    },
+    "docs/src/Technology/AI.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297744,
+      "exportedPath": "docs/src/technology/ai.html",
+      "dependencies": []
+    },
+    "docs/src/Technology/Architecture.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 298897,
+      "exportedPath": "docs/src/technology/architecture.html",
+      "dependencies": []
+    },
+    "docs/src/Technology/Coding Exercise.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 308767,
+      "exportedPath": "docs/src/technology/coding-exercise.html",
+      "dependencies": []
+    },
+    "docs/src/Technology/HTTP 3.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296526,
+      "exportedPath": "docs/src/technology/http-3.html",
+      "dependencies": []
+    },
+    "docs/src/Technology/Monorepo.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297859,
+      "exportedPath": "docs/src/technology/monorepo.html",
+      "dependencies": []
+    },
+    "docs/src/Testing/MsTest.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296449,
+      "exportedPath": "docs/src/testing/mstest.html",
+      "dependencies": []
+    },
+    "docs/src/Testing/Playwright using .NET.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 299192,
+      "exportedPath": "docs/src/testing/playwright-using-.net.html",
+      "dependencies": []
+    },
+    "docs/src/Testing/Playwright using TypeScript.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 316159,
+      "exportedPath": "docs/src/testing/playwright-using-typescript.html",
+      "dependencies": []
+    },
+    "docs/src/Testing/WireMockNet.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296997,
+      "exportedPath": "docs/src/testing/wiremocknet.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/Clipchamp.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296491,
+      "exportedPath": "docs/src/tools/clipchamp.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/CMD.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297930,
+      "exportedPath": "docs/src/tools/cmd.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/Docker CLI.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 300692,
+      "exportedPath": "docs/src/tools/docker-cli.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/Docker Compose.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297136,
+      "exportedPath": "docs/src/tools/docker-compose.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/Docker Desktop.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 315663,
+      "exportedPath": "docs/src/tools/docker-desktop.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/Firefox.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296384,
+      "exportedPath": "docs/src/tools/firefox.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/Git.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 299867,
+      "exportedPath": "docs/src/tools/git.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/GitHub Copilot.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296607,
+      "exportedPath": "docs/src/tools/github-copilot.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/Ideas.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296362,
+      "exportedPath": "docs/src/tools/ideas.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/InferSharp.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 302569,
+      "exportedPath": "docs/src/tools/infersharp.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/Kubernetes.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 336762,
+      "exportedPath": "docs/src/tools/kubernetes.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/Microsoft Application Inspector.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297994,
+      "exportedPath": "docs/src/tools/microsoft-application-inspector.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/NuGet.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297550,
+      "exportedPath": "docs/src/tools/nuget.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/Nuget CLI.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 299200,
+      "exportedPath": "docs/src/tools/nuget-cli.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/Powershell.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 297353,
+      "exportedPath": "docs/src/tools/powershell.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/Proxy.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 423467,
+      "exportedPath": "docs/src/tools/proxy.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/Redash.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 299235,
+      "exportedPath": "docs/src/tools/redash.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/Redis.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 299993,
+      "exportedPath": "docs/src/tools/redis.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/Slack CLI.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 374702,
+      "exportedPath": "docs/src/tools/slack-cli.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/slngen.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296617,
+      "exportedPath": "docs/src/tools/slngen.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/SQL Lite.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 296723,
+      "exportedPath": "docs/src/tools/sql-lite.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/Sql Server.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 354455,
+      "exportedPath": "docs/src/tools/sql-server.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/Troubleshooting.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 302130,
+      "exportedPath": "docs/src/tools/troubleshooting.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/Visual Studio.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 311214,
+      "exportedPath": "docs/src/tools/visual-studio.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/VSCode.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 301247,
+      "exportedPath": "docs/src/tools/vscode.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/Windows.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 307837,
+      "exportedPath": "docs/src/tools/windows.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/Windows Terminal.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 300737,
+      "exportedPath": "docs/src/tools/windows-terminal.html",
+      "dependencies": []
+    },
+    "docs/src/Tools/WinGet.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 304434,
+      "exportedPath": "docs/src/tools/winget.html",
+      "dependencies": []
+    },
+    "docs/Index.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 458872,
+      "exportedPath": "docs/index.html",
+      "dependencies": []
+    },
+    "lib/media/what-engineering-managers-should-do.png": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 72292,
+      "exportedPath": "lib/media/what-engineering-managers-should-do.png",
+      "dependencies": []
+    },
+    "lib/media/engineering-manager-framework.png": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 151246,
+      "exportedPath": "lib/media/engineering-manager-framework.png",
+      "dependencies": []
+    },
+    "lib/media/learning-pyramid.png": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 178872,
+      "exportedPath": "lib/media/learning-pyramid.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230810091642.png": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 31676,
+      "exportedPath": "lib/media/pasted-image-20230810091642.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230731083648.png": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 18996,
+      "exportedPath": "lib/media/pasted-image-20230731083648.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20240729081305.png": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 39452,
+      "exportedPath": "images/pasted-image-20240729081305.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 23377,
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 340823,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.png": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 1105,
+      "exportedPath": "lib/media/favicon.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 9240,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 129876,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 236,
+      "exportedPath": "lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1722206063766,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     }
   }
