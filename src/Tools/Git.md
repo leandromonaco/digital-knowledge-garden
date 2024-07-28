@@ -11,4 +11,8 @@
 
 [GitHub Repo](https://github.com/git-ecosystem/git-credential-manager)
 
+## Git Large File Storage (LFS)
 
+Required for files exceeding 100 MB
+
+https://git-lfs.com

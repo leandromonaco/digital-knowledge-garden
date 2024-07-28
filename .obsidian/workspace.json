@@ -11,9 +11,35 @@
             "id": "6028243a93cf0e4b",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "images/Pasted image 20230731083648.png"
+                "file": "src/Development/Development Environment Setup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e97e455450a64697",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/Tools/Git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8353807913410822",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/How-to/Git.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -30,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -59,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "bfg",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +102,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -91,29 +118,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2f97223375bcaec3",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "src/Index.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "98d04c01878f7b6a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/Index.md",
+                "file": "src/How-to/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/Index.md"
+                "file": "src/How-to/Git.md"
               }
             }
           },
@@ -161,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -179,45 +189,14 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "floating": {
-    "id": "7addaee0b30a5c83",
-    "type": "floating",
-    "children": [
-      {
-        "id": "cf1a7974493e6c55",
-        "type": "window",
-        "children": [
-          {
-            "id": "24d7f1cd0fd21b69",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0bd3f57d393ff55c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "src/Index.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1470,
-        "y": 532,
-        "width": 900,
-        "height": 500,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "0bd3f57d393ff55c",
+  "active": "8353807913410822",
   "lastOpenFiles": [
+    "src/Tools/Clipchamp.md",
+    "src/Index.md",
+    "src/Tools/Git.md",
+    "Clipchamp.md",
+    "src/Development/Development Environment Setup.md",
+    "images/Pasted image 20230731083648.png",
     "docs/src/Goals/Knowledge Sharing.html",
     "docs/src/Goals/Continuous Improvement.html",
     "docs/src/Goals/Quality.html",
@@ -228,7 +207,6 @@
     "docs/src/Frontend/Angular.html",
     "docs/src/Frontend",
     "docs/src/FeatureManagement/Microsoft.FeatureManagement.html",
-    "docs/src/FeatureManagement",
     "src/Tools/WinGet.md",
     "src/Tools/Windows.md",
     "src/Tools/VSCode.md",
@@ -247,13 +225,9 @@
     "src/Tools/InferSharp.md",
     "src/Tools/Ideas.md",
     "src/Tools/GitHub Copilot.md",
-    "src/Tools/Git.md",
     "src/Tools/Docker Desktop.md",
     "src/Tools/Docker Compose.md",
     "src/Tools/Docker CLI.md",
-    "src/Tools/CMD.md",
-    "src/Testing/WireMockNet.md",
-    "src/Testing/Playwright using TypeScript.md",
     "images/Pasted image 20240510085959.png",
     "docs/lib/media/favicon.png",
     "docs/lib/media/pasted-image-20240510083448.png",
@@ -263,7 +237,6 @@
     "docs/lib/media/what-engineering-managers-should-do.png",
     "docs/lib/media/engineering-manager-framework.png",
     "images/Pasted image 20240510083448.png",
-    "images/Pasted image 20230810091642.png",
     "Untitled.canvas",
     "src/Untitled.canvas"
   ]
