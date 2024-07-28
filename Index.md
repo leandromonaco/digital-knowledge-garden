@@ -14,9 +14,9 @@ This project was inspired by this [blog post](https://github.com/readme/guides/p
 ## Publish
 
 1. Delete all files in `digital-knowledge-garden\docs`
-2. Export HTML Files![[Pasted image 20240729081305.png]]
-5. Push Git changes
-6. A GitHub Action will be triggered to publish https://leandromonaco.github.io/digital-knowledge-garden
+2. Export HTML Files![[Pasted image 20240729084302.png]]
+4. Push Git changes
+5. A GitHub Action will be triggered to publish https://leandromonaco.github.io/digital-knowledge-garden
 ### Sources
 
 - [Daily.dev](https://daily.dev/)
