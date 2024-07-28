@@ -18,45 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e97e455450a64697",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/Tools/Git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8353807913410822",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/How-to/Git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ae7314987c01415",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/Index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -123,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/How-to/Git.md",
+                "file": "src/Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/How-to/Git.md"
+                "file": "src/Index.md"
               }
             }
           },
@@ -189,24 +151,45 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "8353807913410822",
+  "floating": {
+    "id": "41f6ee36c30268e7",
+    "type": "floating",
+    "children": [
+      {
+        "id": "e72462fb8beba3dc",
+        "type": "window",
+        "children": [
+          {
+            "id": "c1be695f1cca8757",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "066ed0dcf8395789",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "src/Index.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 738,
+        "y": 178,
+        "width": 900,
+        "height": 500,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "066ed0dcf8395789",
   "lastOpenFiles": [
-    "src/Tools/Clipchamp.md",
-    "src/Index.md",
-    "src/Tools/Git.md",
-    "Clipchamp.md",
-    "src/Development/Development Environment Setup.md",
-    "images/Pasted image 20230731083648.png",
-    "docs/src/Goals/Knowledge Sharing.html",
-    "docs/src/Goals/Continuous Improvement.html",
-    "docs/src/Goals/Quality.html",
-    "docs/src/Goals/Continous Learning.html",
-    "docs/src/Goals",
-    "docs/src/Frontend/CSS.html",
-    "docs/src/Frontend/Index.html",
-    "docs/src/Frontend/Angular.html",
-    "docs/src/Frontend",
-    "docs/src/FeatureManagement/Microsoft.FeatureManagement.html",
     "src/Tools/WinGet.md",
     "src/Tools/Windows.md",
     "src/Tools/VSCode.md",
@@ -225,9 +208,25 @@
     "src/Tools/InferSharp.md",
     "src/Tools/Ideas.md",
     "src/Tools/GitHub Copilot.md",
+    "src/Tools/Git.md",
     "src/Tools/Docker Desktop.md",
     "src/Tools/Docker Compose.md",
     "src/Tools/Docker CLI.md",
+    "src/Tools/CMD.md",
+    "src/Tools/Clipchamp.md",
+    "src/Testing/WireMockNet.md",
+    "src/Testing/Playwright using TypeScript.md",
+    "images/Pasted image 20230731083648.png",
+    "docs/src/Goals/Knowledge Sharing.html",
+    "docs/src/Goals/Continuous Improvement.html",
+    "docs/src/Goals/Quality.html",
+    "docs/src/Goals/Continous Learning.html",
+    "docs/src/Goals",
+    "docs/src/Frontend/CSS.html",
+    "docs/src/Frontend/Index.html",
+    "docs/src/Frontend/Angular.html",
+    "docs/src/Frontend",
+    "docs/src/FeatureManagement/Microsoft.FeatureManagement.html",
     "images/Pasted image 20240510085959.png",
     "docs/lib/media/favicon.png",
     "docs/lib/media/pasted-image-20240510083448.png",
