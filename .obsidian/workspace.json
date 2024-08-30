@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "be512892250cc18b",
+        "id": "d6cffb90287f42af",
         "type": "tabs",
         "children": [
           {
-            "id": "6028243a93cf0e4b",
+            "id": "8926ef53c314d9bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/Development/Development Environment Setup.md",
+                "file": "articles/Engineering Management/Engineering Management.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bfg",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Index.md",
+                "file": "articles/Engineering Management/Engineering Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Index.md"
+                "file": "articles/Engineering Management/Engineering Management.md"
               }
             }
           },
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Index.md",
+                "file": "articles/Engineering Management/Engineering Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,45 +168,16 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "floating": {
-    "id": "41f6ee36c30268e7",
-    "type": "floating",
-    "children": [
-      {
-        "id": "ff7ae97911d0ff45",
-        "type": "window",
-        "children": [
-          {
-            "id": "bff19a153c5cabbd",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "edfcd3b1a858d29e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Index.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1470,
-        "y": 532,
-        "width": 900,
-        "height": 500,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "edfcd3b1a858d29e",
+  "active": "8926ef53c314d9bc",
   "lastOpenFiles": [
+    "articles/Engineering Management/Index.md",
+    "articles/Engineering Management/Engineering Management.md",
+    "articles/Engineering Management/Research.md",
+    "Cloud Costs.md",
+    "articles/How-to/Git - Update dev branch with latest main branch.md",
+    "articles/How-to/Git.md",
+    "articles/Goals/Continous Learning.md",
+    "Index.md",
     "docs/docs/src/how-to/modernization.html",
     "docs/docs/src/how-to/creating-a-permanent-powershell-alias-using-set-alias.html",
     "docs/docs/src/how-to/create-self-signed-certificate.html",
@@ -217,7 +188,6 @@
     "docs/docs/src/how-to/install-multiple-nodejs-versions.html",
     "docs/docs/src/how-to/http-client.html",
     "docs/docs/src/how-to/git.html",
-    "docs/docs/src/how-to/create-iis-websites.html",
     "docs/docs/images/what-engineering-managers-should-do.png",
     "docs/docs/images/pasted-image-20240729081305.png",
     "docs/docs/images/pasted-image-20240510085959.png",
@@ -244,13 +214,6 @@
     "src/Tools/InferSharp.md",
     "src/Tools/Ideas.md",
     "src/Tools/GitHub Copilot.md",
-    "src/Tools/Git.md",
-    "src/Tools/Docker Desktop.md",
-    "src/Tools/Docker Compose.md",
-    "src/Tools/Docker CLI.md",
-    "src/Tools/CMD.md",
-    "src/Tools/Clipchamp.md",
-    "src/Testing/WireMockNet.md",
     "images/Pasted image 20230731083648.png",
     "images/Pasted image 20240510085959.png",
     "Untitled.canvas",

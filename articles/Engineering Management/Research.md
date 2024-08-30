@@ -1,6 +1,7 @@
 - https://cloud.google.com/blog/products/devops-sre/dora-2022-accelerate-state-of-devops-report-now-out
   
   [[Remote Work]] https://buffer.com/state-of-remote-work/2022
+  https://rework.withgoogle.com/blog/the-evolution-of-project-oxygen/
 - https://www.atlassian.com/blog/state-of-teams-2022
 - [Microsoft WorkLab](https://www.microsoft.com/en-us/worklab)
 - [Google Rework](https://rework.withgoogle.com)
