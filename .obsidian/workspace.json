@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6af172aa7da2aa88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "articles/AI/Open AI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 537.5
+    "width": 311.5
   },
   "right": {
     "id": "854443f02233b8b9",
@@ -98,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "articles/Database/Useful SQL Server Queries.md",
+                "file": "articles/AI/Open AI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,7 +123,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -121,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/Database/Useful SQL Server Queries.md"
+                "file": "articles/AI/Open AI.md"
               }
             }
           },
@@ -151,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "articles/Database/Useful SQL Server Queries.md",
+                "file": "articles/AI/Open AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +179,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 239.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,12 +193,19 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "10b6c6dba9453fac",
+  "active": "6af172aa7da2aa88",
   "lastOpenFiles": [
+    "articles/Technology/AI.md",
+    "articles/Engineering Management/Feature Flag Management.md",
+    "articles/Engineering Management/Development Strategy.md",
+    "articles/Engineering Management/Developer Experience.md",
+    "articles/APIs/Google Calendar API.md",
+    "articles/AI/Open AI.md",
+    "articles/AI/ollama.md",
+    "articles/Database/Useful SQL Server Queries.md",
     "articles/Database/Sql Server.md",
     "articles/Database/SQL Lite.md",
     "articles/Development/Development Environment Setup.md",
-    "articles/Database/Useful SQL Server Queries.md",
     "articles/Database",
     "articles/DotNet/ASP.NET.md",
     "articles/Engineering Management/Engineering Management.md",
@@ -220,13 +239,6 @@
     "src/Tools/Visual Studio.md",
     "src/Tools/Troubleshooting.md",
     "src/Tools/Sql Server.md",
-    "src/Tools/SQL Lite.md",
-    "src/Tools/Slack CLI.md",
-    "src/Tools/Redis.md",
-    "src/Tools/Proxy.md",
-    "src/Tools/Powershell.md",
-    "src/Tools/Nuget CLI.md",
-    "src/Tools/NuGet.md",
     "images/Pasted image 20230731083648.png",
     "images/Pasted image 20240510085959.png",
     "Untitled.canvas",

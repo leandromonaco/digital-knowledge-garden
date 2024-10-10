@@ -1,5 +1,5 @@
 - [[Development Environment Setup]]
-- [[Software Development Strategy]]
+- [[Development Strategy]]
 - [[Ways of Working]]
 
 ## Sources

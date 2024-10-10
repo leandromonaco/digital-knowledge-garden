@@ -49,6 +49,10 @@ Documentation | - [Technical Writing Style Guide](https://docs.microsoft.com/en-
 # Tools
 https://snyk.io/code-checker
 
+## Feature Flags
+
+[[Feature Flag Management]]
+
 ## Logging
 
 Always use *Structured Logging*, which makes it easier to store and query log-events.

@@ -30,4 +30,4 @@ The Definition of Done creates transparency by providing everyone a shared under
 
 ## Strategy
 * [Objectives](https://github.com/leandromonaco/Documentation/blob/main/software-development-objectives.md)
-- [[Software Development Strategy]]
+- [[Development Strategy]]
