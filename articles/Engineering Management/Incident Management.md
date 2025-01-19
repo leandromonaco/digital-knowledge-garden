@@ -1,0 +1,1 @@
+* https://www.xmatters.com/blog/best-practices-for-managing-incidents-at-varying-severity-levels/

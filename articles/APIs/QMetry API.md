@@ -1,0 +1,1 @@
+https://testmanagement.qmetry.com/#/integration/open-api

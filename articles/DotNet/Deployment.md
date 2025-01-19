@@ -1,0 +1,1 @@
+- [Single file deployment and executable](https://docs.microsoft.com/en-us/dotnet/core/deploying/single-file)
