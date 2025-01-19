@@ -16,7 +16,9 @@
                 "file": "articles/Development/Development Environment Setup.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Development Environment Setup"
             }
           },
           {
@@ -28,7 +30,9 @@
                 "file": "articles/Database/Useful SQL Server Queries.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Useful SQL Server Queries"
             }
           },
           {
@@ -37,10 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles/AI/Open AI.md",
+                "file": "Index.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Index"
             }
           }
         ],
@@ -64,7 +70,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -79,7 +87,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -87,7 +97,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -110,10 +122,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "articles/AI/Open AI.md",
+                "file": "Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Index"
             }
           },
           {
@@ -124,7 +138,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": false
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -133,8 +149,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/AI/Open AI.md"
-              }
+                "file": "Index.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Index"
             }
           },
           {
@@ -146,7 +164,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -154,7 +174,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -163,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "articles/AI/Open AI.md",
+                "file": "Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +193,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Index"
             }
           }
         ],
@@ -195,12 +219,12 @@
   },
   "active": "6af172aa7da2aa88",
   "lastOpenFiles": [
+    "articles/AI/Open AI.md",
     "articles/Technology/AI.md",
     "articles/Engineering Management/Feature Flag Management.md",
     "articles/Engineering Management/Development Strategy.md",
     "articles/Engineering Management/Developer Experience.md",
     "articles/APIs/Google Calendar API.md",
-    "articles/AI/Open AI.md",
     "articles/AI/ollama.md",
     "articles/Database/Useful SQL Server Queries.md",
     "articles/Database/Sql Server.md",
