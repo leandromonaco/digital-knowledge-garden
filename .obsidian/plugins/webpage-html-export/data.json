@@ -43,7 +43,7 @@
   "defaultFileIcon": "lucide//file",
   "defaultFolderIcon": "lucide//folder",
   "defaultMediaIcon": "lucide//file-image",
-  "exportPath": "C:\\\\Dev\\GitHub\\workbench\\digital-knowledge-garden\\docs",
+  "exportPath": "D:\\\\digital-knowledge-garden\\docs",
   "filesToExport": [
     [
       "all"
