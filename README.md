@@ -1,3 +1,11 @@
+# Digital Knowledge Garden with Obsidian
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg) 
+[![Star this repo](https://img.shields.io/github/stars/leandromonaco/digital-knowledge-garden?style=social)](https://github.com/leandromonaco/digital-knowledge-garden/stargazers)
+
+> [!NOTE] 
+> If you find this project helpful, please give it a star 🌟
+
 ## Toolkit
 
 - `winget install --id GitHub.GitHubDesktop`
