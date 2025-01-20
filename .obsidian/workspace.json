@@ -43,7 +43,7 @@
               "state": {
                 "file": "Index.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Index"
@@ -217,39 +217,68 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "6af172aa7da2aa88",
+  "floating": {
+    "id": "3eaeb5f630224675",
+    "type": "floating",
+    "children": [
+      {
+        "id": "45e41a70618f3371",
+        "type": "window",
+        "children": [
+          {
+            "id": "0988a6c263466730",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b37ecc30dab74e28",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Index.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Index"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1465,
+        "y": 431,
+        "width": 900,
+        "height": 500,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "b37ecc30dab74e28",
   "lastOpenFiles": [
-    "docs/lib/search-index.json",
-    "docs/lib/metadata.json",
-    "docs/lib/styles/obsidian.css",
-    "docs/lib/styles/main-styles.css",
-    "docs/lib/styles/global-variable-styles.css",
-    "docs/lib/styles",
-    "docs/lib/scripts/graph-data.js",
-    "docs/lib/media/favicon.png",
-    "docs/lib/scripts/minisearch.js",
-    "docs/lib/scripts/pixi.js",
-    "docs/lib/scripts/tinycolor.js",
-    "docs/lib/scripts/graph-render-worker.js",
-    "docs/lib/media/874d8b8e340f75575caa.svg",
-    "docs/images/what-engineering-managers-should-do.png",
-    "docs/images/pasted-image-20240729084302.png",
-    "docs/images/pasted-image-20240729081305.png",
-    "docs/images/pasted-image-20240510085959.png",
-    "docs/images/pasted-image-20240510083448.png",
-    "docs/images/pasted-image-20230810091642.png",
-    "docs/images/pasted-image-20230731083648.png",
-    "docs/images/learning-pyramid.png",
+    "docs/articles/how-to/run-a-tool-globally-on-windows.html",
+    "docs/articles/how-to/technical-support.html",
+    "docs/articles/how-to/modernization.html",
+    "docs/articles/how-to/measure-method-elapsed-time-with-csharp.html",
+    "docs/articles/how-to/install-multiple-nodejs-versions.html",
+    "docs/articles/how-to/git-update-dev-branch-with-latest-main-branch.html",
+    "docs/articles/how-to/git.html",
+    "docs/articles/how-to/http-client.html",
+    "docs/articles/how-to/creating-a-permanent-powershell-alias-using-set-alias.html",
+    "docs/articles/how-to/create-self-signed-certificate.html",
+    "docs/articles/how-to/create-iis-websites.html",
+    "docs/lib/media/what-engineering-managers-should-do.png",
+    "docs/lib/media/learning-pyramid.png",
+    "docs/lib/media/engineering-manager-framework.png",
     "articles/Tools/WinGet.md",
-    "articles/Tools/Windows Terminal.md",
     "articles/Tools/Windows.md",
     "articles/Tools/VSCode.md",
     "articles/Tools/Visual Studio.md",
     "articles/Tools/Troubleshooting.md",
-    "articles/Tools/slngen.md",
     "articles/Tools/Slack CLI.md",
     "articles/Tools/Redis.md",
-    "articles/Tools/Redash.md",
     "articles/Tools/Proxy.md",
     "articles/Tools/Powershell.md",
     "articles/Tools/Nuget CLI.md",
@@ -258,6 +287,7 @@
     "articles/Tools/Kubernetes.md",
     "articles/Tools/InferSharp.md",
     "articles/Tools/Ideas.md",
+    "articles/Tools/GitHub Copilot.md",
     "articles/Tools/Git.md",
     "articles/Tools/Docker Desktop.md",
     "articles/Tools/Docker Compose.md",
@@ -265,6 +295,15 @@
     "articles/Tools/CMD.md",
     "articles/Tools/Clipchamp.md",
     "articles/Testing/WireMockNet.md",
+    "articles/Testing/Playwright using TypeScript.md",
+    "articles/Testing/Playwright using .NET.md",
+    "docs/lib/media/favicon.png",
+    "docs/lib/media/874d8b8e340f75575caa.svg",
+    "docs/images/what-engineering-managers-should-do.png",
+    "docs/images/pasted-image-20240729084302.png",
+    "docs/images/pasted-image-20240729081305.png",
+    "docs/images/pasted-image-20240510085959.png",
+    "docs/images/pasted-image-20240510083448.png",
     "Untitled.canvas",
     "src/Untitled.canvas"
   ]
