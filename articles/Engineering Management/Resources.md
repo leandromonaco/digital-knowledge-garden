@@ -7,6 +7,19 @@
 * [Agile Essentials](https://www.agilealliance.org/agile-essentials/)
 * [RAID Analysis](https://www.techagilist.com/agile/scrum/raid/)
 
+## Architecture
+
+- https://martinfowler.com/microservices/
+- https://dotnet.microsoft.com/en-us/learn/aspnet/microservices-architecture
+- [CQRS Pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
+- https://docs.microsoft.com/en-us/azure/architecture/patterns/
+- https://github.com/jasontaylordev/CleanArchitecture
+- https://github.com/ardalis/CleanArchitecture
+- https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures
+- https://www.youtube.com/watch?v=NzcZcim9tp8
+- [Clean Architecture](https://github.com/ardalis/CleanArchitecture)
+- [Why Write ADRs](https://github.blog/2020-08-13-why-write-adrs)
+
 ## Careers
 
 - [Staff Software Engineer Responsibilities](https://davidxiang.com/2021/01/19/staff-software-engineer-responsibilities)
@@ -69,6 +82,14 @@
 - [Can’t you just "game" the metrics?](https://help.pluralsight.com/help/cant-you-just-game-the-metrics)
 - The Impact Of Agile. Quantified. [Presentation](https://www.infoq.com/presentations/agile-quantify/) | [Report](https://docs.broadcom.com/doc/the-impact-of-agile-quantified)
 
+## Monorepo
+
+- [Why Google Stores Billions of Lines of Code in a Single Repository](https://research.google/pubs/pub45424/)
+- [Monorepo to Multirepo and Back Again](https://www.youtube.com/watch?v=lV8-1S28ycM)
+- [Optimize your monorepo experience](https://www.youtube.com/watch?v=RcqLV1lU408&t=81s)
+- [Make your monorepo feel small with Git’s sparse index](https://github.blog/2021-11-10-make-your-monorepo-feel-small-with-gits-sparse-index/)
+- [Get up to speed with partial clone and shallow clone](https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone)
+
 ## Onboarding
 
 - [Scripting Winget](https://chrislayers.com/2021/08/01/scripting-winget)
@@ -98,6 +119,18 @@
 - https://rework.withgoogle.com/en/guides/managers-identify-what-makes-a-great-manager
 - [The 2021 State of the Octoverse](https://octoverse.github.com/)
 - [Practices, research, and tools from Google to improve your people processes](https://rework.withgoogle.com/guides/)
+
+## Security
+
+- #Docker [Scout](https://docs.docker.com/scout/)
+- https://cve.mitre.org/
+- [Hacker Success Guide](https://docs.hackerone.com/hackers/hacker-success-guide.html)
+- [Hacker101](https://www.hacker101.com/)
+- [Quality Reports](https://docs.hackerone.com/hackers/quality-reports.html)
+- [Capture the flag challenges](https://ctf.hacker101.com/)
+- https://learn.securecodewarrior.com/guidelines
+- https://www.securecodewarrior.com/
+
 ## Salary
 
 - [Salary Calculator](https://www.seek.com.au/career-advice/page/salary-calculator)

@@ -1,5 +1,0 @@
-- [Hacker Success Guide](https://docs.hackerone.com/hackers/hacker-success-guide.html)
-- [Hacker101](https://www.hacker101.com/)
-- Check [Programs](https://hackerone.com/directory/programs)
-- [Quality Reports](https://docs.hackerone.com/hackers/quality-reports.html)
-- [Capture the flag challenges](https://ctf.hacker101.com/)

@@ -1,2 +1,0 @@
-- [[Secure Code Warriors]]
--

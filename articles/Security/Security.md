@@ -1,5 +1,0 @@
-- [[ASP.NET Core Security]]
-- [[OWASP TOP 10]]
-- [[HackerOne]]
-- [[CVE]]
-- #Docker [Scout](https://docs.docker.com/scout/)

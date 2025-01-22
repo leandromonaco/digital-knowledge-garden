@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles/Frontend/Index.md",
+                "file": "articles/Performance/Performance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "Performance"
             }
           },
           {
@@ -191,10 +191,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/Frontend/Index.md"
+                "file": "articles/Performance/Performance.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Index"
+              "title": "Outline of Performance"
             }
           },
           {
@@ -259,34 +259,35 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "fd63c817476c3adf",
+  "active": "28b6ed5739f80b7c",
   "lastOpenFiles": [
+    "articles/Software Engineering/Authentication.md",
+    "articles/DevOps/Observability.md",
+    "articles/Software Engineering",
+    "articles/Engineering Management/Resources.md",
+    "README.md",
+    "Objectives.md",
+    "Leadership.md",
+    "HackerOne.md",
+    "CVE.md",
+    "articles/Security/CVE.md",
+    "articles/Security/OWASP TOP 10.md",
+    "articles/Security/Secure Code Warriors.md",
+    "articles/Security/HackerOne.md",
+    "articles/Security/Security.md",
+    "ASP.NET Core Security.md",
+    "articles/DotNet/HTTP 3 Support.md",
+    "articles/Technology/Monorepo.md",
+    "articles/Tools/AI.md",
+    "articles/Technology/Coding Exercise.md",
+    "articles/Technology/Architecture.md",
+    "articles/Frontend/Index.md",
     "articles/Frontend/CSS.md",
     "articles/Frontend/Angular.md",
     "articles/Tools/WireMockNet.md",
     "articles/DotNet/MsTest.md",
     "articles/Testing/Playwright using .NET.md",
     "articles/How-to/BDD Test Cases using Playwright (TypeScript).md",
-    "articles/Tools/Ideas.md",
-    "articles/Tools/Troubleshooting.md",
-    "articles/Tools/Sql Server.md",
-    "articles/Tools/SQL Lite.md",
-    "articles/How-to/Useful SQL Server Queries.md",
-    "articles/Tools/DevContainers.md",
-    "articles/Engineering Management/Resources.md",
-    "articles/Development/Developer Productivity.md",
-    "articles/Engineering Management/Overview.md",
-    "articles/Engineering Management/Team Playbook/Onboarding - Development Environment Setup.md",
-    "articles/Engineering Management/Team Playbook/Onboarding.md",
-    "articles/DevOps/Observability.md",
-    "articles/Documentation/Documentation.md",
-    "articles/Documentation/DiagramsAsCode.md",
-    "articles/DotNet/MinimalAPI.md",
-    "articles/DotNet/Libraries/YARP.md",
-    "articles/Tools/WinGet.md",
-    "articles/Email Templates/Knowledge Sharing.md",
-    "professional-development.md",
-    "articles/Engineering Management/1 on 1 Topics.md",
     "articles/Engineering Management/Team Playbook",
     "articles/Engineering Management/Hiring/Email Templates",
     "articles/Engineering Management/Hiring",
@@ -296,7 +297,6 @@
     "docs/articles/how-to/technical-support.html",
     "docs/articles/how-to/modernization.html",
     "docs/articles/how-to/measure-method-elapsed-time-with-csharp.html",
-    "docs/articles/how-to/install-multiple-nodejs-versions.html",
     "docs/lib/media/what-engineering-managers-should-do.png",
     "docs/lib/media/learning-pyramid.png",
     "docs/lib/media/engineering-manager-framework.png",
