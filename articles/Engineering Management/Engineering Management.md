@@ -44,7 +44,7 @@ Having said that, although it is important for an Engineering Manager to be able
 - [[1:1s]]
 - [[Ways of Working]]
 - [[Metrics]]
-- [[Hiring]]
+- [[articles/Engineering Management/Hiring/Coding Exercise]]
 - [[Research]]
 - [[Leadership]]
 - [[High Performing Teams]]

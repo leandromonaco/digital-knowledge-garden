@@ -1,4 +1,4 @@
-- [[articles/Engineering Management/Onboarding]] Templates
+- [[articles/Engineering Management/Hiring/Onboarding]] Templates
 -
 - **Before Starting**
 - Hi [new team member],

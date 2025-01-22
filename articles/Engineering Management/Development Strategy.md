@@ -29,10 +29,8 @@ the future application design, development and deployment, and move consistently
 
 ## Third Party Libraries
 
-- [Nuget Trends](https://nugettrends.com/)
-- 
-- `dotnet list package` [Documentation](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-list-package)
-  
+- Decide whether to use or not that package or target framework based on real data with [Nuget Trends](https://nugettrends.com/)
+ 
 
   
 ## Code Reviews
