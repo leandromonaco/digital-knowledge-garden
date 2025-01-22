@@ -69,6 +69,10 @@
 - [Can’t you just "game" the metrics?](https://help.pluralsight.com/help/cant-you-just-game-the-metrics)
 - The Impact Of Agile. Quantified. [Presentation](https://www.infoq.com/presentations/agile-quantify/) | [Report](https://docs.broadcom.com/doc/the-impact-of-agile-quantified)
 
+## People Management
+
+- [Managing Staff-plus engineers](https://lethain.com/managing-staff-plus-engineers/)
+
 ## Research
 
 - [DORA | Get Better at Getting Better](https://dora.dev/)
@@ -85,13 +89,12 @@
 - [Practices, research, and tools from Google to improve your people processes](https://rework.withgoogle.com/guides/)
 ## Salary
 
-[Salary Calculator](https://www.seek.com.au/career-advice/page/salary-calculator)
-
-## People Management
-- [Managing Staff-plus engineers](https://lethain.com/managing-staff-plus-engineers/)
+- [Salary Calculator](https://www.seek.com.au/career-advice/page/salary-calculator)
 ## Time Management
+
 - [Maker's Schedule, Manager's Schedule](http://www.paulgraham.com/makersschedule.html)
 - [Time management for makers](https://github.com/readme/guides/time-management-software-engineers)
 ## Turnover
+
 - [The Great Resignation is here. What does that mean for developers?](https://stackoverflow.blog/2022/01/10/the-great-resignation-is-here-what-does-that-mean-for-developers)
 - [Why Are So Many Software Developers Quitting Their Jobs?](https://javascript.plainenglish.io/why-are-so-many-software-developers-quitting-their-jobs-e5a6c2a8f5ed)

@@ -2,7 +2,7 @@
 
 - [[Continuous Improvement]]
 - [[Professional Development Plan]]
-- [[articles/Engineering Management/Goal Setting/Knowledge Sharing|Knowledge Sharing]]
+- [[articles/Engineering Management/Team Playbook/Goal Setting/Knowledge Sharing|Knowledge Sharing]]
 - [[Quality]]
 
 # OKRs
