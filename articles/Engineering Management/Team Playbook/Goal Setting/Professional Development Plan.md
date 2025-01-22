@@ -35,7 +35,7 @@ This a list of ideas to make learning a part the routine.
 ### [[Code Katas]]
 - https://www.codewars.com/
 
-### [[articles/Cloud/Azure/Index]]
+### [[articles/Software Engineering/Cloud/Azure/Index]]
 - Obtain a [certification](https://docs.microsoft.com/en-us/learn/certifications/certification-process-overview) or [renew](https://docs.microsoft.com/en-us/learn/certifications/renew-your-microsoft-certification) it
 
 ### [[Soft Skills]]
@@ -53,7 +53,7 @@ This a list of ideas to make learning a part the routine.
 - https://www.perfectkickoff.com/
 - https://www.coursera.org/professional-certificates/google-project-management
 
-### [[articles/Cloud/AWS/Index]]
+### [[articles/Software Engineering/Cloud/AWS/Index]]
 - https://aws.amazon.com/partners/training/
 - [AWS Workshops](https://workshops.aws/)
 - [AWS Skill Builder](https://explore.skillbuilder.aws/learn)
@@ -63,7 +63,7 @@ This a list of ideas to make learning a part the routine.
 - [AWS Serverless SaaS Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/b0c6ad36-0a4b-45d8-856b-8a64f0ac76bb/en-US)
 - https://serverlessland.com
 - https://studiolab.sagemaker.aws/ (Learn and experiment with machine learning)
-- [[.NET]] on [[articles/Cloud/AWS/Index]]: https://aws.amazon.com/developer/language/net/
+- [[.NET]] on [[articles/Software Engineering/Cloud/AWS/Index]]: https://aws.amazon.com/developer/language/net/
 
 - [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) | [Training](https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials) & [Ramp-Up Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Cloud_Foundations.pdf)
 -  [AWS Certified Developer - Associate](https://aws.amazon.com/certification/certified-developer-associate/) | [Ramp-Up Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Developer.pdf)

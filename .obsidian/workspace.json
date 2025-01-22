@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles/Performance/Performance.md",
+                "file": "articles/Software Engineering/APIs/GitHub API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Performance"
+              "title": "GitHub API"
             }
           },
           {
@@ -191,10 +191,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/Performance/Performance.md"
+                "file": "articles/Software Engineering/APIs/GitHub API.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Performance"
+              "title": "Outline of GitHub API"
             }
           },
           {
@@ -261,33 +261,35 @@
   },
   "active": "28b6ed5739f80b7c",
   "lastOpenFiles": [
-    "articles/Software Engineering/Authentication.md",
-    "articles/DevOps/Observability.md",
-    "articles/Software Engineering",
+    "articles/Software Engineering/APIs/Google Calendar API.md",
+    "articles/Software Engineering/APIs/JIRA API.md",
+    "articles/APIs/QMetry API.md",
+    "articles/Software Engineering/APIs/GitHub API.md",
+    "articles/Engineering Management/Team Playbook/Onboarding - Development Environment Setup.md",
+    "articles/Tools/SQL Lite.md",
+    "articles/Tools/Microsoft Application Inspector.md",
+    "articles/Tools/Mermaid - Diagrams As Code.md",
+    "articles/Tools/Markdown.md",
     "articles/Engineering Management/Resources.md",
+    "Pasted image 20250123095445.png",
+    "Pasted image 20250123095348.png",
+    "articles/Documentation/Documentation.md",
+    "articles/Software Engineering/DevOps/Observability.md",
+    "articles/Software Engineering/AI/ollama.md",
+    "articles/Software Engineering/AI/Open AI.md",
+    "articles/Software Engineering/Cloud/Azure/Index.md",
+    "articles/Software Engineering/Cloud/AWS/Services/AWS KMS.md",
+    "articles/Software Engineering/Cloud/AWS/Services/DynamoDB.md",
+    "articles/Software Engineering/Cloud/AWS/Services/Lambda.md",
+    "articles/Software Engineering/Performance.md",
+    "articles/Software Engineering/Authentication.md",
+    "articles/Software Engineering",
     "README.md",
     "Objectives.md",
     "Leadership.md",
     "HackerOne.md",
     "CVE.md",
     "articles/Security/CVE.md",
-    "articles/Security/OWASP TOP 10.md",
-    "articles/Security/Secure Code Warriors.md",
-    "articles/Security/HackerOne.md",
-    "articles/Security/Security.md",
-    "ASP.NET Core Security.md",
-    "articles/DotNet/HTTP 3 Support.md",
-    "articles/Technology/Monorepo.md",
-    "articles/Tools/AI.md",
-    "articles/Technology/Coding Exercise.md",
-    "articles/Technology/Architecture.md",
-    "articles/Frontend/Index.md",
-    "articles/Frontend/CSS.md",
-    "articles/Frontend/Angular.md",
-    "articles/Tools/WireMockNet.md",
-    "articles/DotNet/MsTest.md",
-    "articles/Testing/Playwright using .NET.md",
-    "articles/How-to/BDD Test Cases using Playwright (TypeScript).md",
     "articles/Engineering Management/Team Playbook",
     "articles/Engineering Management/Hiring/Email Templates",
     "articles/Engineering Management/Hiring",
@@ -305,8 +307,6 @@
     "docs/images/what-engineering-managers-should-do.png",
     "docs/images/pasted-image-20240729084302.png",
     "docs/images/pasted-image-20240729081305.png",
-    "docs/images/pasted-image-20240510085959.png",
-    "docs/images/pasted-image-20240510083448.png",
     "Untitled.canvas",
     "src/Untitled.canvas"
   ]

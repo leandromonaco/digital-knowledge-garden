@@ -56,6 +56,12 @@
 - [DORA: DevOps Research and Assessment](https://dora.dev/)
 - https://getdx.com/developer-experience-management-paper
 - https://www.atlassian.com/software/compass
+
+## Documentation
+
+- [Docs as Code](https://www.writethedocs.org/guide/docs-as-code/)
+- [Documentation Guide](https://www.writethedocs.org/guide/)
+  
 ## Feedback
 
 - [How to Give Effective Feedback](https://www.scrum.org/resources/blog/how-give-effective-feedback)
