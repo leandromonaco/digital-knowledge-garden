@@ -1,7 +1,7 @@
 # Objectives
 - [[Continuous Improvement]]
 - [[Quality]]
-- [[articles/Goals/Knowledge Sharing]]
+- [[articles/Engineering Management/Goal Setting/Knowledge Sharing]]
 # OKRs
 ## Definition
 OKR stands for [[Objectives]] and Key Results. OKRs help break up big, audacious missions into actionable goals and milestones.
