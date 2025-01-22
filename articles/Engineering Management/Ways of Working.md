@@ -2,7 +2,7 @@
 
 ## Project Planning
 
-[[Agile]]
+[[Resources]]
 
 ## Capacity Planning
 
