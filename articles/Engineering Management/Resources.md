@@ -43,6 +43,9 @@
 - [DORA: DevOps Research and Assessment](https://dora.dev/)
 - https://getdx.com/developer-experience-management-paper
 - https://www.atlassian.com/software/compass
+## Feedback
+
+- [How to Give Effective Feedback](https://www.scrum.org/resources/blog/how-give-effective-feedback)
 ## Handbooks
 
 * [Basecamp Handbook](https://github.com/basecamp/handbook)
@@ -53,26 +56,42 @@
 ## Incident Management
 
 * [Best Practices for Managing Incidents at Varying Severity Levels](https://www.xmatters.com/blog/best-practices-for-managing-incidents-at-varying-severity-levels/)
+* [Using ChatOps to help Actions on-call engineers](https://github.blog/2021-12-01-using-chatops-to-help-actions-on-call-engineers)
+- [7 Incident Management Best Practices for Long Term Success](https://www.xmatters.com/blog/7-incident-management-best-practices-for-long-term-success)
+- [What the Ideal Incident Lifecycle Should Be](https://www.xmatters.com/blog/what-the-ideal-incident-lifecycle-should-be)
 
 ## Meetings
 
 - [How to run effective meetings](https://www.atlassian.com/blog/teamwork/how-to-run-effective-meetings)
 
+## Metrics
+
+- [Can’t you just "game" the metrics?](https://help.pluralsight.com/help/cant-you-just-game-the-metrics)
+- The Impact Of Agile. Quantified. [Presentation](https://www.infoq.com/presentations/agile-quantify/) | [Report](https://docs.broadcom.com/doc/the-impact-of-agile-quantified)
+
 ## Research
 
-- https://cloud.google.com/blog/products/devops-sre/dora-2022-accelerate-state-of-devops-report-now-out
-  [[Remote Work]] https://buffer.com/state-of-remote-work/2022
-  https://rework.withgoogle.com/blog/the-evolution-of-project-oxygen/
-- https://www.atlassian.com/blog/state-of-teams-2022
+- [DORA | Get Better at Getting Better](https://dora.dev/)
+- [Work Life by Atlassian - Unleashing the potential of all teams with tips, tools, and practices](https://www.atlassian.com/blog)
 - [Microsoft WorkLab](https://www.microsoft.com/en-us/worklab)
 - [Google Rework](https://rework.withgoogle.com)
-- [Google DevOps research program](https://www.devops-research.com/research.html)
 - [Learn about Google's manager research](https://rework.withgoogle.com/guides/managers-identify-what-makes-a-great-manager/steps/learn-about-googles-manager-research/)
 - [What Makes a Great Manager of Software Engineers?](https://www.microsoft.com/en-us/research/uploads/prod/2018/06/kalliamvakou-tse-2018.pdf)
+- [What Great Managers Do](https://hbr.org/2005/03/what-great-managers-do)
 - [Tool: Try Google’s Manager Feedback Survey](https://rework.withgoogle.com/guides/managers-give-feedback-to-managers/steps/try-googles-manager-feedback-survey)
 - [Great managers still matter: the evolution of Google’s Project Oxygen](https://rework.withgoogle.com/blog/the-evolution-of-project-oxygen)
+- https://rework.withgoogle.com/en/guides/managers-identify-what-makes-a-great-manager
 - [The 2021 State of the Octoverse](https://octoverse.github.com/)
 - [Practices, research, and tools from Google to improve your people processes](https://rework.withgoogle.com/guides/)
 ## Salary
 
 [Salary Calculator](https://www.seek.com.au/career-advice/page/salary-calculator)
+
+## People Management
+- [Managing Staff-plus engineers](https://lethain.com/managing-staff-plus-engineers/)
+## Time Management
+- [Maker's Schedule, Manager's Schedule](http://www.paulgraham.com/makersschedule.html)
+- [Time management for makers](https://github.com/readme/guides/time-management-software-engineers)
+## Turnover
+- [The Great Resignation is here. What does that mean for developers?](https://stackoverflow.blog/2022/01/10/the-great-resignation-is-here-what-does-that-mean-for-developers)
+- [Why Are So Many Software Developers Quitting Their Jobs?](https://javascript.plainenglish.io/why-are-so-many-software-developers-quitting-their-jobs-e5a6c2a8f5ed)
