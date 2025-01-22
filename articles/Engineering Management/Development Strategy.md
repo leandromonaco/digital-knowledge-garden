@@ -1,4 +1,4 @@
-# Software Development Strategy
+# Development Strategy
 
 ## Table of contents
 - [Introduction](#introduction)
@@ -25,22 +25,15 @@ the future application design, development and deployment, and move consistently
 | Architecture       | - [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) <br>- [The Twelve-Factor App](https://12factor.net/)                          |
 | Process            | - [Scrum Guide](https://scrumguides.org/scrum-guide.html) <br>- [Kanban Guide for Scrum Teams](https://www.scrum.org/resources/kanban-guide-scrum-teams)                           |
 | Documentation      | - [Technical Writing Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome/)                                                                                           |
+|                    |                                                                                                                                                                                    |
 
-## Tools, Frameworks and Libraries
+## Third Party Libraries
+
 - [Nuget Trends](https://nugettrends.com/)
+- 
 - `dotnet list package` [Documentation](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-list-package)
   
-  Area | Packages
-  ------------ | -------------
-  Testing | - [Specflow](https://specflow.org/tools/specflow/) <br> - [xUnit](https://xunit.net/) <br> - [nSubstitute](https://nsubstitute.github.io/) <br> - [Fluent Assertions](https://fluentassertions.com/) <br> - [AutoFixture](https://autofixture.github.io/) <br> - [BenchmarkDotNet](https://benchmarkdotnet.org/) <br> - [Coverlet](https://dotnetfoundation.org/projects/coverlet) <br> - [NBomber](https://github.com/PragmaticFlow/NBomber) <br> - [Playwright](https://playwright.dev/dotnet/docs/next/intro) <br> - [WireMock.Net](https://github.com/WireMock-Net/WireMock.Net) <br> - [TestContainers](https://github.com/testcontainers/testcontainers-dotnet) <br> - [LocalStack](https://github.com/localstack/localstack) <br> - [Spectre.Console](https://github.com/spectreconsole/spectre.console)
-  Logging | - [Serilog](https://serilog.net/) <br> - [SEQ](https://datalust.co/seq)
-  Architecture | - [Clean Architecture Solution Template](https://github.com/jasontaylordev/CleanArchitecture)
-  Worker Service  | - [Quartz.NET](https://www.quartz-scheduler.net/) <br> - [Hangfire](https://www.hangfire.io/)
-  API | - [Fluent API](https://github.com/mariotoffia/FluentDocker) <br> - [Asp.Versioning.Http](https://www.nuget.org/packages/Asp.Versioning.Http) <br> - [Microsoft.Extensions.Diagnostics.HealthChecks](https://www.nuget.org/packages/Microsoft.Extensions.Diagnostics.HealthChecks/) <br> - [Guard Clauses](https://github.com/ardalis/GuardClauses) <br> - [AWS Lambda Powertools for .NET](https://github.com/awslabs/aws-lambda-powertools-dotnet)
-  Build | - [Nuke](https://nuke.build/) <br> - [Nerdbank.GitVersioning](https://github.com/dotnet/Nerdbank.GitVersioning) <br> 
-  SMTP Testing | - [Papercut](https://github.com/ChangemakerStudios/Papercut-SMTP)
-  CLI Tools | - [System.CommandLine](https://docs.microsoft.com/en-us/dotnet/standard/commandline/)
-  Code Analyzers | - [SonarAnalyzer.CSharp](https://github.com/SonarSource/sonar-dotnet) <br> - [FluentAssertions.Analyzers](https://github.com/fluentassertions/fluentassertions.analyzers)
+
   
 ## Code Reviews
 - https://github.com/mgreiler/code-review-checklist

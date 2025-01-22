@@ -1,7 +1,10 @@
-# Objectives
+# Areas
+
 - [[Continuous Improvement]]
+- [[Professional Development Plan]]
+- [[articles/Engineering Management/Goal Setting/Knowledge Sharing|Knowledge Sharing]]
 - [[Quality]]
-- [[articles/Engineering Management/Goal Setting/Knowledge Sharing]]
+
 # OKRs
 ## Definition
 OKR stands for [[Objectives]] and Key Results. OKRs help break up big, audacious missions into actionable goals and milestones.
@@ -15,4 +18,3 @@ OKR stands for [[Objectives]] and Key Results. OKRs help break up big, audacious
 - [OKRs and CFRs: How do they work together?](https://www.whatmatters.com/resources/difference-between-okr-cfr/)
 - https://devblogs.microsoft.com/devops/devops-dojo-okrs-objectives-and-key-results/
 - https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/business-outcomes/okr
--

@@ -70,7 +70,7 @@ This a list of ideas to make learning a part the routine.
 -  [AWS Certified DevOps Engineer - Professional](https://aws.amazon.com/certification/certified-devops-engineer-professional/) | [Ramp-Up Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_DevOps.pdf)
 -  [AWS Certified Solutions Architect – Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate/) & [Professional](https://aws.amazon.com/certification/certified-devops-engineer-professional/) | [Ramp-Up Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Architect.pdf)
 
-[[Continous Learning]]
+[[Professional Development Plan]]
 
 ## Videos
 TBA
