@@ -1,1 +1,0 @@
-https://www.seek.com.au/career-advice/page/salary-calculator

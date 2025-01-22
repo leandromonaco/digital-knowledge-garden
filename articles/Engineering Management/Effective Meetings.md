@@ -1,1 +1,0 @@
-- https://www.atlassian.com/blog/teamwork/how-to-run-effective-meetings
