@@ -1,8 +1,6 @@
 - # Useful commands
   
-  
-  
-  ``Get-NetTCPConnection | where Localport -eq 51000 | select Localport,OwningProcess
+    ``Get-NetTCPConnection | where Localport -eq 51000 | select Localport,OwningProcess
   Get-Process -Id  5500``
   
   

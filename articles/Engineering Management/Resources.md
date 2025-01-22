@@ -16,8 +16,8 @@
   https://engineering.atspotify.com/2023/01/agile-coaching-ac-at-spotify-shining-a-light-on-the-ac-career-framework/
 ## Change Management
 
-[ADKAR Model](https://www.prosci.com/methodology/adkar)
-[CLARC: The Role of People Managers in Change Management](https://www.prosci.com/blog/clarc-the-role-of-people-managers-in-change-management)
+- [ADKAR Model](https://www.prosci.com/methodology/adkar)
+- [CLARC: The Role of People Managers in Change Management](https://www.prosci.com/blog/clarc-the-role-of-people-managers-in-change-management)
 
 ## Coaching
 
@@ -68,6 +68,17 @@
 
 - [Can’t you just "game" the metrics?](https://help.pluralsight.com/help/cant-you-just-game-the-metrics)
 - The Impact Of Agile. Quantified. [Presentation](https://www.infoq.com/presentations/agile-quantify/) | [Report](https://docs.broadcom.com/doc/the-impact-of-agile-quantified)
+
+## Onboarding
+
+- [Scripting Winget](https://chrislayers.com/2021/08/01/scripting-winget)
+- https://codesubmit.io/blog/guide-to-onboarding-developers/
+- [5 Steps to Creating a Seamless Virtual Onboarding Experience for Your Developers](https://blog.hackerrank.com/creating-seamless-virtual-onboarding-experience-developers/)
+- [Optimize local dev environments for better onboarding](https://github.com/readme/guides/developer-onboarding)
+- [Setting guidelines for repository contributors](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors)
+- [Grafana's Onboarding Plan](https://docs.google.com/document/d/1XdKA6kwi-nfag5EXxkR6Pq5Pn4XYXp-Xd7hhL8R2YnY/mobilebasic)
+- [The 30 minute rule](https://daniel.feldroy.com/posts/thirty-minute-rule)
+- [Employee Onboarding Survey](https://sparkbay.com/en/culture-blog/employee-onboarding-survey-questions-32)
 
 ## People Management
 
