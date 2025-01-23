@@ -5,7 +5,7 @@
 3. `slack login`
 4. Run `/slackauthticket 5MzFjNmU3ThlMzQtZ0MTI1NDMzAyOWJLThlGUAtZjgxZkZi0` in any slack window
 5. Authorize
-![[Pasted image 20230731083648.png]]
+![[Slack CLI Authentication.png]]
 
 ### Documentation
 https://api.slack.com/automation/quickstart

@@ -1,6 +1,6 @@
-![[what engineering managers should do.png]]
+![[What Engineering Managers Should Do.png]]
 
-![[engineering manager framework.png]]
+![[Engineering Manager Framework.png]]
 
 # Tech Lead vs Engineering Manager
 

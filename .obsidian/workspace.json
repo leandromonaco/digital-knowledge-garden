@@ -69,12 +69,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles/Software Engineering/APIs/GitHub API.md",
+                "file": "Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GitHub API"
+              "title": "Index"
+            }
+          },
+          {
+            "id": "f41510489a0d7fc3",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Pasted image 20230810091642.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20230810091642"
             }
           },
           {
@@ -191,10 +203,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/Software Engineering/APIs/GitHub API.md"
+                "file": "Index.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of GitHub API"
+              "title": "Outline of Index"
             }
           },
           {
@@ -259,20 +271,36 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "28b6ed5739f80b7c",
+  "active": "fd63c817476c3adf",
   "lastOpenFiles": [
+    "README.md",
+    "Index.md",
+    "articles/Engineering Management/Overview.md",
+    "images/Engineering Manager Framework.png",
+    "images/Learning Pyramid.png",
+    "images/Pasted image 20230810091642.png",
+    "images/Slack CLI Authentication.png",
+    "images/What Engineering Managers Should Do.png",
+    "images/Pasted image 20240729084302.png",
+    "images/Pasted image 20240729081305.png",
+    "images/Obsidian - Export as HTML - Step 1.png",
+    "images/Obsidian - Export as HTML - Step 2.png",
+    "articles/Engineering Management/Goal Setting/Professional Development Plan.md",
+    "articles/Engineering Management/Goal Setting/Knowledge Sharing.md",
+    "articles/Engineering Management/Goal Setting/Continuous Improvement.md",
+    "articles/Tools/Markdown.md",
+    "papers/The 2021 State of the Octoverse.pdf",
+    "images/Markdown Alerts.png",
+    "articles/Software Engineering/APIs/GitHub API.md",
+    "articles/Certifications/AZ-400 Designing and Implementing Microsoft DevOps Solutions.md",
     "articles/Software Engineering/APIs/Google Calendar API.md",
     "articles/Software Engineering/APIs/JIRA API.md",
     "articles/APIs/QMetry API.md",
-    "articles/Software Engineering/APIs/GitHub API.md",
     "articles/Engineering Management/Team Playbook/Onboarding - Development Environment Setup.md",
     "articles/Tools/SQL Lite.md",
     "articles/Tools/Microsoft Application Inspector.md",
     "articles/Tools/Mermaid - Diagrams As Code.md",
-    "articles/Tools/Markdown.md",
     "articles/Engineering Management/Resources.md",
-    "Pasted image 20250123095445.png",
-    "Pasted image 20250123095348.png",
     "articles/Documentation/Documentation.md",
     "articles/Software Engineering/DevOps/Observability.md",
     "articles/Software Engineering/AI/ollama.md",
@@ -282,14 +310,7 @@
     "articles/Software Engineering/Cloud/AWS/Services/DynamoDB.md",
     "articles/Software Engineering/Cloud/AWS/Services/Lambda.md",
     "articles/Software Engineering/Performance.md",
-    "articles/Software Engineering/Authentication.md",
     "articles/Software Engineering",
-    "README.md",
-    "Objectives.md",
-    "Leadership.md",
-    "HackerOne.md",
-    "CVE.md",
-    "articles/Security/CVE.md",
     "articles/Engineering Management/Team Playbook",
     "articles/Engineering Management/Hiring/Email Templates",
     "articles/Engineering Management/Hiring",
@@ -298,15 +319,6 @@
     "docs/articles/how-to/run-a-tool-globally-on-windows.html",
     "docs/articles/how-to/technical-support.html",
     "docs/articles/how-to/modernization.html",
-    "docs/articles/how-to/measure-method-elapsed-time-with-csharp.html",
-    "docs/lib/media/what-engineering-managers-should-do.png",
-    "docs/lib/media/learning-pyramid.png",
-    "docs/lib/media/engineering-manager-framework.png",
-    "docs/lib/media/favicon.png",
-    "docs/lib/media/874d8b8e340f75575caa.svg",
-    "docs/images/what-engineering-managers-should-do.png",
-    "docs/images/pasted-image-20240729084302.png",
-    "docs/images/pasted-image-20240729081305.png",
     "Untitled.canvas",
     "src/Untitled.canvas"
   ]

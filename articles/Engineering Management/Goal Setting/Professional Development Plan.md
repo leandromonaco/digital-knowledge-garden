@@ -1,6 +1,6 @@
 This a list of ideas to make learning a part the routine.
 
-![[learning pyramid.png]]
+![[Learning Pyramid.png]]
 ### Career Roadmap
 - https://github.com/jorgef/engineeringladders
 - https://github.com/sulco/angular-developer-roadmap
