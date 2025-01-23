@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index.md",
+                "file": "projects/Developer Experience Integrations/JIRA API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "JIRA API"
             }
           },
           {
@@ -203,10 +203,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Index.md"
+                "file": "projects/Developer Experience Integrations/JIRA API.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Index"
+              "title": "Outline of JIRA API"
             }
           },
           {
@@ -273,12 +273,12 @@
   },
   "active": "fd63c817476c3adf",
   "lastOpenFiles": [
-    "README.md",
+    "images/Pasted image 20230810091642.png",
     "Index.md",
+    "README.md",
     "articles/Engineering Management/Overview.md",
     "images/Engineering Manager Framework.png",
     "images/Learning Pyramid.png",
-    "images/Pasted image 20230810091642.png",
     "images/Slack CLI Authentication.png",
     "images/What Engineering Managers Should Do.png",
     "images/Pasted image 20240729084302.png",
@@ -291,10 +291,10 @@
     "articles/Tools/Markdown.md",
     "papers/The 2021 State of the Octoverse.pdf",
     "images/Markdown Alerts.png",
-    "articles/Software Engineering/APIs/GitHub API.md",
+    "projects/Developer Experience Integrations/GitHub API.md",
     "articles/Certifications/AZ-400 Designing and Implementing Microsoft DevOps Solutions.md",
-    "articles/Software Engineering/APIs/Google Calendar API.md",
-    "articles/Software Engineering/APIs/JIRA API.md",
+    "projects/Developer Experience Integrations/Google Calendar API.md",
+    "projects/Developer Experience Integrations/JIRA API.md",
     "articles/APIs/QMetry API.md",
     "articles/Engineering Management/Team Playbook/Onboarding - Development Environment Setup.md",
     "articles/Tools/SQL Lite.md",
@@ -309,7 +309,6 @@
     "articles/Software Engineering/Cloud/AWS/Services/AWS KMS.md",
     "articles/Software Engineering/Cloud/AWS/Services/DynamoDB.md",
     "articles/Software Engineering/Cloud/AWS/Services/Lambda.md",
-    "articles/Software Engineering/Performance.md",
     "articles/Software Engineering",
     "articles/Engineering Management/Team Playbook",
     "articles/Engineering Management/Hiring/Email Templates",
