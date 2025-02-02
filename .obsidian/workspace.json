@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Developer Experience Integrations/JIRA API.md",
+                "file": "docs/cheatsheets/CSS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JIRA API"
+              "title": "CSS"
             }
           },
           {
@@ -203,10 +203,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/Developer Experience Integrations/JIRA API.md"
+                "file": "docs/cheatsheets/CSS.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of JIRA API"
+              "title": "Outline of CSS"
             }
           },
           {
@@ -271,8 +271,14 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "28b6ed5739f80b7c",
+  "active": "fd63c817476c3adf",
   "lastOpenFiles": [
+    "docs/cheatsheets/HTML.md",
+    "docs/cheatsheets/CSS.md",
+    "docs/cheatsheets/TypeScript.md",
+    "docs/cheatsheets/Javascript.md",
+    "projects/Developer Experience Integrations/JIRA API.md",
+    "docs/cheatsheets",
     "docs/lib/search-index.json",
     "docs/lib/metadata.json",
     "docs/lib/styles/obsidian.css",
@@ -283,8 +289,6 @@
     "docs/lib/media/favicon.png",
     "docs/lib/scripts/minisearch.js",
     "docs/lib/scripts/pixi.js",
-    "docs/lib/scripts/tinycolor.js",
-    "docs/lib/scripts/graph-render-worker.js",
     "docs/lib/media/874d8b8e340f75575caa.svg",
     "docs/images/what-engineering-managers-should-do.png",
     "docs/images/slack-cli-authentication.png",
@@ -296,7 +300,6 @@
     "docs/lib/media/pasted-image-20230810091642.png",
     "Index.md",
     "projects/Feature Flag Management.md",
-    "projects/Developer Experience Integrations/JIRA API.md",
     "projects/Developer Experience Integrations/Google Calendar API.md",
     "articles/Tools/WireMockNet.md",
     "articles/Tools/WinGet.md",
@@ -316,9 +319,6 @@
     "articles/Tools/Markdown.md",
     "articles/Tools/Kubernetes.md",
     "articles/Tools/InferSharp.md",
-    "articles/Tools/Ideas.md",
-    "articles/Tools/GitHub Copilot.md",
-    "articles/Tools/Git.md",
     "Untitled.canvas",
     "src/Untitled.canvas"
   ]
