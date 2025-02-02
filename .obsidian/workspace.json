@@ -203,10 +203,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "projects/Developer Experience Integrations/JIRA API.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of JIRA API"
             }
           },
           {
