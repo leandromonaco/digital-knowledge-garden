@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/cheatsheets/HTML.md",
+                "file": "docs/cheatsheets/CSS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTML"
+              "title": "CSS"
             }
           },
           {
@@ -203,10 +203,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/cheatsheets/HTML.md"
+                "file": "docs/cheatsheets/CSS.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of HTML"
+              "title": "Outline of CSS"
             }
           },
           {
@@ -273,8 +273,8 @@
   },
   "active": "fd63c817476c3adf",
   "lastOpenFiles": [
-    "docs/cheatsheets/Javascript & TypeScript.md",
     "docs/cheatsheets/HTML.md",
+    "docs/cheatsheets/Javascript & TypeScript.md",
     "docs/cheatsheets/CSS.md",
     "docs/cheatsheets/TypeScript.md",
     "projects/Developer Experience Integrations/JIRA API.md",
