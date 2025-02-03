@@ -1,4 +1,1012 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[digital-knowledge-garden]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>digital-knowledge-garden</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 23 Jan 2025 06:28:28 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 23 Jan 2025 06:28:03 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Continuous Improvement]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[digital-knowledge-garden]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>digital-knowledge-garden</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 03 Feb 2025 00:42:14 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 03 Feb 2025 00:41:48 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[CSS]]></title><description><![CDATA[ 
+ <br><br>
+<br><a class="internal-link" data-href="#introduction" href="about:blank#introduction" target="_self" rel="noopener nofollow">Introduction</a>  
+<br><a class="internal-link" data-href="#css-syntax--selectors" href="about:blank#css-syntax--selectors" target="_self" rel="noopener nofollow">CSS Syntax &amp; Selectors</a>  
+<br><a class="internal-link" data-href="#box-model" href="about:blank#box-model" target="_self" rel="noopener nofollow">Box Model</a>  
+<br><a class="internal-link" data-href="#basic-layout" href="about:blank#basic-layout" target="_self" rel="noopener nofollow">Basic Layout</a>  
+<br><a class="internal-link" data-href="#text--fonts" href="about:blank#text--fonts" target="_self" rel="noopener nofollow">Text &amp; Fonts</a>  
+<br><a class="internal-link" data-href="#intermediate-layout--techniques" href="about:blank#intermediate-layout--techniques" target="_self" rel="noopener nofollow">Intermediate Layout &amp; Techniques</a>  
+
+<br><a class="internal-link" data-href="#flexbox" href="about:blank#flexbox" target="_self" rel="noopener nofollow">Flexbox</a>  
+<br><a class="internal-link" data-href="#css-grid" href="about:blank#css-grid" target="_self" rel="noopener nofollow">CSS Grid</a>  
+<br><a class="internal-link" data-href="#pseudo-classes--pseudo-elements" href="about:blank#pseudo-classes--pseudo-elements" target="_self" rel="noopener nofollow">Pseudo-classes &amp; Pseudo-elements</a>  
+<br><a class="internal-link" data-href="#responsive-design" href="about:blank#responsive-design" target="_self" rel="noopener nofollow">Responsive Design</a>  
+
+
+<br><a class="internal-link" data-href="#advanceddynamic-css" href="about:blank#advanceddynamic-css" target="_self" rel="noopener nofollow">Advanced/Dynamic CSS</a>  
+
+<br><a class="internal-link" data-href="#css-variables" href="about:blank#css-variables" target="_self" rel="noopener nofollow">CSS Variables</a>  
+<br><a class="internal-link" data-href="#transitions--animations" href="about:blank#transitions--animations" target="_self" rel="noopener nofollow">Transitions &amp; Animations</a>  
+<br><a class="internal-link" data-href="#transforms" href="about:blank#transforms" target="_self" rel="noopener nofollow">Transforms</a>  
+<br><a class="internal-link" data-href="#advanced-selectors" href="about:blank#advanced-selectors" target="_self" rel="noopener nofollow">Advanced Selectors</a>  
+<br><a class="internal-link" data-href="#css-preprocessors-optional" href="about:blank#css-preprocessors-optional" target="_self" rel="noopener nofollow">CSS Preprocessors</a>  
+<br><a class="internal-link" data-href="#performance--best-practices" href="about:blank#performance--best-practices" target="_self" rel="noopener nofollow">Performance &amp; Best Practices</a>  
+
+
+<br><a class="internal-link" data-href="#best-practices--common-pitfalls" href="about:blank#best-practices--common-pitfalls" target="_self" rel="noopener nofollow">Best Practices &amp; Common Pitfalls</a>  
+<br><a class="internal-link" data-href="#resources" href="about:blank#resources" target="_self" rel="noopener nofollow">Resources</a>
+<br><br><br>CSS (Cascading Style Sheets) is used to style and layout HTML documents. With CSS, you control:<br>
+<br>Colors and fonts  
+<br>Layout (e.g., grid, flexbox)  
+<br>Responsive design for different devices  
+<br>Animations and transitions  
+<br>Dynamic styling (using variables, transitions, or preprocessor tools)
+<br><br>
+<br>Separates content (HTML) from presentation (style).
+<br>Enhances user experience with intuitive and responsive layouts.
+<br>Provides consistent styling across large projects.
+<br><br><br><br>selector {
+  property: value;
+  /* Example:
+  background-color: #fafafa;
+  */
+}
+<br>
+<br>Selectors: Determine which elements the rules apply to (e.g., p, .class, #id).
+<br>Properties: Control the style aspects (e.g., color, margin, padding).
+<br><br>
+<br>
+Element Selector
+p {
+  font-size: 16px;
+}
+
+
+<br>
+Class Selector
+.highlight {
+  background-color: yellow;
+}
+
+
+<br>
+ID Selector
+#unique-title {
+  color: red;
+}
+
+
+<br>
+Combinators
+
+<br>Descendant: div p (all p inside div)
+<br>Child: ul &gt; li (direct children)
+<br>Adjacent Sibling: h2 + p (the first p after h2)
+<br>General Sibling: h2 ~ p (all p siblings after h2)
+
+
+<br><br>
+<br>Inline styles (highest specificity)
+<br>ID selectors (#id)
+<br>Class selectors (.class), pseudo-classes
+<br>Element selectors (p, h1)
+<br>Universal selector (*), inherited styles (lowest specificity)
+<br>A higher specificity rule overrides a lower specificity rule if they conflict.<br><br><br>Every element in CSS is represented as a box comprising:<br>
+<br>Content: The content area (e.g., text, images).
+<br>Padding: Space between content and border.
+<br>Border: Surrounds padding and content.
+<br>Margin: Space outside the border.
+<br>.box {
+  width: 200px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  margin: 20px;
+  box-sizing: border-box; /* Ensures width includes padding &amp; border */
+}
+<br>
+<br>box-sizing: content-box (default) =&gt; total width = width + padding + border
+<br>box-sizing: border-box =&gt; total width = width (including padding &amp; border)
+<br><br><br><br>
+<br>display: block; Element takes full width.
+<br>display: inline; Element lays out inline, without a line break.
+<br>display: inline-block; Like inline, but can set width/height.
+<br>display: none; Hides the element (not rendered).
+<br><br>(Older technique, less commonly used with modern flexbox and grid)<br>.image-left {
+  float: left;
+  margin-right: 10px;
+}
+<br><br>
+<br>
+static (default)
+
+<br>
+relative
+.relative-box {
+  position: relative;
+  top: 10px; /* Moves 10px down from its normal position */
+}
+
+
+<br>
+absolute (removed from normal flow, positioned relative to nearest positioned ancestor)
+
+<br>
+fixed (positioned relative to the viewport)
+
+<br><br><br><br>.text-example {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: bold; /* normal, bold, 100-900 */
+  color: #333;
+}
+<br><br>
+<br>px: Absolute pixel size.
+<br>em: Relative to the parent’s font size.
+<br>rem: Relative to the root (html) font size.
+<br>%: Percentage of the parent element’s size.
+<br><br>.text-center {
+  text-align: center;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.underline {
+  text-decoration: underline;
+}
+<br><br><br><br>A modern way to create layouts. Define a flex container:<br>.container {
+  display: flex;
+  flex-direction: row; /* row | column */
+  justify-content: center; /* flex-start, center, space-between, etc. */
+  align-items: center;     /* stretch, center, flex-start, etc. */
+}
+<br>Then child items:<br>.item {
+  flex: 1; /* grows to fill space */
+}
+<br>Key Properties<br>
+<br>Container: flex-direction, justify-content, align-items, flex-wrap
+<br>Items: flex, align-self, order
+<br><br>Powerful 2D layout system:<br>.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Two columns: one fraction, two fractions */
+  grid-gap: 20px;
+}
+.grid-item {
+  background: #f0f0f0;
+  padding: 10px;
+}
+<br>Key Properties<br>
+<br>grid-template-rows, grid-template-columns
+<br>grid-gap or row-gap / column-gap
+<br>grid-area, grid-template-areas
+<br><br>
+<br>Pseudo-classes: :hover, :active, :focus, :nth-child()
+a:hover {
+  color: red;
+}
+li:nth-child(2) {
+  background: yellow;
+}
+
+
+<br>Pseudo-elements: ::before, ::after
+.box::before {
+  content: "Prefix - ";
+  color: blue;
+}
+
+
+<br><br>Use media queries to adapt layouts across screen sizes:<br>@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
+<br>Mobile-first approach:<br>
+<br>Design for small screens first, then add media queries for larger screens.
+<br><br><br><br>Define variables in a rule (often :root for global scope), then use var():<br>:root {
+  --main-color: #3498db;
+  --padding-size: 10px;
+}
+
+.dynamic-box {
+  background-color: var(--main-color);
+  padding: var(--padding-size);
+}
+<br>
+<br>You can override variables in child selectors or media queries.
+<br><br><br>Smoothly change property values over time:<br>.button {
+  background-color: #3498db;
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: #2980b9;
+}
+<br><br>Use @keyframes to define animation steps:<br>@keyframes pulse {
+  0% {
+    transform: scale(1);
+    background-color: #3498db;
+  }
+  50% {
+    transform: scale(1.1);
+    background-color: #ff3333;
+  }
+  100% {
+    transform: scale(1);
+    background-color: #3498db;
+  }
+}
+
+.animated-box {
+  animation: pulse 2s infinite;
+}
+<br><br>.transform-box {
+  transform: translate(50px, 0) rotate(15deg) scale(1.2);
+  transition: transform 0.5s ease;
+}
+.transform-box:hover {
+  transform: translate(0, 0) rotate(0deg) scale(1);
+}
+<br><br>
+<br>Attribute Selector
+input[type="text"] {
+  border: 1px solid #ccc;
+}
+
+
+<br>:not()
+/* Style all &lt;button&gt; except those with .primary class */
+button:not(.primary) {
+  background: #eee;
+}
+
+
+<br>:nth-last-child(), :nth-of-type(), etc. for advanced patterns.
+<br><br>
+<br>SASS/SCSS or LESS let you use variables, nesting, mixins, and functions:
+$main-color: #3498db;
+.box {
+  background-color: $main-color;
+  &amp;:hover {
+    background-color: lighten($main-color, 10%);
+  }
+}
+
+
+<br>Compile SCSS to regular CSS for browser usage.<br><br>
+<br>Minimize reflows: Avoid heavy layout changes in quick succession (e.g., repeated DOM changes).
+<br>Use hardware acceleration for animations with transform: translateZ(0) if needed.
+<br>Keep CSS rules short, and organize them logically (e.g., by sections or components).
+<br><br><br>
+<br>Misuse of Float: Floats used for layout can be brittle. Prefer Flexbox or Grid.
+<br>Specificity Wars: Overusing !important or IDs can cause conflicts. Use classes and a strategy (like BEM) for naming.
+<br>Large Unorganized CSS Files: Split into multiple files (or partials with preprocessor) for maintainability.
+<br>Hard-Coding Values: Use relative units (em, rem, %) and CSS variables for consistency.
+<br>Naming Conventions:
+
+<br>BEM (Block, Element, Modifier): block__element--modifier
+<br>OOCSS, SMACSS, etc.
+
+
+<br>DRY Principle: Don’t repeat yourself. Reuse classes, leverage variables, and mixins (with preprocessors).
+<br><br><br>
+<br>MDN Web Docs (Mozilla)<br>
+<a rel="noopener nofollow" class="external-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">https://developer.mozilla.org/en-US/docs/Web/CSS</a><br>
+
+<br>W3C CSS Specifications<br>
+<a rel="noopener nofollow" class="external-link" href="https://www.w3.org/Style/CSS/" target="_blank">https://www.w3.org/Style/CSS/</a><br>
+
+<br>CSS Tricks<br>
+<a rel="noopener nofollow" class="external-link" href="https://css-tricks.com/" target="_blank">https://css-tricks.com/</a><br>
+Articles and detailed explanations of various CSS features.<br>
+
+<br>Can I Use<br>
+<a rel="noopener nofollow" class="external-link" href="https://caniuse.com/" target="_blank">https://caniuse.com/</a><br>
+Check browser support for CSS features.<br>
+
+<br>Sass Official Site<br>
+<a rel="noopener nofollow" class="external-link" href="https://sass-lang.com/" target="_blank">https://sass-lang.com/</a>
+]]></description><link>articles\cheatsheets\css.html</link><guid isPermaLink="false">articles/cheatsheets/CSS.md</guid><pubDate>Mon, 03 Feb 2025 00:33:07 GMT</pubDate></item><item><title><![CDATA[HTML]]></title><description><![CDATA[ 
+ <br><br>
+<br><a class="internal-link" data-href="#introduction" href="about:blank#introduction" target="_self" rel="noopener nofollow">Introduction</a>  
+<br><a class="internal-link" data-href="#basic-html-document-structure" href="about:blank#basic-html-document-structure" target="_self" rel="noopener nofollow">Basic HTML Document Structure</a>  
+<br><a class="internal-link" data-href="#basic-tags" href="about:blank#basic-tags" target="_self" rel="noopener nofollow">Basic Tags</a>  
+<br><a class="internal-link" data-href="#semantic-html-html5" href="about:blank#semantic-html-html5" target="_self" rel="noopener nofollow">Semantic HTML (HTML5)</a>  
+<br><a class="internal-link" data-href="#forms" href="about:blank#forms" target="_self" rel="noopener nofollow">Forms</a>  
+<br><a class="internal-link" data-href="#media" href="about:blank#media" target="_self" rel="noopener nofollow">Media</a>  
+<br><a class="internal-link" data-href="#tables" href="about:blank#tables" target="_self" rel="noopener nofollow">Tables</a>  
+<br><a class="internal-link" data-href="#accessibility--best-practices" href="about:blank#accessibility--best-practices" target="_self" rel="noopener nofollow">Accessibility &amp; Best Practices</a>  
+<br><a class="internal-link" data-href="#meta-tags--seo" href="about:blank#meta-tags--seo" target="_self" rel="noopener nofollow">Meta Tags &amp; SEO</a>  
+<br><a class="internal-link" data-href="#advanced-features" href="about:blank#advanced-features" target="_self" rel="noopener nofollow">Advanced Features</a>  
+<br><a class="internal-link" data-href="#common-pitfalls" href="about:blank#common-pitfalls" target="_self" rel="noopener nofollow">Common Pitfalls</a>  
+<br><a class="internal-link" data-href="#resources" href="about:blank#resources" target="_self" rel="noopener nofollow">Resources</a>  
+<br><br><br>
+<br>HyperText Markup Language (HTML) is the standard markup language for creating web pages.
+<br>Modern HTML has evolved significantly with HTML5 and beyond, introducing semantic elements, multimedia tags, and improved form features.
+<br>Proper HTML is essential for:
+
+<br>SEO (Search Engine Optimization)
+<br>Accessibility for screen readers and assistive technologies
+<br>Maintainability of large codebases
+<br>Collaboration across teams (front-end, back-end, designers, etc.)
+
+
+<br><br><br>A minimal, valid HTML5 page typically looks like this:<br>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;title&gt;My HTML Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Hello, World!&lt;/h1&gt;
+  &lt;p&gt;This is a basic HTML document.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+<br><br>
+<br>&lt;!DOCTYPE html&gt;: Informs the browser that this is an HTML5 document.
+<br>&lt;html lang="en"&gt;: Sets the page language to English (helpful for accessibility and SEO).
+<br>&lt;head&gt;: Contains metadata (e.g., &lt;meta charset="UTF-8"&gt;) and the page title.
+<br>&lt;body&gt;: Contains the visible page content.
+<br>Best Practice: Always declare the lang attribute for accessibility and use UTF-8 character encoding (&lt;meta charset="UTF-8"&gt;).<br><br><br>HTML offers various basic tags to structure and format your text and images.<br><br>Use headings to create a hierarchical structure. &lt;h1&gt; is the top-level heading, followed by &lt;h2&gt;, &lt;h3&gt;, and so on.<br>&lt;h1&gt;Main Title&lt;/h1&gt;
+&lt;h2&gt;Subheading&lt;/h2&gt;
+&lt;h3&gt;Sub-subheading&lt;/h3&gt;
+<br><br>&lt;p&gt;This is a paragraph of text.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bold text&lt;/strong&gt; or &lt;em&gt;italic text&lt;/em&gt;.&lt;/p&gt;
+<br>
+<br>&lt;strong&gt; indicates strong emphasis (commonly renders as bold).
+<br>&lt;em&gt; indicates emphasis (commonly renders as italics).
+<br><br>&lt;ul&gt;
+  &lt;li&gt;Unordered list item&lt;/li&gt;
+  &lt;li&gt;Another item&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Ordered list item&lt;/li&gt;
+  &lt;li&gt;Another item&lt;/li&gt;
+&lt;/ol&gt;
+<br><br>&lt;a href="https://www.example.com"&gt;Visit Example.com&lt;/a&gt;
+<br>
+<br>Target Attribute:
+&lt;a href="https://www.example.com" target="_blank"&gt;Open in new tab&lt;/a&gt;
+
+
+<br><br>&lt;img src="images/photo.jpg" alt="Descriptive text for the image"&gt;
+<br>
+<br>alt provides alternative text for accessibility and SEO.
+<br>width and height attributes can control image size, but consider using CSS for styling.
+<br><br><br>HTML5 introduced many semantic elements that convey meaning about the content:<br>&lt;header&gt;
+  &lt;h1&gt;Site Header&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;nav&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+
+&lt;main&gt;
+  &lt;article&gt;
+    &lt;h2&gt;Article Title&lt;/h2&gt;
+    &lt;p&gt;Article content goes here.&lt;/p&gt;
+  &lt;/article&gt;
+  &lt;section&gt;
+    &lt;h3&gt;Section Title&lt;/h3&gt;
+    &lt;p&gt;Section content goes here.&lt;/p&gt;
+  &lt;/section&gt;
+&lt;/main&gt;
+
+&lt;footer&gt;
+  &lt;p&gt;Footer Content &amp;copy; 2025&lt;/p&gt;
+&lt;/footer&gt;
+<br>Common Semantic Tags:<br>
+<br>&lt;main&gt;: Main content of the document (unique, one per page).
+<br>&lt;article&gt;: Self-contained, independent content (e.g., blog post).
+<br>&lt;section&gt;: Thematic grouping of content.
+<br>&lt;nav&gt;: Navigation links.
+<br>&lt;header&gt;: Introductory content or navigational aids.
+<br>&lt;footer&gt;: Footer content, author info, legal notes.
+<br>&lt;aside&gt;: Content indirectly related to the main content (like a sidebar).
+<br><br><br>HTML forms allow users to input and submit data.<br><br>&lt;form action="/submit" method="POST"&gt;
+  &lt;label for="username"&gt;Username:&lt;/label&gt;
+  &lt;input type="text" id="username" name="username" required&gt;
+
+  &lt;label for="age"&gt;Age:&lt;/label&gt;
+  &lt;input type="number" id="age" name="age"&gt;
+
+  &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;
+<br><br>
+<br>HTML5 Input Types: email, tel, url, date, color, range, etc.
+<br>Attributes:
+
+<br>required: Makes an input mandatory.
+<br>placeholder: Placeholder text in input.
+<br>autofocus: Automatically focuses the field.
+<br>pattern: Regex pattern for validation.
+
+
+<br>Example with HTML5 features:<br>&lt;input type="email" name="user_email" placeholder="you@example.com" required&gt;
+&lt;input type="date" name="dob" required&gt;
+<br><br>Modern browsers handle basic validation automatically when using HTML5 attributes (required, pattern, type="email", etc.). JavaScript can further enhance or customize this.<br><br><br>HTML5 makes embedding media straightforward:<br><br>Covered above in <a data-tooltip-position="top" aria-label="https://chatgpt.com/c/67a00877-fcf4-8012-8948-3230183047f1#basic-tags" rel="noopener nofollow" class="external-link" href="https://chatgpt.com/c/67a00877-fcf4-8012-8948-3230183047f1#basic-tags" target="_blank">Basic Tags</a>.<br><br>&lt;audio controls&gt;
+  &lt;source src="audio/song.mp3" type="audio/mpeg"&gt;
+  Your browser does not support the audio element.
+&lt;/audio&gt;
+<br><br>&lt;video controls width="640"&gt;
+  &lt;source src="video/clip.mp4" type="video/mp4"&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+<br><br>Used for drawing graphics via JavaScript APIs:<br>&lt;canvas id="myCanvas" width="400" height="400"&gt;&lt;/canvas&gt;
+<br>const canvas = document.getElementById('myCanvas');
+const ctx = canvas.getContext('2d');
+ctx.fillStyle = 'blue';
+ctx.fillRect(20, 20, 100, 100);
+<br><br><br>Use tables for tabular data, not for layout. Properly structured tables help with accessibility.<br>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Product&lt;/th&gt;
+      &lt;th&gt;Price&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Apple&lt;/td&gt;
+      &lt;td&gt;$1.00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Banana&lt;/td&gt;
+      &lt;td&gt;$0.50&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+<br>
+<br>&lt;thead&gt;: Table header rows.
+<br>&lt;tbody&gt;: Table body rows.
+<br>&lt;tfoot&gt; (optional): Table footer rows.
+<br>&lt;th&gt;: Table header cell (often bold and centered by default).
+<br>&lt;td&gt;: Table data cell.
+<br><br><br>Accessibility ensures your site is usable by everyone, including those with disabilities.<br>
+<br>
+ALT Text on Images:
+&lt;img src="logo.png" alt="Company Logo"&gt;
+
+
+<br>
+Semantic Tags: Use &lt;header&gt;, &lt;footer&gt;, &lt;nav&gt;, etc., so screen readers understand structure.
+
+<br>
+ARIA (Accessible Rich Internet Applications):
+
+<br>E.g., role="navigation" for navigation elements if needed.
+
+
+<br>
+Heading Hierarchy: Maintain logical &lt;h1&gt; -&gt; &lt;h2&gt; -&gt; &lt;h3&gt; structure.
+
+<br>
+Color Contrast: Ensure text is readable against background.
+
+<br>
+Keyboard Navigation: Elements like &lt;button&gt; are inherently focusable; custom controls might need tabindex and event handlers.
+
+<br>Performance &amp; Maintainability:<br>
+<br>Keep markup semantic and minimal.
+<br>Avoid inline styles; use CSS instead.
+<br>Use external scripts for maintainability.
+<br><br><br>Common &lt;meta&gt; tags go in the &lt;head&gt;:<br>&lt;meta name="description" content="Page description for search engines"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;meta name="keywords" content="HTML, cheatsheet, tutorial"&gt;
+<br>
+<br>&lt;meta charset="UTF-8"&gt;: Defines character encoding, typically UTF-8.
+<br>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;: Ensures responsive design on mobile.
+<br>SEO:
+
+<br>Descriptive &lt;title&gt; tag.
+<br>Meaningful headings and content structure.
+<br>Use relevant keywords in natural language, but don’t keyword stuff.
+
+
+<br><br><br><br>Holds HTML that is not rendered until activated via JavaScript, useful for client-side templating.<br>&lt;template id="cardTemplate"&gt;
+  &lt;div class="card"&gt;
+    &lt;h2&gt;Title&lt;/h2&gt;
+    &lt;p&gt;Content goes here.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+  const template = document.querySelector('#cardTemplate');
+  const clone = template.content.cloneNode(true);
+  document.body.appendChild(clone);
+&lt;/script&gt;
+<br><br>Add metadata to help search engines parse your content:<br>&lt;div itemscope itemtype="https://schema.org/Person"&gt;
+  &lt;span itemprop="name"&gt;John Doe&lt;/span&gt;
+  &lt;img itemprop="image" src="john.jpg" alt="John Doe"&gt;
+&lt;/div&gt;
+<br><br>Store extra information within elements:<br>&lt;div id="product" data-product-id="12345" data-category="books"&gt;Book Title&lt;/div&gt;
+<br>Accessible via JavaScript:<br>const product = document.getElementById('product');
+console.log(product.dataset.productId); // "12345"
+<br><br>
+<br>&lt;dialog&gt; (experimental support in some browsers) for modal dialogs.
+<br>&lt;picture&gt; for responsive images.
+<br>&lt;source&gt; for &lt;video&gt; / &lt;audio&gt; / &lt;picture&gt;.
+<br><br><br>
+<br>Missing Doctype
+
+<br>Omitting &lt;!DOCTYPE html&gt; can cause browsers to switch to “quirks mode.”
+
+
+<br>Improper Nesting
+
+<br>Example: Don’t open &lt;p&gt; then open &lt;div&gt; without closing &lt;p&gt;.
+
+
+<br>Using Tables for Layout
+
+<br>Modern practice uses CSS and semantic tags for layout, not &lt;table&gt;.
+
+
+<br>Inline vs Block Elements
+
+<br>Inline: &lt;span&gt;, &lt;a&gt;, &lt;strong&gt;
+<br>Block: &lt;div&gt;, &lt;p&gt;, &lt;section&gt;
+<br>Mixing them incorrectly can break layout or accessibility.
+
+
+<br>Forgetting Accessibility
+
+<br>Missing alt attributes on images, unclear link text (e.g., “Click here”), etc.
+
+
+<br>Excessive &lt;div&gt; Usage
+
+<br>Use semantic elements &lt;header&gt;, &lt;main&gt;, &lt;article&gt; instead of just &lt;div&gt; for everything.
+
+
+<br>Performance Tips:<br>
+<br>Minimize inline JavaScript or CSS; use external files.
+<br>Avoid large, uncompressed images.
+<br>Use HTML validators (like the <a data-tooltip-position="top" aria-label="https://validator.w3.org/" rel="noopener nofollow" class="external-link" href="https://validator.w3.org/" target="_blank">W3C Validator</a>) to check for errors.
+<br><br><br>
+<br>MDN Web Docs (Mozilla)<br>
+<a rel="noopener nofollow" class="external-link" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">https://developer.mozilla.org/en-US/docs/Web/HTML</a><br>
+Comprehensive documentation for HTML elements and features.<br>
+
+<br>WHATWG HTML Living Standard<br>
+<a rel="noopener nofollow" class="external-link" href="https://html.spec.whatwg.org/" target="_blank">https://html.spec.whatwg.org/</a><br>
+The living standard for the HTML spec.<br>
+
+<br>W3C Validator<br>
+<a rel="noopener nofollow" class="external-link" href="https://validator.w3.org/" target="_blank">https://validator.w3.org/</a><br>
+Validate your HTML for errors and best practices.<br>
+
+<br>HTML5 Doctor<br>
+<a rel="noopener nofollow" class="external-link" href="http://html5doctor.com/" target="_blank">http://html5doctor.com/</a><br>
+Articles and tips on HTML5 usage and semantics.<br>
+
+]]></description><link>articles\cheatsheets\html.html</link><guid isPermaLink="false">articles/cheatsheets/HTML.md</guid><pubDate>Mon, 03 Feb 2025 00:27:07 GMT</pubDate></item><item><title><![CDATA[Javascript & TypeScript]]></title><description><![CDATA[ 
+ <br><br>
+<br><a class="internal-link" data-href="#introduction" href="about:blank#introduction" target="_self" rel="noopener nofollow">Introduction</a>  
+<br><a class="internal-link" data-href="#variables--data-types" href="about:blank#variables--data-types" target="_self" rel="noopener nofollow">Variables &amp; Data Types</a>  
+<br><a class="internal-link" data-href="#operators-conditionals--loops" href="about:blank#operators-conditionals--loops" target="_self" rel="noopener nofollow">Operators, Conditionals &amp; Loops</a>  
+<br><a class="internal-link" data-href="#functions" href="about:blank#functions" target="_self" rel="noopener nofollow">Functions</a>  
+<br><a class="internal-link" data-href="#objects" href="about:blank#objects" target="_self" rel="noopener nofollow">Objects</a>  
+<br><a class="internal-link" data-href="#arrays" href="about:blank#arrays" target="_self" rel="noopener nofollow">Arrays</a>  
+<br><a class="internal-link" data-href="#classes-es6" href="about:blank#classes-es6" target="_self" rel="noopener nofollow">Classes (ES6+)</a>  
+<br><a class="internal-link" data-href="#modules" href="about:blank#modules" target="_self" rel="noopener nofollow">Modules</a>  
+<br><a class="internal-link" data-href="#asynchronous-javascript" href="about:blank#asynchronous-javascript" target="_self" rel="noopener nofollow">Asynchronous JavaScript</a>  
+
+<br><a class="internal-link" data-href="#callbacks" href="about:blank#callbacks" target="_self" rel="noopener nofollow">Callbacks</a>  
+<br><a class="internal-link" data-href="#promises" href="about:blank#promises" target="_self" rel="noopener nofollow">Promises</a>  
+<br><a class="internal-link" data-href="#asyncawait" href="about:blank#asyncawait" target="_self" rel="noopener nofollow">Async/Await</a>  
+
+
+<br><a class="internal-link" data-href="#error-handling" href="about:blank#error-handling" target="_self" rel="noopener nofollow">Error Handling</a>  
+<br><a class="internal-link" data-href="#advanced-topics" href="about:blank#advanced-topics" target="_self" rel="noopener nofollow">Advanced Topics</a>  
+
+<br><a class="internal-link" data-href="#generators" href="about:blank#generators" target="_self" rel="noopener nofollow">Generators</a>  
+<br><a class="internal-link" data-href="#proxies--reflect" href="about:blank#proxies--reflect" target="_self" rel="noopener nofollow">Proxies &amp; Reflect</a>  
+<br><a class="internal-link" data-href="#decorators-es-proposal" href="about:blank#decorators-es-proposal" target="_self" rel="noopener nofollow">Decorators (ES Proposal)</a>  
+
+
+<br><a class="internal-link" data-href="#typescript-comparison" href="about:blank#typescript-comparison" target="_self" rel="noopener nofollow">TypeScript Comparison</a>  
+<br><a class="internal-link" data-href="#best-practices--common-pitfalls" href="about:blank#best-practices--common-pitfalls" target="_self" rel="noopener nofollow">Best Practices &amp; Common Pitfalls</a>  
+<br><a class="internal-link" data-href="#resources" href="about:blank#resources" target="_self" rel="noopener nofollow">Resources</a>
+<br><br><br>JavaScript (JS) is a dynamic, prototype-based language primarily used for web development. Over the years, the language has evolved significantly, and modern ECMAScript (ES) standards have introduced powerful features such as arrow functions, classes, modules, and async/await.<br><br>TypeScript (TS) is a superset of JavaScript that adds optional static typing and additional tooling benefits. TypeScript code compiles down to JavaScript, meaning all JavaScript is valid TypeScript, but not vice versa.<br>
+<br>
+Advantages of TypeScript:  
+
+<br>Catches errors at compile-time instead of runtime.  
+<br>Enforces type consistency, improving code readability and maintainability.  
+<br>Provides powerful features like interfaces, generics, and decorators.
+
+
+<br>
+Drawbacks:
+
+<br>Requires a compilation step and extra tooling.  
+<br>Slightly steeper learning curve due to the type system.
+
+
+<br><br><br><br>
+<br>var: Function-scoped, can be redeclared, hoisted to the top of the scope.
+<br>let: Block-scoped, cannot be redeclared within the same block.
+<br>const: Block-scoped, read-only references (the value itself can still be mutable if it’s an object).
+<br>var x = 10;
+let y = 20;
+const z = 30;
+<br>
+Best Practice: Use let for variables that change values and const for variables that should not be reassigned.
+<br><br>JavaScript has seven primitive data types:<br>
+<br>String  
+<br>Number  
+<br>Boolean  
+<br>Null  
+<br>Undefined  
+<br>Symbol (ES6)  
+<br>BigInt (ES2020)
+<br>let str = "Hello World"; // String
+let num = 42;           // Number
+let bool = true;        // Boolean
+let n = null;           // Null
+let u;                  // Undefined
+let sym = Symbol("id"); // Symbol
+let big = 123n;         // BigInt
+<br>Type Coercion: JavaScript automatically converts data types in certain operations, e.g. "5" * 2 =&gt; 10.<br><br>let strTS: string = "Hello TypeScript";
+let numTS: number = 100;
+let boolTS: boolean = false;
+
+// strTS = 123; // Error: Type 'number' is not assignable to type 'string'
+<br>
+In TypeScript, you explicitly declare variable types, catching errors at compile time.
+<br><br><br><br>
+<br>Arithmetic: +, -, *, /, %, ** (exponent)
+<br>Assignment: =, +=, -=, *=, /=, %=
+<br>Comparison: ==, === (strict equality), !=, !==, &gt;, &lt;, &gt;=, &lt;=
+<br>Logical: &amp;&amp;, ||, !
+<br>Ternary: condition ? valueIfTrue : valueIfFalse
+<br>let a = 10;
+let b = 20;
+
+console.log(a + b);        // 30
+console.log(a === b);      // false
+<br><br>if (a &gt; b) {
+  console.log("a is greater");
+} else if (a === b) {
+  console.log("a equals b");
+} else {
+  console.log("b is greater");
+}
+
+// Switch statement
+switch (a) {
+  case 10:
+    console.log("Value is 10");
+    break;
+  default:
+    console.log("Value is something else");
+    break;
+}
+<br><br>
+<br>for Loop  
+<br>while Loop  
+<br>do...while Loop  
+<br>for...in (iterate over object properties)  
+<br>for...of (iterate over iterable objects like arrays or strings, ES6+)
+<br>// for loop
+for (let i = 0; i &lt; 5; i++) {
+  console.log(i);
+}
+
+// for...in
+const obj = { name: "Alice", age: 25 };
+for (let key in obj) {
+  console.log(key, obj[key]);
+}
+
+// for...of
+const arr = [10, 20, 30];
+for (let value of arr) {
+  console.log(value);
+}
+<br><br><br><br>// Function declaration
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+
+// Function expression
+const greetExpression = function (name) {
+  return `Hi, ${name}!`;
+};
+
+// Call the functions
+console.log(greet("Alice"));            // "Hello, Alice!"
+console.log(greetExpression("Bob"));    // "Hi, Bob!"
+<br><br>
+<br>Lexical this binding (no own this context).
+<br>Concise syntax.
+<br>const add = (x, y) =&gt; x + y;
+console.log(add(2, 3)); // 5
+
+const sayHello = name =&gt; {
+  console.log(`Hello, ${name}`);
+};
+sayHello("Charlie"); // "Hello, Charlie"
+<br><br>function multiply(a, b = 1) {
+  return a * b;
+}
+
+function sum(...numbers) {
+  return numbers.reduce((acc, curr) =&gt; acc + curr, 0);
+}
+
+const arr1 = [1, 2];
+const arr2 = [3, 4];
+const combined = [...arr1, ...arr2]; // [1,2,3,4]
+<br><br>A closure gives access to an outer function’s scope from an inner function, even after the outer function has returned.<br>function makeCounter() {
+  let count = 0;
+  return function() {
+    count++;
+    return count;
+  };
+}
+
+const counter1 = makeCounter();
+console.log(counter1()); // 1
+console.log(counter1()); // 2
+<br><br>function greetTS(name: string): string {
+  return `Hello, ${name}!`;
+}
+
+const greetArrowTS = (name: string): string =&gt; `Hi, ${name}!`;
+<br><br><br><br>const person = {
+  name: "Alice",
+  age: 25,
+  greet: function () {
+    console.log(`Hello, I'm ${this.name}`);
+  },
+};
+
+person.greet(); // "Hello, I'm Alice"
+<br><br>JavaScript uses prototypal inheritance rather than classical inheritance. Objects can inherit properties from a prototype object.<br>function Animal(name) {
+  this.name = name;
+}
+
+Animal.prototype.speak = function () {
+  console.log(`${this.name} makes a noise`);
+};
+
+const dog = new Animal("Buddy");
+dog.speak(); // "Buddy makes a noise"
+<br><br>const { name, age } = person; // destructuring
+const anotherPerson = { ...person, location: "USA" }; // spread
+<br><br>interface Person {
+  name: string;
+  age: number;
+}
+
+const bob: Person = {
+  name: "Bob",
+  age: 30,
+};
+<br><br><br><br>const nums = [1, 2, 3];
+console.log(nums[0]); // 1
+<br><br>
+<br>push()/pop(): Add/remove from the end  
+<br>shift()/unshift(): Remove/add from the beginning  
+<br>slice(): Returns a shallow copy of a portion  
+<br>splice(): Adds or removes elements  
+<br>map(), filter(), reduce(): Functional programming helpers  
+<br>const arr = [1, 2, 3, 4];
+const doubled = arr.map(x =&gt; x * 2);              // [2,4,6,8]
+const even = arr.filter(x =&gt; x % 2 === 0);       // [2,4]
+const sum = arr.reduce((acc, val) =&gt; acc + val, 0); // 10
+<br><br>let numArray: number[] = [1, 2, 3];
+numArray.push(4); // OK
+// numArray.push("5"); // Error in TS
+<br><br><br>JavaScript introduced class syntax in ES6 as syntactic sugar over prototypes.<br>class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  greet() {
+    console.log(`Hi, I'm ${this.name}, and I'm ${this.age} years old.`);
+  }
+}
+
+const alice = new Person("Alice", 25);
+alice.greet(); // "Hi, I'm Alice, and I'm 25 years old."
+<br><br>class Student extends Person {
+  constructor(name, age, grade) {
+    super(name, age);
+    this.grade = grade;
+  }
+
+  study() {
+    console.log(`${this.name} is studying in grade ${this.grade}.`);
+  }
+}
+
+const bob = new Student("Bob", 16, 10);
+bob.greet(); // inherits from Person
+bob.study(); // "Bob is studying in grade 10."
+<br><br>class PersonTS {
+  name: string;
+  age: number;
+
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
+
+  greet(): void {
+    console.log(`Hi, I'm ${this.name}.`);
+  }
+}
+<br><br><br>JavaScript modules allow you to split code into reusable pieces.<br><br>
+<br>import and export keywords.
+<br>Works natively in modern browsers (with type="module" in script tags) and is commonly used in build systems (Webpack, Parcel, etc.).
+<br>// math.js
+export function add(a, b) {
+  return a + b;
+}
+
+// main.js
+import { add } from "./math.js";
+console.log(add(2, 3)); // 5
+<br><br>Uses require and module.exports:<br>// math.js
+module.exports = function add(a, b) {
+  return a + b;
+};
+
+// main.js
+const add = require("./math");
+console.log(add(2, 3)); // 5
+<br><br>
+<br>TypeScript also uses ES6 import/export syntax.
+<br>Declarations are type-checked.
+<br>// math.ts
+export function addTS(a: number, b: number): number {
+  return a + b;
+}
+
+// main.ts
+import { addTS } from "./math";
+console.log(addTS(2, 3)); // 5
+<br><br><br><br>Classic approach for async operations, can lead to "callback hell."<br>function fetchData(callback) {
+  setTimeout(() =&gt; {
+    callback("Data fetched");
+  }, 1000);
+}
+
+fetchData(data =&gt; {
+  console.log(data); // "Data fetched"
+});
+<br><br>Introduced in ES6 to handle async operations more cleanly.<br>function fetchDataPromise() {
+  return new Promise((resolve, reject) =&gt; {
+    setTimeout(() =&gt; {
+      resolve("Data fetched");
+    }, 1000);
+  });
+}
+
+fetchDataPromise()
+  .then(result =&gt; {
+    console.log(result);
+  })
+  .catch(error =&gt; {
+    console.error(error);
+  });
+<br><br>Built on Promises, allows writing async code in a synchronous style.<br>async function fetchDataAsync() {
+  try {
+    const data = await fetchDataPromise();
+    console.log(data);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+fetchDataAsync(); // "Data fetched"
+<br><br>async function fetchDataTS(): Promise&lt;string&gt; {
+  return new Promise((resolve, reject) =&gt; {
+    setTimeout(() =&gt; {
+      resolve("Data fetched from TS");
+    }, 1000);
+  });
+}
+
+async function main() {
+  try {
+    const data = await fetchDataTS();
+    console.log(data);
+  } catch (error) {
+    console.error(error);
+  }
+}
+<br><br><br>Use try...catch blocks to handle exceptions.<br>try {
+  throw new Error("Something went wrong!");
+} catch (error) {
+  console.error(error.message);
+} finally {
+  console.log("Cleanup operations if needed.");
+}
+<br>In modern JS, you can also use try...catch without an explicit error parameter in some contexts (ES10+), but it’s less common.<br><br><br><br>Generators are functions that can be paused and resumed, returning an iterator.<br>function* idGenerator() {
+  let id = 0;
+  while (true) {
+    yield id++;
+  }
+}
+
+const gen = idGenerator();
+console.log(gen.next().value); // 0
+console.log(gen.next().value); // 1
+<br><br>
+<br>Proxies let you intercept operations on objects (get, set, etc.).
+<br>Reflect provides methods for interceptable JavaScript operations.
+<br>const target = {};
+const handler = {
+  get: (obj, prop) =&gt; {
+    console.log(`Accessing ${prop}`);
+    return Reflect.get(obj, prop);
+  },
+};
+const proxy = new Proxy(target, handler);
+
+proxy.test = 123;
+console.log(proxy.test);
+<br><br>Decorators are a stage-2 ECMAScript proposal. TypeScript supports them under "experimentalDecorators": true.<br>function Log(target: any, propertyKey: string, descriptor: PropertyDescriptor) {
+  const original = descriptor.value;
+  descriptor.value = function (...args: any[]) {
+    console.log(`Called ${propertyKey} with `, args);
+    return original.apply(this, args);
+  };
+}
+
+class ExampleTS {
+  @Log
+  sayHello(name: string) {
+    console.log(`Hello, ${name}`);
+  }
+}
+<br><br><br><br>
+<br>
+Static vs. Dynamic:  
+
+<br>JavaScript is dynamically typed, types are checked at runtime.  
+<br>TypeScript is statically typed, catching errors at compile time.
+
+
+<br>
+Tooling:  
+
+<br>JS can run anywhere (browser, Node).  
+<br>TS requires a compiler (tsc), can integrate with Babel, Webpack, etc.
+
+
+<br>
+Interfaces &amp; Generics:
+
+<br>Not available in plain JS.  
+<br>TS offers powerful abstractions for type-checking.
+
+
+<br>
+Use Cases:
+
+<br>JavaScript: Quick prototyping, smaller scripts, or where a compile step isn’t needed.  
+<br>TypeScript: Large-scale applications, complex codebases, teams needing robust tooling and maintainability.
+
+
+<br><br><br>
+<br>Use const and let instead of var to avoid hoisting issues.  
+<br>Strict Equality: Prefer === over == to avoid type coercion.  
+<br>Avoid Polluting the Global Scope: Use modules or IIFEs (Immediately Invoked Function Expressions).  
+<br>Linting: Use tools like ESLint or TSLint to enforce style and catch errors early.  
+<br>Babel &amp; Polyfills: For older browsers, transpile modern JS.  
+<br>Performance: Minimize DOM manipulation, use efficient data structures, and consider using requestAnimationFrame for animations.  
+<br>Async Error Handling: Always handle promise rejections (.catch() or try/catch in async functions).  
+<br>Using TypeScript:  
+
+<br>Keep your type definitions up-to-date.  
+<br>Enable strict mode in tsconfig.json for safer defaults.
+
+
+<br><br><br>
+<br>MDN Web Docs: <a data-tooltip-position="top" aria-label="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference" rel="noopener nofollow" class="external-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference" target="_blank">JavaScript Reference</a>  
+<br>ECMAScript Specification: <a data-tooltip-position="top" aria-label="https://github.com/tc39/proposals" rel="noopener nofollow" class="external-link" href="https://github.com/tc39/proposals" target="_blank">TC39 Proposals</a>  
+<br>TypeScript Documentation: <a data-tooltip-position="top" aria-label="https://www.typescriptlang.org/docs/" rel="noopener nofollow" class="external-link" href="https://www.typescriptlang.org/docs/" target="_blank">Official TS Docs</a>  
+<br>Node.js: <a data-tooltip-position="top" aria-label="https://nodejs.org/" rel="noopener nofollow" class="external-link" href="https://nodejs.org/" target="_blank">Node.js Official</a>  
+<br>Bundlers: <a data-tooltip-position="top" aria-label="https://webpack.js.org/" rel="noopener nofollow" class="external-link" href="https://webpack.js.org/" target="_blank">Webpack</a>, <a data-tooltip-position="top" aria-label="https://parceljs.org/" rel="noopener nofollow" class="external-link" href="https://parceljs.org/" target="_blank">Parcel</a>, <a data-tooltip-position="top" aria-label="https://vitejs.dev/" rel="noopener nofollow" class="external-link" href="https://vitejs.dev/" target="_blank">Vite</a>
+]]></description><link>articles\cheatsheets\javascript-&amp;-typescript.html</link><guid isPermaLink="false">articles/cheatsheets/Javascript &amp; TypeScript.md</guid><pubDate>Mon, 03 Feb 2025 00:27:31 GMT</pubDate></item><item><title><![CDATA[Continuous Improvement]]></title><description><![CDATA[ 
  <br>
 <br>
 Tools and Processes<br>
@@ -2142,12 +3150,12 @@ https://github.com/leandromonaco/Workbench/commit/b50ce6b655b6f1747ee6d313955eef
  <br><a rel="noopener nofollow" class="external-link" href="https://xsgames.co/animatiss/" target="_blank">https://xsgames.co/animatiss/</a><br>
 <a rel="noopener nofollow" class="external-link" href="https://2023.stateofcss.com/en-US/" target="_blank">https://2023.stateofcss.com/en-US/</a>]]></description><link>articles\software-engineering\frontend\css.html</link><guid isPermaLink="false">articles/Software Engineering/Frontend/CSS.md</guid><pubDate>Mon, 20 Jan 2025 00:24:24 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
  <br>
-<br><a data-href="HTML" href="HTML" class="internal-link" target="_self" rel="noopener nofollow">HTML</a>
-<br><a data-href="CSS" href="articles\software-engineering\frontend\css.html" class="internal-link" target="_self" rel="noopener nofollow">CSS</a>
-<br><a data-href="Javascript" href="Javascript" class="internal-link" target="_self" rel="noopener nofollow">Javascript</a>
+<br><a data-href="HTML" href="articles\cheatsheets\html.html" class="internal-link" target="_self" rel="noopener nofollow">HTML</a>
+<br><a data-href="articles/Software Engineering/Frontend/CSS" href="articles\software-engineering\frontend\css.html" class="internal-link" target="_self" rel="noopener nofollow">articles/Software Engineering/Frontend/CSS</a>
+<br><a data-href="Javascript &amp; TypeScript" href="articles\cheatsheets\javascript-&amp;-typescript.html" class="internal-link" target="_self" rel="noopener nofollow">Javascript &amp; TypeScript</a>
 <br><a data-href="Typescript" href="Typescript" class="internal-link" target="_self" rel="noopener nofollow">Typescript</a>
 <br><a data-href="Angular" href="articles\software-engineering\frontend\angular.html" class="internal-link" target="_self" rel="noopener nofollow">Angular</a>
-]]></description><link>articles\software-engineering\frontend\index.html</link><guid isPermaLink="false">articles/Software Engineering/Frontend/Index.md</guid><pubDate>Mon, 20 Jan 2025 00:24:24 GMT</pubDate></item><item><title><![CDATA[Encryption]]></title><description><![CDATA[ 
+]]></description><link>articles\software-engineering\frontend\index.html</link><guid isPermaLink="false">articles/Software Engineering/Frontend/Index.md</guid><pubDate>Mon, 03 Feb 2025 00:15:00 GMT</pubDate></item><item><title><![CDATA[Encryption]]></title><description><![CDATA[ 
  <br>
 <br>
 A JWT is a set of claims (JSON property–value pairs) that together make up a JSON object. 
