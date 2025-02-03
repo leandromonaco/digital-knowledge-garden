@@ -1,7 +1,3 @@
-This comprehensive cheatsheet covers core JavaScript concepts from the basics up to advanced ECMAScript (ES) features. It also includes comparisons with TypeScript (TS) to highlight the advantages and differences when adding static typing to your JavaScript code.
-
----
-
 ## Table of Contents
 
 1. [Introduction](#introduction)  
