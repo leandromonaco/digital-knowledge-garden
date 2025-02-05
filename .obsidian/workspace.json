@@ -123,7 +123,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -203,10 +204,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline"
             }
           },
           {
@@ -296,8 +299,21 @@
                   "icon": "lucide-file",
                   "title": "README"
                 }
+              },
+              {
+                "id": "62d81f71f39e5cd6",
+                "type": "leaf",
+                "state": {
+                  "type": "release-notes",
+                  "state": {
+                    "currentVersion": "1.8.4"
+                  },
+                  "icon": "lucide-book-up",
+                  "title": "Release Notes 1.8.4"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical",
@@ -310,7 +326,7 @@
       }
     ]
   },
-  "active": "cac631c89972392b",
+  "active": "62d81f71f39e5cd6",
   "lastOpenFiles": [
     "Index.md",
     "projects/Feature Flag Management.md",
