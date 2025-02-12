@@ -185,7 +185,6 @@ Notice a couple of things here:
 # Pre-Commit Hooks
   https://alirezanet.github.io/Husky.Net/guide/#features
 
-
 # Rules Catalog
 - [SonarSource](https://rules.sonarsource.com/csharp)
 - [DevExpress](https://docs.devexpress.com/CodeRushForRoslyn/116021/static-code-analysis/analyzers-library)
