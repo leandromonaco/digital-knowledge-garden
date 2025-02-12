@@ -45,15 +45,22 @@ https://snyk.io/code-checker
 
 [[Feature Flag Management]]
 
-## Logging
+## Logging & Error Handling
 
 Always use *Structured Logging*, which makes it easier to store and query log-events.
 https://datatracker.ietf.org/doc/html/rfc7807
+
+Use [RFC 9457: Problem Details for HTTP APIs](https://www.rfc-editor.org/rfc/rfc9457)
+
+https://learn.microsoft.com/en-us/aspnet/core/web-api/handle-errors
+https://learn.microsoft.com/en-us/aspnet/core/fundamentals/logging
  
 ## Health Checks
 
 A health check API is a separate REST service that is implemented within a microservice component that quickly returns the operational status of the service and an indication of its ability to connect to downstream dependent services.
 Example: myservice.com/health
+
+https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks
 
 ## Caching
 

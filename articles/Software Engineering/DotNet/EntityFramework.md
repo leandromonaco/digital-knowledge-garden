@@ -24,7 +24,6 @@
 
 Search for `DbContext.cs` class
 
-
 ```csharp
 protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 {
