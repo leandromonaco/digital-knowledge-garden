@@ -28,8 +28,12 @@
   * On-Call
   * Logging
   * Monitoring (SRE and Observability)
+
+
 - #### Reference Material
   
+  * [Developer Productivity for Humans, Part 7: Software Quality | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/document/10372494)
+  * 
   * [Testing in .NET](https://docs.microsoft.com/en-us/dotnet/core/testing/).
   * [Playwright for .NET](https://playwright.dev/dotnet/docs/intro).
   * [Five Ways to Improve Your Code Quality](https://blog.sonatype.com/five-ways-to-improve-your-code-quality).

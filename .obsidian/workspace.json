@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles/Software Engineering/NET 9 UUIDv7 and SQL Server’s uniqueidentifier.md",
+                "file": "articles/Engineering Management/Goal Setting/Quality.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NET 9 UUIDv7 and SQL Server’s uniqueidentifier"
+              "title": "Quality"
             }
           },
           {
@@ -135,7 +135,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Performance",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -277,8 +277,15 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "002f7d038cb8a33b",
+  "active": "10b6c6dba9453fac",
   "lastOpenFiles": [
+    "articles/Engineering Management/Goal Setting/Goal Setting - Index.md",
+    "articles/Engineering Management/Goal Setting/Continuous Improvement.md",
+    "articles/Engineering Management/1 on 1 Topics.md",
+    "articles/Software Engineering/Performance.md",
+    "articles/Engineering Management/Goal Setting/Quality.md",
+    "articles/Engineering Management/Health Monitor/Questionnaire.md",
+    "articles/Engineering Management/Hiring/Interviewer.md",
     "articles/Software Engineering/NET 9 UUIDv7 and SQL Server’s uniqueidentifier.md",
     "Index.md",
     "projects/Feature Flag Management.md",
@@ -298,13 +305,6 @@
     "articles/Tools/Powershell.md",
     "articles/Tools/Nuget CLI.md",
     "articles/Tools/NuGet.md",
-    "articles/Tools/Microsoft Application Inspector.md",
-    "articles/Tools/Markdown.md",
-    "articles/Tools/Kubernetes.md",
-    "articles/Tools/InferSharp.md",
-    "articles/Tools/Ideas.md",
-    "articles/Tools/GitHub Copilot.md",
-    "articles/Tools/Git.md",
     "articles/cheatsheets",
     "docs/lib/search-index.json",
     "docs/lib/metadata.json",
