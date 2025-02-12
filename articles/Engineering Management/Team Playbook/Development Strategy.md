@@ -54,6 +54,7 @@ Use [RFC 9457: Problem Details for HTTP APIs](https://www.rfc-editor.org/rfc/rfc
 
 https://learn.microsoft.com/en-us/aspnet/core/web-api/handle-errors
 https://learn.microsoft.com/en-us/aspnet/core/fundamentals/logging
+https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-logging
  
 ## Health Checks
 
@@ -72,6 +73,7 @@ When cached data is distributed, the data:
     - Survives server restarts and app deployments.
     - Doesn't use local memory.
 
+https://learn.microsoft.com/en-us/aspnet/core/performance/caching
 ## API Versioning
 Versioning is an important aspect of any mature web service. Microsoft has published REST API guidelines that require that all compliant services must support explicit versioning. This ensures that clients can rely on services to be stable over time, while still enabling service changes and new features. Detailed information about the recommended guidance can be found in the [Microsoft REST Guidelines for versioning](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#12-versioning).
 
