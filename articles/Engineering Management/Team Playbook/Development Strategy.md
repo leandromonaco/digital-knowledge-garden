@@ -112,19 +112,13 @@ https://devblogs.microsoft.com/odata/up-running-w-odata-in-asp-net-6/
 # Coding Standards
 ## Clean Code
 
-- https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/configuration-options
-- https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options
-- https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-quality-rule-options
-- https://learn.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options
+https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview
+
 
 ✅ Detect and address Code Smells with [Sonarlint](https://www.sonarlint.org/visualstudio/ "https://www.sonarlint.org/visualstudio/")
-
 ✅ Follow Clean Code [Programming Principles](https://github.com/webpro/programming-principles "https://github.com/webpro/programming-principles")
-
 ✅ Follow Clean Code Best Practices: [.NET](https://github.com/thangchung/clean-code-dotnet "https://github.com/thangchung/clean-code-dotnet") | [Typescrypt](https://github.com/labs42io/clean-code-typescript "https://github.com/labs42io/clean-code-typescript")
-
 ✅ Follow Unit Testing Best Practices: [.NET](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices "https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices")
-
 ✅ Follow Coding Style Guidelines: [C#](https://google.github.io/styleguide/csharp-style.html "https://google.github.io/styleguide/csharp-style.html") | [TypeScript](https://google.github.io/styleguide/tsguide.html "https://google.github.io/styleguide/tsguide.html") | [Angular](https://angular.io/guide/styleguide#angular-coding-style-guide "https://angular.io/guide/styleguide#angular-coding-style-guide") | [SQL](https://www.sqlstyle.guide/ "https://www.sqlstyle.guide/")
 ## APIs
 
