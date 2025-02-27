@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles/Engineering Management/Team Playbook/Development Strategy.md",
+                "file": "articles/Engineering Management/Engineering Investment Profile.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Development Strategy"
+              "title": "Engineering Investment Profile"
             }
           },
           {
@@ -156,8 +156,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -279,6 +278,9 @@
   },
   "active": "10b6c6dba9453fac",
   "lastOpenFiles": [
+    "EngineeringTimeAllocation.png",
+    "articles/Engineering Management/Team Playbook/Development Strategy.md",
+    "articles/Engineering Management/Engineering Investment Profile.md",
     "articles/How-to/Run a tool globally on Windows.md",
     "articles/How-to/Modernization.md",
     "articles/How-to/Measure Method Elapsed Time with CSharp.md",
@@ -302,9 +304,6 @@
     "articles/Tools/WireMockNet.md",
     "articles/Tools/WinGet.md",
     "articles/Tools/Windows Terminal.md",
-    "articles/Tools/Windows.md",
-    "articles/Tools/Sql Server.md",
-    "articles/Tools/SQL Lite.md",
     "articles/Cheatsheets",
     "docs/lib/search-index.json",
     "docs/lib/metadata.json",
