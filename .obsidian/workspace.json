@@ -25,12 +25,14 @@
             "id": "5266fc9584514ae1",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.7"
+                "file": "articles/Tools/Sql Server.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.7"
+              "icon": "lucide-file",
+              "title": "Sql Server"
             }
           },
           {
@@ -148,7 +150,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Strateg",
+                "query": "sql",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,7 +171,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -218,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/Software Engineering/NET 9 UUIDv7 and SQL Server’s uniqueidentifier.md",
+                "file": "articles/Tools/Sql Server.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of NET 9 UUIDv7 and SQL Server’s uniqueidentifier"
+              "title": "Outline of Sql Server"
             }
           },
           {
@@ -271,7 +274,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -289,8 +292,9 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "5266fc9584514ae1",
+  "active": "17d96c0b536ff4f3",
   "lastOpenFiles": [
+    "articles/Software Engineering/DotNet/EntityFramework.md",
     "EngineeringTimeAllocation.png",
     "articles/Engineering Management/Team Playbook/Development Strategy.md",
     "articles/Engineering Management/Engineering Investment Profile.md",
@@ -336,7 +340,6 @@
     "docs/images/learning-pyramid.png",
     "docs/images/engineering-manager-framework.png",
     "docs/lib/media/slack-cli-authentication.png",
-    "docs/lib/media/pasted-image-20230810091642.png",
     "Untitled.canvas",
     "src/Untitled.canvas"
   ]

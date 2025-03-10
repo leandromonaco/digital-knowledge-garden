@@ -36,13 +36,39 @@ winget install -e --id Microsoft.SQLServerManagementStudio
 winget upgrade -e --id Microsoft.SQLServerManagementStudio
 ```
 
-### Sqlcmd Tools
+### Tools
 ```
 winget install -e --id Microsoft.Sqlcmd
 winget upgrade -e --id Microsoft.Sqlcmd
+dotnet tool update --global dotnet-ef
+dotnet tool update --global microsoft.dataapibuilder
+dotnet tool update -g microsoft.sqlpackage # Required to generate DACPAC files
 ```
 
+## DACPAC Generation
+```
+SqlPackage /Action:Extract /TargetFile:'D:\devexlead\devexlead-backend\src\DevEx.Database.Schema\DevExLead.Schema.dacpac'
+/SourceConnectionString:'Data Source=localhost;Initial Catalog=DevExLead;Persist Security Info=True;User ID=sa;Password=**********;Trust Server
+Certificate=True'
+```
 
+## Schema Upgrade
+```
+ SqlPackage /Action:DeployReport
+/SourceFile:'D:\devexlead\devexlead-backend\src\DevEx.Database.Schema\DevExLead.Schema.dacpac'
+/TargetConnectionString:'Data Source=localhost;Initial Catalog=DevExLead;Persist Security Info=True;User
+ID=sa;Password=**********;Trust Server Certificate=True' /OutputPath:'D:\DeployReport.xml'
+```
+
+## Generate Entity Framework Entities
+
+```
+dotnet ef dbcontext scaffold 'Data Source=localhost;Initial Catalog=DevExLead;Persist Security Info=True;User ID=sa;Password=********;Trust
+Server Certificate=True' Microsoft.EntityFrameworkCore.SqlServer -f --project
+'D:\devexlead\devexlead-backend\src\DevEx.Database.Context\DevEx.Database.Context.csproj'
+
+dotnet ef dbcontext scaffold 'data source=D:\devexlead\devexlead-backend\DevExLead.db' Microsoft.EntityFrameworkCore.Sqlite -f --project 'D:\devexlead\devexlead-backend\src\DevEx.Database.Context\DevEx.Database.Context.csproj'
+```
 ## Documentation
 - [Install SQL Server from the Command Prompt](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server-from-the-command-prompt)
 - [Install SQL Server using a configuration file](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server-using-a-configuration-file)
