@@ -123,12 +123,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles/Tools/Sql Server.md",
+                "file": "articles/How-to/Data Seeding SQL Server.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sql Server"
+              "title": "Data Seeding SQL Server"
             }
           }
         ],
@@ -164,7 +164,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sql server",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -185,12 +185,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 457.5
+    "width": 252.5
   },
   "right": {
     "id": "854443f02233b8b9",
@@ -235,13 +234,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/Tools/Sql Server.md",
+                "file": "articles/How-to/Data Seeding SQL Server.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sql Server"
+              "title": "Outline of Data Seeding SQL Server"
             }
           },
           {
@@ -292,7 +291,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 599.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -308,6 +307,8 @@
   },
   "active": "ce554ce8e3ddbcb3",
   "lastOpenFiles": [
+    "articles/Tools/Sql Server.md",
+    "articles/How-to/Data Seeding SQL Server.md",
     "articles/Software Engineering/DotNet/NET 9 UUIDv7 and SQL Server’s uniqueidentifier.md",
     "articles/Software Engineering/DotNet/EntityFramework.md",
     "EngineeringTimeAllocation.png",
@@ -333,8 +334,6 @@
     "articles/Cheatsheets/HTML.md",
     "articles/Cheatsheets/Javascript & TypeScript.md",
     "articles/Tools/VSCode.md",
-    "articles/Tools/WireMockNet.md",
-    "articles/Tools/WinGet.md",
     "articles/Cheatsheets",
     "docs/lib/search-index.json",
     "docs/lib/metadata.json",
