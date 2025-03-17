@@ -121,12 +121,14 @@
             "id": "ce554ce8e3ddbcb3",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.9"
+                "file": "articles/Tools/Sql Server.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "icon": "lucide-file",
+              "title": "Sql Server"
             }
           }
         ],
@@ -162,7 +164,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sql",
+                "query": "sql server",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -233,12 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "articles/Tools/Sql Server.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Sql Server"
             }
           },
           {
@@ -305,6 +308,7 @@
   },
   "active": "ce554ce8e3ddbcb3",
   "lastOpenFiles": [
+    "articles/Software Engineering/DotNet/NET 9 UUIDv7 and SQL Server’s uniqueidentifier.md",
     "articles/Software Engineering/DotNet/EntityFramework.md",
     "EngineeringTimeAllocation.png",
     "articles/Engineering Management/Team Playbook/Development Strategy.md",
@@ -331,7 +335,6 @@
     "articles/Tools/VSCode.md",
     "articles/Tools/WireMockNet.md",
     "articles/Tools/WinGet.md",
-    "articles/Tools/Windows Terminal.md",
     "articles/Cheatsheets",
     "docs/lib/search-index.json",
     "docs/lib/metadata.json",
