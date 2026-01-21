@@ -1,0 +1,2 @@
+# Obsidian Vault Organizer - Python Dependencies
+# No external dependencies required - uses only Python standard library
