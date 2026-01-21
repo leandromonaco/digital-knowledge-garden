@@ -55,5 +55,13 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git diff --staged --quiet || git commit -m "🤖 Automated vault organization: Add metadata and fix issues"
+          # Create a more descriptive commit message with timestamp
+          COMMIT_MSG="🤖 Vault organization: Add metadata to markdown files
+          
+          Automated vault maintenance performed on $(date -u +%Y-%m-%d)
+          - Added YAML frontmatter to files without metadata
+          - Organized content structure
+          
+          See workflow run for detailed report."
+          git diff --staged --quiet || git commit -m "$COMMIT_MSG"
           git push

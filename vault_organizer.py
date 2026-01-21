@@ -74,9 +74,9 @@ class VaultOrganizer:
     def _check_merge_conflicts(self, md_files: List[Path]):
         """Detect merge conflict markers in markdown files."""
         print("🔍 Checking for merge conflicts...")
-        # Look for Git conflict markers with a space or text after them
+        # Look for Git conflict markers with optional content after them
         # This avoids matching decorative lines like ===========================
-        conflict_pattern = re.compile(r'^(<{7}|={7}|>{7})( |\w)', re.MULTILINE)
+        conflict_pattern = re.compile(r'^(<{7}|={7}|>{7})( .*)?$', re.MULTILINE)
         
         for file_path in md_files:
             self.stats['files_scanned'] += 1
@@ -171,7 +171,8 @@ class VaultOrganizer:
                 normalized = re.sub(r'\s+', ' ', content_without_frontmatter).strip()
                 
                 if len(normalized) > 100:  # Only check substantial files
-                    content_hash = hashlib.md5(normalized.encode()).hexdigest()
+                    # Use SHA-256 for better collision resistance
+                    content_hash = hashlib.sha256(normalized.encode()).hexdigest()
                     content_hashes[content_hash].append(file_path)
             except Exception as e:
                 print(f"⚠️  Error checking duplicates in {file_path}: {e}")
@@ -205,6 +206,7 @@ class VaultOrganizer:
                     continue
                 
                 # Generate frontmatter
+                # Note: st_ctime behavior varies by OS (metadata change time on Unix, creation time on Windows)
                 created_time = datetime.fromtimestamp(file_path.stat().st_ctime)
                 modified_time = datetime.fromtimestamp(file_path.stat().st_mtime)
                 
