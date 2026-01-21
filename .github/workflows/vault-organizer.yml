@@ -15,6 +15,10 @@ jobs:
   organize-vault:
     runs-on: ubuntu-latest
     
+    permissions:
+      contents: write  # Needed to checkout and push changes
+      actions: read    # Needed to upload artifacts
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
