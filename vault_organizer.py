@@ -74,7 +74,9 @@ class VaultOrganizer:
     def _check_merge_conflicts(self, md_files: List[Path]):
         """Detect merge conflict markers in markdown files."""
         print("🔍 Checking for merge conflicts...")
-        conflict_pattern = re.compile(r'^(<{7}|={7}|>{7})', re.MULTILINE)
+        # Look for Git conflict markers with a space or text after them
+        # This avoids matching decorative lines like ===========================
+        conflict_pattern = re.compile(r'^(<{7}|={7}|>{7})( |\w)', re.MULTILINE)
         
         for file_path in md_files:
             self.stats['files_scanned'] += 1
