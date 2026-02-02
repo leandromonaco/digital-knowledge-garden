@@ -121,14 +121,12 @@
             "id": "ce554ce8e3ddbcb3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "2026-02-02.md",
-                "mode": "source",
-                "source": false
+                "file": "books/50 Things You Need to Know to Be a Top IT Pro.pdf"
               },
-              "icon": "lucide-file",
-              "title": "2026-02-02"
+              "icon": "lucide-file-text",
+              "title": "50 Things You Need to Know to Be a Top IT Pro"
             }
           }
         ],
@@ -234,13 +232,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2026-02-02.md",
+                "file": "books/50 Things You Need to Know to Be a Top IT Pro.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-02-02"
+              "title": "Outline of 50 Things You Need to Know to Be a Top IT Pro"
             }
           },
           {
@@ -308,12 +306,30 @@
   },
   "active": "ce554ce8e3ddbcb3",
   "lastOpenFiles": [
-    "articles/Tools/Sql Server.md",
+    "articles/cheatsheets/CSS.md",
     "2026-02-02.md",
+    "projects/Feature Flag Management.md",
+    "projects/Developer Experience Integrations/Google Calendar API.md",
+    "projects/Developer Experience Integrations/JIRA API.md",
+    "projects/Developer Experience Integrations/GitHub API.md",
+    "papers/What Makes a Great Software Engineer.pdf",
+    "papers/The 2021 State of the Octoverse.pdf",
+    "papers/On the Unhappiness of Software Developers.pdf",
+    "images/engineering manager framework.png",
+    "articles/Engineering Management/Goal Setting/Goal Setting - Index.md",
+    "articles/Engineering Management/Goal Setting/Continuous Improvement.md",
+    "books/The Startup CTO Handbook.pdf",
+    "books/IT Professionals Resume Makeover Guide.pdf",
+    "books/ebook-driving-full-service-ownership.pdf",
+    "books/Effective DevOps.pdf",
+    "books/Introduction+to+Event-Driven+Architectures+Guide.pdf",
+    "books/Determining+the+total+cost+of+ownership+-+Comparing+serverless+and+server-based+technologies.pdf",
+    "books/Designing Distributed Systems.pdf",
+    "EngineeringTimeAllocation.png",
+    "articles/Tools/Sql Server.md",
     "articles/How-to/Data Seeding SQL Server.md",
     "articles/Software Engineering/DotNet/NET 9 UUIDv7 and SQL Server’s uniqueidentifier.md",
     "articles/Software Engineering/DotNet/EntityFramework.md",
-    "EngineeringTimeAllocation.png",
     "articles/Engineering Management/Team Playbook/Development Strategy.md",
     "articles/Engineering Management/Engineering Investment Profile.md",
     "articles/How-to/Run a tool globally on Windows.md",
@@ -328,24 +344,7 @@
     "articles/How-to/Change host file on Windows.md",
     "articles/How-to/Build and Run a Container with Docker.md",
     "articles/How-to/BDD Test Cases using Playwright (TypeScript).md",
-    "articles/Engineering Management/Health Monitor/Wellbeing.md",
-    "articles/Engineering Management/Health Monitor/Questionnaire.md",
-    "articles/Engineering Management/Health Monitor/Psychological Safety.md",
-    "articles/Engineering Management/Goal Setting/Goal Setting - Index.md",
-    "articles/Cheatsheets/CSS.md",
-    "articles/Cheatsheets/HTML.md",
-    "articles/Cheatsheets/Javascript & TypeScript.md",
-    "articles/Cheatsheets",
-    "docs/lib/search-index.json",
-    "docs/lib/metadata.json",
-    "docs/lib/styles/obsidian.css",
-    "docs/lib/styles/main-styles.css",
-    "docs/lib/styles/global-variable-styles.css",
-    "docs/lib/styles",
-    "docs/lib/scripts/graph-data.js",
     "docs/lib/media/favicon.png",
-    "docs/lib/scripts/minisearch.js",
-    "docs/lib/scripts/pixi.js",
     "docs/lib/media/874d8b8e340f75575caa.svg",
     "docs/images/what-engineering-managers-should-do.png",
     "docs/images/slack-cli-authentication.png",
@@ -353,7 +352,6 @@
     "docs/images/markdown-alerts.png",
     "docs/images/learning-pyramid.png",
     "docs/images/engineering-manager-framework.png",
-    "docs/lib/media/slack-cli-authentication.png",
     "Untitled.canvas",
     "src/Untitled.canvas"
   ]
