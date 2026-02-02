@@ -123,12 +123,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles/Tools/Sql Server.md",
+                "file": "2026-02-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sql Server"
+              "title": "2026-02-02"
             }
           }
         ],
@@ -234,13 +234,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/Tools/Sql Server.md",
+                "file": "2026-02-02.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sql Server"
+              "title": "Outline of 2026-02-02"
             }
           },
           {
@@ -302,13 +302,15 @@
       "templates:Insert template": false,
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
   "active": "ce554ce8e3ddbcb3",
   "lastOpenFiles": [
-    "articles/How-to/Data Seeding SQL Server.md",
     "articles/Tools/Sql Server.md",
+    "2026-02-02.md",
+    "articles/How-to/Data Seeding SQL Server.md",
     "articles/Software Engineering/DotNet/NET 9 UUIDv7 and SQL Server’s uniqueidentifier.md",
     "articles/Software Engineering/DotNet/EntityFramework.md",
     "EngineeringTimeAllocation.png",
@@ -333,7 +335,6 @@
     "articles/Cheatsheets/CSS.md",
     "articles/Cheatsheets/HTML.md",
     "articles/Cheatsheets/Javascript & TypeScript.md",
-    "articles/Tools/VSCode.md",
     "articles/Cheatsheets",
     "docs/lib/search-index.json",
     "docs/lib/metadata.json",
