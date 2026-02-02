@@ -1,5 +1,5 @@
 - 1. Check if [[Build and Run a Container with Docker]] is installed by running ``docker version``
-- 2. Install [[VSCode]] and its extensions
+- 2. Install [[articles/Tools/VSCode]] and its extensions
 - ```
   winget install -e --id Microsoft.VisualStudioCode  
   code --install-extension ms-vscode-remote.remote-containers  

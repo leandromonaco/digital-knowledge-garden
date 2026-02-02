@@ -8,5 +8,5 @@ https://chat.openai.com/
 **YouChat**
 https://you.com/search?q=who+are+you&tbm=youchat
 
-**[[GitHub]] Copilot**
+**[[articles/Tools/GitHub Copilot]] Copilot**
 https://github.com/features/copilot/

@@ -4,6 +4,6 @@
 **EF Core Package**
 `Microsoft.EntityFrameworkCore.Sqlite`
 
-[[EntityFramework]]
+[[articles/Software Engineering/DotNet/EntityFramework]]
 
 `"Data Source=mydatabase.db"`
