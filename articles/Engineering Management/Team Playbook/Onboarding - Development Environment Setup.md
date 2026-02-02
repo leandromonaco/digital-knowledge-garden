@@ -9,6 +9,6 @@
 - [PSReadLine](https://github.com/PowerShell/PSReadLine)
 - [Oh My Posh](https://learn.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup)
 
-Using a [[WinGet]] Configuration file, you can consolidate manual machine setup and project onboarding to a single command that is reliable and repeatable.
+Using a [[articles/Tools/WinGet]] Configuration file, you can consolidate manual machine setup and project onboarding to a single command that is reliable and repeatable.
 
 Check out the [GitHub Repo]([devexlead/onboarding-winget: Development Environment Setup with WinGet](https://github.com/devexlead/onboarding-winget))

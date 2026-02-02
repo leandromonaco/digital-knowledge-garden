@@ -17,28 +17,28 @@ This a list of ideas to make learning a part the routine.
 - Participate in [forums](https://docs.microsoft.com/en-us/answers/products/dotnet) and [communities](https://techcommunity.microsoft.com/t5/net/ct-p/dotnet)
 - Read [documentation](https://docs.microsoft.com/en-us/dotnet/), [e-books](https://azure.microsoft.com/en-us/resources/whitepapers/search/?type=EBookResource), [blogs](https://devblogs.microsoft.com/) or other [online resources](https://azure.microsoft.com/en-us/resources)
 - Contribute to [open source](https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/)
-- Participate in a [[Community Of Practice]]
+- Participate in a Community Of Practice
 
-### [[Redis]]
+### [[articles/Tools/Redis]]
 - https://university.redis.com/
 - https://university.redis.com/courses/ru102n/
 
-### [[Communities]]
+### Communities
 - https://techcommunity.microsoft.com/t5/net/ct-p/dotnet
 - https://stackoverflow.com/collectives/aws
 - https://repost.aws/
 - https://stackoverflow.com/
 
-### [[Hackatons]]
+### Hackatons
 - https://www.agorize.com/en/challenges
 
-### [[Code Katas]]
+### Code Katas
 - https://www.codewars.com/
 
 ### [[articles/Software Engineering/Cloud/Azure/Index]]
 - Obtain a [certification](https://docs.microsoft.com/en-us/learn/certifications/certification-process-overview) or [renew](https://docs.microsoft.com/en-us/learn/certifications/renew-your-microsoft-certification) it
 
-### [[Soft Skills]]
+### Soft Skills
 - Develop a [growth mindset](https://docs.microsoft.com/en-us/learn/modules/develop-growth-mindset/)
 - Enhance your [self-efficacy](https://docs.microsoft.com/en-us/learn/modules/enhance-self-efficacy/)
 - Exercise your [emotional intelligence](https://docs.microsoft.com/en-us/learn/modules/exercise-your-emotional-intelligence/)
@@ -49,7 +49,7 @@ This a list of ideas to make learning a part the routine.
 - https://learndigital.withgoogle.com/digitalgarage/
 - https://grow.google
 
-### [[Project Management]]
+### Project Management
 - https://www.perfectkickoff.com/
 - https://www.coursera.org/professional-certificates/google-project-management
 
