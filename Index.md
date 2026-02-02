@@ -12,6 +12,7 @@ New to this vault? Start here:
 - [[Note Template]] - Template for creating new notes
 - [[Vault Maintenance Workflow]] - Weekly and monthly maintenance tasks
 - [[Recommended Plugins]] - Essential and recommended plugins
+- [[GitHub Actions Guide]] - Automated vault maintenance checks
 
 ---
 

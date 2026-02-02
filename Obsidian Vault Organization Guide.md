@@ -79,6 +79,13 @@ Build meaningful connections between notes using:
 
 ## 🔄 Maintenance Workflow
 
+### Automated Checks
+The repository includes a [[GitHub Actions Guide|GitHub Action]] that automatically:
+- Checks for broken links on every push
+- Validates vault health metrics
+- Comments on PRs if issues are found
+- See [[GitHub Actions Guide]] for details
+
 ### Weekly (15-20 minutes)
 Follow the [[Vault Maintenance Workflow]] checklist:
 - [ ] Process seedling notes

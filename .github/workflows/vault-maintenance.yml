@@ -1,0 +1,210 @@
+name: Vault Maintenance Check
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - '**.md'
+      - '!docs/**'
+  pull_request:
+    paths:
+      - '**.md'
+      - '!docs/**'
+
+jobs:
+  check-vault-health:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Check for broken wiki links
+        id: check-links
+        run: |
+          python3 << 'EOF'
+          import os
+          import re
+          import glob
+          from pathlib import Path
+          
+          # Find all markdown files excluding docs folder and template files
+          md_files = []
+          exclude_files = ['Note Template.md', 'Obsidian Vault Organization Guide.md', 'Tag Taxonomy.md']
+          for pattern in ['**/*.md']:
+              for file in glob.glob(pattern, recursive=True):
+                  if not file.startswith('docs/') and os.path.basename(file) not in exclude_files:
+                      md_files.append(file)
+          
+          # Extract all wiki-style links
+          wiki_link_pattern = r'\[\[([^\]]+)\]\]'
+          broken_links = []
+          total_links = 0
+          
+          for md_file in md_files:
+              try:
+                  with open(md_file, 'r', encoding='utf-8') as f:
+                      content = f.read()
+                      links = re.findall(wiki_link_pattern, content)
+                      
+                      for link in links:
+                          total_links += 1
+                          # Remove any section references (e.g., [[Page#Section]] -> [[Page]])
+                          link_target = link.split('#')[0].split('|')[0].strip()
+                          
+                          # Skip if it's an image embed
+                          if link_target.endswith('.png') or link_target.endswith('.jpg') or link_target.endswith('.jpeg'):
+                              continue
+                          
+                          # Check if file exists - try various paths
+                          found = False
+                          
+                          # For paths that already include articles/ or projects/, use as-is
+                          if link_target.startswith('articles/') or link_target.startswith('projects/'):
+                              if os.path.exists(f"{link_target}.md") or os.path.exists(link_target):
+                                  found = True
+                          else:
+                              # Try common locations
+                              possible_paths = [
+                                  f"{link_target}.md",
+                                  f"{link_target}",
+                                  f"articles/{link_target}.md",
+                                  f"projects/{link_target}.md",
+                              ]
+                              
+                              for path in possible_paths:
+                                  if os.path.exists(path):
+                                      found = True
+                                      break
+                              
+                              # If not found, do a recursive search
+                              if not found:
+                                  for root, dirs, files in os.walk('.'):
+                                      if root.startswith('./docs'):
+                                          continue
+                                      if f"{link_target}.md" in files:
+                                          found = True
+                                          break
+                          
+                          if not found:
+                              broken_links.append({
+                                  'file': md_file,
+                                  'link': link,
+                                  'target': link_target
+                              })
+              except Exception as e:
+                  print(f"Error reading {md_file}: {e}")
+          
+          # Generate report
+          print(f"\n## 🔍 Vault Maintenance Report\n")
+          print(f"**Total markdown files**: {len(md_files)}")
+          print(f"**Total wiki links**: {total_links}")
+          print(f"**Broken links**: {len(broken_links)}\n")
+          
+          if broken_links:
+              print("### ⚠️ Broken Links Found\n")
+              print("| File | Broken Link | Target |")
+              print("|------|-------------|--------|")
+              for link in broken_links[:20]:  # Limit to first 20
+                  print(f"| {link['file']} | `[[{link['link']}]]` | {link['target']} |")
+              
+              if len(broken_links) > 20:
+                  print(f"\n... and {len(broken_links) - 20} more")
+              
+              # Set output for GitHub Actions
+              with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                  f.write(f"broken_count={len(broken_links)}\n")
+                  f.write(f"status=failed\n")
+              
+              exit(1)  # Fail the workflow if broken links found
+          else:
+              print("### ✅ No Broken Links Found\n")
+              print("All wiki-style links point to existing files.")
+              with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                  f.write(f"broken_count=0\n")
+                  f.write(f"status=success\n")
+          EOF
+
+      - name: Check vault health metrics
+        if: always()
+        run: |
+          python3 << 'EOF'
+          import os
+          import glob
+          
+          md_files = []
+          for pattern in ['**/*.md']:
+              for file in glob.glob(pattern, recursive=True):
+                  if not file.startswith('docs/'):
+                      md_files.append(file)
+          
+          # Count files with tags
+          files_with_type_tags = 0
+          files_with_status_tags = 0
+          seedling_count = 0
+          growing_count = 0
+          evergreen_count = 0
+          
+          for md_file in md_files:
+              try:
+                  with open(md_file, 'r', encoding='utf-8') as f:
+                      content = f.read()
+                      
+                      if '#type/' in content:
+                          files_with_type_tags += 1
+                      if '#status/' in content:
+                          files_with_status_tags += 1
+                      if '#status/seedling' in content:
+                          seedling_count += 1
+                      if '#status/growing' in content:
+                          growing_count += 1
+                      if '#status/evergreen' in content:
+                          evergreen_count += 1
+              except:
+                  pass
+          
+          total = len(md_files)
+          type_tag_percent = (files_with_type_tags / total * 100) if total > 0 else 0
+          status_tag_percent = (files_with_status_tags / total * 100) if total > 0 else 0
+          seedling_percent = (seedling_count / total * 100) if total > 0 else 0
+          
+          print("\n## 📊 Vault Health Metrics\n")
+          print("| Metric | Value | Target | Status |")
+          print("|--------|-------|--------|--------|")
+          print(f"| Files with type tags | {files_with_type_tags}/{total} ({type_tag_percent:.1f}%) | 100% | {'✅' if type_tag_percent == 100 else '⚠️'} |")
+          print(f"| Files with status tags | {files_with_status_tags}/{total} ({status_tag_percent:.1f}%) | 100% | {'✅' if status_tag_percent == 100 else '⚠️'} |")
+          print(f"| Seedling notes | {seedling_count} ({seedling_percent:.1f}%) | < 20% | {'✅' if seedling_percent < 20 else '⚠️'} |")
+          print(f"| Growing notes | {growing_count} | - | ℹ️ |")
+          print(f"| Evergreen notes | {evergreen_count} | - | ℹ️ |")
+          
+          print("\n### 📝 Recommendations\n")
+          if type_tag_percent < 100:
+              print(f"- Add type tags to {total - files_with_type_tags} files")
+          if status_tag_percent < 100:
+              print(f"- Add status tags to {total - files_with_status_tags} files")
+          if seedling_percent >= 20:
+              print(f"- Review and develop {seedling_count} seedling notes")
+          if type_tag_percent == 100 and status_tag_percent == 100 and seedling_percent < 20:
+              print("- Vault is in good health! Keep up the maintenance routine.")
+          EOF
+
+      - name: Comment on PR
+        if: github.event_name == 'pull_request' && steps.check-links.outputs.status == 'failed'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '⚠️ **Vault Maintenance Check Failed**\n\nBroken links detected: ${{ steps.check-links.outputs.broken_count }}\n\nPlease review the workflow logs for details and fix the broken links before merging.'
+            })
