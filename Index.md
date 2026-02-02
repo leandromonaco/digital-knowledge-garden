@@ -14,6 +14,12 @@ New to this vault? Start here:
 - [[Recommended Plugins]] - Essential and recommended plugins
 - [[GitHub Actions Guide]] - Automated vault maintenance checks
 
+**AI-Powered Review Prompts:**
+- [[Obsidian Review Prompts - Overview]] - Guide to using AI-powered review prompts
+- [[Obsidian Note Review Prompt]] - Review and improve individual notes
+- [[Obsidian Vault Health Review Prompt]] - Comprehensive vault health analysis
+- [[Obsidian MOC Review Prompt]] - Optimize Maps of Content (MOCs)
+
 ---
 
 ## 📚 Content Areas

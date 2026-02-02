@@ -220,6 +220,12 @@ LIMIT 10
 
 ## 🛠️ Essential Tools
 
+### AI-Powered Review Prompts
+Use these prompts with AI assistants (ChatGPT, Claude, Copilot) to review and improve your vault:
+1. **[[Obsidian Note Review Prompt]]** - Review individual notes for quality and connections
+2. **[[Obsidian Vault Health Review Prompt]]** - Comprehensive vault-wide health analysis
+3. **[[Obsidian MOC Review Prompt]]** - Optimize Maps of Content structure
+
 ### Required Plugins
 Install these first (see [[Recommended Plugins]]):
 1. **Tag Wrangler** - Manage tags efficiently

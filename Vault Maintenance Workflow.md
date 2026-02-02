@@ -89,6 +89,12 @@ Track these metrics to assess vault health:
 
 ## 🛠️ Maintenance Tools
 
+### AI-Powered Review Prompts
+Use these with AI assistants to streamline maintenance:
+- **[[Obsidian Note Review Prompt]]**: Review individual notes during weekly maintenance
+- **[[Obsidian Vault Health Review Prompt]]**: Monthly comprehensive vault analysis
+- **[[Obsidian MOC Review Prompt]]**: Review and optimize index notes
+
 ### Required Plugins
 - **Broken Links**: Find and fix dead internal links
 - **Tag Wrangler**: Rename and merge tags efficiently
