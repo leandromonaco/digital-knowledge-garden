@@ -128,9 +128,21 @@
               "icon": "lucide-file-text",
               "title": "50 Things You Need to Know to Be a Top IT Pro"
             }
+          },
+          {
+            "id": "3963500f55568632",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -232,13 +244,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/50 Things You Need to Know to Be a Top IT Pro.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 50 Things You Need to Know to Be a Top IT Pro"
+              "title": "Outline"
             }
           },
           {
@@ -304,7 +315,7 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "28b6ed5739f80b7c",
+  "active": "3963500f55568632",
   "lastOpenFiles": [
     "Vault Maintenance Workflow.md",
     "Tag Taxonomy.md",
