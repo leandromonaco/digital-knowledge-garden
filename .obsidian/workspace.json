@@ -142,9 +142,21 @@
               "icon": "lucide-file",
               "title": "Coding Assessment Evaluation Prompt"
             }
+          },
+          {
+            "id": "865fdaa9782a50d7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.4"
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -247,13 +259,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/Engineering Management/Hiring/Coding Assessment Evaluation Prompt.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Coding Assessment Evaluation Prompt"
+              "title": "Outline"
             }
           },
           {
@@ -319,7 +330,7 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "3963500f55568632",
+  "active": "865fdaa9782a50d7",
   "lastOpenFiles": [
     "Vault Maintenance Workflow.md",
     "Tag Taxonomy.md",
