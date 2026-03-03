@@ -133,12 +133,14 @@
             "id": "3963500f55568632",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.7"
+                "file": "articles/Engineering Management/Hiring/Coding Assessment Evaluation Prompt.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
+              "icon": "lucide-file",
+              "title": "Coding Assessment Evaluation Prompt"
             }
           }
         ],
@@ -174,7 +176,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "technic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -195,7 +197,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -244,12 +247,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "articles/Engineering Management/Hiring/Coding Assessment Evaluation Prompt.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Coding Assessment Evaluation Prompt"
             }
           },
           {
