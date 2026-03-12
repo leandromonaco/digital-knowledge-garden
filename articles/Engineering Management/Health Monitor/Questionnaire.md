@@ -104,3 +104,7 @@ improve your service offering.
 - You are capturing feedback and your performance reporting is available, visible and helping your team improve established service levels. 
 - KPIs are realistic, focused on the correct metrics and you are meeting your KPIs. 
 - Your cost to serve is known and a focus area for the team to improve on.
+
+## Resources
+
+- [What's your CAMPS score?](https://www.lifelabslearning.com/blog/whats-your-camps-score)
