@@ -35,7 +35,7 @@ The vault uses a hierarchical folder structure:
 ├── Index.md (Main entry point)
 ├── articles/
 │   ├── Engineering Management/
-│   ├── Software Engineering/
+│   ├── skills/
 │   ├── Tools/
 │   ├── How-to/
 │   └── cheatsheets/
@@ -71,7 +71,7 @@ Build meaningful connections between notes using:
 | Method | Syntax | When to Use | Example |
 |--------|--------|-------------|---------|
 | **Direct Links** | `[[Note]]` | Specific related concept | `[[Docker Compose]]` |
-| **MOCs** | `[[Topic/Index]]` | Index notes for broad topics | `[[Software Engineering/Cloud/AWS/Index]]` |
+| **MOCs** | `[[Topic/Index]]` | Index notes for broad topics | `[[skills/Cloud/AWS/Index]]` |
 | **Block References** | `[[Note^block]]` | Link to specific paragraphs | `[[API Design^rest-definition]]` |
 | **Embeds** | `![[Note]]` | Pull content into current note | `![[Code Snippet]]` |
 
@@ -155,9 +155,9 @@ A Map of Content is an index note that organizes and links to related notes on a
 
 ### Existing MOCs
 - [[Index]] - Main vault entry point
-- [[articles/Software Engineering/Cloud/AWS/Index]] - AWS resources
-- [[articles/Software Engineering/Cloud/Azure/Index]] - Azure resources
-- [[articles/Software Engineering/Frontend/Index]] - Frontend development
+- [[articles/skills/Cloud/AWS/Index]] - AWS resources
+- [[articles/skills/Cloud/Azure/Index]] - Azure resources
+- [[articles/skills/Frontend/Index]] - Frontend development
 - [[articles/Engineering Management/Goal Setting/Goal Setting - Index]] - Goal setting resources
 
 ### Creating a New MOC

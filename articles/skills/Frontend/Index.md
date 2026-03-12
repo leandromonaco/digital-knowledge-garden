@@ -1,5 +1,5 @@
 - [[HTML]]
-- [[articles/Software Engineering/Frontend/CSS]]
+- [[articles/skills/Frontend/CSS]]
 - [[Javascript & TypeScript]]
 - [[Typescript]]
 - [[Angular]]
