@@ -28,10 +28,10 @@ New to this vault? Start here:
 - [[articles/Engineering Management/Overview]]
 - [[articles/Engineering Management/Goal Setting/Goal Setting - Index]]
 
-### Software Engineering
-- [[articles/Software Engineering/Cloud/AWS/Index]] - AWS Resources
-- [[articles/Software Engineering/Cloud/Azure/Index]] - Azure Resources
-- [[articles/Software Engineering/Frontend/Index]] - Frontend Development
+### Skills
+- [[articles/skills/Cloud/AWS/Index]] - AWS Resources
+- [[articles/skills/Cloud/Azure/Index]] - Azure Resources
+- [[articles/skills/Frontend/Index]] - Frontend Development
 
 ### Tools & Technologies
 - [[articles/Tools/Docker Desktop]]

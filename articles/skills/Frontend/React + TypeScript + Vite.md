@@ -1,3 +1,9 @@
+## Agent Skills
+
+- [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) - React best practices, Next.js performance optimization, React Native guidelines, and composition patterns
+- [agentskills/agentskills](https://github.com/agentskills/agentskills) - Open format specification for agent skills
+- [mgechev/skills-best-practices](https://github.com/mgechev/skills-best-practices) - Best practices for creating professional-grade agent skills
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

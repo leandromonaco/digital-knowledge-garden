@@ -38,7 +38,7 @@ Use `[[Note Name]]` for specific related concepts:
 
 ### 2. MOCs (Maps of Content)
 Link to index notes for broad topics:
-- Example: `[[Software Engineering/Cloud/AWS/Index]]`
+- Example: `[[skills/Cloud/AWS/Index]]`
 
 ### 3. Block References
 Link to specific paragraphs using `[[Note^block-id]]`:

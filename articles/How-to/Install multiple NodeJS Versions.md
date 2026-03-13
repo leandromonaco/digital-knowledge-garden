@@ -1,5 +1,5 @@
 > **Warning**
-> Each time a new NodeJS version is installed, tools like [[articles/Software Engineering/Frontend/Angular]] must be re-installed.
+> Each time a new NodeJS version is installed, tools like [[articles/skills/Frontend/Angular]] must be re-installed.
 
 1. `winget install -e --id CoreyButler.NVMforWindows`
 2. Restart [[articles/Tools/Windows Terminal]] 
