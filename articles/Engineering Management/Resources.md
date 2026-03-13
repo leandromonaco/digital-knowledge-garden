@@ -40,6 +40,10 @@
 
 - [The engineering manager's guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)
 
+## Competency Matrix
+
+- [SFIA 9](https://sfia-online.org/en/sfia-9)
+
 ## Community of Practice
 
 - https://www.wenger-trayner.com/introduction-to-communities-of-practice/
