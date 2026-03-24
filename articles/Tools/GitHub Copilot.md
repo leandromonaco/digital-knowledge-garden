@@ -1,3 +1,3 @@
 - [GitHub Copilot Chat docs](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat?tool=visualstudio)
 - [Awesome Copilot](https://awesome-copilot.github.com)
-- [skills.sh](https://skills.sh)
+- [GitHub Skills](https://skills.sh)
