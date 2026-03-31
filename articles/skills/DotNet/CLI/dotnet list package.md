@@ -17,7 +17,7 @@
 After `dotnet list package --vulnerable` flags a package, use the advisory details to assess both severity and likelihood of exploitation.
 
 - **CVE**: The Common Vulnerabilities and Exposures identifier is the issue ID you can track across GitHub, NVD, vendor advisories, and security tools.
-- **CVSS score**: Most CVE records include a Common Vulnerability Scoring System score from `0.0` to `10.0` to describe impact severity. As a quick rule of thumb, `9.0+` is critical, `7.0-8.9` is high, `4.0-6.9` is medium, and below `4.0` is low.
+- **CVSS score**: Most CVE records include a Common Vulnerability Scoring System score from `0.0` to `10.0` to describe impact severity. Under CVSS v3.x, `9.0-10.0` is critical, `7.0-8.9` is high, `4.0-6.9` is medium, `0.1-3.9` is low, and `0.0` is none.
 - **EPSS score**: The Exploit Prediction Scoring System estimates the probability that a vulnerability will be exploited in the wild. Higher EPSS values usually deserve faster triage, especially when they are paired with a high CVSS score.
 
 ### Suggested triage flow
