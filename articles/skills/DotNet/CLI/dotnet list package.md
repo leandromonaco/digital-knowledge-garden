@@ -10,4 +10,21 @@
     PackageReference...``, then restoring packages by building the solution.
 # Parameters
 - `--vulnerable`
-- Lists packages that have known [[Security]] vulnerabilities. Cannot be combined with  `--deprecated`  or  `--outdated`  options. Nuget.org is the source of information about vulnerabilities. For more information, see [Vulnerabilities](https://learn.microsoft.com/en-us/nuget/api/registration-base-url-resource) and [How to Scan NuGet Packages for Security Vulnerabilities](https://devblogs.microsoft.com/nuget/how-to-scan-nuget-packages-for-security-vulnerabilities/).
+- Lists packages that have known security vulnerabilities. Cannot be combined with  `--deprecated`  or  `--outdated`  options. Nuget.org is the source of information about vulnerabilities. For more information, see [Vulnerabilities](https://learn.microsoft.com/en-us/nuget/api/registration-base-url-resource) and [How to Scan NuGet Packages for Security Vulnerabilities](https://devblogs.microsoft.com/nuget/how-to-scan-nuget-packages-for-security-vulnerabilities/).
+
+## How to prioritize vulnerable packages
+
+After `dotnet list package --vulnerable` flags a package, use the advisory details to assess both severity and likelihood of exploitation.
+
+- **CVE**: The Common Vulnerabilities and Exposures identifier is the issue ID you can track across GitHub, NVD, vendor advisories, and security tools.
+- **CVSS score**: Most CVE records include a Common Vulnerability Scoring System score from `0.0` to `10.0` to describe impact severity. As a quick rule of thumb, `9.0+` is critical, `7.0-8.9` is high, `4.0-6.9` is medium, and below `4.0` is low.
+- **EPSS score**: The Exploit Prediction Scoring System estimates the probability that a vulnerability will be exploited in the wild. Higher EPSS values usually deserve faster triage, especially when they are paired with a high CVSS score.
+
+### Suggested triage flow
+
+1. Capture the **CVE ID** from the NuGet advisory.
+2. Review the **CVSS score** to understand technical severity.
+3. Check the **EPSS score** to understand exploit likelihood.
+4. Prioritize remediation first for packages with both a high CVSS score and a high EPSS score.
+
+Tags: #type/reference #status/evergreen #topic/software-engineering/dotnet
