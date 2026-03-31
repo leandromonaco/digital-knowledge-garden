@@ -154,9 +154,21 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.12.4"
             }
+          },
+          {
+            "id": "8f18037a0b54a14d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.7"
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -330,7 +342,7 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "865fdaa9782a50d7",
+  "active": "8f18037a0b54a14d",
   "lastOpenFiles": [
     "articles/skills/Cloud/AWS/Services/Cognito.md",
     "articles/skills/Cloud/AWS/Services/Lambda.md",
