@@ -10,7 +10,7 @@
     PackageReference...``, then restoring packages by building the solution.
 # Parameters
 - `--vulnerable`
-- Lists packages that have known security vulnerabilities. Cannot be combined with  `--deprecated`  or  `--outdated`  options. Nuget.org is the source of information about vulnerabilities. For more information, see [Vulnerabilities](https://learn.microsoft.com/en-us/nuget/api/registration-base-url-resource) and [How to Scan NuGet Packages for Security Vulnerabilities](https://devblogs.microsoft.com/nuget/how-to-scan-nuget-packages-for-security-vulnerabilities/).
+- Lists packages that have known security vulnerabilities. Cannot be combined with  `--deprecated`  or  `--outdated`  options. Nuget.org is the source of information about vulnerabilities. For more information, see [Vulnerabilities](https://learn.microsoft.com/en-us/nuget/api/registration-base-url-resource), [How to Scan NuGet Packages for Security Vulnerabilities](https://devblogs.microsoft.com/nuget/how-to-scan-nuget-packages-for-security-vulnerabilities/), and [Security best practices for package consumers](https://learn.microsoft.com/en-us/nuget/concepts/security-best-practices).
 
 ## How to prioritize vulnerable packages
 
