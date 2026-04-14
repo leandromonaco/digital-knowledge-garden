@@ -39,6 +39,8 @@ the future application design, development and deployment, and move consistently
 - [Benefits of Coding Standards](https://www.youtube.com/watch?v=ndDcJt6XAaU)
 - https://awesome-guidelines.com/
 - [gh-stack](https://github.github.com/gh-stack)
+- [GitHub Copilot CLI for beginners: Getting started with GitHub Copilot CLI](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli)
+- [Run multiple agents at once with Fleet in Copilot CLI](https://github.blog/ai-and-ml/github-copilot/run-multiple-agents-at-once-with-fleet-in-copilot-cli)
 # Tools
 https://snyk.io/code-checker
 
