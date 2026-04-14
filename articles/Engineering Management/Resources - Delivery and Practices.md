@@ -1,10 +1,10 @@
 ## Agile
 
 - [Scrum Framework](https://www.youtube.com/watch?v=zVNnEIf_PLY)
-* [Atlassian's Agile Coach](https://www.atlassian.com/agile)
-* [Scrum Master Improvement Self-Assessment](https://www.scrum.org/resources/scrum-master-improvement-self-assessment)
-* [Agile Essentials](https://www.agilealliance.org/agile-essentials/)
-* [RAID Analysis](https://www.techagilist.com/agile/scrum/raid/)
+- [Atlassian's Agile Coach](https://www.atlassian.com/agile)
+- [Scrum Master Improvement Self-Assessment](https://www.scrum.org/resources/scrum-master-improvement-self-assessment)
+- [Agile Essentials](https://www.agilealliance.org/agile-essentials/)
+- [RAID Analysis](https://www.techagilist.com/agile/scrum/raid/)
 
 ## Change Management
 

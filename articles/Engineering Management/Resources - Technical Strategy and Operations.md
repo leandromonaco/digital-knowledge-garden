@@ -30,8 +30,8 @@
 
 ## Incident Management
 
-* [Best Practices for Managing Incidents at Varying Severity Levels](https://www.xmatters.com/blog/best-practices-for-managing-incidents-at-varying-severity-levels/)
-* [Using ChatOps to help Actions on-call engineers](https://github.blog/2021-12-01-using-chatops-to-help-actions-on-call-engineers)
+- [Best Practices for Managing Incidents at Varying Severity Levels](https://www.xmatters.com/blog/best-practices-for-managing-incidents-at-varying-severity-levels/)
+- [Using ChatOps to help Actions on-call engineers](https://github.blog/2021-12-01-using-chatops-to-help-actions-on-call-engineers)
 - [7 Incident Management Best Practices for Long Term Success](https://www.xmatters.com/blog/7-incident-management-best-practices-for-long-term-success)
 - [What the Ideal Incident Lifecycle Should Be](https://www.xmatters.com/blog/what-the-ideal-incident-lifecycle-should-be)
 
