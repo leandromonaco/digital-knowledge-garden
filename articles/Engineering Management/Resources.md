@@ -91,6 +91,7 @@
 
 - [Can’t you just "game" the metrics?](https://help.pluralsight.com/help/cant-you-just-game-the-metrics)
 - The Impact Of Agile. Quantified. [Presentation](https://www.infoq.com/presentations/agile-quantify/) | [Report](https://docs.broadcom.com/doc/the-impact-of-agile-quantified)
+- [APEX Framework](https://linearb.io/resources/apex-framework)
 
 ## Monorepo
 
