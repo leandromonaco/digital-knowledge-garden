@@ -1,5 +1,3 @@
-[Google re:Work - Guides](https://rework.withgoogle.com/en/guides)
-
 ## Metrics
 
 - [Can’t you just "game" the metrics?](https://help.pluralsight.com/help/cant-you-just-game-the-metrics)
