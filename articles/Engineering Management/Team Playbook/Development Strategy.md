@@ -19,7 +19,7 @@ the future application design, development and deployment, and move consistently
 
 | Area               | Guideline                                                                                                                                                                          |
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Development        | - [GitHub Flow](https://guides.github.com/introduction/flow/)<br>- [Code Review Guidelines](https://google.github.io/eng-practices/review/)<br>- [gh-stack](https://github.github.com/gh-stack) for stacked pull request workflows |
+| Development        | - [GitHub Flow](https://guides.github.com/introduction/flow/)<br>- [Code Review Guidelines](https://google.github.io/eng-practices/review/)<br>- [gh-stack](https://github.github.com/gh-stack) |
 | Release Management | - [Semantic Versioning](https://semver.org/) <br>- [Changelog Guidelines](https://keepachangelog.com/en/1.0.0/) <br>- [Conventional Commits](https://www.conventionalcommits.org/) |
 | Security           | - [OWASP Top 10 - 2021](https://owasp.org/Top10/) <br>- [.NET Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DotNet_Security_Cheat_Sheet.html)               |
 | Architecture       | - [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) <br>- [The Twelve-Factor App](https://12factor.net/)                          |
