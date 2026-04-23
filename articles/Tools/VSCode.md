@@ -43,3 +43,4 @@ See [Official Site](https://code.visualstudio.com)
 -
 ## Documentation
 - [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) extension pack for VS Code
+- [Integrated Browser for debugging web applications](https://code.visualstudio.com/docs/debugtest/integrated-browser)
