@@ -8,6 +8,7 @@ Notes and reference guides for development tools.
 
 - [[articles/Tools/AI|AI]] - AI tools and resources
 - [[articles/Tools/GitHub Copilot|GitHub Copilot]] - GitHub Copilot tips and configuration
+- [[articles/Tools/GitHub Copilot CLI|GitHub Copilot CLI]] - GitHub Copilot CLI references and learning resources
 
 ---
 

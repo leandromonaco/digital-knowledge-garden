@@ -7,7 +7,7 @@ A collection of resources, templates, and guides for engineering managers.
 ## 🧭 Overview & Frameworks
 
 - [[articles/Engineering Management/Overview|Overview]] - Tech Lead vs Engineering Manager
-- [[articles/Engineering Management/Resources|Resources]] - Curated reading list (Agile, Architecture, Careers, and more)
+- [[articles/Engineering Management/Resources|Resources]] - Curated reading list grouped by knowledge area
 - [[articles/Engineering Management/Engineering Investment Profile|Engineering Investment Profile]] - How to allocate engineering time
 
 ---

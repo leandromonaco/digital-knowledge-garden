@@ -24,7 +24,7 @@ The Definition of Done creates transparency by providing everyone a shared under
 * Unit tests are passing.
 * Automation tests are passing.
 * Documentation is updated.
-* The change is code reviewed via a pull request.
+* The change is code reviewed via a pull request (use [gh-stack](https://github.github.com/gh-stack) for stacked PR review workflows when applicable).
 * Code is merged into the main branch.
 * Testing is done by Testers.
 
