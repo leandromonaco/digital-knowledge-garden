@@ -159,17 +159,32 @@
             "id": "8f18037a0b54a14d",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
+                "file": "2026-02-02.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "2026-02-02"
+            }
+          },
+          {
+            "id": "968be41b18d76346",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note Template.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Note Template"
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -201,7 +216,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "technic",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -222,8 +237,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -272,13 +286,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.base",
+                "file": "Note Template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of Note Template"
             }
           },
           {
@@ -344,14 +358,28 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "8f18037a0b54a14d",
+  "active": "968be41b18d76346",
   "lastOpenFiles": [
+    "2026-02-02.md",
+    "Untitled.md",
+    "Recommended Plugins.md",
+    "images/engineering manager framework.png",
+    "images/learning pyramid.png",
+    "articles/cheatsheets/Javascript & TypeScript.md",
+    "articles/cheatsheets/HTML.md",
+    "articles/cheatsheets/CSS.md",
+    "papers/On the Unhappiness of Software Developers.pdf",
+    "Untitled 1.base",
+    "Untitled 1.canvas",
+    "articles/skills/Authentication.md",
+    "Untitled.canvas",
+    "2026-07-28.md",
+    "Untitled.base",
     "articles/Tools/GitHub Copilot CLI.md",
     "articles/Engineering Management/Resources - Technical Strategy and Operations.md",
     "articles/Engineering Management/Resources - People and Leadership.md",
     "articles/Engineering Management/Resources - Metrics and Research.md",
     "articles/Engineering Management/Resources - Delivery and Practices.md",
-    "Untitled.base",
     "articles/skills/Cloud/AWS/Services/Cognito.md",
     "articles/skills/Cloud/AWS/Services/Lambda.md",
     "articles/skills/Cloud/AWS/Services/DynamoDB.md",
@@ -365,24 +393,13 @@
     "articles/skills/Cloud/AWS/Tools/AWS CLI.md",
     "articles/skills/DotNet/Libraries/NukeBuild.md",
     "articles/skills/DotNet/Libraries/YARP.md",
-    "articles/skills/Cloud/AWS/Index.md",
-    "articles/skills/DotNet/Libraries/IdentityServer.md",
     "articles/skills/Cloud/AWS/Services",
     "articles/skills/Cloud/AWS/Tools",
-    "articles/skills/DotNet/CLI/dotnet monitor.md",
-    "articles/skills/DotNet/CLI/dotnet list package.md",
-    "articles/skills/Cloud/Azure/Index.md",
-    "articles/skills/Frontend/React + TypeScript + Vite.md",
-    "articles/skills/DevOps/Observability.md",
-    "articles/skills/Frontend/Index.md",
     "articles/skills/DotNet/Libraries",
     "articles/skills/Cloud/AWS",
     "articles/skills/DotNet/CLI",
     "articles/skills/Cloud/Azure",
     "articles/skills/Frontend",
-    "articles/skills/DotNet",
-    "articles/skills/DevOps",
-    "images/engineering manager framework.png",
     "EngineeringTimeAllocation.png",
     "docs/lib/media/favicon.png",
     "docs/lib/media/874d8b8e340f75575caa.svg",
@@ -391,8 +408,6 @@
     "docs/images/pasted-image-20230810091642.png",
     "docs/images/markdown-alerts.png",
     "docs/images/learning-pyramid.png",
-    "docs/images/engineering-manager-framework.png",
-    "Untitled.canvas",
     "src/Untitled.canvas"
   ]
 }
