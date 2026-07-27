@@ -159,12 +159,13 @@
             "id": "8f18037a0b54a14d",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "bases",
               "state": {
-                "currentVersion": "1.12.7"
+                "file": "Untitled.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.7"
+              "icon": "lucide-table",
+              "title": "Untitled"
             }
           }
         ],
@@ -271,12 +272,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Untitled.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -344,6 +346,12 @@
   },
   "active": "8f18037a0b54a14d",
   "lastOpenFiles": [
+    "articles/Tools/GitHub Copilot CLI.md",
+    "articles/Engineering Management/Resources - Technical Strategy and Operations.md",
+    "articles/Engineering Management/Resources - People and Leadership.md",
+    "articles/Engineering Management/Resources - Metrics and Research.md",
+    "articles/Engineering Management/Resources - Delivery and Practices.md",
+    "Untitled.base",
     "articles/skills/Cloud/AWS/Services/Cognito.md",
     "articles/skills/Cloud/AWS/Services/Lambda.md",
     "articles/skills/Cloud/AWS/Services/DynamoDB.md",
@@ -367,11 +375,6 @@
     "articles/skills/Frontend/React + TypeScript + Vite.md",
     "articles/skills/DevOps/Observability.md",
     "articles/skills/Frontend/Index.md",
-    "articles/skills/Frontend/CSS.md",
-    "articles/skills/Frontend/Angular.md",
-    "articles/skills/DotNet/Performance.md",
-    "articles/skills/DotNet/NET 9 UUIDv7 and SQL Server’s uniqueidentifier.md",
-    "articles/skills/DotNet/MsTest.md",
     "articles/skills/DotNet/Libraries",
     "articles/skills/Cloud/AWS",
     "articles/skills/DotNet/CLI",
@@ -379,7 +382,6 @@
     "articles/skills/Frontend",
     "articles/skills/DotNet",
     "articles/skills/DevOps",
-    "articles/skills/Cloud",
     "images/engineering manager framework.png",
     "EngineeringTimeAllocation.png",
     "docs/lib/media/favicon.png",
